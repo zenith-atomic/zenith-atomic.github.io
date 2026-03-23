@@ -25,7 +25,7 @@ if [ -z "$OPEN_WORK" ]; then
   OPEN_WORK="- no pending durable facts in inbox"
 fi
 
-cat > "$NEXT_FILE" <<EOF
+cat > "$NEXT_FILE" <<EOF2
 # state/NEXT_SESSION.md
 
 - active_focus: $ACTIVE_FOCUS
@@ -35,6 +35,8 @@ $OPEN_WORK
   - read state/ACTIVE_CONTEXT.md
   - inspect memory/inbox.md
   - review memory/MEMORY.md before promoting new durable facts
-EOF
+EOF2
 
 printf '%s — next_session: regenerated state/NEXT_SESSION.md — status: complete\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$RUNS_FILE"
+
+echo "next session regenerated"

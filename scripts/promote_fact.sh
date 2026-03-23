@@ -7,7 +7,7 @@ INBOX_FILE="$WORKDIR/memory/inbox.md"
 RUNS_FILE="$WORKDIR/memory/agent_runs.md"
 
 if [ "$#" -lt 1 ]; then
-  echo "usage: promote_fact.sh \"durable fact sentence\"" >&2
+  echo 'usage: promote_fact.sh "durable fact sentence"' >&2
   exit 1
 fi
 
@@ -27,3 +27,5 @@ grep -Fv "$FACT" "$INBOX_FILE" > "$TMP_FILE" || true
 mv "$TMP_FILE" "$INBOX_FILE"
 
 printf '%s — promote_fact: %s — status: complete\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$FACT" >> "$RUNS_FILE"
+
+echo "fact promoted"

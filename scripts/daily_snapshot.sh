@@ -23,10 +23,8 @@ fi
 rm -rf "$TMP_DIR"
 mkdir -p "$TMP_DIR"
 
-# Copy canonical folders while excluding nested snapshots to avoid recursion.
 tar -C "$WORKDIR" --exclude='./memory/snapshots' -cf - core memory state | tar -C "$TMP_DIR" -xf -
 
-# Verify required structure before publish.
 test -d "$TMP_DIR/core"
 test -d "$TMP_DIR/memory"
 test -d "$TMP_DIR/state"
