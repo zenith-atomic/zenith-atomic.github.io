@@ -1,8 +1,9 @@
 # state/NEXT_SESSION.md
 
-- active_focus: confirm validation passed and continue with memory helpers
+- active_focus: Rebuild canonical memory architecture after rollback
 - open_work:
-  - add lightweight capture/promote helper commands if needed
+- no pending durable facts in inbox
 - first_checks:
   - read state/ACTIVE_CONTEXT.md
-  - verify memory/inbox.md pending items
+  - inspect memory/inbox.md
+  - review memory/MEMORY.md before promoting new durable facts

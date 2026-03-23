@@ -14,3 +14,4 @@
 
 ## Open long-term threads
 - 2026-03-23 — Canonical memory architecture created; refine workflows as needed.2026-03-23 — Nicolas uses Eastern time (America/New_York).
+- 2026-03-23 — Nicolas requested lightweight operator helpers for canonical memory maintenance.
