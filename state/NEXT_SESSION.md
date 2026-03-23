@@ -2,7 +2,7 @@
 
 - active_focus: Rebuild canonical memory architecture after rollback
 - open_work:
-- no pending durable facts in inbox
+  - no pending durable facts in inbox
 - first_checks:
   - read state/ACTIVE_CONTEXT.md
   - inspect memory/inbox.md

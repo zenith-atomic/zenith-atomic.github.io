@@ -12,3 +12,8 @@
 2026-03-23T22:11:45Z — promote_fact: Dispatcher supports slash command routing. — status: complete
 2026-03-23T22:11:45Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
 2026-03-23T22:17:32Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
+2026-03-23T22:26:55Z — promote_fact: stable starting point with slash note taking and state — status: complete
+2026-03-23T22:27:11Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
+2026-03-23T22:28:38Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
+2026-03-23T22:29:00Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
+2026-03-23T22:32:20Z — next_session: regenerated state/NEXT_SESSION.md — status: complete

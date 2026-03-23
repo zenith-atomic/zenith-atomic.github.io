@@ -19,10 +19,10 @@ fi
 
 OPEN_WORK="$(awk '
   /^- [0-9]{4}-[0-9]{2}-[0-9]{2} — candidate fact:/ {print}
-' "$INBOX_FILE")"
+' "$INBOX_FILE" | sed 's/^/  /')"
 
 if [ -z "$OPEN_WORK" ]; then
-  OPEN_WORK="- no pending durable facts in inbox"
+  OPEN_WORK="  - no pending durable facts in inbox"
 fi
 
 cat > "$NEXT_FILE" <<EOF2
