@@ -1,0 +1,32 @@
+version: 1
+status: canonical
+orchestrator_default_model: gpt
+subagent_tiers:
+  strong:
+    alias: gpt
+    use_for:
+      - task_routing
+      - architecture_decisions
+      - debugging_root_cause
+      - filesystem_mutations
+      - memory_updates
+      - normalization
+      - migration
+  fast:
+    alias: gpt-mini
+    use_for:
+      - simple_drafting
+      - formatting
+      - boilerplate_code
+      - log_summarization
+escalation:
+  to: gpt
+  triggers:
+    - ambiguity
+    - side_effect_risk
+    - persistence_change
+    - root_cause_analysis
+fallback:
+  if_strong_unavailable:
+    read_only_tasks: gpt-mini
+    mutation_tasks: stop_and_request_review
