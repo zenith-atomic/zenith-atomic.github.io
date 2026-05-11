@@ -12,3 +12,8 @@ nemoclaw/sales-mini-app/
 telegram-mini-app/
 zenclaw/operator-dashboard/
 wiki/
+
+# node_modules
+receptionist/node_modules/
+skillbridge/node_modules/
+factory/orchestrator/node_modules/
