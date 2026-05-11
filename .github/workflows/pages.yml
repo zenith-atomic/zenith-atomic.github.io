@@ -23,12 +23,18 @@ jobs:
         with:
           submodules: false
 
-      - name: Remove heavy directories
+      - name: Remove heavy dirs
         run: |
-          rm -rf node_modules __pycache__ .git
-          find . -type d -name "node_modules" -exec rm -rf {} + 2>/dev/null || true
-          find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
-          find . -type d -name ".git" -exec rm -rf {} + 2>/dev/null || true
+          rm -rf \
+            factory/research/node_modules \
+            factory/orchestrator/node_modules \
+            receptionist/node_modules \
+            skillbridge/node_modules \
+            nemoclaw/sales-mini-app/node_modules \
+            ./node_modules \
+            ./__pycache__ \
+            ./.git \
+            ./logs
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
