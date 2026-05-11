@@ -1,0 +1,131 @@
+version: 3
+status: canonical
+policy_name: multi_model_agent_routing_v1
+
+# ============================================================
+# ZENITH (you) — always-on, primary workhorse
+# ============================================================
+orchestrator_default_model: minimax/MiniMax-M2.7
+orchestrator_fallback_models:
+  - google/gemini-2.5-flash
+  - openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
+
+# ============================================================
+# SUBAGENT TIERS
+# ============================================================
+subagent_tiers:
+  # ── CODER ─────────────────────────────────────────────────
+  # OWL-Alpha: native tool use, 1M context, built for agents
+  # Fallbacks: Codex (large, capable) → Nemotron-Super (big reasoning)
+  coder:
+    primary: openrouter/stealth/owl-alpha
+    fallbacks:
+      - openai-codex/gpt-5.4
+      - openrouter/nvidia/nemotron-3-super-120b-a12b
+    use_for:
+      - code_generation
+      - file_mutations
+      - debugging_root_cause
+      - tool_use_heavy_tasks
+      - complex_scripting
+
+  # ── RESEARCHER ────────────────────────────────────────────
+  # Nemotron-Super 120B: long context, reasoning, synthesis
+  # Fallbacks: Gemini (medium reasoning) → MiniMax (workhorse)
+  researcher:
+    primary: openrouter/nvidia/nemotron-3-super-120b-a12b
+    fallbacks:
+      - google/gemini-2.5-flash
+      - minimax/MiniMax-M2.7
+    use_for:
+      - deep_research
+      - multi_source_synthesis
+      - long_context_analysis
+      - root_cause_analysis
+      - architecture_decisions
+
+  # ── WRITER ────────────────────────────────────────────────
+  # MiniMax fast: cheap, fast, good for boilerplate/drafting
+  # Fallbacks: Nemotron-Nano (fast, small, cheap)
+  writer:
+    primary: minimax/MiniMax-M2.7
+    fallbacks:
+      - openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning
+    use_for:
+      - drafting
+      - formatting
+      - boilerplate_code
+      - simple_drafting
+      - log_summarization
+      - classification
+
+# ============================================================
+# USAGE POLICY
+# ============================================================
+usage_policy:
+  provider: minimax
+  monitor_usage: true
+  fallback_when_usage_below_percent: 25
+  fallback_models_when_exhausted:
+    coder: openrouter/stealth/owl-alpha
+    researcher: openrouter/nvidia/nemotron-3-super-120b-a12b
+    writer: minimax/MiniMax-M2.7
+
+# ============================================================
+# ESCALATION
+# ============================================================
+escalation:
+  to: openai-codex/gpt-5.4
+  triggers:
+    - ambiguity
+    - side_effect_risk
+    - persistence_change
+    - root_cause_analysis
+
+fallback:
+  if_strong_unavailable:
+    read_only_tasks: google/gemini-2.5-flash
+    mutation_tasks: openai-codex/gpt-5.4-mini
+
+# ============================================================
+# NOTES
+# ============================================================
+# OWL-Alpha (openrouter/stealth/owl-alpha):
+#   - Stealth model, native function calling, 1M context
+#   - Designed for agentic/tool-use workloads
+#   - Compatible with OpenClaw, Claude Code
+#
+# Nemotron-3-Super-120B (openrouter/nvidia/nemotron-3-super-120b-a12b):
+#   - 120B MoE, 12B active, 1M context
+#   - Excellent reasoning, code generation, agentic tasks
+#   - Open weight, commercial use allowed
+#
+# Liquid (LFM2): on-device only, not available via API
+#   - Self-host if needed, not routed through OpenClaw
+# ============================================================
+# LOCAL OLLAMA MODELS (Dell Optiplex 3040)
+# ============================================================
+# CPU-only, 16GB RAM, i5-6500
+# Use for: light cleanup tasks, simple classification,
+#          log parsing, fast formatting, low-cost batch jobs
+local_ollama:
+  provider: ollama
+  base_url: http://127.0.0.1:11434
+  models:
+    llama3.2:3b:
+      size: 3B
+      quant: Q4_0
+      ram: ~2GB
+      use_for:
+        - log_summarization
+        - simple_classification
+        - fast_formatting
+        - boilerplate_drafting
+        - cleanup_tasks
+        - file_parsing
+        - light_code_formatting
+
+# Cascade for light tasks: Ollama (free, local) → MiniMax (cheap)
+light_task_cascade:
+  - ollama/llama3.2:3b
+  - minimax/MiniMax-M2.7

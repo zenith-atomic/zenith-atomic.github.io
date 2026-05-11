@@ -1,9 +1,14 @@
+.gitignore
+__pycache__/
+*.pyc
+node_modules/
 .env
-*.key
-*.secret
-memory/snapshots/
-backups/
-factory/dashboard/node_modules/
-factory/dashboard/.env
-factory/dashboard/node_modules/
-factory/dashboard/.env
+logs/
+factory/.obsidian/
+
+# Embedded git repos (not submodules)
+nemoclaw/research/gbrain/
+nemoclaw/sales-mini-app/
+telegram-mini-app/
+zenclaw/operator-dashboard/
+wiki/

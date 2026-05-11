@@ -1,0 +1,78 @@
+version: 3
+status: canonical
+policy_name: codex_first_intelligent_routing
+
+# Zenith (orchestrator) default — always try Codex first
+orchestrator_default_model: openai-codex/gpt-5.4
+orchestrator_fallback_models:
+  - openai-codex/gpt-5.4-mini   # step down within Codex before leaving provider
+  - openai/gpt-5.4              # full OpenAI when Codex exhausted
+  - openai/gpt-5.4-mini         # final soft fallback
+
+subagent_tiers:
+  # Complex subagents: same full power as Zenith, fallback to codex-mini
+  strong:
+    primary: openai-codex/gpt-5.4
+    fallbacks:
+      - openai-codex/gpt-5.4-mini
+      - openai/gpt-5.4
+    use_for:
+      - task_routing
+      - architecture_decisions
+      - debugging_root_cause
+      - filesystem_mutations
+      - memory_updates
+      - normalization
+      - migration
+
+  # Reasoning subagents: mini is the default, full only on escalation
+  reasoning:
+    primary: openai-codex/gpt-5.4-mini
+    fallbacks:
+      - openai-codex/gpt-5.4
+      - openai/gpt-5.4-mini
+    use_for:
+      - structured_analysis
+      - summarization
+      - code_review
+      - planning
+      - drafting_with_judgment
+
+  # Simple subagents: nano via openai provider (codex-nano unavailable)
+  fast:
+    primary: openai/gpt-5.4-nano
+    fallbacks:
+      - openai-codex/gpt-5.4-mini
+      - openai/gpt-5.4-mini
+    use_for:
+      - simple_drafting
+      - formatting
+      - boilerplate_code
+      - log_summarization
+      - classification
+      - slot_filling
+
+usage_policy:
+  provider: openai-codex
+  monitor_usage: true
+  fallback_when_usage_below_percent: 30
+  fallback_models_when_exhausted:
+    strong: openai/gpt-5.4
+    reasoning: openai/gpt-5.4-mini
+    fast: openai/gpt-5.4-mini
+
+escalation:
+  to: openai-codex/gpt-5.4
+  triggers:
+    - ambiguity
+    - side_effect_risk
+    - persistence_change
+    - root_cause_analysis
+
+fallback:
+  if_strong_unavailable:
+    read_only_tasks: openai-codex/gpt-5.4-mini
+    mutation_tasks: openai/gpt-5.4
+
+# Note: openai-codex/gpt-5.4-nano is not available on the Codex OAuth route.
+# Use openai/gpt-5.4-nano (OPENAI_API_KEY) for all nano-tier tasks.

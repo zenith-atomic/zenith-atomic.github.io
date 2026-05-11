@@ -1,0 +1,25 @@
+2026-03-23T22:11:45Z | /note | dispatcher test note
+2026-03-23T22:11:45Z | /fact | Dispatcher supports slash command routing.
+2026-03-23T22:11:45Z | /next | no-args
+2026-03-23T22:11:46Z | /snap | no-args
+2026-03-24T18:54:31Z | /save | 
+2026-03-24T18:54:54Z | snap | 
+2026-03-24T19:15:14Z | save | 
+2026-03-24T19:15:14Z | note | test from router
+2026-03-24T19:38:39Z | save | 
+2026-03-24T20:11:14Z | save | 
+2026-03-24T20:11:16Z | note | decided to use Redis for session caching
+2026-03-24T20:11:27Z | review | 
+2026-03-24T20:11:31Z | review-smart | 
+2026-03-24T20:11:39Z | snap | 
+2026-03-24T20:11:41Z | next | 
+2026-03-24T20:11:44Z | fact | Nicolas uses Redis for session caching
+2026-03-24T20:23:07Z | review-smart | 
+2026-03-24T20:23:14Z | review-smart | 
+2026-03-24T21:23:11Z | factory |  status
+2026-03-24T21:24:36Z | save | 
+2026-03-24T21:37:29Z | factory |  status
+2026-03-24T21:37:32Z | factory |  dashboard
+2026-03-24T21:38:11Z | save | 
+2026-03-24T21:38:11Z | review | 
+2026-03-24T21:39:05Z | factory |  dashboard

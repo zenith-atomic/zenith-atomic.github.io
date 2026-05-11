@@ -1,0 +1,7 @@
+# state/active_notes.log
+# append-only runtime notes log
+# format: LOCAL_TS | UTC_TS | note text
+2026-03-23 17:59:05 EDT | 2026-03-23T21:59:05Z | Need to validate simple daily workflow
+2026-03-24 14:48:41 EDT | 2026-03-24T18:48:41Z | dispatcher and quicksave repaired
+2026-03-24 16:11:16 EDT | 2026-03-24T20:11:16Z | decided to use Redis for session caching
+2026-04-14 01:44:07 EDT | 2026-04-14T05:44:07Z | 2026-04-14 — test note for /note route

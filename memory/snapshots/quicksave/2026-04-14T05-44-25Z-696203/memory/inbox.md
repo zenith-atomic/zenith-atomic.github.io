@@ -1,0 +1,4 @@
+- 2026-04-14 — NexMem chosen as the single-source-of-truth memory architecture for OpenClaw, with LanceDB as canonical storage, NexMem Core as the only write authority, graph as derived enrichment, and MCP/API as the access layer — status: pending
+- 2026-04-14 — Preferred NexMem command surface should include read/write/review operations for OpenClaw, including context, recall, remember, forget, supersede, and review flows — status: pending
+- 2026-04-14 — Native Telegram /save and /snap slash commands were broken at the router layer and have now been repaired in the real Telegram dispatcher — status: pending
+- 2026-04-14 — Telegram exec approval buttons are enabled and should remain a verified UX target for sensitive actions — status: pending
