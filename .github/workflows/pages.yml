@@ -22,6 +22,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: false
+          sparse-checkout: |
+            *.md
+            *.yml
+            *.yaml
+            *.json
+            *.html
+            AGENTS.md
+            SOUL.md
+            index.html
+            .gitignore
+            .nojekyll
+            _config.yml
+            .github/
+
+      - name: Cleanup
+        run: |
+          find . -type d -name "node_modules" -exec rm -rf {} + 2>/dev/null || true
+          find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
