@@ -1,0 +1,6 @@
+title: Zenith Atomic Workspace
+theme: minima
+exclude:
+  - "*"
+include:
+  - index.html
