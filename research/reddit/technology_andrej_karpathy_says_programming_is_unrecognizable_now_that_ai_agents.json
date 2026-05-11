@@ -1,0 +1,4278 @@
+{
+  "source_url": "https://www.reddit.com/r/technology/s/NHD3begmRH",
+  "resolved_url": "https://www.reddit.com/r/technology/comments/1rfztw0/andrej_karpathy_says_programming_is/?share_id=fJeQ6N-R-cGLbQzHQLdTe&utm_content=2&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1",
+  "title": "Andrej Karpathy says programming is \"unrecognizable\" now that AI agents actually work",
+  "subreddit": "technology",
+  "author": "Logical_Welder3467",
+  "score": 0,
+  "created_utc": 1772176081.0,
+  "flair": "Artificial Intelligence",
+  "body": "",
+  "thumbnail": "https://external-preview.redd.it/-FhFzucifgus4OKEEOSmqgKiPDhMcOApXfnCOJwafRY.png?width=140&amp;height=83&amp;auto=webp&amp;s=db91ac30204811eb7105ad11d7ecbabe52927893",
+  "outbound_url": "https://the-decoder.com/andrej-karpathy-says-programming-is-unrecognizable-now-that-ai-agents-actually-work/",
+  "comments": [
+    {
+      "author": "homerotl",
+      "score": 36,
+      "body": "“According to Karpathy, AI agents barely worked before December 2026” I think we are going to be fine. This AI slop article does not know that December 2026 has not happened yet.",
+      "depth": 0
+    },
+    {
+      "author": "HolliDollialltheday",
+      "score": 5,
+      "body": "This can not get enough upvotes.",
+      "depth": 1
+    },
+    {
+      "author": "ReallyOrdinaryMan",
+      "score": 20,
+      "body": "AI company owner is saying \"AI is so good!\". Suprised pikachu face",
+      "depth": 0
+    },
+    {
+      "author": "Logical_Welder3467",
+      "score": -10,
+      "body": "Which AI company does Andrej Karpathy own?",
+      "depth": 1
+    },
+    {
+      "author": "ReallyOrdinaryMan",
+      "score": 11,
+      "body": "Wiki says he created an AI education company, Eureka labs. Also vibe coding term is attributed to him",
+      "depth": 2
+    },
+    {
+      "author": "Docccc",
+      "score": 5,
+      "body": "As a software engineer myself, i have to agree. Never cared much for it because of the quality but it changed dramatically. We are fucked",
+      "depth": 0
+    },
+    {
+      "author": "Northern_Grouse",
+      "score": 1,
+      "body": "I’d say we’re only fucked if we don’t regulate AI, and learn how to positively use it. It really does free us up to be more creative, but like any new technology, we should be focusing really really hard on learning how to coexist with a new way of life. I’d say for starters, we’d need to find a way to use it to eliminate misinformation online. I can’t see a more important objective to start. I envision something like the scientific method for AI, to confirm its data. I’m not equipped with the background knowledge to have a flawless way to do that, and that’s where we all have to come together to come up with a solution. It’s only going to be scary if we don’t steer this in a direction where we can all benefit.",
+      "depth": 1
+    },
+    {
+      "author": "WinterElfeas",
+      "score": 1,
+      "body": "Even though it’s impressive and can spew a lot of code, it’s often not at all optimised, duplicates, struggle with really reaching production ready without us going into debug mode.",
+      "depth": 1
+    },
+    {
+      "author": "Docccc",
+      "score": 2,
+      "body": "im not saying it’s perfect, far from it. but the latest claude opus makes decent code. And more importantly working code. And thats probably something thats most important to most employers And those agents only get better from here",
+      "depth": 2
+    },
+    {
+      "author": "Fantastic_Piece5869",
+      "score": 2,
+      "body": "Optimized code? Is this the 70s? Just add 14 duplicate libraries and call it a day",
+      "depth": 2
+    },
+    {
+      "author": "[deleted]",
+      "score": -5,
+      "body": "It's over. AIs are also math savants now and out perform PhD students, and are making discoveries in physics. I wonder what all these people that derive their sense of self-worth from being smarter everyone else going to do now that intelligence has been democratized.",
+      "depth": 0
+    },
+    {
+      "author": "blogwash",
+      "score": 3,
+      "body": "If intelligence has been democratized, explain you?",
+      "depth": 1
+    },
+    {
+      "author": "[deleted]",
+      "score": 0,
+      "body": "So clever that one",
+      "depth": 2
+    },
+    {
+      "author": "ucalledthewolf",
+      "score": 1,
+      "body": "fwiw, my calculator also outperforms phd students. 🙂 these are tools. with new tools arrive new workflows. the printing press was invented in the 14 or 1500s..? 80% of people won't touch a book. it's all relative, yo.",
+      "depth": 1
+    },
+    {
+      "author": "[deleted]",
+      "score": 0,
+      "body": "A calculator has a limited and narrow use. And guess what? No one does large digit arithmetic in their heads anymore. AI is different. It can write whole proofs on its own. Apples and oranges.",
+      "depth": 2
+    }
+  ],
+  "concepts": [
+    {
+      "concept": "technician availability",
+      "count": 6,
+      "evidence": [
+        "technology",
+        "new technology",
+        "technology focusing",
+        "any new technology",
+        "new technology focusing",
+        "technology focusing hard"
+      ]
+    },
+    {
+      "concept": "code",
+      "count": 4,
+      "evidence": [
+        "code"
+      ]
+    },
+    {
+      "concept": "only",
+      "count": 3,
+      "evidence": [
+        "only"
+      ]
+    },
+    {
+      "concept": "more",
+      "count": 3,
+      "evidence": [
+        "more"
+      ]
+    },
+    {
+      "concept": "agents",
+      "count": 3,
+      "evidence": [
+        "agents"
+      ]
+    },
+    {
+      "concept": "company",
+      "count": 3,
+      "evidence": [
+        "company"
+      ]
+    },
+    {
+      "concept": "karpathy",
+      "count": 3,
+      "evidence": [
+        "karpathy"
+      ]
+    },
+    {
+      "concept": "says",
+      "count": 2,
+      "evidence": [
+        "says"
+      ]
+    },
+    {
+      "concept": "2026",
+      "count": 2,
+      "evidence": [
+        "2026"
+      ]
+    },
+    {
+      "concept": "come",
+      "count": 2,
+      "evidence": [
+        "come"
+      ]
+    },
+    {
+      "concept": "most",
+      "count": 2,
+      "evidence": [
+        "most"
+      ]
+    },
+    {
+      "concept": "been",
+      "count": 2,
+      "evidence": [
+        "been"
+      ]
+    },
+    {
+      "concept": "thats",
+      "count": 2,
+      "evidence": [
+        "thats"
+      ]
+    },
+    {
+      "concept": "tools",
+      "count": 2,
+      "evidence": [
+        "tools"
+      ]
+    },
+    {
+      "concept": "andrej",
+      "count": 2,
+      "evidence": [
+        "andrej"
+      ]
+    },
+    {
+      "concept": "saying",
+      "count": 2,
+      "evidence": [
+        "saying"
+      ]
+    },
+    {
+      "concept": "fucked",
+      "count": 2,
+      "evidence": [
+        "fucked"
+      ]
+    },
+    {
+      "concept": "people",
+      "count": 2,
+      "evidence": [
+        "people"
+      ]
+    },
+    {
+      "concept": "december",
+      "count": 2,
+      "evidence": [
+        "december"
+      ]
+    },
+    {
+      "concept": "students",
+      "count": 2,
+      "evidence": [
+        "students"
+      ]
+    },
+    {
+      "concept": "important",
+      "count": 2,
+      "evidence": [
+        "important"
+      ]
+    },
+    {
+      "concept": "something",
+      "count": 2,
+      "evidence": [
+        "something"
+      ]
+    },
+    {
+      "concept": "calculator",
+      "count": 2,
+      "evidence": [
+        "calculator"
+      ]
+    },
+    {
+      "concept": "intelligence",
+      "count": 2,
+      "evidence": [
+        "intelligence"
+      ]
+    },
+    {
+      "concept": "democratized",
+      "count": 2,
+      "evidence": [
+        "democratized"
+      ]
+    },
+    {
+      "concept": "phd students",
+      "count": 2,
+      "evidence": [
+        "phd students"
+      ]
+    },
+    {
+      "concept": "december 2026",
+      "count": 2,
+      "evidence": [
+        "december 2026"
+      ]
+    },
+    {
+      "concept": "andrej karpathy",
+      "count": 2,
+      "evidence": [
+        "andrej karpathy"
+      ]
+    },
+    {
+      "concept": "intelligence been",
+      "count": 2,
+      "evidence": [
+        "intelligence been"
+      ]
+    },
+    {
+      "concept": "been democratized",
+      "count": 2,
+      "evidence": [
+        "been democratized"
+      ]
+    },
+    {
+      "concept": "intelligence been democratized",
+      "count": 2,
+      "evidence": [
+        "intelligence been democratized"
+      ]
+    },
+    {
+      "concept": "work",
+      "count": 1,
+      "evidence": [
+        "work"
+      ]
+    },
+    {
+      "concept": "fine",
+      "count": 1,
+      "evidence": [
+        "fine"
+      ]
+    },
+    {
+      "concept": "slop",
+      "count": 1,
+      "evidence": [
+        "slop"
+      ]
+    },
+    {
+      "concept": "know",
+      "count": 1,
+      "evidence": [
+        "know"
+      ]
+    },
+    {
+      "concept": "good",
+      "count": 1,
+      "evidence": [
+        "good"
+      ]
+    },
+    {
+      "concept": "face",
+      "count": 1,
+      "evidence": [
+        "face"
+      ]
+    },
+    {
+      "concept": "wiki",
+      "count": 1,
+      "evidence": [
+        "wiki"
+      ]
+    },
+    {
+      "concept": "labs",
+      "count": 1,
+      "evidence": [
+        "labs"
+      ]
+    },
+    {
+      "concept": "vibe",
+      "count": 1,
+      "evidence": [
+        "vibe"
+      ]
+    },
+    {
+      "concept": "term",
+      "count": 1,
+      "evidence": [
+        "term"
+      ]
+    },
+    {
+      "concept": "free",
+      "count": 1,
+      "evidence": [
+        "free"
+      ]
+    },
+    {
+      "concept": "hard",
+      "count": 1,
+      "evidence": [
+        "hard"
+      ]
+    },
+    {
+      "concept": "life",
+      "count": 1,
+      "evidence": [
+        "life"
+      ]
+    },
+    {
+      "concept": "find",
+      "count": 1,
+      "evidence": [
+        "find"
+      ]
+    },
+    {
+      "concept": "data",
+      "count": 1,
+      "evidence": [
+        "data"
+      ]
+    },
+    {
+      "concept": "spew",
+      "count": 1,
+      "evidence": [
+        "spew"
+      ]
+    },
+    {
+      "concept": "mode",
+      "count": 1,
+      "evidence": [
+        "mode"
+      ]
+    },
+    {
+      "concept": "opus",
+      "count": 1,
+      "evidence": [
+        "opus"
+      ]
+    },
+    {
+      "concept": "call",
+      "count": 1,
+      "evidence": [
+        "call"
+      ]
+    },
+    {
+      "concept": "math",
+      "count": 1,
+      "evidence": [
+        "math"
+      ]
+    },
+    {
+      "concept": "else",
+      "count": 1,
+      "evidence": [
+        "else"
+      ]
+    },
+    {
+      "concept": "fwiw",
+      "count": 1,
+      "evidence": [
+        "fwiw"
+      ]
+    },
+    {
+      "concept": "book",
+      "count": 1,
+      "evidence": [
+        "book"
+      ]
+    },
+    {
+      "concept": "think",
+      "count": 1,
+      "evidence": [
+        "think"
+      ]
+    },
+    {
+      "concept": "owner",
+      "count": 1,
+      "evidence": [
+        "owner"
+      ]
+    },
+    {
+      "concept": "agree",
+      "count": 1,
+      "evidence": [
+        "agree"
+      ]
+    },
+    {
+      "concept": "never",
+      "count": 1,
+      "evidence": [
+        "never"
+      ]
+    },
+    {
+      "concept": "cared",
+      "count": 1,
+      "evidence": [
+        "cared"
+      ]
+    },
+    {
+      "concept": "learn",
+      "count": 1,
+      "evidence": [
+        "learn"
+      ]
+    },
+    {
+      "concept": "start",
+      "count": 1,
+      "evidence": [
+        "start"
+      ]
+    },
+    {
+      "concept": "scary",
+      "count": 1,
+      "evidence": [
+        "scary"
+      ]
+    },
+    {
+      "concept": "steer",
+      "count": 1,
+      "evidence": [
+        "steer"
+      ]
+    },
+    {
+      "concept": "often",
+      "count": 1,
+      "evidence": [
+        "often"
+      ]
+    },
+    {
+      "concept": "ready",
+      "count": 1,
+      "evidence": [
+        "ready"
+      ]
+    },
+    {
+      "concept": "debug",
+      "count": 1,
+      "evidence": [
+        "debug"
+      ]
+    },
+    {
+      "concept": "makes",
+      "count": 1,
+      "evidence": [
+        "makes"
+      ]
+    },
+    {
+      "concept": "sense",
+      "count": 1,
+      "evidence": [
+        "sense"
+      ]
+    },
+    {
+      "concept": "being",
+      "count": 1,
+      "evidence": [
+        "being"
+      ]
+    },
+    {
+      "concept": "press",
+      "count": 1,
+      "evidence": [
+        "press"
+      ]
+    },
+    {
+      "concept": "1500s",
+      "count": 1,
+      "evidence": [
+        "1500s"
+      ]
+    },
+    {
+      "concept": "touch",
+      "count": 1,
+      "evidence": [
+        "touch"
+      ]
+    },
+    {
+      "concept": "guess",
+      "count": 1,
+      "evidence": [
+        "guess"
+      ]
+    },
+    {
+      "concept": "large",
+      "count": 1,
+      "evidence": [
+        "large"
+      ]
+    },
+    {
+      "concept": "digit",
+      "count": 1,
+      "evidence": [
+        "digit"
+      ]
+    },
+    {
+      "concept": "heads",
+      "count": 1,
+      "evidence": [
+        "heads"
+      ]
+    },
+    {
+      "concept": "write",
+      "count": 1,
+      "evidence": [
+        "write"
+      ]
+    },
+    {
+      "concept": "whole",
+      "count": 1,
+      "evidence": [
+        "whole"
+      ]
+    },
+    {
+      "concept": "barely",
+      "count": 1,
+      "evidence": [
+        "barely"
+      ]
+    },
+    {
+      "concept": "worked",
+      "count": 1,
+      "evidence": [
+        "worked"
+      ]
+    },
+    {
+      "concept": "before",
+      "count": 1,
+      "evidence": [
+        "before"
+      ]
+    },
+    {
+      "concept": "enough",
+      "count": 1,
+      "evidence": [
+        "enough"
+      ]
+    },
+    {
+      "concept": "eureka",
+      "count": 1,
+      "evidence": [
+        "eureka"
+      ]
+    },
+    {
+      "concept": "coding",
+      "count": 1,
+      "evidence": [
+        "coding"
+      ]
+    },
+    {
+      "concept": "myself",
+      "count": 1,
+      "evidence": [
+        "myself"
+      ]
+    },
+    {
+      "concept": "online",
+      "count": 1,
+      "evidence": [
+        "online"
+      ]
+    },
+    {
+      "concept": "method",
+      "count": 1,
+      "evidence": [
+        "method"
+      ]
+    },
+    {
+      "concept": "though",
+      "count": 1,
+      "evidence": [
+        "though"
+      ]
+    },
+    {
+      "concept": "latest",
+      "count": 1,
+      "evidence": [
+        "latest"
+      ]
+    },
+    {
+      "concept": "claude",
+      "count": 1,
+      "evidence": [
+        "claude"
+      ]
+    },
+    {
+      "concept": "decent",
+      "count": 1,
+      "evidence": [
+        "decent"
+      ]
+    },
+    {
+      "concept": "better",
+      "count": 1,
+      "evidence": [
+        "better"
+      ]
+    },
+    {
+      "concept": "making",
+      "count": 1,
+      "evidence": [
+        "making"
+      ]
+    },
+    {
+      "concept": "wonder",
+      "count": 1,
+      "evidence": [
+        "wonder"
+      ]
+    },
+    {
+      "concept": "derive",
+      "count": 1,
+      "evidence": [
+        "derive"
+      ]
+    },
+    {
+      "concept": "clever",
+      "count": 1,
+      "evidence": [
+        "clever"
+      ]
+    },
+    {
+      "concept": "arrive",
+      "count": 1,
+      "evidence": [
+        "arrive"
+      ]
+    },
+    {
+      "concept": "narrow",
+      "count": 1,
+      "evidence": [
+        "narrow"
+      ]
+    },
+    {
+      "concept": "proofs",
+      "count": 1,
+      "evidence": [
+        "proofs"
+      ]
+    },
+    {
+      "concept": "apples",
+      "count": 1,
+      "evidence": [
+        "apples"
+      ]
+    },
+    {
+      "concept": "article",
+      "count": 1,
+      "evidence": [
+        "article"
+      ]
+    },
+    {
+      "concept": "upvotes",
+      "count": 1,
+      "evidence": [
+        "upvotes"
+      ]
+    },
+    {
+      "concept": "pikachu",
+      "count": 1,
+      "evidence": [
+        "pikachu"
+      ]
+    },
+    {
+      "concept": "created",
+      "count": 1,
+      "evidence": [
+        "created"
+      ]
+    },
+    {
+      "concept": "quality",
+      "count": 1,
+      "evidence": [
+        "quality"
+      ]
+    },
+    {
+      "concept": "changed",
+      "count": 1,
+      "evidence": [
+        "changed"
+      ]
+    },
+    {
+      "concept": "coexist",
+      "count": 1,
+      "evidence": [
+        "coexist"
+      ]
+    },
+    {
+      "concept": "confirm",
+      "count": 1,
+      "evidence": [
+        "confirm"
+      ]
+    },
+    {
+      "concept": "benefit",
+      "count": 1,
+      "evidence": [
+        "benefit"
+      ]
+    },
+    {
+      "concept": "any new",
+      "count": 1,
+      "evidence": [
+        "any new"
+      ]
+    },
+    {
+      "concept": "new way",
+      "count": 1,
+      "evidence": [
+        "new way"
+      ]
+    },
+    {
+      "concept": "way use",
+      "count": 1,
+      "evidence": [
+        "way use"
+      ]
+    },
+    {
+      "concept": "way all",
+      "count": 1,
+      "evidence": [
+        "way all"
+      ]
+    },
+    {
+      "concept": "without",
+      "count": 1,
+      "evidence": [
+        "without"
+      ]
+    },
+    {
+      "concept": "perfect",
+      "count": 1,
+      "evidence": [
+        "perfect"
+      ]
+    },
+    {
+      "concept": "working",
+      "count": 1,
+      "evidence": [
+        "working"
+      ]
+    },
+    {
+      "concept": "70s add",
+      "count": 1,
+      "evidence": [
+        "70s add"
+      ]
+    },
+    {
+      "concept": "savants",
+      "count": 1,
+      "evidence": [
+        "savants"
+      ]
+    },
+    {
+      "concept": "perform",
+      "count": 1,
+      "evidence": [
+        "perform"
+      ]
+    },
+    {
+      "concept": "physics",
+      "count": 1,
+      "evidence": [
+        "physics"
+      ]
+    },
+    {
+      "concept": "smarter",
+      "count": 1,
+      "evidence": [
+        "smarter"
+      ]
+    },
+    {
+      "concept": "explain",
+      "count": 1,
+      "evidence": [
+        "explain"
+      ]
+    },
+    {
+      "concept": "limited",
+      "count": 1,
+      "evidence": [
+        "limited"
+      ]
+    },
+    {
+      "concept": "anymore",
+      "count": 1,
+      "evidence": [
+        "anymore"
+      ]
+    },
+    {
+      "concept": "oranges",
+      "count": 1,
+      "evidence": [
+        "oranges"
+      ]
+    },
+    {
+      "concept": "actually",
+      "count": 1,
+      "evidence": [
+        "actually"
+      ]
+    },
+    {
+      "concept": "happened",
+      "count": 1,
+      "evidence": [
+        "happened"
+      ]
+    },
+    {
+      "concept": "suprised",
+      "count": 1,
+      "evidence": [
+        "suprised"
+      ]
+    },
+    {
+      "concept": "software",
+      "count": 1,
+      "evidence": [
+        "software"
+      ]
+    },
+    {
+      "concept": "engineer",
+      "count": 1,
+      "evidence": [
+        "engineer"
+      ]
+    },
+    {
+      "concept": "regulate",
+      "count": 1,
+      "evidence": [
+        "regulate"
+      ]
+    },
+    {
+      "concept": "creative",
+      "count": 1,
+      "evidence": [
+        "creative"
+      ]
+    },
+    {
+      "concept": "focusing",
+      "count": 1,
+      "evidence": [
+        "focusing"
+      ]
+    },
+    {
+      "concept": "learning",
+      "count": 1,
+      "evidence": [
+        "learning"
+      ]
+    },
+    {
+      "concept": "starters",
+      "count": 1,
+      "evidence": [
+        "starters"
+      ]
+    },
+    {
+      "concept": "envision",
+      "count": 1,
+      "evidence": [
+        "envision"
+      ]
+    },
+    {
+      "concept": "equipped",
+      "count": 1,
+      "evidence": [
+        "equipped"
+      ]
+    },
+    {
+      "concept": "flawless",
+      "count": 1,
+      "evidence": [
+        "flawless"
+      ]
+    },
+    {
+      "concept": "together",
+      "count": 1,
+      "evidence": [
+        "together"
+      ]
+    },
+    {
+      "concept": "solution",
+      "count": 1,
+      "evidence": [
+        "solution"
+      ]
+    },
+    {
+      "concept": "say only",
+      "count": 1,
+      "evidence": [
+        "say only"
+      ]
+    },
+    {
+      "concept": "use free",
+      "count": 1,
+      "evidence": [
+        "use free"
+      ]
+    },
+    {
+      "concept": "way life",
+      "count": 1,
+      "evidence": [
+        "way life"
+      ]
+    },
+    {
+      "concept": "life say",
+      "count": 1,
+      "evidence": [
+        "life say"
+      ]
+    },
+    {
+      "concept": "find way",
+      "count": 1,
+      "evidence": [
+        "find way"
+      ]
+    },
+    {
+      "concept": "see more",
+      "count": 1,
+      "evidence": [
+        "see more"
+      ]
+    },
+    {
+      "concept": "all come",
+      "count": 1,
+      "evidence": [
+        "all come"
+      ]
+    },
+    {
+      "concept": "struggle",
+      "count": 1,
+      "evidence": [
+        "struggle"
+      ]
+    },
+    {
+      "concept": "reaching",
+      "count": 1,
+      "evidence": [
+        "reaching"
+      ]
+    },
+    {
+      "concept": "spew lot",
+      "count": 1,
+      "evidence": [
+        "spew lot"
+      ]
+    },
+    {
+      "concept": "lot code",
+      "count": 1,
+      "evidence": [
+        "lot code"
+      ]
+    },
+    {
+      "concept": "probably",
+      "count": 1,
+      "evidence": [
+        "probably"
+      ]
+    },
+    {
+      "concept": "code 70s",
+      "count": 1,
+      "evidence": [
+        "code 70s"
+      ]
+    },
+    {
+      "concept": "call day",
+      "count": 1,
+      "evidence": [
+        "call day"
+      ]
+    },
+    {
+      "concept": "everyone",
+      "count": 1,
+      "evidence": [
+        "everyone"
+      ]
+    },
+    {
+      "concept": "ais math",
+      "count": 1,
+      "evidence": [
+        "ais math"
+      ]
+    },
+    {
+      "concept": "printing",
+      "count": 1,
+      "evidence": [
+        "printing"
+      ]
+    },
+    {
+      "concept": "invented",
+      "count": 1,
+      "evidence": [
+        "invented"
+      ]
+    },
+    {
+      "concept": "relative",
+      "count": 1,
+      "evidence": [
+        "relative"
+      ]
+    },
+    {
+      "concept": "book all",
+      "count": 1,
+      "evidence": [
+        "book all"
+      ]
+    },
+    {
+      "concept": "according",
+      "count": 1,
+      "evidence": [
+        "according"
+      ]
+    },
+    {
+      "concept": "fine slop",
+      "count": 1,
+      "evidence": [
+        "fine slop"
+      ]
+    },
+    {
+      "concept": "education",
+      "count": 1,
+      "evidence": [
+        "education"
+      ]
+    },
+    {
+      "concept": "wiki says",
+      "count": 1,
+      "evidence": [
+        "wiki says"
+      ]
+    },
+    {
+      "concept": "labs vibe",
+      "count": 1,
+      "evidence": [
+        "labs vibe"
+      ]
+    },
+    {
+      "concept": "eliminate",
+      "count": 1,
+      "evidence": [
+        "eliminate"
+      ]
+    },
+    {
+      "concept": "objective",
+      "count": 1,
+      "evidence": [
+        "objective"
+      ]
+    },
+    {
+      "concept": "knowledge",
+      "count": 1,
+      "evidence": [
+        "knowledge"
+      ]
+    },
+    {
+      "concept": "direction",
+      "count": 1,
+      "evidence": [
+        "direction"
+      ]
+    },
+    {
+      "concept": "free more",
+      "count": 1,
+      "evidence": [
+        "free more"
+      ]
+    },
+    {
+      "concept": "scary don",
+      "count": 1,
+      "evidence": [
+        "scary don"
+      ]
+    },
+    {
+      "concept": "don steer",
+      "count": 1,
+      "evidence": [
+        "don steer"
+      ]
+    },
+    {
+      "concept": "optimised",
+      "count": 1,
+      "evidence": [
+        "optimised"
+      ]
+    },
+    {
+      "concept": "often all",
+      "count": 1,
+      "evidence": [
+        "often all"
+      ]
+    },
+    {
+      "concept": "employers",
+      "count": 1,
+      "evidence": [
+        "employers"
+      ]
+    },
+    {
+      "concept": "code more",
+      "count": 1,
+      "evidence": [
+        "code more"
+      ]
+    },
+    {
+      "concept": "optimized",
+      "count": 1,
+      "evidence": [
+        "optimized"
+      ]
+    },
+    {
+      "concept": "duplicate",
+      "count": 1,
+      "evidence": [
+        "duplicate"
+      ]
+    },
+    {
+      "concept": "libraries",
+      "count": 1,
+      "evidence": [
+        "libraries"
+      ]
+    },
+    {
+      "concept": "workflows",
+      "count": 1,
+      "evidence": [
+        "workflows"
+      ]
+    },
+    {
+      "concept": "tools new",
+      "count": 1,
+      "evidence": [
+        "tools new"
+      ]
+    },
+    {
+      "concept": "new tools",
+      "count": 1,
+      "evidence": [
+        "new tools"
+      ]
+    },
+    {
+      "concept": "different",
+      "count": 1,
+      "evidence": [
+        "different"
+      ]
+    },
+    {
+      "concept": "use guess",
+      "count": 1,
+      "evidence": [
+        "use guess"
+      ]
+    },
+    {
+      "concept": "2026 think",
+      "count": 1,
+      "evidence": [
+        "2026 think"
+      ]
+    },
+    {
+      "concept": "think fine",
+      "count": 1,
+      "evidence": [
+        "think fine"
+      ]
+    },
+    {
+      "concept": "attributed",
+      "count": 1,
+      "evidence": [
+        "attributed"
+      ]
+    },
+    {
+      "concept": "positively",
+      "count": 1,
+      "evidence": [
+        "positively"
+      ]
+    },
+    {
+      "concept": "scientific",
+      "count": 1,
+      "evidence": [
+        "scientific"
+      ]
+    },
+    {
+      "concept": "background",
+      "count": 1,
+      "evidence": [
+        "background"
+      ]
+    },
+    {
+      "concept": "fucked don",
+      "count": 1,
+      "evidence": [
+        "fucked don"
+      ]
+    },
+    {
+      "concept": "online see",
+      "count": 1,
+      "evidence": [
+        "online see"
+      ]
+    },
+    {
+      "concept": "only scary",
+      "count": 1,
+      "evidence": [
+        "only scary"
+      ]
+    },
+    {
+      "concept": "impressive",
+      "count": 1,
+      "evidence": [
+        "impressive"
+      ]
+    },
+    {
+      "concept": "duplicates",
+      "count": 1,
+      "evidence": [
+        "duplicates"
+      ]
+    },
+    {
+      "concept": "production",
+      "count": 1,
+      "evidence": [
+        "production"
+      ]
+    },
+    {
+      "concept": "code often",
+      "count": 1,
+      "evidence": [
+        "code often"
+      ]
+    },
+    {
+      "concept": "debug mode",
+      "count": 1,
+      "evidence": [
+        "debug mode"
+      ]
+    },
+    {
+      "concept": "far latest",
+      "count": 1,
+      "evidence": [
+        "far latest"
+      ]
+    },
+    {
+      "concept": "opus makes",
+      "count": 1,
+      "evidence": [
+        "opus makes"
+      ]
+    },
+    {
+      "concept": "code thats",
+      "count": 1,
+      "evidence": [
+        "code thats"
+      ]
+    },
+    {
+      "concept": "thats most",
+      "count": 1,
+      "evidence": [
+        "thats most"
+      ]
+    },
+    {
+      "concept": "self-worth",
+      "count": 1,
+      "evidence": [
+        "self-worth"
+      ]
+    },
+    {
+      "concept": "wonder all",
+      "count": 1,
+      "evidence": [
+        "wonder all"
+      ]
+    },
+    {
+      "concept": "all people",
+      "count": 1,
+      "evidence": [
+        "all people"
+      ]
+    },
+    {
+      "concept": "arrive new",
+      "count": 1,
+      "evidence": [
+        "arrive new"
+      ]
+    },
+    {
+      "concept": "touch book",
+      "count": 1,
+      "evidence": [
+        "touch book"
+      ]
+    },
+    {
+      "concept": "arithmetic",
+      "count": 1,
+      "evidence": [
+        "arithmetic"
+      ]
+    },
+    {
+      "concept": "narrow use",
+      "count": 1,
+      "evidence": [
+        "narrow use"
+      ]
+    },
+    {
+      "concept": "proofs own",
+      "count": 1,
+      "evidence": [
+        "proofs own"
+      ]
+    },
+    {
+      "concept": "own apples",
+      "count": 1,
+      "evidence": [
+        "own apples"
+      ]
+    },
+    {
+      "concept": "programming",
+      "count": 1,
+      "evidence": [
+        "programming"
+      ]
+    },
+    {
+      "concept": "saying good",
+      "count": 1,
+      "evidence": [
+        "saying good"
+      ]
+    },
+    {
+      "concept": "eureka labs",
+      "count": 1,
+      "evidence": [
+        "eureka labs"
+      ]
+    },
+    {
+      "concept": "vibe coding",
+      "count": 1,
+      "evidence": [
+        "vibe coding"
+      ]
+    },
+    {
+      "concept": "coding term",
+      "count": 1,
+      "evidence": [
+        "coding term"
+      ]
+    },
+    {
+      "concept": "agree never",
+      "count": 1,
+      "evidence": [
+        "agree never"
+      ]
+    },
+    {
+      "concept": "never cared",
+      "count": 1,
+      "evidence": [
+        "never cared"
+      ]
+    },
+    {
+      "concept": "only fucked",
+      "count": 1,
+      "evidence": [
+        "only fucked"
+      ]
+    },
+    {
+      "concept": "coexist new",
+      "count": 1,
+      "evidence": [
+        "coexist new"
+      ]
+    },
+    {
+      "concept": "all benefit",
+      "count": 1,
+      "evidence": [
+        "all benefit"
+      ]
+    },
+    {
+      "concept": "importantly",
+      "count": 1,
+      "evidence": [
+        "importantly"
+      ]
+    },
+    {
+      "concept": "perfect far",
+      "count": 1,
+      "evidence": [
+        "perfect far"
+      ]
+    },
+    {
+      "concept": "claude opus",
+      "count": 1,
+      "evidence": [
+        "claude opus"
+      ]
+    },
+    {
+      "concept": "decent code",
+      "count": 1,
+      "evidence": [
+        "decent code"
+      ]
+    },
+    {
+      "concept": "agents only",
+      "count": 1,
+      "evidence": [
+        "agents only"
+      ]
+    },
+    {
+      "concept": "only better",
+      "count": 1,
+      "evidence": [
+        "only better"
+      ]
+    },
+    {
+      "concept": "discoveries",
+      "count": 1,
+      "evidence": [
+        "discoveries"
+      ]
+    },
+    {
+      "concept": "perform phd",
+      "count": 1,
+      "evidence": [
+        "perform phd"
+      ]
+    },
+    {
+      "concept": "outperforms",
+      "count": 1,
+      "evidence": [
+        "outperforms"
+      ]
+    },
+    {
+      "concept": "guess large",
+      "count": 1,
+      "evidence": [
+        "guess large"
+      ]
+    },
+    {
+      "concept": "large digit",
+      "count": 1,
+      "evidence": [
+        "large digit"
+      ]
+    },
+    {
+      "concept": "write whole",
+      "count": 1,
+      "evidence": [
+        "write whole"
+      ]
+    },
+    {
+      "concept": "slop article",
+      "count": 1,
+      "evidence": [
+        "slop article"
+      ]
+    },
+    {
+      "concept": "article know",
+      "count": 1,
+      "evidence": [
+        "article know"
+      ]
+    },
+    {
+      "concept": "happened yet",
+      "count": 1,
+      "evidence": [
+        "happened yet"
+      ]
+    },
+    {
+      "concept": "owner saying",
+      "count": 1,
+      "evidence": [
+        "owner saying"
+      ]
+    },
+    {
+      "concept": "pikachu face",
+      "count": 1,
+      "evidence": [
+        "pikachu face"
+      ]
+    },
+    {
+      "concept": "karpathy own",
+      "count": 1,
+      "evidence": [
+        "karpathy own"
+      ]
+    },
+    {
+      "concept": "says created",
+      "count": 1,
+      "evidence": [
+        "says created"
+      ]
+    },
+    {
+      "concept": "dramatically",
+      "count": 1,
+      "evidence": [
+        "dramatically"
+      ]
+    },
+    {
+      "concept": "myself agree",
+      "count": 1,
+      "evidence": [
+        "myself agree"
+      ]
+    },
+    {
+      "concept": "don regulate",
+      "count": 1,
+      "evidence": [
+        "don regulate"
+      ]
+    },
+    {
+      "concept": "creative any",
+      "count": 1,
+      "evidence": [
+        "creative any"
+      ]
+    },
+    {
+      "concept": "say starters",
+      "count": 1,
+      "evidence": [
+        "say starters"
+      ]
+    },
+    {
+      "concept": "confirm data",
+      "count": 1,
+      "evidence": [
+        "confirm data"
+      ]
+    },
+    {
+      "concept": "flawless way",
+      "count": 1,
+      "evidence": [
+        "flawless way"
+      ]
+    },
+    {
+      "concept": "new way life",
+      "count": 1,
+      "evidence": [
+        "new way life"
+      ]
+    },
+    {
+      "concept": "way life say",
+      "count": 1,
+      "evidence": [
+        "way life say"
+      ]
+    },
+    {
+      "concept": "find way use",
+      "count": 1,
+      "evidence": [
+        "find way use"
+      ]
+    },
+    {
+      "concept": "way all come",
+      "count": 1,
+      "evidence": [
+        "way all come"
+      ]
+    },
+    {
+      "concept": "makes decent",
+      "count": 1,
+      "evidence": [
+        "makes decent"
+      ]
+    },
+    {
+      "concept": "working code",
+      "count": 1,
+      "evidence": [
+        "working code"
+      ]
+    },
+    {
+      "concept": "code 70s add",
+      "count": 1,
+      "evidence": [
+        "code 70s add"
+      ]
+    },
+    {
+      "concept": "math savants",
+      "count": 1,
+      "evidence": [
+        "math savants"
+      ]
+    },
+    {
+      "concept": "derive sense",
+      "count": 1,
+      "evidence": [
+        "derive sense"
+      ]
+    },
+    {
+      "concept": "tools arrive",
+      "count": 1,
+      "evidence": [
+        "tools arrive"
+      ]
+    },
+    {
+      "concept": "1500s people",
+      "count": 1,
+      "evidence": [
+        "1500s people"
+      ]
+    },
+    {
+      "concept": "people touch",
+      "count": 1,
+      "evidence": [
+        "people touch"
+      ]
+    },
+    {
+      "concept": "all relative",
+      "count": 1,
+      "evidence": [
+        "all relative"
+      ]
+    },
+    {
+      "concept": "whole proofs",
+      "count": 1,
+      "evidence": [
+        "whole proofs"
+      ]
+    },
+    {
+      "concept": "karpathy says",
+      "count": 1,
+      "evidence": [
+        "karpathy says"
+      ]
+    },
+    {
+      "concept": "actually work",
+      "count": 1,
+      "evidence": [
+        "actually work"
+      ]
+    },
+    {
+      "concept": "agents barely",
+      "count": 1,
+      "evidence": [
+        "agents barely"
+      ]
+    },
+    {
+      "concept": "barely worked",
+      "count": 1,
+      "evidence": [
+        "barely worked"
+      ]
+    },
+    {
+      "concept": "worked before",
+      "count": 1,
+      "evidence": [
+        "worked before"
+      ]
+    },
+    {
+      "concept": "know december",
+      "count": 1,
+      "evidence": [
+        "know december"
+      ]
+    },
+    {
+      "concept": "2026 happened",
+      "count": 1,
+      "evidence": [
+        "2026 happened"
+      ]
+    },
+    {
+      "concept": "company owner",
+      "count": 1,
+      "evidence": [
+        "company owner"
+      ]
+    },
+    {
+      "concept": "good suprised",
+      "count": 1,
+      "evidence": [
+        "good suprised"
+      ]
+    },
+    {
+      "concept": "cared quality",
+      "count": 1,
+      "evidence": [
+        "cared quality"
+      ]
+    },
+    {
+      "concept": "more creative",
+      "count": 1,
+      "evidence": [
+        "more creative"
+      ]
+    },
+    {
+      "concept": "focusing hard",
+      "count": 1,
+      "evidence": [
+        "focusing hard"
+      ]
+    },
+    {
+      "concept": "hard learning",
+      "count": 1,
+      "evidence": [
+        "hard learning"
+      ]
+    },
+    {
+      "concept": "starters find",
+      "count": 1,
+      "evidence": [
+        "starters find"
+      ]
+    },
+    {
+      "concept": "use eliminate",
+      "count": 1,
+      "evidence": [
+        "use eliminate"
+      ]
+    },
+    {
+      "concept": "data equipped",
+      "count": 1,
+      "evidence": [
+        "data equipped"
+      ]
+    },
+    {
+      "concept": "come together",
+      "count": 1,
+      "evidence": [
+        "come together"
+      ]
+    },
+    {
+      "concept": "together come",
+      "count": 1,
+      "evidence": [
+        "together come"
+      ]
+    },
+    {
+      "concept": "come solution",
+      "count": 1,
+      "evidence": [
+        "come solution"
+      ]
+    },
+    {
+      "concept": "solution only",
+      "count": 1,
+      "evidence": [
+        "solution only"
+      ]
+    },
+    {
+      "concept": "direction all",
+      "count": 1,
+      "evidence": [
+        "direction all"
+      ]
+    },
+    {
+      "concept": "use free more",
+      "count": 1,
+      "evidence": [
+        "use free more"
+      ]
+    },
+    {
+      "concept": "all optimised",
+      "count": 1,
+      "evidence": [
+        "all optimised"
+      ]
+    },
+    {
+      "concept": "ready without",
+      "count": 1,
+      "evidence": [
+        "ready without"
+      ]
+    },
+    {
+      "concept": "without debug",
+      "count": 1,
+      "evidence": [
+        "without debug"
+      ]
+    },
+    {
+      "concept": "spew lot code",
+      "count": 1,
+      "evidence": [
+        "spew lot code"
+      ]
+    },
+    {
+      "concept": "latest claude",
+      "count": 1,
+      "evidence": [
+        "latest claude"
+      ]
+    },
+    {
+      "concept": "add duplicate",
+      "count": 1,
+      "evidence": [
+        "add duplicate"
+      ]
+    },
+    {
+      "concept": "people derive",
+      "count": 1,
+      "evidence": [
+        "people derive"
+      ]
+    },
+    {
+      "concept": "being smarter",
+      "count": 1,
+      "evidence": [
+        "being smarter"
+      ]
+    },
+    {
+      "concept": "everyone else",
+      "count": 1,
+      "evidence": [
+        "everyone else"
+      ]
+    },
+    {
+      "concept": "new workflows",
+      "count": 1,
+      "evidence": [
+        "new workflows"
+      ]
+    },
+    {
+      "concept": "heads anymore",
+      "count": 1,
+      "evidence": [
+        "heads anymore"
+      ]
+    },
+    {
+      "concept": "unrecognizable",
+      "count": 1,
+      "evidence": [
+        "unrecognizable"
+      ]
+    },
+    {
+      "concept": "enough upvotes",
+      "count": 1,
+      "evidence": [
+        "enough upvotes"
+      ]
+    },
+    {
+      "concept": "company andrej",
+      "count": 1,
+      "evidence": [
+        "company andrej"
+      ]
+    },
+    {
+      "concept": "company eureka",
+      "count": 1,
+      "evidence": [
+        "company eureka"
+      ]
+    },
+    {
+      "concept": "misinformation",
+      "count": 1,
+      "evidence": [
+        "misinformation"
+      ]
+    },
+    {
+      "concept": "regulate learn",
+      "count": 1,
+      "evidence": [
+        "regulate learn"
+      ]
+    },
+    {
+      "concept": "positively use",
+      "count": 1,
+      "evidence": [
+        "positively use"
+      ]
+    },
+    {
+      "concept": "more important",
+      "count": 1,
+      "evidence": [
+        "more important"
+      ]
+    },
+    {
+      "concept": "start envision",
+      "count": 1,
+      "evidence": [
+        "start envision"
+      ]
+    },
+    {
+      "concept": "method confirm",
+      "count": 1,
+      "evidence": [
+        "method confirm"
+      ]
+    },
+    {
+      "concept": "only scary don",
+      "count": 1,
+      "evidence": [
+        "only scary don"
+      ]
+    },
+    {
+      "concept": "lot code often",
+      "count": 1,
+      "evidence": [
+        "lot code often"
+      ]
+    },
+    {
+      "concept": "code often all",
+      "count": 1,
+      "evidence": [
+        "code often all"
+      ]
+    },
+    {
+      "concept": "saying perfect",
+      "count": 1,
+      "evidence": [
+        "saying perfect"
+      ]
+    },
+    {
+      "concept": "thats probably",
+      "count": 1,
+      "evidence": [
+        "thats probably"
+      ]
+    },
+    {
+      "concept": "most important",
+      "count": 1,
+      "evidence": [
+        "most important"
+      ]
+    },
+    {
+      "concept": "important most",
+      "count": 1,
+      "evidence": [
+        "important most"
+      ]
+    },
+    {
+      "concept": "most employers",
+      "count": 1,
+      "evidence": [
+        "most employers"
+      ]
+    },
+    {
+      "concept": "optimized code",
+      "count": 1,
+      "evidence": [
+        "optimized code"
+      ]
+    },
+    {
+      "concept": "libraries call",
+      "count": 1,
+      "evidence": [
+        "libraries call"
+      ]
+    },
+    {
+      "concept": "physics wonder",
+      "count": 1,
+      "evidence": [
+        "physics wonder"
+      ]
+    },
+    {
+      "concept": "students tools",
+      "count": 1,
+      "evidence": [
+        "students tools"
+      ]
+    },
+    {
+      "concept": "printing press",
+      "count": 1,
+      "evidence": [
+        "printing press"
+      ]
+    },
+    {
+      "concept": "press invented",
+      "count": 1,
+      "evidence": [
+        "press invented"
+      ]
+    },
+    {
+      "concept": "invented 1500s",
+      "count": 1,
+      "evidence": [
+        "invented 1500s"
+      ]
+    },
+    {
+      "concept": "touch book all",
+      "count": 1,
+      "evidence": [
+        "touch book all"
+      ]
+    },
+    {
+      "concept": "limited narrow",
+      "count": 1,
+      "evidence": [
+        "limited narrow"
+      ]
+    },
+    {
+      "concept": "apples oranges",
+      "count": 1,
+      "evidence": [
+        "apples oranges"
+      ]
+    },
+    {
+      "concept": "agents actually",
+      "count": 1,
+      "evidence": [
+        "agents actually"
+      ]
+    },
+    {
+      "concept": "karpathy agents",
+      "count": 1,
+      "evidence": [
+        "karpathy agents"
+      ]
+    },
+    {
+      "concept": "before december",
+      "count": 1,
+      "evidence": [
+        "before december"
+      ]
+    },
+    {
+      "concept": "2026 think fine",
+      "count": 1,
+      "evidence": [
+        "2026 think fine"
+      ]
+    },
+    {
+      "concept": "think fine slop",
+      "count": 1,
+      "evidence": [
+        "think fine slop"
+      ]
+    },
+    {
+      "concept": "term attributed",
+      "count": 1,
+      "evidence": [
+        "term attributed"
+      ]
+    },
+    {
+      "concept": "engineer myself",
+      "count": 1,
+      "evidence": [
+        "engineer myself"
+      ]
+    },
+    {
+      "concept": "quality changed",
+      "count": 1,
+      "evidence": [
+        "quality changed"
+      ]
+    },
+    {
+      "concept": "objective start",
+      "count": 1,
+      "evidence": [
+        "objective start"
+      ]
+    },
+    {
+      "concept": "steer direction",
+      "count": 1,
+      "evidence": [
+        "steer direction"
+      ]
+    },
+    {
+      "concept": "say only fucked",
+      "count": 1,
+      "evidence": [
+        "say only fucked"
+      ]
+    },
+    {
+      "concept": "only fucked don",
+      "count": 1,
+      "evidence": [
+        "only fucked don"
+      ]
+    },
+    {
+      "concept": "coexist new way",
+      "count": 1,
+      "evidence": [
+        "coexist new way"
+      ]
+    },
+    {
+      "concept": "online see more",
+      "count": 1,
+      "evidence": [
+        "online see more"
+      ]
+    },
+    {
+      "concept": "scary don steer",
+      "count": 1,
+      "evidence": [
+        "scary don steer"
+      ]
+    },
+    {
+      "concept": "impressive spew",
+      "count": 1,
+      "evidence": [
+        "impressive spew"
+      ]
+    },
+    {
+      "concept": "something thats",
+      "count": 1,
+      "evidence": [
+        "something thats"
+      ]
+    },
+    {
+      "concept": "savants perform",
+      "count": 1,
+      "evidence": [
+        "savants perform"
+      ]
+    },
+    {
+      "concept": "students making",
+      "count": 1,
+      "evidence": [
+        "students making"
+      ]
+    },
+    {
+      "concept": "fwiw calculator",
+      "count": 1,
+      "evidence": [
+        "fwiw calculator"
+      ]
+    },
+    {
+      "concept": "outperforms phd",
+      "count": 1,
+      "evidence": [
+        "outperforms phd"
+      ]
+    },
+    {
+      "concept": "tools new tools",
+      "count": 1,
+      "evidence": [
+        "tools new tools"
+      ]
+    },
+    {
+      "concept": "different write",
+      "count": 1,
+      "evidence": [
+        "different write"
+      ]
+    },
+    {
+      "concept": "use guess large",
+      "count": 1,
+      "evidence": [
+        "use guess large"
+      ]
+    },
+    {
+      "concept": "says programming",
+      "count": 1,
+      "evidence": [
+        "says programming"
+      ]
+    },
+    {
+      "concept": "suprised pikachu",
+      "count": 1,
+      "evidence": [
+        "suprised pikachu"
+      ]
+    },
+    {
+      "concept": "eureka labs vibe",
+      "count": 1,
+      "evidence": [
+        "eureka labs vibe"
+      ]
+    },
+    {
+      "concept": "labs vibe coding",
+      "count": 1,
+      "evidence": [
+        "labs vibe coding"
+      ]
+    },
+    {
+      "concept": "vibe coding term",
+      "count": 1,
+      "evidence": [
+        "vibe coding term"
+      ]
+    },
+    {
+      "concept": "learn positively",
+      "count": 1,
+      "evidence": [
+        "learn positively"
+      ]
+    },
+    {
+      "concept": "learning coexist",
+      "count": 1,
+      "evidence": [
+        "learning coexist"
+      ]
+    },
+    {
+      "concept": "creative any new",
+      "count": 1,
+      "evidence": [
+        "creative any new"
+      ]
+    },
+    {
+      "concept": "flawless way all",
+      "count": 1,
+      "evidence": [
+        "flawless way all"
+      ]
+    },
+    {
+      "concept": "production ready",
+      "count": 1,
+      "evidence": [
+        "production ready"
+      ]
+    },
+    {
+      "concept": "more importantly",
+      "count": 1,
+      "evidence": [
+        "more importantly"
+      ]
+    },
+    {
+      "concept": "employers agents",
+      "count": 1,
+      "evidence": [
+        "employers agents"
+      ]
+    },
+    {
+      "concept": "decent code more",
+      "count": 1,
+      "evidence": [
+        "decent code more"
+      ]
+    },
+    {
+      "concept": "sense self-worth",
+      "count": 1,
+      "evidence": [
+        "sense self-worth"
+      ]
+    },
+    {
+      "concept": "self-worth being",
+      "count": 1,
+      "evidence": [
+        "self-worth being"
+      ]
+    },
+    {
+      "concept": "smarter everyone",
+      "count": 1,
+      "evidence": [
+        "smarter everyone"
+      ]
+    },
+    {
+      "concept": "ais math savants",
+      "count": 1,
+      "evidence": [
+        "ais math savants"
+      ]
+    },
+    {
+      "concept": "new tools arrive",
+      "count": 1,
+      "evidence": [
+        "new tools arrive"
+      ]
+    },
+    {
+      "concept": "tools arrive new",
+      "count": 1,
+      "evidence": [
+        "tools arrive new"
+      ]
+    },
+    {
+      "concept": "digit arithmetic",
+      "count": 1,
+      "evidence": [
+        "digit arithmetic"
+      ]
+    },
+    {
+      "concept": "arithmetic heads",
+      "count": 1,
+      "evidence": [
+        "arithmetic heads"
+      ]
+    },
+    {
+      "concept": "narrow use guess",
+      "count": 1,
+      "evidence": [
+        "narrow use guess"
+      ]
+    },
+    {
+      "concept": "whole proofs own",
+      "count": 1,
+      "evidence": [
+        "whole proofs own"
+      ]
+    },
+    {
+      "concept": "fine slop article",
+      "count": 1,
+      "evidence": [
+        "fine slop article"
+      ]
+    },
+    {
+      "concept": "slop article know",
+      "count": 1,
+      "evidence": [
+        "slop article know"
+      ]
+    },
+    {
+      "concept": "2026 happened yet",
+      "count": 1,
+      "evidence": [
+        "2026 happened yet"
+      ]
+    },
+    {
+      "concept": "owner saying good",
+      "count": 1,
+      "evidence": [
+        "owner saying good"
+      ]
+    },
+    {
+      "concept": "created education",
+      "count": 1,
+      "evidence": [
+        "created education"
+      ]
+    },
+    {
+      "concept": "education company",
+      "count": 1,
+      "evidence": [
+        "education company"
+      ]
+    },
+    {
+      "concept": "wiki says created",
+      "count": 1,
+      "evidence": [
+        "wiki says created"
+      ]
+    },
+    {
+      "concept": "software engineer",
+      "count": 1,
+      "evidence": [
+        "software engineer"
+      ]
+    },
+    {
+      "concept": "agree never cared",
+      "count": 1,
+      "evidence": [
+        "agree never cared"
+      ]
+    },
+    {
+      "concept": "scientific method",
+      "count": 1,
+      "evidence": [
+        "scientific method"
+      ]
+    },
+    {
+      "concept": "more creative any",
+      "count": 1,
+      "evidence": [
+        "more creative any"
+      ]
+    },
+    {
+      "concept": "life say starters",
+      "count": 1,
+      "evidence": [
+        "life say starters"
+      ]
+    },
+    {
+      "concept": "say starters find",
+      "count": 1,
+      "evidence": [
+        "say starters find"
+      ]
+    },
+    {
+      "concept": "starters find way",
+      "count": 1,
+      "evidence": [
+        "starters find way"
+      ]
+    },
+    {
+      "concept": "way use eliminate",
+      "count": 1,
+      "evidence": [
+        "way use eliminate"
+      ]
+    },
+    {
+      "concept": "all come together",
+      "count": 1,
+      "evidence": [
+        "all come together"
+      ]
+    },
+    {
+      "concept": "though impressive",
+      "count": 1,
+      "evidence": [
+        "though impressive"
+      ]
+    },
+    {
+      "concept": "struggle reaching",
+      "count": 1,
+      "evidence": [
+        "struggle reaching"
+      ]
+    },
+    {
+      "concept": "far latest claude",
+      "count": 1,
+      "evidence": [
+        "far latest claude"
+      ]
+    },
+    {
+      "concept": "claude opus makes",
+      "count": 1,
+      "evidence": [
+        "claude opus makes"
+      ]
+    },
+    {
+      "concept": "opus makes decent",
+      "count": 1,
+      "evidence": [
+        "opus makes decent"
+      ]
+    },
+    {
+      "concept": "makes decent code",
+      "count": 1,
+      "evidence": [
+        "makes decent code"
+      ]
+    },
+    {
+      "concept": "70s add duplicate",
+      "count": 1,
+      "evidence": [
+        "70s add duplicate"
+      ]
+    },
+    {
+      "concept": "else intelligence",
+      "count": 1,
+      "evidence": [
+        "else intelligence"
+      ]
+    },
+    {
+      "concept": "wonder all people",
+      "count": 1,
+      "evidence": [
+        "wonder all people"
+      ]
+    },
+    {
+      "concept": "all people derive",
+      "count": 1,
+      "evidence": [
+        "all people derive"
+      ]
+    },
+    {
+      "concept": "people touch book",
+      "count": 1,
+      "evidence": [
+        "people touch book"
+      ]
+    },
+    {
+      "concept": "book all relative",
+      "count": 1,
+      "evidence": [
+        "book all relative"
+      ]
+    },
+    {
+      "concept": "anymore different",
+      "count": 1,
+      "evidence": [
+        "anymore different"
+      ]
+    },
+    {
+      "concept": "guess large digit",
+      "count": 1,
+      "evidence": [
+        "guess large digit"
+      ]
+    },
+    {
+      "concept": "proofs own apples",
+      "count": 1,
+      "evidence": [
+        "proofs own apples"
+      ]
+    },
+    {
+      "concept": "according karpathy",
+      "count": 1,
+      "evidence": [
+        "according karpathy"
+      ]
+    },
+    {
+      "concept": "know december 2026",
+      "count": 1,
+      "evidence": [
+        "know december 2026"
+      ]
+    },
+    {
+      "concept": "myself agree never",
+      "count": 1,
+      "evidence": [
+        "myself agree never"
+      ]
+    },
+    {
+      "concept": "envision something",
+      "count": 1,
+      "evidence": [
+        "envision something"
+      ]
+    },
+    {
+      "concept": "knowledge flawless",
+      "count": 1,
+      "evidence": [
+        "knowledge flawless"
+      ]
+    },
+    {
+      "concept": "don regulate learn",
+      "count": 1,
+      "evidence": [
+        "don regulate learn"
+      ]
+    },
+    {
+      "concept": "free more creative",
+      "count": 1,
+      "evidence": [
+        "free more creative"
+      ]
+    },
+    {
+      "concept": "see more important",
+      "count": 1,
+      "evidence": [
+        "see more important"
+      ]
+    },
+    {
+      "concept": "come together come",
+      "count": 1,
+      "evidence": [
+        "come together come"
+      ]
+    },
+    {
+      "concept": "come solution only",
+      "count": 1,
+      "evidence": [
+        "come solution only"
+      ]
+    },
+    {
+      "concept": "without debug mode",
+      "count": 1,
+      "evidence": [
+        "without debug mode"
+      ]
+    },
+    {
+      "concept": "probably something",
+      "count": 1,
+      "evidence": [
+        "probably something"
+      ]
+    },
+    {
+      "concept": "saying perfect far",
+      "count": 1,
+      "evidence": [
+        "saying perfect far"
+      ]
+    },
+    {
+      "concept": "perfect far latest",
+      "count": 1,
+      "evidence": [
+        "perfect far latest"
+      ]
+    },
+    {
+      "concept": "latest claude opus",
+      "count": 1,
+      "evidence": [
+        "latest claude opus"
+      ]
+    },
+    {
+      "concept": "working code thats",
+      "count": 1,
+      "evidence": [
+        "working code thats"
+      ]
+    },
+    {
+      "concept": "agents only better",
+      "count": 1,
+      "evidence": [
+        "agents only better"
+      ]
+    },
+    {
+      "concept": "optimized code 70s",
+      "count": 1,
+      "evidence": [
+        "optimized code 70s"
+      ]
+    },
+    {
+      "concept": "libraries call day",
+      "count": 1,
+      "evidence": [
+        "libraries call day"
+      ]
+    },
+    {
+      "concept": "making discoveries",
+      "count": 1,
+      "evidence": [
+        "making discoveries"
+      ]
+    },
+    {
+      "concept": "physics wonder all",
+      "count": 1,
+      "evidence": [
+        "physics wonder all"
+      ]
+    },
+    {
+      "concept": "workflows printing",
+      "count": 1,
+      "evidence": [
+        "workflows printing"
+      ]
+    },
+    {
+      "concept": "phd students tools",
+      "count": 1,
+      "evidence": [
+        "phd students tools"
+      ]
+    },
+    {
+      "concept": "students tools new",
+      "count": 1,
+      "evidence": [
+        "students tools new"
+      ]
+    },
+    {
+      "concept": "1500s people touch",
+      "count": 1,
+      "evidence": [
+        "1500s people touch"
+      ]
+    },
+    {
+      "concept": "calculator limited",
+      "count": 1,
+      "evidence": [
+        "calculator limited"
+      ]
+    },
+    {
+      "concept": "limited narrow use",
+      "count": 1,
+      "evidence": [
+        "limited narrow use"
+      ]
+    },
+    {
+      "concept": "write whole proofs",
+      "count": 1,
+      "evidence": [
+        "write whole proofs"
+      ]
+    },
+    {
+      "concept": "own apples oranges",
+      "count": 1,
+      "evidence": [
+        "own apples oranges"
+      ]
+    },
+    {
+      "concept": "december 2026 think",
+      "count": 1,
+      "evidence": [
+        "december 2026 think"
+      ]
+    },
+    {
+      "concept": "andrej karpathy own",
+      "count": 1,
+      "evidence": [
+        "andrej karpathy own"
+      ]
+    },
+    {
+      "concept": "company eureka labs",
+      "count": 1,
+      "evidence": [
+        "company eureka labs"
+      ]
+    },
+    {
+      "concept": "dramatically fucked",
+      "count": 1,
+      "evidence": [
+        "dramatically fucked"
+      ]
+    },
+    {
+      "concept": "never cared quality",
+      "count": 1,
+      "evidence": [
+        "never cared quality"
+      ]
+    },
+    {
+      "concept": "important objective",
+      "count": 1,
+      "evidence": [
+        "important objective"
+      ]
+    },
+    {
+      "concept": "equipped background",
+      "count": 1,
+      "evidence": [
+        "equipped background"
+      ]
+    },
+    {
+      "concept": "fucked don regulate",
+      "count": 1,
+      "evidence": [
+        "fucked don regulate"
+      ]
+    },
+    {
+      "concept": "positively use free",
+      "count": 1,
+      "evidence": [
+        "positively use free"
+      ]
+    },
+    {
+      "concept": "method confirm data",
+      "count": 1,
+      "evidence": [
+        "method confirm data"
+      ]
+    },
+    {
+      "concept": "solution only scary",
+      "count": 1,
+      "evidence": [
+        "solution only scary"
+      ]
+    },
+    {
+      "concept": "don steer direction",
+      "count": 1,
+      "evidence": [
+        "don steer direction"
+      ]
+    },
+    {
+      "concept": "steer direction all",
+      "count": 1,
+      "evidence": [
+        "steer direction all"
+      ]
+    },
+    {
+      "concept": "duplicates struggle",
+      "count": 1,
+      "evidence": [
+        "duplicates struggle"
+      ]
+    },
+    {
+      "concept": "reaching production",
+      "count": 1,
+      "evidence": [
+        "reaching production"
+      ]
+    },
+    {
+      "concept": "impressive spew lot",
+      "count": 1,
+      "evidence": [
+        "impressive spew lot"
+      ]
+    },
+    {
+      "concept": "often all optimised",
+      "count": 1,
+      "evidence": [
+        "often all optimised"
+      ]
+    },
+    {
+      "concept": "ready without debug",
+      "count": 1,
+      "evidence": [
+        "ready without debug"
+      ]
+    },
+    {
+      "concept": "importantly working",
+      "count": 1,
+      "evidence": [
+        "importantly working"
+      ]
+    },
+    {
+      "concept": "code thats probably",
+      "count": 1,
+      "evidence": [
+        "code thats probably"
+      ]
+    },
+    {
+      "concept": "most important most",
+      "count": 1,
+      "evidence": [
+        "most important most"
+      ]
+    },
+    {
+      "concept": "duplicate libraries",
+      "count": 1,
+      "evidence": [
+        "duplicate libraries"
+      ]
+    },
+    {
+      "concept": "discoveries physics",
+      "count": 1,
+      "evidence": [
+        "discoveries physics"
+      ]
+    },
+    {
+      "concept": "savants perform phd",
+      "count": 1,
+      "evidence": [
+        "savants perform phd"
+      ]
+    },
+    {
+      "concept": "phd students making",
+      "count": 1,
+      "evidence": [
+        "phd students making"
+      ]
+    },
+    {
+      "concept": "people derive sense",
+      "count": 1,
+      "evidence": [
+        "people derive sense"
+      ]
+    },
+    {
+      "concept": "andrej karpathy says",
+      "count": 1,
+      "evidence": [
+        "andrej karpathy says"
+      ]
+    },
+    {
+      "concept": "agents actually work",
+      "count": 1,
+      "evidence": [
+        "agents actually work"
+      ]
+    },
+    {
+      "concept": "agents barely worked",
+      "count": 1,
+      "evidence": [
+        "agents barely worked"
+      ]
+    },
+    {
+      "concept": "barely worked before",
+      "count": 1,
+      "evidence": [
+        "barely worked before"
+      ]
+    },
+    {
+      "concept": "before december 2026",
+      "count": 1,
+      "evidence": [
+        "before december 2026"
+      ]
+    },
+    {
+      "concept": "company owner saying",
+      "count": 1,
+      "evidence": [
+        "company owner saying"
+      ]
+    },
+    {
+      "concept": "saying good suprised",
+      "count": 1,
+      "evidence": [
+        "saying good suprised"
+      ]
+    },
+    {
+      "concept": "changed dramatically",
+      "count": 1,
+      "evidence": [
+        "changed dramatically"
+      ]
+    },
+    {
+      "concept": "something scientific",
+      "count": 1,
+      "evidence": [
+        "something scientific"
+      ]
+    },
+    {
+      "concept": "background knowledge",
+      "count": 1,
+      "evidence": [
+        "background knowledge"
+      ]
+    },
+    {
+      "concept": "learn positively use",
+      "count": 1,
+      "evidence": [
+        "learn positively use"
+      ]
+    },
+    {
+      "concept": "learning coexist new",
+      "count": 1,
+      "evidence": [
+        "learning coexist new"
+      ]
+    },
+    {
+      "concept": "optimised duplicates",
+      "count": 1,
+      "evidence": [
+        "optimised duplicates"
+      ]
+    },
+    {
+      "concept": "something thats most",
+      "count": 1,
+      "evidence": [
+        "something thats most"
+      ]
+    },
+    {
+      "concept": "thats most important",
+      "count": 1,
+      "evidence": [
+        "thats most important"
+      ]
+    },
+    {
+      "concept": "math savants perform",
+      "count": 1,
+      "evidence": [
+        "math savants perform"
+      ]
+    },
+    {
+      "concept": "perform phd students",
+      "count": 1,
+      "evidence": [
+        "perform phd students"
+      ]
+    },
+    {
+      "concept": "democratized explain",
+      "count": 1,
+      "evidence": [
+        "democratized explain"
+      ]
+    },
+    {
+      "concept": "arrive new workflows",
+      "count": 1,
+      "evidence": [
+        "arrive new workflows"
+      ]
+    },
+    {
+      "concept": "press invented 1500s",
+      "count": 1,
+      "evidence": [
+        "press invented 1500s"
+      ]
+    },
+    {
+      "concept": "unrecognizable agents",
+      "count": 1,
+      "evidence": [
+        "unrecognizable agents"
+      ]
+    },
+    {
+      "concept": "article know december",
+      "count": 1,
+      "evidence": [
+        "article know december"
+      ]
+    },
+    {
+      "concept": "good suprised pikachu",
+      "count": 1,
+      "evidence": [
+        "good suprised pikachu"
+      ]
+    },
+    {
+      "concept": "suprised pikachu face",
+      "count": 1,
+      "evidence": [
+        "suprised pikachu face"
+      ]
+    },
+    {
+      "concept": "engineer myself agree",
+      "count": 1,
+      "evidence": [
+        "engineer myself agree"
+      ]
+    },
+    {
+      "concept": "cared quality changed",
+      "count": 1,
+      "evidence": [
+        "cared quality changed"
+      ]
+    },
+    {
+      "concept": "misinformation online",
+      "count": 1,
+      "evidence": [
+        "misinformation online"
+      ]
+    },
+    {
+      "concept": "hard learning coexist",
+      "count": 1,
+      "evidence": [
+        "hard learning coexist"
+      ]
+    },
+    {
+      "concept": "confirm data equipped",
+      "count": 1,
+      "evidence": [
+        "confirm data equipped"
+      ]
+    },
+    {
+      "concept": "direction all benefit",
+      "count": 1,
+      "evidence": [
+        "direction all benefit"
+      ]
+    },
+    {
+      "concept": "code more importantly",
+      "count": 1,
+      "evidence": [
+        "code more importantly"
+      ]
+    },
+    {
+      "concept": "most employers agents",
+      "count": 1,
+      "evidence": [
+        "most employers agents"
+      ]
+    },
+    {
+      "concept": "employers agents only",
+      "count": 1,
+      "evidence": [
+        "employers agents only"
+      ]
+    },
+    {
+      "concept": "smarter everyone else",
+      "count": 1,
+      "evidence": [
+        "smarter everyone else"
+      ]
+    },
+    {
+      "concept": "invented 1500s people",
+      "count": 1,
+      "evidence": [
+        "invented 1500s people"
+      ]
+    },
+    {
+      "concept": "different write whole",
+      "count": 1,
+      "evidence": [
+        "different write whole"
+      ]
+    },
+    {
+      "concept": "karpathy agents barely",
+      "count": 1,
+      "evidence": [
+        "karpathy agents barely"
+      ]
+    },
+    {
+      "concept": "worked before december",
+      "count": 1,
+      "evidence": [
+        "worked before december"
+      ]
+    },
+    {
+      "concept": "december 2026 happened",
+      "count": 1,
+      "evidence": [
+        "december 2026 happened"
+      ]
+    },
+    {
+      "concept": "says created education",
+      "count": 1,
+      "evidence": [
+        "says created education"
+      ]
+    },
+    {
+      "concept": "coding term attributed",
+      "count": 1,
+      "evidence": [
+        "coding term attributed"
+      ]
+    },
+    {
+      "concept": "focusing hard learning",
+      "count": 1,
+      "evidence": [
+        "focusing hard learning"
+      ]
+    },
+    {
+      "concept": "knowledge flawless way",
+      "count": 1,
+      "evidence": [
+        "knowledge flawless way"
+      ]
+    },
+    {
+      "concept": "together come solution",
+      "count": 1,
+      "evidence": [
+        "together come solution"
+      ]
+    },
+    {
+      "concept": "though impressive spew",
+      "count": 1,
+      "evidence": [
+        "though impressive spew"
+      ]
+    },
+    {
+      "concept": "sense self-worth being",
+      "count": 1,
+      "evidence": [
+        "sense self-worth being"
+      ]
+    },
+    {
+      "concept": "being smarter everyone",
+      "count": 1,
+      "evidence": [
+        "being smarter everyone"
+      ]
+    },
+    {
+      "concept": "else intelligence been",
+      "count": 1,
+      "evidence": [
+        "else intelligence been"
+      ]
+    },
+    {
+      "concept": "calculator outperforms",
+      "count": 1,
+      "evidence": [
+        "calculator outperforms"
+      ]
+    },
+    {
+      "concept": "new workflows printing",
+      "count": 1,
+      "evidence": [
+        "new workflows printing"
+      ]
+    },
+    {
+      "concept": "large digit arithmetic",
+      "count": 1,
+      "evidence": [
+        "large digit arithmetic"
+      ]
+    },
+    {
+      "concept": "digit arithmetic heads",
+      "count": 1,
+      "evidence": [
+        "digit arithmetic heads"
+      ]
+    },
+    {
+      "concept": "company andrej karpathy",
+      "count": 1,
+      "evidence": [
+        "company andrej karpathy"
+      ]
+    },
+    {
+      "concept": "add duplicate libraries",
+      "count": 1,
+      "evidence": [
+        "add duplicate libraries"
+      ]
+    },
+    {
+      "concept": "derive sense self-worth",
+      "count": 1,
+      "evidence": [
+        "derive sense self-worth"
+      ]
+    },
+    {
+      "concept": "printing press invented",
+      "count": 1,
+      "evidence": [
+        "printing press invented"
+      ]
+    },
+    {
+      "concept": "heads anymore different",
+      "count": 1,
+      "evidence": [
+        "heads anymore different"
+      ]
+    },
+    {
+      "concept": "anymore different write",
+      "count": 1,
+      "evidence": [
+        "anymore different write"
+      ]
+    },
+    {
+      "concept": "education company eureka",
+      "count": 1,
+      "evidence": [
+        "education company eureka"
+      ]
+    },
+    {
+      "concept": "software engineer myself",
+      "count": 1,
+      "evidence": [
+        "software engineer myself"
+      ]
+    },
+    {
+      "concept": "eliminate misinformation",
+      "count": 1,
+      "evidence": [
+        "eliminate misinformation"
+      ]
+    },
+    {
+      "concept": "more important objective",
+      "count": 1,
+      "evidence": [
+        "more important objective"
+      ]
+    },
+    {
+      "concept": "objective start envision",
+      "count": 1,
+      "evidence": [
+        "objective start envision"
+      ]
+    },
+    {
+      "concept": "start envision something",
+      "count": 1,
+      "evidence": [
+        "start envision something"
+      ]
+    },
+    {
+      "concept": "data equipped background",
+      "count": 1,
+      "evidence": [
+        "data equipped background"
+      ]
+    },
+    {
+      "concept": "all optimised duplicates",
+      "count": 1,
+      "evidence": [
+        "all optimised duplicates"
+      ]
+    },
+    {
+      "concept": "production ready without",
+      "count": 1,
+      "evidence": [
+        "production ready without"
+      ]
+    },
+    {
+      "concept": "more importantly working",
+      "count": 1,
+      "evidence": [
+        "more importantly working"
+      ]
+    },
+    {
+      "concept": "importantly working code",
+      "count": 1,
+      "evidence": [
+        "importantly working code"
+      ]
+    },
+    {
+      "concept": "thats probably something",
+      "count": 1,
+      "evidence": [
+        "thats probably something"
+      ]
+    },
+    {
+      "concept": "probably something thats",
+      "count": 1,
+      "evidence": [
+        "probably something thats"
+      ]
+    },
+    {
+      "concept": "important most employers",
+      "count": 1,
+      "evidence": [
+        "important most employers"
+      ]
+    },
+    {
+      "concept": "duplicate libraries call",
+      "count": 1,
+      "evidence": [
+        "duplicate libraries call"
+      ]
+    },
+    {
+      "concept": "self-worth being smarter",
+      "count": 1,
+      "evidence": [
+        "self-worth being smarter"
+      ]
+    },
+    {
+      "concept": "outperforms phd students",
+      "count": 1,
+      "evidence": [
+        "outperforms phd students"
+      ]
+    },
+    {
+      "concept": "workflows printing press",
+      "count": 1,
+      "evidence": [
+        "workflows printing press"
+      ]
+    },
+    {
+      "concept": "arithmetic heads anymore",
+      "count": 1,
+      "evidence": [
+        "arithmetic heads anymore"
+      ]
+    },
+    {
+      "concept": "karpathy says programming",
+      "count": 1,
+      "evidence": [
+        "karpathy says programming"
+      ]
+    },
+    {
+      "concept": "according karpathy agents",
+      "count": 1,
+      "evidence": [
+        "according karpathy agents"
+      ]
+    },
+    {
+      "concept": "created education company",
+      "count": 1,
+      "evidence": [
+        "created education company"
+      ]
+    },
+    {
+      "concept": "regulate learn positively",
+      "count": 1,
+      "evidence": [
+        "regulate learn positively"
+      ]
+    },
+    {
+      "concept": "misinformation online see",
+      "count": 1,
+      "evidence": [
+        "misinformation online see"
+      ]
+    },
+    {
+      "concept": "important objective start",
+      "count": 1,
+      "evidence": [
+        "important objective start"
+      ]
+    },
+    {
+      "concept": "scientific method confirm",
+      "count": 1,
+      "evidence": [
+        "scientific method confirm"
+      ]
+    },
+    {
+      "concept": "reaching production ready",
+      "count": 1,
+      "evidence": [
+        "reaching production ready"
+      ]
+    },
+    {
+      "concept": "been democratized explain",
+      "count": 1,
+      "evidence": [
+        "been democratized explain"
+      ]
+    },
+    {
+      "concept": "calculator limited narrow",
+      "count": 1,
+      "evidence": [
+        "calculator limited narrow"
+      ]
+    },
+    {
+      "concept": "programming unrecognizable",
+      "count": 1,
+      "evidence": [
+        "programming unrecognizable"
+      ]
+    },
+    {
+      "concept": "making discoveries physics",
+      "count": 1,
+      "evidence": [
+        "making discoveries physics"
+      ]
+    },
+    {
+      "concept": "discoveries physics wonder",
+      "count": 1,
+      "evidence": [
+        "discoveries physics wonder"
+      ]
+    },
+    {
+      "concept": "everyone else intelligence",
+      "count": 1,
+      "evidence": [
+        "everyone else intelligence"
+      ]
+    },
+    {
+      "concept": "calculator outperforms phd",
+      "count": 1,
+      "evidence": [
+        "calculator outperforms phd"
+      ]
+    },
+    {
+      "concept": "changed dramatically fucked",
+      "count": 1,
+      "evidence": [
+        "changed dramatically fucked"
+      ]
+    },
+    {
+      "concept": "something scientific method",
+      "count": 1,
+      "evidence": [
+        "something scientific method"
+      ]
+    },
+    {
+      "concept": "students making discoveries",
+      "count": 1,
+      "evidence": [
+        "students making discoveries"
+      ]
+    },
+    {
+      "concept": "fwiw calculator outperforms",
+      "count": 1,
+      "evidence": [
+        "fwiw calculator outperforms"
+      ]
+    },
+    {
+      "concept": "quality changed dramatically",
+      "count": 1,
+      "evidence": [
+        "quality changed dramatically"
+      ]
+    },
+    {
+      "concept": "use eliminate misinformation",
+      "count": 1,
+      "evidence": [
+        "use eliminate misinformation"
+      ]
+    },
+    {
+      "concept": "duplicates struggle reaching",
+      "count": 1,
+      "evidence": [
+        "duplicates struggle reaching"
+      ]
+    },
+    {
+      "concept": "struggle reaching production",
+      "count": 1,
+      "evidence": [
+        "struggle reaching production"
+      ]
+    },
+    {
+      "concept": "envision something scientific",
+      "count": 1,
+      "evidence": [
+        "envision something scientific"
+      ]
+    },
+    {
+      "concept": "equipped background knowledge",
+      "count": 1,
+      "evidence": [
+        "equipped background knowledge"
+      ]
+    },
+    {
+      "concept": "background knowledge flawless",
+      "count": 1,
+      "evidence": [
+        "background knowledge flawless"
+      ]
+    },
+    {
+      "concept": "optimised duplicates struggle",
+      "count": 1,
+      "evidence": [
+        "optimised duplicates struggle"
+      ]
+    },
+    {
+      "concept": "unrecognizable agents actually",
+      "count": 1,
+      "evidence": [
+        "unrecognizable agents actually"
+      ]
+    },
+    {
+      "concept": "says programming unrecognizable",
+      "count": 1,
+      "evidence": [
+        "says programming unrecognizable"
+      ]
+    },
+    {
+      "concept": "eliminate misinformation online",
+      "count": 1,
+      "evidence": [
+        "eliminate misinformation online"
+      ]
+    },
+    {
+      "concept": "programming unrecognizable agents",
+      "count": 1,
+      "evidence": [
+        "programming unrecognizable agents"
+      ]
+    }
+  ],
+  "repeated_concepts": [
+    {
+      "concept": "technician availability",
+      "count": 6,
+      "evidence": [
+        "technology",
+        "new technology",
+        "technology focusing",
+        "any new technology",
+        "new technology focusing",
+        "technology focusing hard"
+      ]
+    },
+    {
+      "concept": "code",
+      "count": 4,
+      "evidence": [
+        "code"
+      ]
+    },
+    {
+      "concept": "only",
+      "count": 3,
+      "evidence": [
+        "only"
+      ]
+    },
+    {
+      "concept": "more",
+      "count": 3,
+      "evidence": [
+        "more"
+      ]
+    },
+    {
+      "concept": "agents",
+      "count": 3,
+      "evidence": [
+        "agents"
+      ]
+    },
+    {
+      "concept": "company",
+      "count": 3,
+      "evidence": [
+        "company"
+      ]
+    },
+    {
+      "concept": "karpathy",
+      "count": 3,
+      "evidence": [
+        "karpathy"
+      ]
+    },
+    {
+      "concept": "says",
+      "count": 2,
+      "evidence": [
+        "says"
+      ]
+    },
+    {
+      "concept": "2026",
+      "count": 2,
+      "evidence": [
+        "2026"
+      ]
+    },
+    {
+      "concept": "come",
+      "count": 2,
+      "evidence": [
+        "come"
+      ]
+    },
+    {
+      "concept": "most",
+      "count": 2,
+      "evidence": [
+        "most"
+      ]
+    },
+    {
+      "concept": "been",
+      "count": 2,
+      "evidence": [
+        "been"
+      ]
+    },
+    {
+      "concept": "thats",
+      "count": 2,
+      "evidence": [
+        "thats"
+      ]
+    },
+    {
+      "concept": "tools",
+      "count": 2,
+      "evidence": [
+        "tools"
+      ]
+    },
+    {
+      "concept": "andrej",
+      "count": 2,
+      "evidence": [
+        "andrej"
+      ]
+    },
+    {
+      "concept": "saying",
+      "count": 2,
+      "evidence": [
+        "saying"
+      ]
+    },
+    {
+      "concept": "fucked",
+      "count": 2,
+      "evidence": [
+        "fucked"
+      ]
+    },
+    {
+      "concept": "people",
+      "count": 2,
+      "evidence": [
+        "people"
+      ]
+    },
+    {
+      "concept": "december",
+      "count": 2,
+      "evidence": [
+        "december"
+      ]
+    },
+    {
+      "concept": "students",
+      "count": 2,
+      "evidence": [
+        "students"
+      ]
+    },
+    {
+      "concept": "important",
+      "count": 2,
+      "evidence": [
+        "important"
+      ]
+    },
+    {
+      "concept": "something",
+      "count": 2,
+      "evidence": [
+        "something"
+      ]
+    },
+    {
+      "concept": "calculator",
+      "count": 2,
+      "evidence": [
+        "calculator"
+      ]
+    },
+    {
+      "concept": "intelligence",
+      "count": 2,
+      "evidence": [
+        "intelligence"
+      ]
+    },
+    {
+      "concept": "democratized",
+      "count": 2,
+      "evidence": [
+        "democratized"
+      ]
+    },
+    {
+      "concept": "phd students",
+      "count": 2,
+      "evidence": [
+        "phd students"
+      ]
+    },
+    {
+      "concept": "december 2026",
+      "count": 2,
+      "evidence": [
+        "december 2026"
+      ]
+    },
+    {
+      "concept": "andrej karpathy",
+      "count": 2,
+      "evidence": [
+        "andrej karpathy"
+      ]
+    },
+    {
+      "concept": "intelligence been",
+      "count": 2,
+      "evidence": [
+        "intelligence been"
+      ]
+    },
+    {
+      "concept": "been democratized",
+      "count": 2,
+      "evidence": [
+        "been democratized"
+      ]
+    },
+    {
+      "concept": "intelligence been democratized",
+      "count": 2,
+      "evidence": [
+        "intelligence been democratized"
+      ]
+    }
+  ],
+  "fetched_at_utc": "2026-04-19T15:49:31.317205+00:00"
+}

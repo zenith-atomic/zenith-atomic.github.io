@@ -1,0 +1,20 @@
+name: AI Tools Landscape
+query: >
+  What AI developer tools, coding assistants, and automation platforms are gaining traction
+  right now? What are builders talking about? What new tools launched recently?
+  What are the complaints about existing tools? Where is the category moving?
+focus:
+  - New tool launches and announcements
+  - Community sentiment on Twitter/X and Reddit
+  - YouTube creators covering AI tools (what's getting views)
+  - Pain points that no existing tool solves well
+  - Pricing and access model shifts
+sources:
+  - twitter
+  - youtube
+  - web
+  - reddit
+frequency: daily
+depth: standard
+notify: true
+status: active

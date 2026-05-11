@@ -1,0 +1,2000 @@
+2026-05-10 16:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:25:01 [health_monitor] gateway OK
+2026-05-10 16:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:25:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:25:01 [health_monitor] disk OK 45%
+2026-05-10 16:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:25:01 [health_monitor] health check failed
+[2026-05-10T16:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:30:01Z] START health_monitor
+2026-05-10 16:30:01 [health_monitor] starting health check
+2026-05-10 16:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:30:01 [health_monitor] gateway OK
+2026-05-10 16:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:30:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:30:01 [health_monitor] disk OK 45%
+2026-05-10 16:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:30:01 [health_monitor] health check failed
+[2026-05-10T16:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:35:01Z] START health_monitor
+2026-05-10 16:35:01 [health_monitor] starting health check
+2026-05-10 16:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:35:01 [health_monitor] gateway OK
+2026-05-10 16:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:35:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:35:01 [health_monitor] disk OK 45%
+2026-05-10 16:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:35:01 [health_monitor] health check failed
+[2026-05-10T16:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:40:01Z] START health_monitor
+2026-05-10 16:40:01 [health_monitor] starting health check
+2026-05-10 16:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:40:01 [health_monitor] gateway OK
+2026-05-10 16:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:40:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:40:01 [health_monitor] disk OK 45%
+2026-05-10 16:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:40:01 [health_monitor] health check failed
+[2026-05-10T16:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:45:01Z] START health_monitor
+2026-05-10 16:45:01 [health_monitor] starting health check
+2026-05-10 16:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:45:01 [health_monitor] gateway OK
+2026-05-10 16:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:45:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:45:01 [health_monitor] disk OK 45%
+2026-05-10 16:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:45:01 [health_monitor] health check failed
+[2026-05-10T16:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:50:01Z] START health_monitor
+2026-05-10 16:50:01 [health_monitor] starting health check
+2026-05-10 16:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:50:01 [health_monitor] gateway OK
+2026-05-10 16:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:50:01 [health_monitor] google-drive-mcp OK
+2026-05-10 16:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:50:01 [health_monitor] disk OK 45%
+2026-05-10 16:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:50:01 [health_monitor] health check failed
+[2026-05-10T16:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:55:01Z] START health_monitor
+2026-05-10 16:55:01 [health_monitor] starting health check
+2026-05-10 16:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 16:55:01 [health_monitor] gateway OK
+2026-05-10 16:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 16:55:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 16:55:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 16:55:02 [health_monitor] google-drive-mcp OK
+2026-05-10 16:55:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 16:55:02 [health_monitor] disk OK 45%
+2026-05-10 16:55:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 16:55:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 16:55:02 [health_monitor] health check failed
+[2026-05-10T16:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:00:01Z] START health_monitor
+2026-05-10 17:00:01 [health_monitor] starting health check
+2026-05-10 17:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:00:01 [health_monitor] gateway OK
+2026-05-10 17:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:00:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:00:01 [health_monitor] disk OK 45%
+2026-05-10 17:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:00:01 [health_monitor] health check failed
+[2026-05-10T17:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:05:01Z] START health_monitor
+2026-05-10 17:05:01 [health_monitor] starting health check
+2026-05-10 17:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:05:01 [health_monitor] gateway OK
+2026-05-10 17:05:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:05:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:05:01 [health_monitor] disk OK 45%
+2026-05-10 17:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:05:01 [health_monitor] health check failed
+[2026-05-10T17:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:10:01Z] START health_monitor
+2026-05-10 17:10:01 [health_monitor] starting health check
+2026-05-10 17:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:10:01 [health_monitor] gateway OK
+2026-05-10 17:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:10:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:10:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:10:02 [health_monitor] disk OK 45%
+2026-05-10 17:10:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:10:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:10:02 [health_monitor] health check failed
+[2026-05-10T17:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:15:01Z] START health_monitor
+2026-05-10 17:15:01 [health_monitor] starting health check
+2026-05-10 17:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:15:01 [health_monitor] gateway OK
+2026-05-10 17:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:15:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:15:01 [health_monitor] disk OK 45%
+2026-05-10 17:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:15:01 [health_monitor] health check failed
+[2026-05-10T17:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:20:01Z] START health_monitor
+2026-05-10 17:20:01 [health_monitor] starting health check
+2026-05-10 17:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:20:01 [health_monitor] gateway OK
+2026-05-10 17:20:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:20:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:20:01 [health_monitor] disk OK 45%
+2026-05-10 17:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:20:01 [health_monitor] health check failed
+[2026-05-10T17:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:25:01Z] START health_monitor
+2026-05-10 17:25:01 [health_monitor] starting health check
+2026-05-10 17:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:25:01 [health_monitor] gateway OK
+2026-05-10 17:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:25:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:25:01 [health_monitor] disk OK 45%
+2026-05-10 17:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:25:01 [health_monitor] health check failed
+[2026-05-10T17:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:30:01Z] START health_monitor
+2026-05-10 17:30:01 [health_monitor] starting health check
+2026-05-10 17:30:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:30:02 [health_monitor] gateway OK
+2026-05-10 17:30:02 [health_monitor] ollama not running, skipping
+2026-05-10 17:30:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:30:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:30:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:30:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:30:02 [health_monitor] disk OK 45%
+2026-05-10 17:30:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:30:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:30:02 [health_monitor] health check failed
+[2026-05-10T17:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:35:01Z] START health_monitor
+2026-05-10 17:35:01 [health_monitor] starting health check
+2026-05-10 17:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:35:01 [health_monitor] gateway OK
+2026-05-10 17:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:35:01 [health_monitor] disk OK 45%
+2026-05-10 17:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:35:01 [health_monitor] health check failed
+[2026-05-10T17:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:40:01Z] START health_monitor
+2026-05-10 17:40:01 [health_monitor] starting health check
+2026-05-10 17:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:40:01 [health_monitor] gateway OK
+2026-05-10 17:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:40:01 [health_monitor] disk OK 45%
+2026-05-10 17:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/health_monitor.log /home/ai/.openclaw/workspace/logs/cron/status.log
+2026-05-10 17:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:40:01 [health_monitor] health check failed
+[2026-05-10T17:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:45:01Z] START health_monitor
+2026-05-10 17:45:01 [health_monitor] starting health check
+2026-05-10 17:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:45:01 [health_monitor] gateway OK
+2026-05-10 17:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:45:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:45:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:45:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:45:02 [health_monitor] disk OK 45%
+2026-05-10 17:45:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:45:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:45:02 [health_monitor] health check failed
+[2026-05-10T17:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:50:01Z] START health_monitor
+2026-05-10 17:50:01 [health_monitor] starting health check
+2026-05-10 17:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:50:01 [health_monitor] gateway OK
+2026-05-10 17:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 17:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:50:01 [health_monitor] disk OK 45%
+2026-05-10 17:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:50:01 [health_monitor] health check failed
+[2026-05-10T17:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:55:01Z] START health_monitor
+2026-05-10 17:55:01 [health_monitor] starting health check
+2026-05-10 17:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 17:55:01 [health_monitor] gateway OK
+2026-05-10 17:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 17:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 17:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 17:55:01 [health_monitor] google-drive-mcp OK
+2026-05-10 17:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 17:55:01 [health_monitor] disk OK 45%
+2026-05-10 17:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 17:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 17:55:01 [health_monitor] health check failed
+[2026-05-10T17:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:00:01Z] START health_monitor
+2026-05-10 18:00:01 [health_monitor] starting health check
+2026-05-10 18:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:00:01 [health_monitor] gateway OK
+2026-05-10 18:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:00:01 [health_monitor] google-drive-mcp OK
+2026-05-10 18:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:00:01 [health_monitor] disk OK 45%
+2026-05-10 18:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:00:01 [health_monitor] health check failed
+[2026-05-10T18:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:05:01Z] START health_monitor
+2026-05-10 18:05:01 [health_monitor] starting health check
+2026-05-10 18:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:05:01 [health_monitor] gateway OK
+2026-05-10 18:05:02 [health_monitor] ollama not running, skipping
+2026-05-10 18:05:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:05:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:05:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:05:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:05:02 [health_monitor] disk OK 45%
+2026-05-10 18:05:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:05:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:05:02 [health_monitor] health check failed
+[2026-05-10T18:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:10:01Z] START health_monitor
+2026-05-10 18:10:01 [health_monitor] starting health check
+2026-05-10 18:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:10:01 [health_monitor] gateway OK
+2026-05-10 18:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:10:01 [health_monitor] disk OK 45%
+2026-05-10 18:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:10:01 [health_monitor] health check failed
+[2026-05-10T18:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:15:01Z] START health_monitor
+2026-05-10 18:15:01 [health_monitor] starting health check
+2026-05-10 18:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:15:01 [health_monitor] gateway OK
+2026-05-10 18:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:15:01 [health_monitor] disk OK 45%
+2026-05-10 18:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:15:01 [health_monitor] health check failed
+[2026-05-10T18:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:20:01Z] START health_monitor
+2026-05-10 18:20:01 [health_monitor] starting health check
+2026-05-10 18:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:20:01 [health_monitor] gateway OK
+2026-05-10 18:20:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:20:01 [health_monitor] disk OK 45%
+2026-05-10 18:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:20:01 [health_monitor] health check failed
+[2026-05-10T18:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:25:02Z] START health_monitor
+2026-05-10 18:25:02 [health_monitor] starting health check
+2026-05-10 18:25:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:25:02 [health_monitor] gateway OK
+2026-05-10 18:25:02 [health_monitor] ollama not running, skipping
+2026-05-10 18:25:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:25:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:25:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:25:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:25:02 [health_monitor] disk OK 45%
+2026-05-10 18:25:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:25:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:25:02 [health_monitor] health check failed
+[2026-05-10T18:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:30:01Z] START health_monitor
+2026-05-10 18:30:01 [health_monitor] starting health check
+2026-05-10 18:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:30:01 [health_monitor] gateway OK
+2026-05-10 18:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:30:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:30:01 [health_monitor] disk OK 45%
+2026-05-10 18:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:30:01 [health_monitor] health check failed
+[2026-05-10T18:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:35:01Z] START health_monitor
+2026-05-10 18:35:01 [health_monitor] starting health check
+2026-05-10 18:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:35:01 [health_monitor] gateway OK
+2026-05-10 18:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:35:01 [health_monitor] disk OK 45%
+2026-05-10 18:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:35:01 [health_monitor] health check failed
+[2026-05-10T18:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:40:01Z] START health_monitor
+2026-05-10 18:40:01 [health_monitor] starting health check
+2026-05-10 18:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:40:01 [health_monitor] gateway OK
+2026-05-10 18:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:40:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:40:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:40:02 [health_monitor] disk OK 45%
+2026-05-10 18:40:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:40:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:40:02 [health_monitor] health check failed
+[2026-05-10T18:40:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:45:01Z] START health_monitor
+2026-05-10 18:45:01 [health_monitor] starting health check
+2026-05-10 18:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:45:01 [health_monitor] gateway OK
+2026-05-10 18:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:45:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:45:01 [health_monitor] disk OK 45%
+2026-05-10 18:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:45:01 [health_monitor] health check failed
+[2026-05-10T18:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:50:01Z] START health_monitor
+2026-05-10 18:50:01 [health_monitor] starting health check
+2026-05-10 18:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:50:01 [health_monitor] gateway OK
+2026-05-10 18:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:50:01 [health_monitor] disk OK 45%
+2026-05-10 18:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:50:01 [health_monitor] health check failed
+[2026-05-10T18:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:55:01Z] START health_monitor
+2026-05-10 18:55:01 [health_monitor] starting health check
+2026-05-10 18:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 18:55:01 [health_monitor] gateway OK
+2026-05-10 18:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 18:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 18:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 18:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 18:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 18:55:01 [health_monitor] disk OK 45%
+2026-05-10 18:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 18:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 18:55:01 [health_monitor] health check failed
+[2026-05-10T18:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:00:01Z] START health_monitor
+2026-05-10 19:00:01 [health_monitor] starting health check
+2026-05-10 19:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:00:01 [health_monitor] gateway OK
+2026-05-10 19:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:00:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:00:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:00:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:00:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:00:02 [health_monitor] disk OK 45%
+2026-05-10 19:00:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:00:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:00:02 [health_monitor] health check failed
+[2026-05-10T19:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:05:01Z] START health_monitor
+2026-05-10 19:05:01 [health_monitor] starting health check
+2026-05-10 19:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:05:01 [health_monitor] gateway OK
+2026-05-10 19:05:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:05:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:05:01 [health_monitor] disk OK 45%
+2026-05-10 19:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:05:01 [health_monitor] health check failed
+[2026-05-10T19:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:10:01Z] START health_monitor
+2026-05-10 19:10:01 [health_monitor] starting health check
+2026-05-10 19:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:10:01 [health_monitor] gateway OK
+2026-05-10 19:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:10:01 [health_monitor] disk OK 45%
+2026-05-10 19:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:10:01 [health_monitor] health check failed
+[2026-05-10T19:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:15:01Z] START health_monitor
+2026-05-10 19:15:01 [health_monitor] starting health check
+2026-05-10 19:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:15:01 [health_monitor] gateway OK
+2026-05-10 19:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:15:01 [health_monitor] disk OK 45%
+2026-05-10 19:15:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:15:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:15:02 [health_monitor] health check failed
+[2026-05-10T19:15:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:20:01Z] START health_monitor
+2026-05-10 19:20:01 [health_monitor] starting health check
+2026-05-10 19:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:20:01 [health_monitor] gateway OK
+2026-05-10 19:20:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:20:01 [health_monitor] disk OK 45%
+2026-05-10 19:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:20:01 [health_monitor] health check failed
+[2026-05-10T19:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:25:01Z] START health_monitor
+2026-05-10 19:25:01 [health_monitor] starting health check
+2026-05-10 19:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:25:01 [health_monitor] gateway OK
+2026-05-10 19:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:25:01 [health_monitor] google-drive-mcp OK
+2026-05-10 19:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:25:01 [health_monitor] disk OK 45%
+2026-05-10 19:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:25:01 [health_monitor] health check failed
+[2026-05-10T19:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:30:01Z] START health_monitor
+2026-05-10 19:30:01 [health_monitor] starting health check
+2026-05-10 19:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:30:01 [health_monitor] gateway OK
+2026-05-10 19:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:30:01 [health_monitor] google-drive-mcp OK
+2026-05-10 19:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:30:01 [health_monitor] disk OK 45%
+2026-05-10 19:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:30:01 [health_monitor] health check failed
+[2026-05-10T19:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:35:01Z] START health_monitor
+2026-05-10 19:35:01 [health_monitor] starting health check
+2026-05-10 19:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:35:01 [health_monitor] gateway OK
+2026-05-10 19:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:35:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:35:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:35:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:35:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:35:02 [health_monitor] disk OK 45%
+2026-05-10 19:35:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:35:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:35:02 [health_monitor] health check failed
+[2026-05-10T19:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:40:01Z] START health_monitor
+2026-05-10 19:40:01 [health_monitor] starting health check
+2026-05-10 19:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:40:01 [health_monitor] gateway OK
+2026-05-10 19:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:40:01 [health_monitor] google-drive-mcp OK
+2026-05-10 19:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:40:01 [health_monitor] disk OK 45%
+2026-05-10 19:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:40:01 [health_monitor] health check failed
+[2026-05-10T19:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:45:01Z] START health_monitor
+2026-05-10 19:45:01 [health_monitor] starting health check
+2026-05-10 19:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:45:01 [health_monitor] gateway OK
+2026-05-10 19:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:45:01 [health_monitor] google-drive-mcp OK
+2026-05-10 19:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:45:01 [health_monitor] disk OK 45%
+2026-05-10 19:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:45:01 [health_monitor] health check failed
+[2026-05-10T19:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:50:01Z] START health_monitor
+2026-05-10 19:50:01 [health_monitor] starting health check
+2026-05-10 19:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:50:01 [health_monitor] gateway OK
+2026-05-10 19:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:50:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:50:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:50:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:50:02 [health_monitor] disk OK 45%
+2026-05-10 19:50:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:50:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:50:02 [health_monitor] health check failed
+[2026-05-10T19:50:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:55:01Z] START health_monitor
+2026-05-10 19:55:01 [health_monitor] starting health check
+2026-05-10 19:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 19:55:01 [health_monitor] gateway OK
+2026-05-10 19:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 19:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 19:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 19:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 19:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 19:55:01 [health_monitor] disk OK 45%
+2026-05-10 19:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 19:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 19:55:01 [health_monitor] health check failed
+[2026-05-10T19:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:00:01Z] START health_monitor
+2026-05-10 20:00:01 [health_monitor] starting health check
+2026-05-10 20:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:00:01 [health_monitor] gateway OK
+2026-05-10 20:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:00:01 [health_monitor] disk OK 45%
+2026-05-10 20:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:00:01 [health_monitor] health check failed
+[2026-05-10T20:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:05:01Z] START health_monitor
+2026-05-10 20:05:01 [health_monitor] starting health check
+2026-05-10 20:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:05:01 [health_monitor] gateway OK
+2026-05-10 20:05:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:05:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:05:01 [health_monitor] disk OK 45%
+2026-05-10 20:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:05:01 [health_monitor] health check failed
+[2026-05-10T20:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:10:01Z] START health_monitor
+2026-05-10 20:10:02 [health_monitor] starting health check
+2026-05-10 20:10:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:10:02 [health_monitor] gateway OK
+2026-05-10 20:10:02 [health_monitor] ollama not running, skipping
+2026-05-10 20:10:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:10:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:10:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:10:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:10:02 [health_monitor] disk OK 45%
+2026-05-10 20:10:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:10:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:10:02 [health_monitor] health check failed
+[2026-05-10T20:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:15:01Z] START health_monitor
+2026-05-10 20:15:01 [health_monitor] starting health check
+2026-05-10 20:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:15:01 [health_monitor] gateway OK
+2026-05-10 20:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:15:01 [health_monitor] disk OK 45%
+2026-05-10 20:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:15:01 [health_monitor] health check failed
+[2026-05-10T20:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:20:01Z] START health_monitor
+2026-05-10 20:20:01 [health_monitor] starting health check
+2026-05-10 20:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:20:01 [health_monitor] gateway OK
+2026-05-10 20:20:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:20:01 [health_monitor] disk OK 45%
+2026-05-10 20:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:20:01 [health_monitor] health check failed
+[2026-05-10T20:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:25:01Z] START health_monitor
+2026-05-10 20:25:01 [health_monitor] starting health check
+2026-05-10 20:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:25:01 [health_monitor] gateway OK
+2026-05-10 20:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:25:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:25:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:25:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:25:02 [health_monitor] disk OK 45%
+2026-05-10 20:25:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:25:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:25:02 [health_monitor] health check failed
+[2026-05-10T20:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:30:01Z] START health_monitor
+2026-05-10 20:30:01 [health_monitor] starting health check
+2026-05-10 20:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:30:01 [health_monitor] gateway OK
+2026-05-10 20:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:30:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:30:01 [health_monitor] disk OK 45%
+2026-05-10 20:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:30:01 [health_monitor] health check failed
+[2026-05-10T20:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:35:01Z] START health_monitor
+2026-05-10 20:35:01 [health_monitor] starting health check
+2026-05-10 20:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:35:01 [health_monitor] gateway OK
+2026-05-10 20:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:35:01 [health_monitor] disk OK 45%
+2026-05-10 20:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:35:01 [health_monitor] health check failed
+[2026-05-10T20:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:40:01Z] START health_monitor
+2026-05-10 20:40:01 [health_monitor] starting health check
+2026-05-10 20:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:40:01 [health_monitor] gateway OK
+2026-05-10 20:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:40:01 [health_monitor] disk OK 45%
+2026-05-10 20:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:40:01 [health_monitor] health check failed
+[2026-05-10T20:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:45:02Z] START health_monitor
+2026-05-10 20:45:02 [health_monitor] starting health check
+2026-05-10 20:45:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:45:02 [health_monitor] gateway OK
+2026-05-10 20:45:02 [health_monitor] ollama not running, skipping
+2026-05-10 20:45:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:45:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:45:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:45:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:45:02 [health_monitor] disk OK 45%
+2026-05-10 20:45:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:45:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:45:02 [health_monitor] health check failed
+[2026-05-10T20:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:50:01Z] START health_monitor
+2026-05-10 20:50:01 [health_monitor] starting health check
+2026-05-10 20:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:50:01 [health_monitor] gateway OK
+2026-05-10 20:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:50:01 [health_monitor] disk OK 45%
+2026-05-10 20:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:50:01 [health_monitor] health check failed
+[2026-05-10T20:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:55:01Z] START health_monitor
+2026-05-10 20:55:01 [health_monitor] starting health check
+2026-05-10 20:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 20:55:01 [health_monitor] gateway OK
+2026-05-10 20:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 20:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 20:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 20:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 20:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 20:55:01 [health_monitor] disk OK 45%
+2026-05-10 20:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 20:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 20:55:01 [health_monitor] health check failed
+[2026-05-10T20:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:00:01Z] START health_monitor
+2026-05-10 21:00:01 [health_monitor] starting health check
+2026-05-10 21:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:00:01 [health_monitor] gateway OK
+2026-05-10 21:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:00:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:00:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:00:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:00:02 [health_monitor] disk OK 45%
+2026-05-10 21:00:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:00:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:00:02 [health_monitor] health check failed
+[2026-05-10T21:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:05:01Z] START health_monitor
+2026-05-10 21:05:01 [health_monitor] starting health check
+2026-05-10 21:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:05:01 [health_monitor] gateway OK
+2026-05-10 21:05:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:05:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:05:01 [health_monitor] disk OK 45%
+2026-05-10 21:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:05:01 [health_monitor] health check failed
+[2026-05-10T21:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:10:01Z] START health_monitor
+2026-05-10 21:10:01 [health_monitor] starting health check
+2026-05-10 21:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:10:01 [health_monitor] gateway OK
+2026-05-10 21:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:10:01 [health_monitor] disk OK 45%
+2026-05-10 21:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:10:01 [health_monitor] health check failed
+[2026-05-10T21:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:15:01Z] START health_monitor
+2026-05-10 21:15:01 [health_monitor] starting health check
+2026-05-10 21:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:15:01 [health_monitor] gateway OK
+2026-05-10 21:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:15:01 [health_monitor] disk OK 45%
+2026-05-10 21:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:15:01 [health_monitor] health check failed
+[2026-05-10T21:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:20:02Z] START health_monitor
+2026-05-10 21:20:02 [health_monitor] starting health check
+2026-05-10 21:20:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:20:02 [health_monitor] gateway OK
+2026-05-10 21:20:02 [health_monitor] ollama not running, skipping
+2026-05-10 21:20:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:20:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:20:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:20:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:20:02 [health_monitor] disk OK 45%
+2026-05-10 21:20:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:20:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:20:02 [health_monitor] health check failed
+[2026-05-10T21:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:25:01Z] START health_monitor
+2026-05-10 21:25:01 [health_monitor] starting health check
+2026-05-10 21:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:25:01 [health_monitor] gateway OK
+2026-05-10 21:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:25:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:25:01 [health_monitor] disk OK 45%
+2026-05-10 21:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:25:01 [health_monitor] health check failed
+[2026-05-10T21:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:30:01Z] START health_monitor
+2026-05-10 21:30:01 [health_monitor] starting health check
+2026-05-10 21:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:30:01 [health_monitor] gateway OK
+2026-05-10 21:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:30:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:30:01 [health_monitor] disk OK 45%
+2026-05-10 21:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:30:01 [health_monitor] health check failed
+[2026-05-10T21:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:35:01Z] START health_monitor
+2026-05-10 21:35:01 [health_monitor] starting health check
+2026-05-10 21:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:35:01 [health_monitor] gateway OK
+2026-05-10 21:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:35:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:35:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:35:02 [health_monitor] disk OK 45%
+2026-05-10 21:35:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:35:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:35:02 [health_monitor] health check failed
+[2026-05-10T21:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:40:01Z] START health_monitor
+2026-05-10 21:40:01 [health_monitor] starting health check
+2026-05-10 21:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:40:01 [health_monitor] gateway OK
+2026-05-10 21:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:40:01 [health_monitor] disk OK 45%
+2026-05-10 21:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:40:01 [health_monitor] health check failed
+[2026-05-10T21:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:45:01Z] START health_monitor
+2026-05-10 21:45:01 [health_monitor] starting health check
+2026-05-10 21:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:45:01 [health_monitor] gateway OK
+2026-05-10 21:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:45:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:45:01 [health_monitor] disk OK 45%
+2026-05-10 21:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/health_monitor.log /home/ai/.openclaw/workspace/logs/cron/status.log
+2026-05-10 21:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:45:01 [health_monitor] health check failed
+[2026-05-10T21:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:50:01Z] START health_monitor
+2026-05-10 21:50:01 [health_monitor] starting health check
+2026-05-10 21:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:50:01 [health_monitor] gateway OK
+2026-05-10 21:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 21:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:50:01 [health_monitor] disk OK 45%
+2026-05-10 21:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:50:01 [health_monitor] health check failed
+[2026-05-10T21:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:55:01Z] START health_monitor
+2026-05-10 21:55:01 [health_monitor] starting health check
+2026-05-10 21:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 21:55:01 [health_monitor] gateway OK
+2026-05-10 21:55:02 [health_monitor] ollama not running, skipping
+2026-05-10 21:55:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 21:55:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 21:55:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 21:55:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 21:55:02 [health_monitor] disk OK 45%
+2026-05-10 21:55:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 21:55:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 21:55:02 [health_monitor] health check failed
+[2026-05-10T21:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:00:01Z] START health_monitor
+2026-05-10 22:00:01 [health_monitor] starting health check
+2026-05-10 22:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:00:01 [health_monitor] gateway OK
+2026-05-10 22:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:00:01 [health_monitor] disk OK 45%
+2026-05-10 22:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:00:01 [health_monitor] health check failed
+[2026-05-10T22:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:05:01Z] START health_monitor
+2026-05-10 22:05:01 [health_monitor] starting health check
+2026-05-10 22:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:05:01 [health_monitor] gateway OK
+2026-05-10 22:05:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:05:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:05:01 [health_monitor] disk OK 45%
+2026-05-10 22:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:05:01 [health_monitor] health check failed
+[2026-05-10T22:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:10:01Z] START health_monitor
+2026-05-10 22:10:01 [health_monitor] starting health check
+2026-05-10 22:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:10:01 [health_monitor] gateway OK
+2026-05-10 22:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:10:01 [health_monitor] disk OK 45%
+2026-05-10 22:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:10:01 [health_monitor] health check failed
+[2026-05-10T22:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:15:01Z] START health_monitor
+2026-05-10 22:15:01 [health_monitor] starting health check
+2026-05-10 22:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:15:01 [health_monitor] gateway OK
+2026-05-10 22:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:15:01 [health_monitor] disk OK 45%
+2026-05-10 22:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:15:01 [health_monitor] health check failed
+[2026-05-10T22:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:20:01Z] START health_monitor
+2026-05-10 22:20:01 [health_monitor] starting health check
+2026-05-10 22:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:20:01 [health_monitor] gateway OK
+2026-05-10 22:20:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:20:01 [health_monitor] disk OK 45%
+2026-05-10 22:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:20:01 [health_monitor] health check failed
+[2026-05-10T22:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:25:01Z] START health_monitor
+2026-05-10 22:25:01 [health_monitor] starting health check
+2026-05-10 22:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:25:01 [health_monitor] gateway OK
+2026-05-10 22:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:25:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:25:01 [health_monitor] disk OK 45%
+2026-05-10 22:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:25:01 [health_monitor] health check failed
+[2026-05-10T22:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:30:01Z] START health_monitor
+2026-05-10 22:30:01 [health_monitor] starting health check
+2026-05-10 22:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:30:01 [health_monitor] gateway OK
+2026-05-10 22:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:30:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:30:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:30:02 [health_monitor] disk OK 45%
+2026-05-10 22:30:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:30:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:30:02 [health_monitor] health check failed
+[2026-05-10T22:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:35:01Z] START health_monitor
+2026-05-10 22:35:01 [health_monitor] starting health check
+2026-05-10 22:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:35:01 [health_monitor] gateway OK
+2026-05-10 22:35:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:35:01 [health_monitor] disk OK 45%
+2026-05-10 22:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:35:01 [health_monitor] health check failed
+[2026-05-10T22:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:40:01Z] START health_monitor
+2026-05-10 22:40:01 [health_monitor] starting health check
+2026-05-10 22:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:40:01 [health_monitor] gateway OK
+2026-05-10 22:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:40:01 [health_monitor] disk OK 45%
+2026-05-10 22:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:40:01 [health_monitor] health check failed
+[2026-05-10T22:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:45:01Z] START health_monitor
+2026-05-10 22:45:01 [health_monitor] starting health check
+2026-05-10 22:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:45:01 [health_monitor] gateway OK
+2026-05-10 22:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:45:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:45:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:45:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:45:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:45:02 [health_monitor] disk OK 45%
+2026-05-10 22:45:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:45:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:45:02 [health_monitor] health check failed
+[2026-05-10T22:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:50:01Z] START health_monitor
+2026-05-10 22:50:01 [health_monitor] starting health check
+2026-05-10 22:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:50:01 [health_monitor] gateway OK
+2026-05-10 22:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:50:01 [health_monitor] disk OK 45%
+2026-05-10 22:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:50:01 [health_monitor] health check failed
+[2026-05-10T22:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:55:01Z] START health_monitor
+2026-05-10 22:55:01 [health_monitor] starting health check
+2026-05-10 22:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 22:55:01 [health_monitor] gateway OK
+2026-05-10 22:55:01 [health_monitor] ollama not running, skipping
+2026-05-10 22:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 22:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 22:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 22:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 22:55:01 [health_monitor] disk OK 45%
+2026-05-10 22:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 22:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 22:55:01 [health_monitor] health check failed
+[2026-05-10T22:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:00:01Z] START health_monitor
+2026-05-10 23:00:01 [health_monitor] starting health check
+2026-05-10 23:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:00:01 [health_monitor] gateway OK
+2026-05-10 23:00:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:00:01 [health_monitor] disk OK 45%
+2026-05-10 23:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:00:01 [health_monitor] health check failed
+[2026-05-10T23:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:05:01Z] START health_monitor
+2026-05-10 23:05:01 [health_monitor] starting health check
+2026-05-10 23:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:05:02 [health_monitor] gateway OK
+2026-05-10 23:05:02 [health_monitor] ollama not running, skipping
+2026-05-10 23:05:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:05:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:05:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:05:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:05:02 [health_monitor] disk OK 45%
+2026-05-10 23:05:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:05:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:05:02 [health_monitor] health check failed
+[2026-05-10T23:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:10:01Z] START health_monitor
+2026-05-10 23:10:01 [health_monitor] starting health check
+2026-05-10 23:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:10:01 [health_monitor] gateway OK
+2026-05-10 23:10:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:10:01 [health_monitor] disk OK 45%
+2026-05-10 23:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:10:01 [health_monitor] health check failed
+[2026-05-10T23:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:15:01Z] START health_monitor
+2026-05-10 23:15:01 [health_monitor] starting health check
+2026-05-10 23:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:15:01 [health_monitor] gateway OK
+2026-05-10 23:15:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:15:01 [health_monitor] disk OK 45%
+2026-05-10 23:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:15:01 [health_monitor] health check failed
+[2026-05-10T23:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:20:01Z] START health_monitor
+2026-05-10 23:20:01 [health_monitor] starting health check
+2026-05-10 23:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:20:01 [health_monitor] gateway OK
+2026-05-10 23:20:02 [health_monitor] ollama not running, skipping
+2026-05-10 23:20:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:20:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:20:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:20:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:20:02 [health_monitor] disk OK 45%
+2026-05-10 23:20:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/health_monitor.log /home/ai/.openclaw/workspace/logs/cron/status.log
+2026-05-10 23:20:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:20:02 [health_monitor] health check failed
+[2026-05-10T23:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:25:01Z] START health_monitor
+2026-05-10 23:25:01 [health_monitor] starting health check
+2026-05-10 23:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:25:01 [health_monitor] gateway OK
+2026-05-10 23:25:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:25:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:25:01 [health_monitor] disk OK 45%
+2026-05-10 23:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:25:01 [health_monitor] health check failed
+[2026-05-10T23:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:30:01Z] START health_monitor
+2026-05-10 23:30:01 [health_monitor] starting health check
+2026-05-10 23:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:30:01 [health_monitor] gateway OK
+2026-05-10 23:30:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:30:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:30:01 [health_monitor] disk OK 45%
+2026-05-10 23:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:30:01 [health_monitor] health check failed
+[2026-05-10T23:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:35:01Z] START health_monitor
+2026-05-10 23:35:01 [health_monitor] starting health check
+2026-05-10 23:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:35:01 [health_monitor] gateway OK
+2026-05-10 23:35:02 [health_monitor] ollama not running, skipping
+2026-05-10 23:35:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:35:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:35:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:35:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:35:02 [health_monitor] disk OK 45%
+2026-05-10 23:35:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:35:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:35:02 [health_monitor] health check failed
+[2026-05-10T23:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:40:01Z] START health_monitor
+2026-05-10 23:40:01 [health_monitor] starting health check
+2026-05-10 23:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:40:01 [health_monitor] gateway OK
+2026-05-10 23:40:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:40:01 [health_monitor] disk OK 45%
+2026-05-10 23:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:40:01 [health_monitor] health check failed
+[2026-05-10T23:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:45:01Z] START health_monitor
+2026-05-10 23:45:01 [health_monitor] starting health check
+2026-05-10 23:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:45:01 [health_monitor] gateway OK
+2026-05-10 23:45:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:45:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:45:01 [health_monitor] disk OK 45%
+2026-05-10 23:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:45:01 [health_monitor] health check failed
+[2026-05-10T23:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:50:01Z] START health_monitor
+2026-05-10 23:50:01 [health_monitor] starting health check
+2026-05-10 23:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:50:01 [health_monitor] gateway OK
+2026-05-10 23:50:01 [health_monitor] ollama not running, skipping
+2026-05-10 23:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:50:01 [health_monitor] disk OK 45%
+2026-05-10 23:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:50:01 [health_monitor] health check failed
+[2026-05-10T23:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:55:01Z] START health_monitor
+2026-05-10 23:55:01 [health_monitor] starting health check
+2026-05-10 23:55:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-10 23:55:02 [health_monitor] gateway OK
+2026-05-10 23:55:02 [health_monitor] ollama not running, skipping
+2026-05-10 23:55:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-10 23:55:02 [health_monitor] steel-cdp-proxy OK
+2026-05-10 23:55:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-10 23:55:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-10 23:55:02 [health_monitor] disk OK 45%
+2026-05-10 23:55:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-10 23:55:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-10 23:55:02 [health_monitor] health check failed
+[2026-05-10T23:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:00:01Z] START health_monitor
+2026-05-11 00:00:01 [health_monitor] starting health check
+2026-05-11 00:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:00:01 [health_monitor] gateway OK
+2026-05-11 00:00:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:00:01 [health_monitor] disk OK 45%
+2026-05-11 00:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:00:01 [health_monitor] health check failed
+[2026-05-11T00:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:05:01Z] START health_monitor
+2026-05-11 00:05:01 [health_monitor] starting health check
+2026-05-11 00:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:05:01 [health_monitor] gateway OK
+2026-05-11 00:05:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:05:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:05:01 [health_monitor] disk OK 45%
+2026-05-11 00:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:05:01 [health_monitor] health check failed
+[2026-05-11T00:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:10:01Z] START health_monitor
+2026-05-11 00:10:01 [health_monitor] starting health check
+2026-05-11 00:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:10:01 [health_monitor] gateway OK
+2026-05-11 00:10:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:10:01 [health_monitor] disk OK 45%
+2026-05-11 00:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/analytics_sunday.log /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:10:01 [health_monitor] health check failed
+[2026-05-11T00:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:15:01Z] START health_monitor
+2026-05-11 00:15:01 [health_monitor] starting health check
+2026-05-11 00:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:15:01 [health_monitor] gateway OK
+2026-05-11 00:15:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:15:01 [health_monitor] disk OK 45%
+2026-05-11 00:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/analytics_sunday.log /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:15:01 [health_monitor] health check failed
+[2026-05-11T00:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:20:01Z] START health_monitor
+2026-05-11 00:20:02 [health_monitor] starting health check
+2026-05-11 00:20:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:20:02 [health_monitor] gateway OK
+2026-05-11 00:20:02 [health_monitor] ollama not running, skipping
+2026-05-11 00:20:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:20:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:20:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:20:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:20:02 [health_monitor] disk OK 45%
+2026-05-11 00:20:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/analytics_sunday.log /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:20:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:20:02 [health_monitor] health check failed
+[2026-05-11T00:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:25:01Z] START health_monitor
+2026-05-11 00:25:01 [health_monitor] starting health check
+2026-05-11 00:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:25:01 [health_monitor] gateway OK
+2026-05-11 00:25:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:25:01 [health_monitor] google-drive-mcp OK
+2026-05-11 00:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:25:01 [health_monitor] disk OK 45%
+2026-05-11 00:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/analytics_sunday.log /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:25:01 [health_monitor] health check failed
+[2026-05-11T00:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:30:01Z] START health_monitor
+2026-05-11 00:30:01 [health_monitor] starting health check
+2026-05-11 00:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:30:01 [health_monitor] gateway OK
+2026-05-11 00:30:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:30:01 [health_monitor] google-drive-mcp OK
+2026-05-11 00:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:30:01 [health_monitor] disk OK 45%
+2026-05-11 00:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/health_monitor.log /home/ai/.openclaw/workspace/logs/cron/status.log
+2026-05-11 00:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:30:01 [health_monitor] health check failed
+[2026-05-11T00:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:35:01Z] START health_monitor
+2026-05-11 00:35:01 [health_monitor] starting health check
+2026-05-11 00:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:35:01 [health_monitor] gateway OK
+2026-05-11 00:35:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:35:01 [health_monitor] google-drive-mcp OK
+2026-05-11 00:35:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:35:02 [health_monitor] disk OK 45%
+2026-05-11 00:35:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:35:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:35:02 [health_monitor] health check failed
+[2026-05-11T00:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:40:01Z] START health_monitor
+2026-05-11 00:40:01 [health_monitor] starting health check
+2026-05-11 00:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:40:01 [health_monitor] gateway OK
+2026-05-11 00:40:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:40:01 [health_monitor] google-drive-mcp OK
+2026-05-11 00:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:40:01 [health_monitor] disk OK 45%
+2026-05-11 00:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:40:01 [health_monitor] health check failed
+[2026-05-11T00:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:45:01Z] START health_monitor
+2026-05-11 00:45:01 [health_monitor] starting health check
+2026-05-11 00:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:45:01 [health_monitor] gateway OK
+2026-05-11 00:45:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:45:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:45:01 [health_monitor] disk OK 45%
+2026-05-11 00:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:45:01 [health_monitor] health check failed
+[2026-05-11T00:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:50:01Z] START health_monitor
+2026-05-11 00:50:01 [health_monitor] starting health check
+2026-05-11 00:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:50:01 [health_monitor] gateway OK
+2026-05-11 00:50:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 00:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:50:01 [health_monitor] disk OK 45%
+2026-05-11 00:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:50:01 [health_monitor] health check failed
+[2026-05-11T00:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:55:01Z] START health_monitor
+2026-05-11 00:55:01 [health_monitor] starting health check
+2026-05-11 00:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 00:55:01 [health_monitor] gateway OK
+2026-05-11 00:55:01 [health_monitor] ollama not running, skipping
+2026-05-11 00:55:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 00:55:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 00:55:02 [health_monitor] google-drive-mcp OK
+2026-05-11 00:55:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 00:55:02 [health_monitor] disk OK 45%
+2026-05-11 00:55:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 00:55:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 00:55:02 [health_monitor] health check failed
+[2026-05-11T00:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:00:01Z] START health_monitor
+2026-05-11 01:00:01 [health_monitor] starting health check
+2026-05-11 01:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:00:01 [health_monitor] gateway OK
+2026-05-11 01:00:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:00:01 [health_monitor] google-drive-mcp OK
+2026-05-11 01:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:00:01 [health_monitor] disk OK 45%
+2026-05-11 01:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:00:01 [health_monitor] health check failed
+[2026-05-11T01:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:05:01Z] START health_monitor
+2026-05-11 01:05:01 [health_monitor] starting health check
+2026-05-11 01:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:05:01 [health_monitor] gateway OK
+2026-05-11 01:05:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:05:01 [health_monitor] google-drive-mcp OK
+2026-05-11 01:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:05:01 [health_monitor] disk OK 45%
+2026-05-11 01:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:05:01 [health_monitor] health check failed
+[2026-05-11T01:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:10:01Z] START health_monitor
+2026-05-11 01:10:01 [health_monitor] starting health check
+2026-05-11 01:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:10:01 [health_monitor] gateway OK
+2026-05-11 01:10:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:10:01 [health_monitor] disk OK 45%
+2026-05-11 01:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:10:02 [health_monitor] health check failed
+[2026-05-11T01:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:15:01Z] START health_monitor
+2026-05-11 01:15:01 [health_monitor] starting health check
+2026-05-11 01:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:15:01 [health_monitor] gateway OK
+2026-05-11 01:15:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:15:01 [health_monitor] disk OK 45%
+2026-05-11 01:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:15:01 [health_monitor] health check failed
+[2026-05-11T01:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:20:01Z] START health_monitor
+2026-05-11 01:20:01 [health_monitor] starting health check
+2026-05-11 01:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:20:01 [health_monitor] gateway OK
+2026-05-11 01:20:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:20:01 [health_monitor] disk OK 45%
+2026-05-11 01:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:20:01 [health_monitor] health check failed
+[2026-05-11T01:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:25:01Z] START health_monitor
+2026-05-11 01:25:01 [health_monitor] starting health check
+2026-05-11 01:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:25:01 [health_monitor] gateway OK
+2026-05-11 01:25:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:25:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:25:01 [health_monitor] disk OK 45%
+2026-05-11 01:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:25:01 [health_monitor] health check failed
+[2026-05-11T01:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:30:01Z] START health_monitor
+2026-05-11 01:30:01 [health_monitor] starting health check
+2026-05-11 01:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:30:02 [health_monitor] gateway OK
+2026-05-11 01:30:02 [health_monitor] ollama not running, skipping
+2026-05-11 01:30:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:30:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:30:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:30:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:30:02 [health_monitor] disk OK 45%
+2026-05-11 01:30:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:30:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:30:02 [health_monitor] health check failed
+[2026-05-11T01:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:35:01Z] START health_monitor
+2026-05-11 01:35:01 [health_monitor] starting health check
+2026-05-11 01:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:35:01 [health_monitor] gateway OK
+2026-05-11 01:35:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:35:01 [health_monitor] disk OK 45%
+2026-05-11 01:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:35:01 [health_monitor] health check failed
+[2026-05-11T01:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:40:01Z] START health_monitor
+2026-05-11 01:40:01 [health_monitor] starting health check
+2026-05-11 01:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:40:01 [health_monitor] gateway OK
+2026-05-11 01:40:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:40:01 [health_monitor] disk OK 45%
+2026-05-11 01:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:40:01 [health_monitor] health check failed
+[2026-05-11T01:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:45:01Z] START health_monitor
+2026-05-11 01:45:01 [health_monitor] starting health check
+2026-05-11 01:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:45:01 [health_monitor] gateway OK
+2026-05-11 01:45:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:45:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:45:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:45:02 [health_monitor] disk OK 45%
+2026-05-11 01:45:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:45:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:45:02 [health_monitor] health check failed
+[2026-05-11T01:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:50:01Z] START health_monitor
+2026-05-11 01:50:01 [health_monitor] starting health check
+2026-05-11 01:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:50:01 [health_monitor] gateway OK
+2026-05-11 01:50:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:50:01 [health_monitor] disk OK 45%
+2026-05-11 01:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:50:01 [health_monitor] health check failed
+[2026-05-11T01:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:55:01Z] START health_monitor
+2026-05-11 01:55:01 [health_monitor] starting health check
+2026-05-11 01:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 01:55:01 [health_monitor] gateway OK
+2026-05-11 01:55:01 [health_monitor] ollama not running, skipping
+2026-05-11 01:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 01:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 01:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 01:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 01:55:01 [health_monitor] disk OK 45%
+2026-05-11 01:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 01:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 01:55:01 [health_monitor] health check failed
+[2026-05-11T01:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:00:01Z] START health_monitor
+2026-05-11 02:00:01 [health_monitor] starting health check
+2026-05-11 02:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:00:01 [health_monitor] gateway OK
+2026-05-11 02:00:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:00:01 [health_monitor] disk OK 45%
+2026-05-11 02:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:00:01 [health_monitor] health check failed
+[2026-05-11T02:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:05:01Z] START health_monitor
+2026-05-11 02:05:01 [health_monitor] starting health check
+2026-05-11 02:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:05:01 [health_monitor] gateway OK
+2026-05-11 02:05:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:05:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:05:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:05:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:05:02 [health_monitor] disk OK 46%
+2026-05-11 02:05:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:05:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:05:02 [health_monitor] health check failed
+[2026-05-11T02:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:10:01Z] START health_monitor
+2026-05-11 02:10:01 [health_monitor] starting health check
+2026-05-11 02:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:10:01 [health_monitor] gateway OK
+2026-05-11 02:10:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:10:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:10:01 [health_monitor] disk OK 46%
+2026-05-11 02:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:10:01 [health_monitor] health check failed
+[2026-05-11T02:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:15:01Z] START health_monitor
+2026-05-11 02:15:01 [health_monitor] starting health check
+2026-05-11 02:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:15:01 [health_monitor] gateway OK
+2026-05-11 02:15:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:15:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:15:01 [health_monitor] disk OK 46%
+2026-05-11 02:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:15:01 [health_monitor] health check failed
+[2026-05-11T02:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:20:01Z] START health_monitor
+2026-05-11 02:20:01 [health_monitor] starting health check
+2026-05-11 02:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:20:01 [health_monitor] gateway OK
+2026-05-11 02:20:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:20:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:20:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:20:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:20:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:20:01 [health_monitor] disk OK 46%
+2026-05-11 02:20:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:20:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:20:01 [health_monitor] health check failed
+[2026-05-11T02:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:25:01Z] START health_monitor
+2026-05-11 02:25:01 [health_monitor] starting health check
+2026-05-11 02:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:25:01 [health_monitor] gateway OK
+2026-05-11 02:25:02 [health_monitor] ollama not running, skipping
+2026-05-11 02:25:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:25:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:25:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:25:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:25:02 [health_monitor] disk OK 46%
+2026-05-11 02:25:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:25:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:25:02 [health_monitor] health check failed
+[2026-05-11T02:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:30:01Z] START health_monitor
+2026-05-11 02:30:01 [health_monitor] starting health check
+2026-05-11 02:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:30:01 [health_monitor] gateway OK
+2026-05-11 02:30:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:30:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:30:01 [health_monitor] disk OK 46%
+2026-05-11 02:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:30:01 [health_monitor] health check failed
+[2026-05-11T02:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:35:01Z] START health_monitor
+2026-05-11 02:35:01 [health_monitor] starting health check
+2026-05-11 02:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:35:01 [health_monitor] gateway OK
+2026-05-11 02:35:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:35:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:35:01 [health_monitor] disk OK 46%
+2026-05-11 02:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:35:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:35:01 [health_monitor] health check failed
+[2026-05-11T02:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:40:01Z] START health_monitor
+2026-05-11 02:40:01 [health_monitor] starting health check
+2026-05-11 02:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:40:01 [health_monitor] gateway OK
+2026-05-11 02:40:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:40:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:40:01 [health_monitor] disk OK 46%
+2026-05-11 02:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:40:01 [health_monitor] health check failed
+[2026-05-11T02:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:45:02Z] START health_monitor
+2026-05-11 02:45:02 [health_monitor] starting health check
+2026-05-11 02:45:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:45:02 [health_monitor] gateway OK
+2026-05-11 02:45:02 [health_monitor] ollama not running, skipping
+2026-05-11 02:45:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:45:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:45:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:45:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:45:02 [health_monitor] disk OK 46%
+2026-05-11 02:45:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:45:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:45:02 [health_monitor] health check failed
+[2026-05-11T02:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:50:01Z] START health_monitor
+2026-05-11 02:50:01 [health_monitor] starting health check
+2026-05-11 02:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:50:01 [health_monitor] gateway OK
+2026-05-11 02:50:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:50:01 [health_monitor] disk OK 46%
+2026-05-11 02:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:50:01 [health_monitor] health check failed
+[2026-05-11T02:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:55:01Z] START health_monitor
+2026-05-11 02:55:01 [health_monitor] starting health check
+2026-05-11 02:55:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 02:55:01 [health_monitor] gateway OK
+2026-05-11 02:55:01 [health_monitor] ollama not running, skipping
+2026-05-11 02:55:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 02:55:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 02:55:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 02:55:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 02:55:01 [health_monitor] disk OK 45%
+2026-05-11 02:55:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 02:55:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 02:55:01 [health_monitor] health check failed
+[2026-05-11T02:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:00:01Z] START health_monitor
+2026-05-11 03:00:01 [health_monitor] starting health check
+2026-05-11 03:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:00:01 [health_monitor] gateway OK
+2026-05-11 03:00:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:00:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 03:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:00:01 [health_monitor] disk OK 45%
+2026-05-11 03:00:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:00:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:00:02 [health_monitor] health check failed
+[2026-05-11T03:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:05:01Z] START health_monitor
+2026-05-11 03:05:01 [health_monitor] starting health check
+2026-05-11 03:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:05:01 [health_monitor] gateway OK
+2026-05-11 03:05:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:05:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:05:01 [health_monitor] disk OK 45%
+2026-05-11 03:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:05:01 [health_monitor] health check failed
+[2026-05-11T03:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:10:01Z] START health_monitor
+2026-05-11 03:10:01 [health_monitor] starting health check
+2026-05-11 03:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:10:01 [health_monitor] gateway OK
+2026-05-11 03:10:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:10:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:10:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:10:01 [health_monitor] disk OK 46%
+2026-05-11 03:10:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:10:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:10:01 [health_monitor] health check failed
+[2026-05-11T03:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:15:01Z] START health_monitor
+2026-05-11 03:15:01 [health_monitor] starting health check
+2026-05-11 03:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:15:01 [health_monitor] gateway OK
+2026-05-11 03:15:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:15:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:15:01 [health_monitor] disk OK 46%
+2026-05-11 03:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:15:01 [health_monitor] health check failed
+[2026-05-11T03:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:20:01Z] START health_monitor
+2026-05-11 03:20:01 [health_monitor] starting health check
+2026-05-11 03:20:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:20:02 [health_monitor] gateway OK
+2026-05-11 03:20:02 [health_monitor] ollama not running, skipping
+2026-05-11 03:20:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:20:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:20:02 [health_monitor] google-drive-mcp OK
+2026-05-11 03:20:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:20:02 [health_monitor] disk OK 46%
+2026-05-11 03:20:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:20:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:20:02 [health_monitor] health check failed
+[2026-05-11T03:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:25:01Z] START health_monitor
+2026-05-11 03:25:01 [health_monitor] starting health check
+2026-05-11 03:25:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:25:01 [health_monitor] gateway OK
+2026-05-11 03:25:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:25:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:25:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:25:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:25:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:25:01 [health_monitor] disk OK 46%
+2026-05-11 03:25:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:25:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:25:01 [health_monitor] health check failed
+[2026-05-11T03:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:30:01Z] START health_monitor
+2026-05-11 03:30:01 [health_monitor] starting health check
+2026-05-11 03:30:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:30:01 [health_monitor] gateway OK
+2026-05-11 03:30:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:30:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:30:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:30:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:30:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:30:01 [health_monitor] disk OK 46%
+2026-05-11 03:30:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:30:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:30:01 [health_monitor] health check failed
+[2026-05-11T03:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:35:01Z] START health_monitor
+2026-05-11 03:35:01 [health_monitor] starting health check
+2026-05-11 03:35:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:35:01 [health_monitor] gateway OK
+2026-05-11 03:35:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:35:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:35:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:35:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:35:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:35:01 [health_monitor] disk OK 46%
+2026-05-11 03:35:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:35:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:35:02 [health_monitor] health check failed
+[2026-05-11T03:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:40:01Z] START health_monitor
+2026-05-11 03:40:01 [health_monitor] starting health check
+2026-05-11 03:40:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:40:01 [health_monitor] gateway OK
+2026-05-11 03:40:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:40:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:40:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:40:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:40:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:40:01 [health_monitor] disk OK 46%
+2026-05-11 03:40:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:40:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:40:01 [health_monitor] health check failed
+[2026-05-11T03:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:45:01Z] START health_monitor
+2026-05-11 03:45:01 [health_monitor] starting health check
+2026-05-11 03:45:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:45:01 [health_monitor] gateway OK
+2026-05-11 03:45:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:45:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:45:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:45:01 [health_monitor] google-drive-mcp OK
+2026-05-11 03:45:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:45:01 [health_monitor] disk OK 46%
+2026-05-11 03:45:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:45:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:45:01 [health_monitor] health check failed
+[2026-05-11T03:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:50:01Z] START health_monitor
+2026-05-11 03:50:01 [health_monitor] starting health check
+2026-05-11 03:50:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:50:01 [health_monitor] gateway OK
+2026-05-11 03:50:01 [health_monitor] ollama not running, skipping
+2026-05-11 03:50:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:50:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:50:01 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 03:50:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:50:01 [health_monitor] disk OK 46%
+2026-05-11 03:50:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:50:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:50:01 [health_monitor] health check failed
+[2026-05-11T03:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:55:01Z] START health_monitor
+2026-05-11 03:55:01 [health_monitor] starting health check
+2026-05-11 03:55:02 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 03:55:02 [health_monitor] gateway OK
+2026-05-11 03:55:02 [health_monitor] ollama not running, skipping
+2026-05-11 03:55:02 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 03:55:02 [health_monitor] steel-cdp-proxy OK
+2026-05-11 03:55:02 [health_monitor] FAIL google-drive-mcp: process not running (pattern: google-mcp-server/index.js)
+2026-05-11 03:55:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 03:55:02 [health_monitor] disk OK 46%
+2026-05-11 03:55:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 03:55:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 03:55:02 [health_monitor] health check failed
+[2026-05-11T03:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:00:01Z] START health_monitor
+2026-05-11 04:00:01 [health_monitor] starting health check
+2026-05-11 04:00:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 04:00:01 [health_monitor] gateway OK
+2026-05-11 04:00:01 [health_monitor] ollama not running, skipping
+2026-05-11 04:00:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 04:00:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 04:00:01 [health_monitor] google-drive-mcp OK
+2026-05-11 04:00:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 04:00:01 [health_monitor] disk OK 46%
+2026-05-11 04:00:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 04:00:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 04:00:01 [health_monitor] health check failed
+[2026-05-11T04:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:05:01Z] START health_monitor
+2026-05-11 04:05:01 [health_monitor] starting health check
+2026-05-11 04:05:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 04:05:01 [health_monitor] gateway OK
+2026-05-11 04:05:01 [health_monitor] ollama not running, skipping
+2026-05-11 04:05:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 04:05:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 04:05:01 [health_monitor] google-drive-mcp OK
+2026-05-11 04:05:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 04:05:01 [health_monitor] disk OK 46%
+2026-05-11 04:05:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 04:05:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 04:05:01 [health_monitor] health check failed
+[2026-05-11T04:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:10:01Z] START health_monitor
+2026-05-11 04:10:01 [health_monitor] starting health check
+2026-05-11 04:10:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 04:10:01 [health_monitor] gateway OK
+2026-05-11 04:10:01 [health_monitor] ollama not running, skipping
+2026-05-11 04:10:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 04:10:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 04:10:01 [health_monitor] google-drive-mcp OK
+2026-05-11 04:10:02 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 04:10:02 [health_monitor] disk OK 46%
+2026-05-11 04:10:02 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 04:10:02 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 04:10:02 [health_monitor] health check failed
+[2026-05-11T04:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:15:01Z] START health_monitor
+2026-05-11 04:15:01 [health_monitor] starting health check
+2026-05-11 04:15:01 [health_monitor] FAIL gateway-process: process not running (pattern: openclaw-gateway)
+2026-05-11 04:15:01 [health_monitor] gateway OK
+2026-05-11 04:15:01 [health_monitor] ollama not running, skipping
+2026-05-11 04:15:01 [health_monitor] FAIL steel-browser: process not running (pattern: steel-mcp-server/dist/index.js)
+2026-05-11 04:15:01 [health_monitor] steel-cdp-proxy OK
+2026-05-11 04:15:01 [health_monitor] google-drive-mcp OK
+2026-05-11 04:15:01 [health_monitor] FAIL gbrain: process not running (pattern: /home/ai/gbrain/bin/gbrain serve)
+2026-05-11 04:15:01 [health_monitor] disk OK 46%
+2026-05-11 04:15:01 [health_monitor] FAIL cron: recent failures detected in /home/ai/.openclaw/workspace/logs/cron/status.log /home/ai/.openclaw/workspace/logs/cron/health_monitor.log
+2026-05-11 04:15:01 [health_monitor] TELEGRAM_BOT_TOKEN not set, skipping Telegram alert
+2026-05-11 04:15:01 [health_monitor] health check failed
+[2026-05-11T04:15:01Z] FAILED health_monitor (exit=1)

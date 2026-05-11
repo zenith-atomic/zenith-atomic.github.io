@@ -1,0 +1,21 @@
+monday:
+  twitter: 2
+  linkedin: 1
+tuesday:
+  twitter: 2
+  instagram: 1
+wednesday:
+  twitter: 2
+  youtube: 1
+thursday:
+  twitter: 2
+  linkedin: 1
+  tiktok: 1
+friday:
+  twitter: 2
+  instagram: 1
+saturday:
+  twitter: 1
+sunday:
+  twitter: 1
+weekly_total_target: 20

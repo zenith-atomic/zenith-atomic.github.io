@@ -1,0 +1,19 @@
+execution:
+  mode: paper  # paper, backtest, live
+  ccxt_config:
+    default_exchange: binance
+    sandbox: true
+    rate_limit_requests_per_second: 10
+  order_manager:
+    max_retries: 3
+    retry_delay_ms: 1000
+    timeout_ms: 30000
+  exchanges:
+    - name: binance
+      api_key_env: BINANCE_API_KEY
+      api_secret_env: BINANCE_API_SECRET
+      sandbox: true
+    - name: bybit
+      api_key_env: BYBIT_API_KEY
+      api_secret_env: BYBIT_API_SECRET
+      sandbox: true

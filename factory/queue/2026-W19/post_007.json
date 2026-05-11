@@ -1,0 +1,11 @@
+{
+  "platform": "X/Twitter",
+  "content": "Why does the directory approach actually work better than direct scraping for finding no-website businesses?\n\n1. Directory listings explicitly state website presence. No inference.\n\n2. Slower to update = catches businesses that never went digital.\n\n3. No rate limits. No 429s. No API dependency.\n\n4. Cross-referencing two sources gives you confidence without a paid API key.\n\nThat's why.\n\nReply tools if you need the full directory stack.",
+  "hashtags": [],
+  "scheduled_time": "9:00 AM",
+  "visual": "",
+  "pillar": "** Tool Reviews & Tutorials",
+  "week": "2026-W19",
+  "status": "pending_approval",
+  "created": "2026-05-09T23:58:19Z"
+}

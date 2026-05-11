@@ -1,0 +1,698 @@
+{
+  "approved_at_utc": null,
+  "subreddit": "MechanicalEngineering",
+  "selftext": "I would like to thank you everyone for participating in the annual 2026 ME Salary survey. Total respondents was a little over 600, so less than last year, but about 589 US responses. \n\n[Past Results Link](https://www.reddit.com/r/MechanicalEngineering/comments/1ridqw5/2026_mechanical_engineer_salary_survey/)\n\n**Background**: \n\nHere are the main results. It took about 2 hours to \"clean\" the data manually. Afterwards, I basically used Gemini to create the graphs + tables, since last time it literally took me about 7 hours to do everything manually on Excel last time and there were still questions. The key points and takeaways from the data is a combination of AI and editing the information to be more readable (still took 4 hours). In addition, I wouldn't worry about math too much, since Gemini basically just used python code to decipher the edited CSV file. \n\n**Industry:**\n\n|**Industry**|**Number of Respondents**|\n|:-|:-|\n|**Manufacturing**|175 (29.7%)|\n|**Aerospace/Defense**|173 (29.4%)|\n|**Technology (FANG, AI, Robotics, etc.)**|54 (9.2%)|\n|**MEP (HVAC, Construction, etc.)**|38 (6.5%)|\n|**Utilities (Power, Renewables, etc.)**|35 (5.9%)|\n|**Pharmaceutical &amp; Medical Devices**|31 (5.3%)|\n|**Oil and Gas**|28 (4.8%)|\n|**Consumer Goods**|15 (2.5%)|\n|**Government**|11 (1.9%)|\n\n* There were some other industries like nuclear, logistics, and etc. but the few data points aren't included in the table for brevity. The data was included in the total set though\n* A majority of the mechanical engineers trends will use the Aerospace/Defense and Manufacturing data since there is the most data that is available\n\n**Salary and Year of Experience:** \n\n**\\*Note: Total Compensation/Salary = Base Salary + Bonus + RSU + Base Salary \\* 401k Match**\n\nIf you want to look at one graph and table to explain the progression track here it is:\n\nhttps://preview.redd.it/hnht30ywfpqg1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=4eac653faba83b79dd835b38ca03c6f1607d19b9\n\n|**YOE Range**|**Median Base (Unadj)**|**Median Total (Unadj)**|**Median Base (COL Adj)**|**Median Total (COL Adj)**|**Count**|\n|:-|:-|:-|:-|:-|:-|\n|**0-1 Year**|$87,000|$96,036|$81,699|$87,368|43|\n|**2 Years**|$84,000|$91,046|$84,615|$90,909|71|\n|**3 Years**|$94,550|$105,965|$94,082|$102,289|62|\n|**4-5 Years**|$104,000|$119,770|$94,881|$107,762|116|\n|**6-8 Years**|$120,000|$136,800|$112,500|$127,911|119|\n|**9-12 Years**|$125,500|$146,985|$123,444|$142,555|96|\n|**13-20 Years**|$157,290|$181,840|$144,254|$171,731|64|\n|**20+ Years**|$196,500|$211,426|$163,399|$191,042|15|\n\n  \n**Key Takeaways:**\n\n* **The \"Benefit Gap\":** The space between the solid lines (Total Compensation) and the dashed lines (Base Salary) represents the added value from annual bonuses and employer 401k matching. For a mid-career engineer (6-8 years), this extra value is roughly **$16,800** on average.\n* **Late Career Leverage:** As engineers gain seniority (13+ years), the gap between base salary and total compensation grows significantly, suggesting that bonuses and incentive programs make up a larger portion of the package for senior-level and leadership roles.\n* **Purchasing Power:** The COL Adjusted lines (Orange) consistently track below the un-adjusted lines (Blue), highlighting that high-paying mechanical engineering roles are frequently located in markets where the dollar doesn't stretch as far as the national average.\n\n\n\n**Education**:\n\nhttps://preview.redd.it/1g41anlrapqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=ac0fb567430d310ad9ae086582bb889b53c0ae8d\n\n* Majority of the respondents are at max a bachelor degree holder. However, there is still a significant number of master's students\n\nNow about the age old question: does having a Master's degree lead to higher future salary?\n\nShort Answer: In general, the answer is yes if there is a chance to specialize. It is explained in the table below: \n\n|**Industry**|**Career Stage**|**Education**|**Median Total (Unadj)**|**Median Total (COL Adj)**|**Count**|\n|:-|:-|:-|:-|:-|:-|\n|**Aerospace &amp; Defense**|**0-3 Years**|Bachelors|$96,664|$95,201|44|\n|||Masters|**$116,600**|**$108,316**|15|\n||**4-7 Years**|Bachelors|$125,410|$110,659|39|\n|||Masters|**$173,000**|**$148,432**|9|\n||**8-15 Years**|Bachelors|$161,750|$140,202|33|\n|||Masters|**$154,905**|**$149,658**|16|\n||**15+ Years**|Bachelors|$207,080|$187,505|7|\n|||Masters|**$211,426**|**$207,872**|5|\n|**Manufacturing**|**0-3 Years**|Bachelors|$88,220|$93,452|52|\n|||Masters|**$93,740**|**$91,850**|6|\n||**4-7 Years**|Bachelors|$108,992|$106,701|45|\n|||Masters|**$129,800**|**$128,407**|12|\n||**8-15 Years**|Bachelors|$135,425|$142,440|44|\n|||Masters|**$136,298**|**$129,984**|8|\n||**15+ Years**|Bachelors|$182,650|$187,127|5|\n\n* Now you can see that for manufacturing, the benefits is not as prominent, while it is evident in aerospace. This makes sense, since Aerospace have very high specialization salary, for instance: hypersonic or eVtol which pays a ton for total compensation based on years of experience. \n   * Answer: if your company pays for your masters, do it, but it doesn't seem that beneficial near the end of your career. \n\n**Internships &amp; Coops:**\n\nhttps://preview.redd.it/fewykxl7ipqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=47844d59135609e3d94d0cb683aca7734b349df8\n\n**Key Insights:**\n\n* **The \"Experienced\" Majority:** A combined **85%** of respondents completed at least one internship or co-op. This underscores how critical early-career work experience has become for landing a full-time role in mechanical engineering.\n* **Co-op Advantage:** The 20% of respondents with \"3+ Internships\" often represent those in formal co-op programs (where students rotate between school and work over several years). These candidates typically command higher starting salaries shown in the table below: \n\n|**Industry**|**0-1 Internship**|**2+ Internships**|**New Grad Premium**|\n|:-|:-|:-|:-|\n|**Aerospace &amp; Defense**|$82,000|**$91,500**|**+$9,500**|\n|**Manufacturing**|$74,000|**$82,000**|**+$8,000**|\n|**MedTech**|$80,500|**$89,000**|**+$8,500**|\n\n\n\n**Certifications**: \n\nHere is the graph of a major certifications from the survey:\n\nhttps://preview.redd.it/pgvd42fzcpqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=464653eaa5409bc53666dc6b811f8bd576c95f11\n\nWe always see a question on whether certifications are worth it:\n\n**Aerospace &amp; Defense: Certification vs. Total Compensation**\n\n|**Experience**|**Education**|**Has Cert?**|**Median Unadj. Total**|**Median Adj. Total**|**Count**|\n|:-|:-|:-|:-|:-|:-|\n|**0-3 Years**|Bachelors|**No**|$97,900|$95,426|41|\n|||**Yes**|$95,040|$64,653|3|\n|**4-7 Years**|Bachelors|**No**|$125,315|$106,672|36|\n|||**Yes**|$128,580|$138,258|3|\n|**8-15 Years**|Bachelors|**No**|$159,660|$139,839|31|\n|||**Yes**|$280,425|$177,895|2|\n||Masters|**No**|$151,410|$142,043|13|\n|||**Yes**|$209,658|$216,142|3|\n\n\n\n**Manufacturing: Certification vs. Total Compensation**\n\n|**Experience**|**Education**|**Has Cert?**|**Median Unadj. Total**|**Median Adj. Total**|**Count**|\n|:-|:-|:-|:-|:-|:-|\n|**0-3 Years**|Bachelors|**No**|$88,020|$91,944|43|\n|||**Yes**|$90,450|$99,746|9|\n|**4-7 Years**|Bachelors|**No**|$108,805|$106,615|36|\n|||**Yes**|$108,992|$106,701|9|\n|**8-15 Years**|Bachelors|**No**|$135,000|$136,541|31|\n|||**Yes**|$136,000|$151,111|13|\n||Masters|**No**|$152,212|$122,728|6|\n|||**Yes**|$134,815|$141,636|2|\n\n**Key Findings**:\n\n1. **High-Experience Premium in Aerospace:** The most dramatic impact of certification appears in the mid-to-late career in Aerospace &amp; Defense (8\u201315 years). Engineers with a Bachelors and a certification earn a median total compensation significantly higher than those without. Even among Masters holders in this range, certified engineers have a median total comp of **$209k** vs **$151k** for non-certified.\n2. **Manufacturing Stability:** In the Manufacturing industry, certifications (often Six Sigma or FE/PE) lead to a very modest increase in un-adjusted base pay, but a more noticeable improvement in **COL-adjusted pay**. This suggests that certified engineers in Manufacturing may have more flexibility to find high-paying roles in lower-cost-of-living areas.\n3. **The \"Entry-Level Paradox\":** For junior engineers (0\u20133 years), having a certification (likely the FE) does not immediately result in a salary premium. In fact, in Aerospace, the un-adjusted median for those with certifications was slightly lower, possibly because those engineers are still in entry-level rotation programs where pay is standardized regardless of credentials.\n4. **Masters + Certification:** For those who already have a Masters, adding a certification provides a significant late-career boost (as seen in the 8\u201315 year group in Aerospace).\n\n**Answer:** Certification can be worth it for select industries. PE is known for civil to open doors and increase pay. \n\n**Job Titles**: \n\nhttps://preview.redd.it/fk1bdq92xpqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=6dc71e691ad3c929354a7d6a0fa435d431b65006\n\n|**Job Role Category**|**Number of Respondents**|**Percentage**|\n|:-|:-|:-|\n|**Mechanical Engineer (General)**|229|**38.9%**|\n|**Design Engineer**|97|**16.5%**|\n|**Project &amp; Systems Engineer**|59|**10.0%**|\n|**Management &amp; Leadership**|55|**9.3%**|\n|**Manufacturing &amp; Process Engineer**|54|**9.2%**|\n|**Specialized (Thermal, Stress, R&amp;D)**|34|**5.8%**|\n|**Other / Misc**|61|**10.4%**|\n\n# Key Insights:\n\n* **General vs. Specialized:** Nearly **40%** of respondents identify with the broad title of \"Mechanical Engineer,\" which often includes generalists or those in mid-level positions.\n* **The Design Dominance:** **Design Engineering** is the second largest single group, reflecting the high demand for CAD-based design and product development across aerospace, tech, and manufacturing industries.\n* **Transition to Leadership:** About **9%** of respondents hold titles in **Management &amp; Leadership** (Manager, Director, VP), which led to a higher salary\n* **Project and Systems focus:** **1 in 10** engineers focuses on **Project** or **Systems Engineering**, highlighting the importance of multidisciplinary coordination and technical management in modern engineering projects.\n* **The Specialty Niche:** The \"Specialized\" category includes highly technical roles like **Thermal Analysis, FEA, Simulation,** and **Research &amp; Development**, which often require higher educational levels or deep domain expertise.\n\n**Salary Grade vs. Salary:** \n\n|**Grade Level**|**Industry**|**Median Annual Salary**|**Typical Experience (YOE)**|**Sample Count**|\n|:-|:-|:-|:-|:-|\n|**Level 1** (Entry)|Aerospace &amp; Defense|**$88,400**|1.0 year|39|\n||Manufacturing|**$80,250**|2.0 years|39|\n|**Level 2** (Mid)|Aerospace &amp; Defense|**$102,273**|3.8 years|48|\n||Manufacturing|**$95,000**|5.0 years|71|\n|**Level 3** (Senior)|Aerospace &amp; Defense|**$130,000**|8.0 years|57|\n||Manufacturing|**$119,600**|9.0 years|50|\n|**Level 4** (Lead/Manager)|Aerospace &amp; Defense|**$170,500**|11.0 years|22|\n||Manufacturing|**$136,000**|11.0 years|11|\n|**Level 5+** (Principal/Director)|Aerospace &amp; Defense|**$206,000**|20.0 years|9|\n||Manufacturing|**$136,500**|14.0 years|4|\n\n* **Efficiency of Experience:** In Aerospace, engineers tend to reach Level 2 and Level 3 roughly **1\u20131.2 years faster** than those in Manufacturing, while also earning more.\n* **The Level 4 Ceiling:** In Manufacturing, the salary jump from Grade 3 to Grade 4 is roughly **$16k**, whereas in Aerospace, that same promotion yields a massive **$40k** jump in median base salary.\n\n**Which Industry Pays the Most?** \n\nhttps://preview.redd.it/sknrbwdygsqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=2fa5df3c0a7579f39286c2edf9669b324aeb9c67\n\n**Major Caveat**: at 16+ YOE, the data points are only a couple, which skews the data upward. \n\nBased on the comprehensive US survey data, the **Technology (FANG, Robotics, AI, Consumer Electronics)** industry emerges as the highest-paying sector for mechanical engineers when considering total compensation (Base Salary + Annual Bonus + 401k Match).\n\n**Tech Compensation Package**: \n\n|**Years of Experience**|**Avg. Total Comp (Unadjusted)**|**Avg. Total Comp (Adjusted for COL)**|**Number of Respondents**|\n|:-|:-|:-|:-|\n|**0-2 YOE (Entry)**|**$117,316**|**$100,292**|7|\n|**3-5 YOE (Junior)**|**$180,854**|**$138,040**|17|\n|**6-10 YOE (Mid-Level)**|**$182,773**|**$134,543**|14|\n|**11-15 YOE (Senior)**|**$259,993**|**$220,256**|11|\n|**16+ YOE (Principal)**|**$244,775**|**$177,043**|5|\n\nThe **Oil and Gas** industry stands out as the second most lucrative sectors for mechanical engineers, particularly as they reach senior and principal levels. While **Tech** offers the highest overall unadjusted compensation, **Oil and Gas** actually offers the highest **Cost of Living (COL) Adjusted** compensation, meaning your real purchasing power in this industry is the highest among all major sectors. \n\n|**Years of Experience**|**Avg. Total Comp (Unadjusted)**|**Avg. Total Comp (COL Adjusted)**|**Number of Respondents**|\n|:-|:-|:-|:-|\n|**0-2 YOE**|**$95,864**|**$83,178**|5|\n|**3-5 YOE**|**$117,289**|**$111,155**|7|\n|**6-10 YOE**|**$138,959**|**$139,773**|7|\n|**11-15 YOE**|**$204,097**|**$219,757**|6|\n|**16+ YOE**|**$408,040**|**$399,276**|3|\n\n**Overtime Pay**: \n\nhttps://preview.redd.it/79b6h77hmpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=20820979a842cc185b852b1e3d9608f75fb0daea\n\n**Industry Trends:** Overtime pay is slightly more common in **Manufacturing** (where production deadlines are rigid) and **Consulting/EPC** (where hours are billable to clients) compared to R&amp;D or Aerospace.\n\n**Work Hours:** \n\nhttps://preview.redd.it/w8dtcv0mspqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=b9aec880cf32d0c18b320720aec831c19add849b\n\n|**Work Hours Category**|**Number of Respondents**|**Percentage**|\n|:-|:-|:-|\n|**Exactly 40 Hours**|337|**57.2%**|\n|**41-45 Hours**|146|**24.8%**|\n|**46-50 Hours**|49|**8.3%**|\n|**&lt;40 Hours**|50|**8.5%**|\n|**&gt;50 Hours**|7|**1.2%**|\n\n**Key Observations:**\n\n* **The \"40-Hour\" Standard:** Over half of the engineers surveyed manage to stick to a strict 40-hour week, which is a positive sign for work-life balance in the profession.\n* **Moderate Overtime:** Roughly a quarter of engineers work an extra 1 to 5 hours a week (41-45 hours total), often representing \"straight time\" or expected professional dedication without formal overtime pay.\n* **The High-Hours Exception:** Only a small fraction (**under 10%**) report working more than 45 hours consistently. This is significantly lower than in fields like investment banking or high-tier management consulting, suggesting a relatively stable lifestyle for most US mechanical engineers.\n* **Flexibility:** About **8.5%** of respondents work fewer than 40 hours, which often aligns with part-time roles, senior consultants, or companies with flexible \"9/80\" schedules where some weeks are shorter.\n\n**401k Summary**: \n\nhttps://preview.redd.it/fknbyz17hpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=5b6010024c4be1624ed758a1fae31ccf15b34885\n\n|**Match Rate Range**|**Count of Responses**|**Percentage**|\n|:-|:-|:-|\n|**4% - 5%**|211|35.8%|\n|**1% - 3%**|125|21.2%|\n|**6% - 7%**|120|20.4%|\n|**8% - 10%**|65|11.0%|\n|**No Match (0%)**|56|9.5%|\n|**&gt; 10% / Other**|12|2.0%|\n\n**Key Takeaways:**\n\n* **The Industry Standard:** A 4\u20135% match is clearly the most common benefit, covering over a third of the surveyed population.\n* **High-Tier Benefits:** Roughly 13% of engineers receive a match of 8% or higher, which often indicates highly competitive benefit packages in specialized industries.\n* **Retirement Security:** The low percentage of \"No Match\" responses (under 10%) highlights that retirement contributions are a standard and expected part of total compensation in the US mechanical engineering market.\n\n  \n**Remote Work Distribution**:\n\nhttps://preview.redd.it/i19nabb5tpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=0b13870c9b3cc22c86576690b5d409c92b48bf8e\n\n|**Remote Category**|**Number of Respondents**|**Percentage**|\n|:-|:-|:-|\n|**Fully In-Person (0%)**|248|**42.1%**|\n|**Mostly In-Person (1-39%)**|163|**27.7%**|\n|**Hybrid (40-60%)**|118|**20.0%**|\n|**Fully Remote (100%)**|38|**6.5%**|\n|**Mostly Remote (61-99%)**|22|**3.7%**|\n\n**Key Insights:**\n\n* **The \"Hands-On\" Requirement:** Over **40%** of mechanical engineers are required to be in the office or on-site 100% of the time. This is significantly higher than other engineering fields like Software or Data Science.\n* **The Hybrid Standard:** Roughly **48%** of the workforce has some form of hybrid flexibility (ranging from 1% to 60% remote). Many companies now allow 1\u20132 days of remote work for documentation, CAD modeling, or administrative tasks.\n* **Fully Remote is Rare:** Only **6.5%** of mechanical engineers work fully remotely. These roles are typically in specialized areas like pure Simulation/FEA, Project Management, or Sales Engineering where physical hardware access is not required daily.\n* **The Hybrid Middle Ground:** The 40\u201360% range (often 2\u20133 days per week) is a common \"sweet spot\" for engineering firms trying to balance teamwork/lab time with employee flexibility.\n\n  \n**Paid Time Off (Days)**: \n\n\\*Note: one issue is many jobs had unlimited sick time, which I just added 10 days. Next time I will edit the form to separate the sick days so it makes more sense. \n\nhttps://preview.redd.it/r6koajaqtpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=7fa31439d42143d7cca15bf1a6fbf89353c85f3d\n\n|**PTO Category (Includes Sick Days)**|**Number of Respondents**|**Percentage**|\n|:-|:-|:-|\n|**0\u201310 days**|30|**5.2%**|\n|**11\u201315 days**|112|**19.5%**|\n|**16\u201320 days**|160|**27.9%**|\n|**21\u201325 days**|100|**17.4%**|\n|**26\u201330 days**|61|**10.6%**|\n|**31+ days**|32|**5.6%**|\n|**Unlimited**|78|**13.6%**|\n\n**Key Insights:**\n\n* **The \" 3 - 5 Week\" Benchmark:** The majority of mechanical engineers (over **45%**) receive between 16 and 25 days of PTO. \n* **The Rise of Unlimited PTO:** About **13.6%** of respondents now have \"Unlimited\" PTO. \n* **Generous Packages:** Roughly **16%** of engineers receive more than 30 days of PTO, which is often a hallmark of high-seniority roles, government/defense positions, or companies that reward long tenure.\n* **The Lean End:** Only about **5%** of respondents are on the low end with 10 days or fewer, suggesting that a minimum of two weeks of PTO is a standard baseline for the industry.\n\nNow some of you might have questions regarding years of experience and PTO:\n\nhttps://preview.redd.it/sj6dqzgiupqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=546548224eb9c31244cbb06fb5fc5dfdc32dd09a\n\n**Average PTO by Experience (Fixed PTO)**\n\n|**Experience Level**|**Average PTO Days (per year)**|**Typical Range (25th-75th Percentile)**|\n|:-|:-|:-|\n|**0\u20132 Years**|**16.9**|10\u201315 days|\n|**3\u20135 Years**|**19.6**|15\u201320 days|\n|**6\u201310 Years**|**21.1**|20 days|\n|**11\u201315 Years**|**24.5**|20\u201325 days|\n|**16+ Years**|**26.5**|25\u201330+ days|\n\n**Analysis of the Trend:**\n\n* **The \"Standard Jump\":** Many engineers start with 15 days (3 weeks) and see their first significant \"tenure bump\" to 20 days (4 weeks) after reaching the 5-year mark.\n* **Senior Perks:** By the time an engineer hits 15+ years of experience, a 5-week (25-day) or 6-week (30-day) PTO package becomes the new baseline.\n* **Job Hopping Factor:** The data suggests that while tenure within a single company increases PTO, \"job hopping\" every 3\u20135 years also allows engineers to negotiate higher starting PTO tiers at their new employers, effectively \"skipping\" the long wait for tenure-based increases.\n\n  \n**Health Insurance**: \n\nhttps://preview.redd.it/xh3mvvqlvpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=7c55f33c5d4db38d89ca0559874d0f0c85812afe\n\n|**Satisfaction Level**|**Number of Respondents**|**Percentage**|\n|:-|:-|:-|\n|**Free / Excellent**|38|**6.5%**|\n|**Good (Low Premium/High Coverage)**|211|**36.3%**|\n|**Average**|288|**49.5%**|\n|**Poor (High Premium/Low Coverage)**|41|**7.0%**|\n|**Other / Misc**|4|**0.7%**|\n\n**Key Insights:**\n\n* **The \"Standard\" Plan:** Almost **50%** of engineers describe their insurance as \"Average,\" highlighting that standard employer-sponsored health insurance is common but not particularly outstanding in terms of premiums or coverage levels.\n* **Competitive Benefits:** Over **42%** of respondents fall into the \"Good\" or \"Free\" categories. The **6.5%** who receive \"Free/Excellent\" coverage likely work for highly competitive tech firms, established defense contractors, or companies that use premium benefits as a retention tool.\n* **Under-Served Minority:** Roughly **7%** of the engineering workforce feels their health insurance is \"Poor,\" usually characterized by high out-of-pocket costs and high monthly premiums.\n\n  \n**Biggest Cons for Mechanical Engineering**: \n\nhttps://preview.redd.it/h3f6wn57wpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=29cb05edbb7d9afb90a01bf19ca5b78954e2bb63\n\n|**Category**|**Typical Concerns Mentioned**|\n|:-|:-|\n|**Workload &amp; Hours (112 mentions)**|High pressure, tight deadlines, long hours, and poor work-life balance. Many mentioned \"start-up energy\" even in established firms.|\n|**Salary &amp; Compensation (73 mentions)**|Low raises (2\u20133%), \"salary plateauing\" early in the career, and the absence of stock options or significant bonuses compared to tech.|\n|**Remote Work Limits (47 mentions)**|Frequent requirements to be in the office or on the manufacturing floor with \"no remote option\" or \"No WFH\" (Work From Home) policies.|\n|**Career Growth (35 mentions)**|Concerns about \"pigeon-holing,\" slow internal promotion tracks, and becoming \"stagnant\" in one technical area.|\n|**Red Tape &amp; Bureaucracy (26 mentions)**|Excessive paperwork, slow corporate processes, \"red tape,\" and inefficient management systems.|\n\n  \n**Biggest Pros for Mechanical Engineering**: \n\nhttps://preview.redd.it/wt5jkm1jwpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=c74a990498f89b75a5abc74b73df4290664a13fe\n\n|**Category**|**Typical Benefits Mentioned**|\n|:-|:-|\n|**Salary &amp; Comp (86 mentions)**|Competitive base pay, annual bonuses, and strong 401k matching programs.|\n|**Work-Life Balance (75 mentions)**|Flexible schedules, reasonable working hours (standard 40h), and generous PTO.|\n|**Culture &amp; People (70 mentions)**|Great teammates, supportive management, and a collaborative \"team-first\" environment.|\n|**Interesting Work (65 mentions)**|Designing \"cool\" products, working on challenging technical problems, and having a clear mission.|\n|**Job Stability (28 mentions)**|Long-term security, consistent demand for the role, and the stability of established firms.|\n|**Remote/Hybrid (27 mentions)**|The ability to work from home part-time or have flexible geographic location.|\n\n  \n**Direct Insights from Engineers:**\n\n* **On Work Quality:** *\"The actual work we do is really interesting, fun, and rewarding. Getting to see a design go from CAD to a physical product is the best part.\"*\n* **On Culture:** *\"Great coworkers and a team environment where people actually mentor you instead of just giving you tasks.\"*\n* **On Flexibility:** *\"Remote flexibility and a management team that trusts you to get your work done without micromanaging your hours.\"*\n* **On Compensation:** *\"The total compensation package\u2014including the 401k match and the annual bonus\u2014makes the technical pressure worth it.\"*\n\n**Now for Improvements on Suggestions on the Survey**: \n\n1. Regarding the COL instructions: totally my fault, sorry for not catching it. All of you were able to figure it out, but changed instructions from 0 - 2, so it makes a lot more sense now. \n2. Adding a column for manager and IC: totally good suggestion, already added to new survey for 2027\n3. Regarding adding gender or age: I will not add this into the survey just to make it more anonymous. I really do not see the value in this data, and I recommend just using government data to find the data. \n4. Regarding the health insurance question: I have implemented the change on making it have three questions: annual premium, annual deductible, person coverage. I really did not want to make this part too complicated with max out of pocket and copay and etc. I think the premium, coverage and deductible is acceptable amount. \n5. Edited the salary section to organize the % 401k match, salary, bonus, RSU to be in the same section making it easier, but separated the questions. \n\nComparison from the 2024, 2025 and 2026 Reddit Survey Results will be in another post, since this post is getting insanely long. Again, any other improvements or suggestions, please just comment below.   \n\n\n**TDLR**: Just check the 1st salary graph if you want the main results. \n\n",
+  "author_fullname": "t2_icni0",
+  "saved": false,
+  "mod_reason_title": null,
+  "gilded": 0,
+  "clicked": false,
+  "title": "2026 US Mechanical Engineer Survey Results",
+  "link_flair_richtext": [],
+  "subreddit_name_prefixed": "r/MechanicalEngineering",
+  "hidden": false,
+  "pwls": 6,
+  "link_flair_css_class": null,
+  "downs": 0,
+  "thumbnail_height": 84,
+  "top_awarded_type": null,
+  "hide_score": false,
+  "media_metadata": {
+    "pgvd42fzcpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 63,
+          "x": 108,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=b74edae0dc6d0278b1d835a153e6fd29080ebe80"
+        },
+        {
+          "y": 126,
+          "x": 216,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=c0a39ebe6fa3e141490416d9333424b24d266b95"
+        },
+        {
+          "y": 186,
+          "x": 320,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=746ed9f005a4ea6c106ca2403dc45e351419bcf1"
+        },
+        {
+          "y": 373,
+          "x": 640,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8cfa919cb4389aeb773ed7f53a734668a9e75594"
+        },
+        {
+          "y": 560,
+          "x": 960,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=6cf421c90937bb2f21e2f42f1680c8a364e767b5"
+        },
+        {
+          "y": 630,
+          "x": 1080,
+          "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=0f490cb9cb08249829ae65165c439446d86f16d6"
+        }
+      ],
+      "s": {
+        "y": 700,
+        "x": 1200,
+        "u": "https://preview.redd.it/pgvd42fzcpqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=464653eaa5409bc53666dc6b811f8bd576c95f11"
+      },
+      "id": "pgvd42fzcpqg1"
+    },
+    "hnht30ywfpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 64,
+          "x": 108,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=3598adb5d72b018506df6556db759c803755eb52"
+        },
+        {
+          "y": 129,
+          "x": 216,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=00a1e5a4dac6cb36e8b9c9baf07db65fc6090102"
+        },
+        {
+          "y": 192,
+          "x": 320,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=932c0bb4e82318a83adabf8f6858937182e3ff8f"
+        },
+        {
+          "y": 384,
+          "x": 640,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c86eecd25196343915513d217b5fb265aa4e350a"
+        },
+        {
+          "y": 576,
+          "x": 960,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=dd4e522b834c69a639b3a901788043be18c9977b"
+        },
+        {
+          "y": 648,
+          "x": 1080,
+          "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=40df0c6b83c5a1aeea03147fa982212c12604772"
+        }
+      ],
+      "s": {
+        "y": 900,
+        "x": 1500,
+        "u": "https://preview.redd.it/hnht30ywfpqg1.png?width=1500&amp;format=png&amp;auto=webp&amp;s=4eac653faba83b79dd835b38ca03c6f1607d19b9"
+      },
+      "id": "hnht30ywfpqg1"
+    },
+    "fknbyz17hpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=d226f2bcf62043249eb7706f1de57d2b3e6935f0"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=2cf9c0d6be607456ee40f9aa0961b955a272fea0"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=78a80ba031b5adbae8a94c8e6e06e24f5243d3c1"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=3300da031bfb897884725b53257e57a8705e8f70"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=d3fa14aa84a4db8838b12d16e433853bc1a3fa19"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/fknbyz17hpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=5b6010024c4be1624ed758a1fae31ccf15b34885"
+      },
+      "id": "fknbyz17hpqg1"
+    },
+    "xh3mvvqlvpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=38bf1e578eca9fd5e5a2730a24b17d680891fad1"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=0fc7257a41a2aa77e2817f96d1bf902dcfbc0277"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=ebe68dbd57666228f97d4e6adbbea71843cd2113"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a32aee1276a087cb4ccf907e4a9930e8f1bfa7f2"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=57a3bb70bced8adf267ddf47c4b4d30c01cb1607"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/xh3mvvqlvpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=7c55f33c5d4db38d89ca0559874d0f0c85812afe"
+      },
+      "id": "xh3mvvqlvpqg1"
+    },
+    "1g41anlrapqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 75,
+          "x": 108,
+          "u": "https://preview.redd.it/1g41anlrapqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=0ef411ce45e74ffb09133f8d407f105e49647685"
+        },
+        {
+          "y": 151,
+          "x": 216,
+          "u": "https://preview.redd.it/1g41anlrapqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=91b82b5b55237b1d22b52fc52b55fd6c5b314cd5"
+        },
+        {
+          "y": 224,
+          "x": 320,
+          "u": "https://preview.redd.it/1g41anlrapqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=07825aec0ca2b154ccc8308f46e7a0bbdb80b34e"
+        },
+        {
+          "y": 448,
+          "x": 640,
+          "u": "https://preview.redd.it/1g41anlrapqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5c3681da3d70724096ab999df32a23c4035c299c"
+        },
+        {
+          "y": 672,
+          "x": 960,
+          "u": "https://preview.redd.it/1g41anlrapqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=6ddc7f0c2a3cf2e792d4e833055be6f7dbdf5048"
+        }
+      ],
+      "s": {
+        "y": 700,
+        "x": 1000,
+        "u": "https://preview.redd.it/1g41anlrapqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=ac0fb567430d310ad9ae086582bb889b53c0ae8d"
+      },
+      "id": "1g41anlrapqg1"
+    },
+    "w8dtcv0mspqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=5832e67f5d7467f76d9426c747e6df6454c3dc2e"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=41c53897b68607742950797466693e72a427acab"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=4b185aa4465b91aa01009efde3bc255f047bc31a"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=566040617c9d7a3ef794859108ed51f782a5a0af"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=21ea696c1b02bb7a8c3b1bcf10cf7a9dd608994c"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/w8dtcv0mspqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=b9aec880cf32d0c18b320720aec831c19add849b"
+      },
+      "id": "w8dtcv0mspqg1"
+    },
+    "79b6h77hmpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=2d1fdf5a96e9190b99f42f9ee61da2318ed2c048"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a9a996ce14d7202bc0c7442f742f4e8869fdf511"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=1c81d4ac426124c3c2301841f948407479434d32"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5da95a5c30fc45f9eb3bcef035f047680889a670"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=f634b3395fb2fb72945df589573873e37262d010"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/79b6h77hmpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=20820979a842cc185b852b1e3d9608f75fb0daea"
+      },
+      "id": "79b6h77hmpqg1"
+    },
+    "fk1bdq92xpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 72,
+          "x": 108,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=1155415da48ccec04b69e5ba1ba600e5d584d41c"
+        },
+        {
+          "y": 144,
+          "x": 216,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=bd9c34eb9e85567f5a37dc510edd16b9b6cd6802"
+        },
+        {
+          "y": 213,
+          "x": 320,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=48acae7169db6a22e1b28d282aafeb50c721dc3f"
+        },
+        {
+          "y": 426,
+          "x": 640,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=98a264af8afb5d037e4b3cabd620391503dee1b8"
+        },
+        {
+          "y": 640,
+          "x": 960,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=bd66a3ae63a26ec041aad6d1024357235afe7b15"
+        },
+        {
+          "y": 720,
+          "x": 1080,
+          "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=77522163214469a87178849529063781d380bac3"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1200,
+        "u": "https://preview.redd.it/fk1bdq92xpqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=6dc71e691ad3c929354a7d6a0fa435d431b65006"
+      },
+      "id": "fk1bdq92xpqg1"
+    },
+    "sj6dqzgiupqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 64,
+          "x": 108,
+          "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=877a5c299f951a7cbfef1e56055d50b56e78aa06"
+        },
+        {
+          "y": 129,
+          "x": 216,
+          "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=4ff38af8eb3ca0a7f1486c8d57f7a5d11cb9310b"
+        },
+        {
+          "y": 192,
+          "x": 320,
+          "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=3df7c2f062a3df89ea0885a6668739175995dbad"
+        },
+        {
+          "y": 384,
+          "x": 640,
+          "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f7da8a460f37fe235747d55cdeeba8901e4de252"
+        },
+        {
+          "y": 576,
+          "x": 960,
+          "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=f8c50c77fffc403b374487a229917eea64e147e6"
+        }
+      ],
+      "s": {
+        "y": 600,
+        "x": 1000,
+        "u": "https://preview.redd.it/sj6dqzgiupqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=546548224eb9c31244cbb06fb5fc5dfdc32dd09a"
+      },
+      "id": "sj6dqzgiupqg1"
+    },
+    "wt5jkm1jwpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 64,
+          "x": 108,
+          "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=88910680d272570ecff9521a82520b0da47a8997"
+        },
+        {
+          "y": 129,
+          "x": 216,
+          "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=571a57ad1a64f6e85c8cfdce28cea14ba71a08ad"
+        },
+        {
+          "y": 192,
+          "x": 320,
+          "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=abb2863509271b9a015bf80a0912880e999fceca"
+        },
+        {
+          "y": 384,
+          "x": 640,
+          "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=277e6d00dfd04fdf1370b525258513851f5e3397"
+        },
+        {
+          "y": 576,
+          "x": 960,
+          "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=6ce5f43a0a3fa5f58f2d7e061d8fbc8e58f7b255"
+        }
+      ],
+      "s": {
+        "y": 600,
+        "x": 1000,
+        "u": "https://preview.redd.it/wt5jkm1jwpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=c74a990498f89b75a5abc74b73df4290664a13fe"
+      },
+      "id": "wt5jkm1jwpqg1"
+    },
+    "i19nabb5tpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=e7e9ab17496b4b133d7a20db84302423cff7a114"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=f245ea5b41ba36bb41016c0e884ff56da9890fbb"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=0f93ad4617d7c272c0486967b5ecb473e70477c3"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4f0ac6b5dcebce2b82887ab077c664137749b6b4"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=c24303c5165d7b92f435ad2cbceed2ec62fc9090"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/i19nabb5tpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=0b13870c9b3cc22c86576690b5d409c92b48bf8e"
+      },
+      "id": "i19nabb5tpqg1"
+    },
+    "h3f6wn57wpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 64,
+          "x": 108,
+          "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=748c017e7acc7d9820e8f8a8821ac8640c67db36"
+        },
+        {
+          "y": 129,
+          "x": 216,
+          "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=d9e072f02ebec1443904532c82f85e04d49fdae0"
+        },
+        {
+          "y": 192,
+          "x": 320,
+          "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=1cf5bae746c5c6795ba67db8033e28a8b6b4fc0e"
+        },
+        {
+          "y": 384,
+          "x": 640,
+          "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=69e8691900e7cd211a18723ec02430697a87d0fd"
+        },
+        {
+          "y": 576,
+          "x": 960,
+          "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=07e6a49a085993428342da349f6222e8e8a363e0"
+        }
+      ],
+      "s": {
+        "y": 600,
+        "x": 1000,
+        "u": "https://preview.redd.it/h3f6wn57wpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=29cb05edbb7d9afb90a01bf19ca5b78954e2bb63"
+      },
+      "id": "h3f6wn57wpqg1"
+    },
+    "r6koajaqtpqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=5af9c73f9fe49792e0a18cd5f4238e865e8ff7a6"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=5e2d8148d6de0fc08d36e7a4b71b8ec024c54ed2"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=bee2e4f6d6e6f0098ca8995aeb38b49d6c1d72f0"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c389feb077fa5d986a4bcd21bc32d65bab25672f"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=fdd8859be0f020f84940707b78fcd09986bd9e3e"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/r6koajaqtpqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=7fa31439d42143d7cca15bf1a6fbf89353c85f3d"
+      },
+      "id": "r6koajaqtpqg1"
+    },
+    "sknrbwdygsqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 72,
+          "x": 108,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=64c2e6912c57ef04b1865839283e47daabac3752"
+        },
+        {
+          "y": 144,
+          "x": 216,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a7745f79300cbad000a05f5c3fda50edf1c30e14"
+        },
+        {
+          "y": 213,
+          "x": 320,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=74312501c61fb9fe7edf881a28a6854c16b4ce56"
+        },
+        {
+          "y": 426,
+          "x": 640,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b65d875000216373c85fb05d5aa383501cac84f4"
+        },
+        {
+          "y": 640,
+          "x": 960,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=14cdd190cad95d8f65aef602496ebf55f73e6655"
+        },
+        {
+          "y": 720,
+          "x": 1080,
+          "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=4b2caa96faabe301dbc4f4cddeda1d25e4e05ea7"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1200,
+        "u": "https://preview.redd.it/sknrbwdygsqg1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=2fa5df3c0a7579f39286c2edf9669b324aeb9c67"
+      },
+      "id": "sknrbwdygsqg1"
+    },
+    "fewykxl7ipqg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 86,
+          "x": 108,
+          "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=e4db96b44b0e29d9824a2c313a920bbe39049ec0"
+        },
+        {
+          "y": 172,
+          "x": 216,
+          "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=71002897502e5b73581d3ea512325b676580fab6"
+        },
+        {
+          "y": 256,
+          "x": 320,
+          "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=66748926a6a7d255eccc2241bf55df163a0e2113"
+        },
+        {
+          "y": 512,
+          "x": 640,
+          "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fab191d80be70ddad5d2303a33b311fad6be1d55"
+        },
+        {
+          "y": 768,
+          "x": 960,
+          "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=df2bbfdc3380774db8573c62851a7401ab19cfa8"
+        }
+      ],
+      "s": {
+        "y": 800,
+        "x": 1000,
+        "u": "https://preview.redd.it/fewykxl7ipqg1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=47844d59135609e3d94d0cb683aca7734b349df8"
+      },
+      "id": "fewykxl7ipqg1"
+    }
+  },
+  "name": "t3_1s1fkl9",
+  "quarantine": false,
+  "link_flair_text_color": "dark",
+  "upvote_ratio": 0.99,
+  "author_flair_background_color": null,
+  "subreddit_type": "public",
+  "ups": 517,
+  "total_awards_received": 0,
+  "media_embed": {},
+  "thumbnail_width": 140,
+  "author_flair_template_id": null,
+  "is_original_content": false,
+  "user_reports": [],
+  "secure_media": null,
+  "is_reddit_media_domain": false,
+  "is_meta": false,
+  "category": null,
+  "secure_media_embed": {},
+  "link_flair_text": null,
+  "can_mod_post": false,
+  "score": 517,
+  "approved_by": null,
+  "is_created_from_ads_ui": false,
+  "author_premium": false,
+  "thumbnail": "https://preview.redd.it/hnht30ywfpqg1.png?width=140&amp;height=84&amp;auto=webp&amp;s=dedb86677272b93a53bfbbdf423c24e81c1c9837",
+  "edited": false,
+  "author_flair_css_class": null,
+  "author_flair_richtext": [],
+  "gildings": {},
+  "content_categories": null,
+  "is_self": true,
+  "mod_note": null,
+  "created": 1774269187.0,
+  "link_flair_type": "text",
+  "wls": 6,
+  "removed_by_category": null,
+  "banned_by": null,
+  "author_flair_type": "text",
+  "domain": "self.MechanicalEngineering",
+  "allow_live_comments": false,
+  "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I would like to thank you everyone for participating in the annual 2026 ME Salary survey. Total respondents was a little over 600, so less than last year, but about 589 US responses. &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.reddit.com/r/MechanicalEngineering/comments/1ridqw5/2026_mechanical_engineer_salary_survey/\"&gt;Past Results Link&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;Here are the main results. It took about 2 hours to &amp;quot;clean&amp;quot; the data manually. Afterwards, I basically used Gemini to create the graphs + tables, since last time it literally took me about 7 hours to do everything manually on Excel last time and there were still questions. The key points and takeaways from the data is a combination of AI and editing the information to be more readable (still took 4 hours). In addition, I wouldn&amp;#39;t worry about math too much, since Gemini basically just used python code to decipher the edited CSV file. &lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Industry:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Industry&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;175 (29.7%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Aerospace/Defense&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;173 (29.4%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Technology (FANG, AI, Robotics, etc.)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;54 (9.2%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;MEP (HVAC, Construction, etc.)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;38 (6.5%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Utilities (Power, Renewables, etc.)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;35 (5.9%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Pharmaceutical &amp;amp; Medical Devices&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;31 (5.3%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Oil and Gas&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;28 (4.8%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Consumer Goods&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;15 (2.5%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Government&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;11 (1.9%)&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;ul&gt;\n&lt;li&gt;There were some other industries like nuclear, logistics, and etc. but the few data points aren&amp;#39;t included in the table for brevity. The data was included in the total set though&lt;/li&gt;\n&lt;li&gt;A majority of the mechanical engineers trends will use the Aerospace/Defense and Manufacturing data since there is the most data that is available&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Salary and Year of Experience:&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;*Note: Total Compensation/Salary = Base Salary + Bonus + RSU + Base Salary * 401k Match&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;If you want to look at one graph and table to explain the progression track here it is:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/hnht30ywfpqg1.png?width=1500&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4eac653faba83b79dd835b38ca03c6f1607d19b9\"&gt;https://preview.redd.it/hnht30ywfpqg1.png?width=1500&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4eac653faba83b79dd835b38ca03c6f1607d19b9&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;YOE Range&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Base (Unadj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Total (Unadj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Base (COL Adj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Total (COL Adj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Count&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-1 Year&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$87,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$96,036&lt;/td&gt;\n&lt;td align=\"left\"&gt;$81,699&lt;/td&gt;\n&lt;td align=\"left\"&gt;$87,368&lt;/td&gt;\n&lt;td align=\"left\"&gt;43&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;2 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$84,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$91,046&lt;/td&gt;\n&lt;td align=\"left\"&gt;$84,615&lt;/td&gt;\n&lt;td align=\"left\"&gt;$90,909&lt;/td&gt;\n&lt;td align=\"left\"&gt;71&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;3 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$94,550&lt;/td&gt;\n&lt;td align=\"left\"&gt;$105,965&lt;/td&gt;\n&lt;td align=\"left\"&gt;$94,082&lt;/td&gt;\n&lt;td align=\"left\"&gt;$102,289&lt;/td&gt;\n&lt;td align=\"left\"&gt;62&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4-5 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$104,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$119,770&lt;/td&gt;\n&lt;td align=\"left\"&gt;$94,881&lt;/td&gt;\n&lt;td align=\"left\"&gt;$107,762&lt;/td&gt;\n&lt;td align=\"left\"&gt;116&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6-8 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$120,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$136,800&lt;/td&gt;\n&lt;td align=\"left\"&gt;$112,500&lt;/td&gt;\n&lt;td align=\"left\"&gt;$127,911&lt;/td&gt;\n&lt;td align=\"left\"&gt;119&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;9-12 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$125,500&lt;/td&gt;\n&lt;td align=\"left\"&gt;$146,985&lt;/td&gt;\n&lt;td align=\"left\"&gt;$123,444&lt;/td&gt;\n&lt;td align=\"left\"&gt;$142,555&lt;/td&gt;\n&lt;td align=\"left\"&gt;96&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;13-20 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$157,290&lt;/td&gt;\n&lt;td align=\"left\"&gt;$181,840&lt;/td&gt;\n&lt;td align=\"left\"&gt;$144,254&lt;/td&gt;\n&lt;td align=\"left\"&gt;$171,731&lt;/td&gt;\n&lt;td align=\"left\"&gt;64&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;20+ Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$196,500&lt;/td&gt;\n&lt;td align=\"left\"&gt;$211,426&lt;/td&gt;\n&lt;td align=\"left\"&gt;$163,399&lt;/td&gt;\n&lt;td align=\"left\"&gt;$191,042&lt;/td&gt;\n&lt;td align=\"left\"&gt;15&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Takeaways:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Benefit Gap&amp;quot;:&lt;/strong&gt; The space between the solid lines (Total Compensation) and the dashed lines (Base Salary) represents the added value from annual bonuses and employer 401k matching. For a mid-career engineer (6-8 years), this extra value is roughly &lt;strong&gt;$16,800&lt;/strong&gt; on average.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Late Career Leverage:&lt;/strong&gt; As engineers gain seniority (13+ years), the gap between base salary and total compensation grows significantly, suggesting that bonuses and incentive programs make up a larger portion of the package for senior-level and leadership roles.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Purchasing Power:&lt;/strong&gt; The COL Adjusted lines (Orange) consistently track below the un-adjusted lines (Blue), highlighting that high-paying mechanical engineering roles are frequently located in markets where the dollar doesn&amp;#39;t stretch as far as the national average.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/1g41anlrapqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ac0fb567430d310ad9ae086582bb889b53c0ae8d\"&gt;https://preview.redd.it/1g41anlrapqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ac0fb567430d310ad9ae086582bb889b53c0ae8d&lt;/a&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Majority of the respondents are at max a bachelor degree holder. However, there is still a significant number of master&amp;#39;s students&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Now about the age old question: does having a Master&amp;#39;s degree lead to higher future salary?&lt;/p&gt;\n\n&lt;p&gt;Short Answer: In general, the answer is yes if there is a chance to specialize. It is explained in the table below: &lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Industry&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Career Stage&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Total (Unadj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Total (COL Adj)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Count&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Aerospace &amp;amp; Defense&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-3 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$96,664&lt;/td&gt;\n&lt;td align=\"left\"&gt;$95,201&lt;/td&gt;\n&lt;td align=\"left\"&gt;44&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$116,600&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$108,316&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;15&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4-7 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$125,410&lt;/td&gt;\n&lt;td align=\"left\"&gt;$110,659&lt;/td&gt;\n&lt;td align=\"left\"&gt;39&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$173,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$148,432&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;9&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8-15 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$161,750&lt;/td&gt;\n&lt;td align=\"left\"&gt;$140,202&lt;/td&gt;\n&lt;td align=\"left\"&gt;33&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$154,905&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$149,658&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;16&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;15+ Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$207,080&lt;/td&gt;\n&lt;td align=\"left\"&gt;$187,505&lt;/td&gt;\n&lt;td align=\"left\"&gt;7&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$211,426&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$207,872&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;5&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-3 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$88,220&lt;/td&gt;\n&lt;td align=\"left\"&gt;$93,452&lt;/td&gt;\n&lt;td align=\"left\"&gt;52&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$93,740&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$91,850&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;6&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4-7 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$108,992&lt;/td&gt;\n&lt;td align=\"left\"&gt;$106,701&lt;/td&gt;\n&lt;td align=\"left\"&gt;45&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$129,800&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$128,407&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;12&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8-15 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$135,425&lt;/td&gt;\n&lt;td align=\"left\"&gt;$142,440&lt;/td&gt;\n&lt;td align=\"left\"&gt;44&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$136,298&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$129,984&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;8&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;15+ Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;$182,650&lt;/td&gt;\n&lt;td align=\"left\"&gt;$187,127&lt;/td&gt;\n&lt;td align=\"left\"&gt;5&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Now you can see that for manufacturing, the benefits is not as prominent, while it is evident in aerospace. This makes sense, since Aerospace have very high specialization salary, for instance: hypersonic or eVtol which pays a ton for total compensation based on years of experience. \n\n&lt;ul&gt;\n&lt;li&gt;Answer: if your company pays for your masters, do it, but it doesn&amp;#39;t seem that beneficial near the end of your career. &lt;/li&gt;\n&lt;/ul&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Internships &amp;amp; Coops:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/fewykxl7ipqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=47844d59135609e3d94d0cb683aca7734b349df8\"&gt;https://preview.redd.it/fewykxl7ipqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=47844d59135609e3d94d0cb683aca7734b349df8&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Insights:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Experienced&amp;quot; Majority:&lt;/strong&gt; A combined &lt;strong&gt;85%&lt;/strong&gt; of respondents completed at least one internship or co-op. This underscores how critical early-career work experience has become for landing a full-time role in mechanical engineering.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Co-op Advantage:&lt;/strong&gt; The 20% of respondents with &amp;quot;3+ Internships&amp;quot; often represent those in formal co-op programs (where students rotate between school and work over several years). These candidates typically command higher starting salaries shown in the table below: &lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Industry&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;0-1 Internship&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;2+ Internships&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;New Grad Premium&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Aerospace &amp;amp; Defense&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$82,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$91,500&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;+$9,500&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Manufacturing&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$74,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$82,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;+$8,000&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;MedTech&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$80,500&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$89,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;+$8,500&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Certifications&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;Here is the graph of a major certifications from the survey:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/pgvd42fzcpqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=464653eaa5409bc53666dc6b811f8bd576c95f11\"&gt;https://preview.redd.it/pgvd42fzcpqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=464653eaa5409bc53666dc6b811f8bd576c95f11&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;We always see a question on whether certifications are worth it:&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Aerospace &amp;amp; Defense: Certification vs. Total Compensation&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Has Cert?&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Unadj. Total&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Adj. Total&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Count&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-3 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$97,900&lt;/td&gt;\n&lt;td align=\"left\"&gt;$95,426&lt;/td&gt;\n&lt;td align=\"left\"&gt;41&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$95,040&lt;/td&gt;\n&lt;td align=\"left\"&gt;$64,653&lt;/td&gt;\n&lt;td align=\"left\"&gt;3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4-7 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$125,315&lt;/td&gt;\n&lt;td align=\"left\"&gt;$106,672&lt;/td&gt;\n&lt;td align=\"left\"&gt;36&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$128,580&lt;/td&gt;\n&lt;td align=\"left\"&gt;$138,258&lt;/td&gt;\n&lt;td align=\"left\"&gt;3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8-15 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$159,660&lt;/td&gt;\n&lt;td align=\"left\"&gt;$139,839&lt;/td&gt;\n&lt;td align=\"left\"&gt;31&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$280,425&lt;/td&gt;\n&lt;td align=\"left\"&gt;$177,895&lt;/td&gt;\n&lt;td align=\"left\"&gt;2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$151,410&lt;/td&gt;\n&lt;td align=\"left\"&gt;$142,043&lt;/td&gt;\n&lt;td align=\"left\"&gt;13&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$209,658&lt;/td&gt;\n&lt;td align=\"left\"&gt;$216,142&lt;/td&gt;\n&lt;td align=\"left\"&gt;3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Manufacturing: Certification vs. Total Compensation&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Has Cert?&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Unadj. Total&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Adj. Total&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Count&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-3 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$88,020&lt;/td&gt;\n&lt;td align=\"left\"&gt;$91,944&lt;/td&gt;\n&lt;td align=\"left\"&gt;43&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$90,450&lt;/td&gt;\n&lt;td align=\"left\"&gt;$99,746&lt;/td&gt;\n&lt;td align=\"left\"&gt;9&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4-7 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$108,805&lt;/td&gt;\n&lt;td align=\"left\"&gt;$106,615&lt;/td&gt;\n&lt;td align=\"left\"&gt;36&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$108,992&lt;/td&gt;\n&lt;td align=\"left\"&gt;$106,701&lt;/td&gt;\n&lt;td align=\"left\"&gt;9&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8-15 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Bachelors&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$135,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$136,541&lt;/td&gt;\n&lt;td align=\"left\"&gt;31&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$136,000&lt;/td&gt;\n&lt;td align=\"left\"&gt;$151,111&lt;/td&gt;\n&lt;td align=\"left\"&gt;13&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Masters&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$152,212&lt;/td&gt;\n&lt;td align=\"left\"&gt;$122,728&lt;/td&gt;\n&lt;td align=\"left\"&gt;6&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Yes&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;$134,815&lt;/td&gt;\n&lt;td align=\"left\"&gt;$141,636&lt;/td&gt;\n&lt;td align=\"left\"&gt;2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Findings&lt;/strong&gt;:&lt;/p&gt;\n\n&lt;ol&gt;\n&lt;li&gt;&lt;strong&gt;High-Experience Premium in Aerospace:&lt;/strong&gt; The most dramatic impact of certification appears in the mid-to-late career in Aerospace &amp;amp; Defense (8\u201315 years). Engineers with a Bachelors and a certification earn a median total compensation significantly higher than those without. Even among Masters holders in this range, certified engineers have a median total comp of &lt;strong&gt;$209k&lt;/strong&gt; vs &lt;strong&gt;$151k&lt;/strong&gt; for non-certified.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Manufacturing Stability:&lt;/strong&gt; In the Manufacturing industry, certifications (often Six Sigma or FE/PE) lead to a very modest increase in un-adjusted base pay, but a more noticeable improvement in &lt;strong&gt;COL-adjusted pay&lt;/strong&gt;. This suggests that certified engineers in Manufacturing may have more flexibility to find high-paying roles in lower-cost-of-living areas.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Entry-Level Paradox&amp;quot;:&lt;/strong&gt; For junior engineers (0\u20133 years), having a certification (likely the FE) does not immediately result in a salary premium. In fact, in Aerospace, the un-adjusted median for those with certifications was slightly lower, possibly because those engineers are still in entry-level rotation programs where pay is standardized regardless of credentials.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Masters + Certification:&lt;/strong&gt; For those who already have a Masters, adding a certification provides a significant late-career boost (as seen in the 8\u201315 year group in Aerospace).&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Certification can be worth it for select industries. PE is known for civil to open doors and increase pay. &lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Job Titles&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/fk1bdq92xpqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6dc71e691ad3c929354a7d6a0fa435d431b65006\"&gt;https://preview.redd.it/fk1bdq92xpqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6dc71e691ad3c929354a7d6a0fa435d431b65006&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Job Role Category&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Mechanical Engineer (General)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;229&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;38.9%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Design Engineer&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;97&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Project &amp;amp; Systems Engineer&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;59&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;10.0%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Management &amp;amp; Leadership&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;55&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;9.3%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Manufacturing &amp;amp; Process Engineer&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;54&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;9.2%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Specialized (Thermal, Stress, R&amp;amp;D)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;34&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;5.8%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Other / Misc&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;61&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;10.4%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h1&gt;Key Insights:&lt;/h1&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;General vs. Specialized:&lt;/strong&gt; Nearly &lt;strong&gt;40%&lt;/strong&gt; of respondents identify with the broad title of &amp;quot;Mechanical Engineer,&amp;quot; which often includes generalists or those in mid-level positions.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Design Dominance:&lt;/strong&gt; &lt;strong&gt;Design Engineering&lt;/strong&gt; is the second largest single group, reflecting the high demand for CAD-based design and product development across aerospace, tech, and manufacturing industries.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Transition to Leadership:&lt;/strong&gt; About &lt;strong&gt;9%&lt;/strong&gt; of respondents hold titles in &lt;strong&gt;Management &amp;amp; Leadership&lt;/strong&gt; (Manager, Director, VP), which led to a higher salary&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Project and Systems focus:&lt;/strong&gt; &lt;strong&gt;1 in 10&lt;/strong&gt; engineers focuses on &lt;strong&gt;Project&lt;/strong&gt; or &lt;strong&gt;Systems Engineering&lt;/strong&gt;, highlighting the importance of multidisciplinary coordination and technical management in modern engineering projects.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Specialty Niche:&lt;/strong&gt; The &amp;quot;Specialized&amp;quot; category includes highly technical roles like &lt;strong&gt;Thermal Analysis, FEA, Simulation,&lt;/strong&gt; and &lt;strong&gt;Research &amp;amp; Development&lt;/strong&gt;, which often require higher educational levels or deep domain expertise.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Salary Grade vs. Salary:&lt;/strong&gt; &lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Grade Level&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Industry&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Median Annual Salary&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Typical Experience (YOE)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Sample Count&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Level 1&lt;/strong&gt; (Entry)&lt;/td&gt;\n&lt;td align=\"left\"&gt;Aerospace &amp;amp; Defense&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$88,400&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;1.0 year&lt;/td&gt;\n&lt;td align=\"left\"&gt;39&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Manufacturing&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$80,250&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;2.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;39&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Level 2&lt;/strong&gt; (Mid)&lt;/td&gt;\n&lt;td align=\"left\"&gt;Aerospace &amp;amp; Defense&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$102,273&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;3.8 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;48&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Manufacturing&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$95,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;5.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;71&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Level 3&lt;/strong&gt; (Senior)&lt;/td&gt;\n&lt;td align=\"left\"&gt;Aerospace &amp;amp; Defense&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$130,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;8.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;57&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Manufacturing&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$119,600&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;9.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;50&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Level 4&lt;/strong&gt; (Lead/Manager)&lt;/td&gt;\n&lt;td align=\"left\"&gt;Aerospace &amp;amp; Defense&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$170,500&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;11.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;22&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Manufacturing&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$136,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;11.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;11&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Level 5+&lt;/strong&gt; (Principal/Director)&lt;/td&gt;\n&lt;td align=\"left\"&gt;Aerospace &amp;amp; Defense&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$206,000&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;20.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;9&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Manufacturing&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$136,500&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;14.0 years&lt;/td&gt;\n&lt;td align=\"left\"&gt;4&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Efficiency of Experience:&lt;/strong&gt; In Aerospace, engineers tend to reach Level 2 and Level 3 roughly &lt;strong&gt;1\u20131.2 years faster&lt;/strong&gt; than those in Manufacturing, while also earning more.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Level 4 Ceiling:&lt;/strong&gt; In Manufacturing, the salary jump from Grade 3 to Grade 4 is roughly &lt;strong&gt;$16k&lt;/strong&gt;, whereas in Aerospace, that same promotion yields a massive &lt;strong&gt;$40k&lt;/strong&gt; jump in median base salary.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Which Industry Pays the Most?&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/sknrbwdygsqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2fa5df3c0a7579f39286c2edf9669b324aeb9c67\"&gt;https://preview.redd.it/sknrbwdygsqg1.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2fa5df3c0a7579f39286c2edf9669b324aeb9c67&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Major Caveat&lt;/strong&gt;: at 16+ YOE, the data points are only a couple, which skews the data upward. &lt;/p&gt;\n\n&lt;p&gt;Based on the comprehensive US survey data, the &lt;strong&gt;Technology (FANG, Robotics, AI, Consumer Electronics)&lt;/strong&gt; industry emerges as the highest-paying sector for mechanical engineers when considering total compensation (Base Salary + Annual Bonus + 401k Match).&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Tech Compensation Package&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Years of Experience&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Avg. Total Comp (Unadjusted)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Avg. Total Comp (Adjusted for COL)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-2 YOE (Entry)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$117,316&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$100,292&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;3-5 YOE (Junior)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$180,854&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$138,040&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;17&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6-10 YOE (Mid-Level)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$182,773&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$134,543&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;14&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;11-15 YOE (Senior)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$259,993&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$220,256&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;11&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16+ YOE (Principal)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$244,775&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$177,043&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;5&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;The &lt;strong&gt;Oil and Gas&lt;/strong&gt; industry stands out as the second most lucrative sectors for mechanical engineers, particularly as they reach senior and principal levels. While &lt;strong&gt;Tech&lt;/strong&gt; offers the highest overall unadjusted compensation, &lt;strong&gt;Oil and Gas&lt;/strong&gt; actually offers the highest &lt;strong&gt;Cost of Living (COL) Adjusted&lt;/strong&gt; compensation, meaning your real purchasing power in this industry is the highest among all major sectors. &lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Years of Experience&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Avg. Total Comp (Unadjusted)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Avg. Total Comp (COL Adjusted)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0-2 YOE&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$95,864&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$83,178&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;5&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;3-5 YOE&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$117,289&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$111,155&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6-10 YOE&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$138,959&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$139,773&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;11-15 YOE&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$204,097&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$219,757&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;6&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16+ YOE&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$408,040&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;$399,276&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Overtime Pay&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/79b6h77hmpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=20820979a842cc185b852b1e3d9608f75fb0daea\"&gt;https://preview.redd.it/79b6h77hmpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=20820979a842cc185b852b1e3d9608f75fb0daea&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Industry Trends:&lt;/strong&gt; Overtime pay is slightly more common in &lt;strong&gt;Manufacturing&lt;/strong&gt; (where production deadlines are rigid) and &lt;strong&gt;Consulting/EPC&lt;/strong&gt; (where hours are billable to clients) compared to R&amp;amp;D or Aerospace.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Work Hours:&lt;/strong&gt; &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/w8dtcv0mspqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b9aec880cf32d0c18b320720aec831c19add849b\"&gt;https://preview.redd.it/w8dtcv0mspqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b9aec880cf32d0c18b320720aec831c19add849b&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Work Hours Category&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Exactly 40 Hours&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;337&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;57.2%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;41-45 Hours&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;146&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;24.8%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;46-50 Hours&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;49&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8.3%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;&amp;lt;40 Hours&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;50&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;&amp;gt;50 Hours&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;7&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;1.2%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Observations:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;40-Hour&amp;quot; Standard:&lt;/strong&gt; Over half of the engineers surveyed manage to stick to a strict 40-hour week, which is a positive sign for work-life balance in the profession.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Moderate Overtime:&lt;/strong&gt; Roughly a quarter of engineers work an extra 1 to 5 hours a week (41-45 hours total), often representing &amp;quot;straight time&amp;quot; or expected professional dedication without formal overtime pay.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The High-Hours Exception:&lt;/strong&gt; Only a small fraction (&lt;strong&gt;under 10%&lt;/strong&gt;) report working more than 45 hours consistently. This is significantly lower than in fields like investment banking or high-tier management consulting, suggesting a relatively stable lifestyle for most US mechanical engineers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Flexibility:&lt;/strong&gt; About &lt;strong&gt;8.5%&lt;/strong&gt; of respondents work fewer than 40 hours, which often aligns with part-time roles, senior consultants, or companies with flexible &amp;quot;9/80&amp;quot; schedules where some weeks are shorter.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;401k Summary&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/fknbyz17hpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=5b6010024c4be1624ed758a1fae31ccf15b34885\"&gt;https://preview.redd.it/fknbyz17hpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=5b6010024c4be1624ed758a1fae31ccf15b34885&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Match Rate Range&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Count of Responses&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;4% - 5%&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;211&lt;/td&gt;\n&lt;td align=\"left\"&gt;35.8%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;1% - 3%&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;125&lt;/td&gt;\n&lt;td align=\"left\"&gt;21.2%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6% - 7%&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;120&lt;/td&gt;\n&lt;td align=\"left\"&gt;20.4%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;8% - 10%&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;65&lt;/td&gt;\n&lt;td align=\"left\"&gt;11.0%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;No Match (0%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;56&lt;/td&gt;\n&lt;td align=\"left\"&gt;9.5%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;&amp;gt; 10% / Other&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;12&lt;/td&gt;\n&lt;td align=\"left\"&gt;2.0%&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Takeaways:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The Industry Standard:&lt;/strong&gt; A 4\u20135% match is clearly the most common benefit, covering over a third of the surveyed population.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;High-Tier Benefits:&lt;/strong&gt; Roughly 13% of engineers receive a match of 8% or higher, which often indicates highly competitive benefit packages in specialized industries.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Retirement Security:&lt;/strong&gt; The low percentage of &amp;quot;No Match&amp;quot; responses (under 10%) highlights that retirement contributions are a standard and expected part of total compensation in the US mechanical engineering market.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Remote Work Distribution&lt;/strong&gt;:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/i19nabb5tpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0b13870c9b3cc22c86576690b5d409c92b48bf8e\"&gt;https://preview.redd.it/i19nabb5tpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0b13870c9b3cc22c86576690b5d409c92b48bf8e&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Remote Category&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Fully In-Person (0%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;248&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;42.1%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Mostly In-Person (1-39%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;163&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;27.7%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Hybrid (40-60%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;118&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;20.0%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Fully Remote (100%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;38&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Mostly Remote (61-99%)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;22&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;3.7%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Insights:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Hands-On&amp;quot; Requirement:&lt;/strong&gt; Over &lt;strong&gt;40%&lt;/strong&gt; of mechanical engineers are required to be in the office or on-site 100% of the time. This is significantly higher than other engineering fields like Software or Data Science.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Hybrid Standard:&lt;/strong&gt; Roughly &lt;strong&gt;48%&lt;/strong&gt; of the workforce has some form of hybrid flexibility (ranging from 1% to 60% remote). Many companies now allow 1\u20132 days of remote work for documentation, CAD modeling, or administrative tasks.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Fully Remote is Rare:&lt;/strong&gt; Only &lt;strong&gt;6.5%&lt;/strong&gt; of mechanical engineers work fully remotely. These roles are typically in specialized areas like pure Simulation/FEA, Project Management, or Sales Engineering where physical hardware access is not required daily.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Hybrid Middle Ground:&lt;/strong&gt; The 40\u201360% range (often 2\u20133 days per week) is a common &amp;quot;sweet spot&amp;quot; for engineering firms trying to balance teamwork/lab time with employee flexibility.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Paid Time Off (Days)&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;*Note: one issue is many jobs had unlimited sick time, which I just added 10 days. Next time I will edit the form to separate the sick days so it makes more sense. &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/r6koajaqtpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7fa31439d42143d7cca15bf1a6fbf89353c85f3d\"&gt;https://preview.redd.it/r6koajaqtpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7fa31439d42143d7cca15bf1a6fbf89353c85f3d&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;PTO Category (Includes Sick Days)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0\u201310 days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;30&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;5.2%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;11\u201315 days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;112&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;19.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16\u201320 days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;160&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;27.9%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;21\u201325 days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;100&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;17.4%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;26\u201330 days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;61&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;10.6%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;31+ days&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;32&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;5.6%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Unlimited&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;78&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;13.6%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Insights:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot; 3 - 5 Week&amp;quot; Benchmark:&lt;/strong&gt; The majority of mechanical engineers (over &lt;strong&gt;45%&lt;/strong&gt;) receive between 16 and 25 days of PTO. &lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Rise of Unlimited PTO:&lt;/strong&gt; About &lt;strong&gt;13.6%&lt;/strong&gt; of respondents now have &amp;quot;Unlimited&amp;quot; PTO. &lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Generous Packages:&lt;/strong&gt; Roughly &lt;strong&gt;16%&lt;/strong&gt; of engineers receive more than 30 days of PTO, which is often a hallmark of high-seniority roles, government/defense positions, or companies that reward long tenure.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Lean End:&lt;/strong&gt; Only about &lt;strong&gt;5%&lt;/strong&gt; of respondents are on the low end with 10 days or fewer, suggesting that a minimum of two weeks of PTO is a standard baseline for the industry.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Now some of you might have questions regarding years of experience and PTO:&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/sj6dqzgiupqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=546548224eb9c31244cbb06fb5fc5dfdc32dd09a\"&gt;https://preview.redd.it/sj6dqzgiupqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=546548224eb9c31244cbb06fb5fc5dfdc32dd09a&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Average PTO by Experience (Fixed PTO)&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Experience Level&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Average PTO Days (per year)&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Typical Range (25th-75th Percentile)&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0\u20132 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16.9&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;10\u201315 days&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;3\u20135 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;19.6&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;15\u201320 days&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6\u201310 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;21.1&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;20 days&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;11\u201315 Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;24.5&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;20\u201325 days&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;16+ Years&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;26.5&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;25\u201330+ days&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Analysis of the Trend:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Standard Jump&amp;quot;:&lt;/strong&gt; Many engineers start with 15 days (3 weeks) and see their first significant &amp;quot;tenure bump&amp;quot; to 20 days (4 weeks) after reaching the 5-year mark.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Senior Perks:&lt;/strong&gt; By the time an engineer hits 15+ years of experience, a 5-week (25-day) or 6-week (30-day) PTO package becomes the new baseline.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Job Hopping Factor:&lt;/strong&gt; The data suggests that while tenure within a single company increases PTO, &amp;quot;job hopping&amp;quot; every 3\u20135 years also allows engineers to negotiate higher starting PTO tiers at their new employers, effectively &amp;quot;skipping&amp;quot; the long wait for tenure-based increases.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Health Insurance&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/xh3mvvqlvpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7c55f33c5d4db38d89ca0559874d0f0c85812afe\"&gt;https://preview.redd.it/xh3mvvqlvpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7c55f33c5d4db38d89ca0559874d0f0c85812afe&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Satisfaction Level&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Number of Respondents&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Percentage&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Free / Excellent&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;38&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;6.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Good (Low Premium/High Coverage)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;211&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;36.3%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Average&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;288&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;49.5%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Poor (High Premium/Low Coverage)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;41&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;7.0%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Other / Misc&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;4&lt;/td&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;0.7%&lt;/strong&gt;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Key Insights:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;The &amp;quot;Standard&amp;quot; Plan:&lt;/strong&gt; Almost &lt;strong&gt;50%&lt;/strong&gt; of engineers describe their insurance as &amp;quot;Average,&amp;quot; highlighting that standard employer-sponsored health insurance is common but not particularly outstanding in terms of premiums or coverage levels.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Competitive Benefits:&lt;/strong&gt; Over &lt;strong&gt;42%&lt;/strong&gt; of respondents fall into the &amp;quot;Good&amp;quot; or &amp;quot;Free&amp;quot; categories. The &lt;strong&gt;6.5%&lt;/strong&gt; who receive &amp;quot;Free/Excellent&amp;quot; coverage likely work for highly competitive tech firms, established defense contractors, or companies that use premium benefits as a retention tool.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Under-Served Minority:&lt;/strong&gt; Roughly &lt;strong&gt;7%&lt;/strong&gt; of the engineering workforce feels their health insurance is &amp;quot;Poor,&amp;quot; usually characterized by high out-of-pocket costs and high monthly premiums.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Biggest Cons for Mechanical Engineering&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/h3f6wn57wpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=29cb05edbb7d9afb90a01bf19ca5b78954e2bb63\"&gt;https://preview.redd.it/h3f6wn57wpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=29cb05edbb7d9afb90a01bf19ca5b78954e2bb63&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Typical Concerns Mentioned&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Workload &amp;amp; Hours (112 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;High pressure, tight deadlines, long hours, and poor work-life balance. Many mentioned &amp;quot;start-up energy&amp;quot; even in established firms.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Salary &amp;amp; Compensation (73 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Low raises (2\u20133%), &amp;quot;salary plateauing&amp;quot; early in the career, and the absence of stock options or significant bonuses compared to tech.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Remote Work Limits (47 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Frequent requirements to be in the office or on the manufacturing floor with &amp;quot;no remote option&amp;quot; or &amp;quot;No WFH&amp;quot; (Work From Home) policies.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Career Growth (35 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Concerns about &amp;quot;pigeon-holing,&amp;quot; slow internal promotion tracks, and becoming &amp;quot;stagnant&amp;quot; in one technical area.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Red Tape &amp;amp; Bureaucracy (26 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Excessive paperwork, slow corporate processes, &amp;quot;red tape,&amp;quot; and inefficient management systems.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Biggest Pros for Mechanical Engineering&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/wt5jkm1jwpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c74a990498f89b75a5abc74b73df4290664a13fe\"&gt;https://preview.redd.it/wt5jkm1jwpqg1.png?width=1000&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c74a990498f89b75a5abc74b73df4290664a13fe&lt;/a&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Category&lt;/strong&gt;&lt;/th&gt;\n&lt;th align=\"left\"&gt;&lt;strong&gt;Typical Benefits Mentioned&lt;/strong&gt;&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Salary &amp;amp; Comp (86 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Competitive base pay, annual bonuses, and strong 401k matching programs.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Work-Life Balance (75 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Flexible schedules, reasonable working hours (standard 40h), and generous PTO.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Culture &amp;amp; People (70 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Great teammates, supportive management, and a collaborative &amp;quot;team-first&amp;quot; environment.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Interesting Work (65 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Designing &amp;quot;cool&amp;quot; products, working on challenging technical problems, and having a clear mission.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Job Stability (28 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;Long-term security, consistent demand for the role, and the stability of established firms.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"left\"&gt;&lt;strong&gt;Remote/Hybrid (27 mentions)&lt;/strong&gt;&lt;/td&gt;\n&lt;td align=\"left\"&gt;The ability to work from home part-time or have flexible geographic location.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;p&gt;&lt;strong&gt;Direct Insights from Engineers:&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;On Work Quality:&lt;/strong&gt; &lt;em&gt;&amp;quot;The actual work we do is really interesting, fun, and rewarding. Getting to see a design go from CAD to a physical product is the best part.&amp;quot;&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;On Culture:&lt;/strong&gt; &lt;em&gt;&amp;quot;Great coworkers and a team environment where people actually mentor you instead of just giving you tasks.&amp;quot;&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;On Flexibility:&lt;/strong&gt; &lt;em&gt;&amp;quot;Remote flexibility and a management team that trusts you to get your work done without micromanaging your hours.&amp;quot;&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;On Compensation:&lt;/strong&gt; &lt;em&gt;&amp;quot;The total compensation package\u2014including the 401k match and the annual bonus\u2014makes the technical pressure worth it.&amp;quot;&lt;/em&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Now for Improvements on Suggestions on the Survey&lt;/strong&gt;: &lt;/p&gt;\n\n&lt;ol&gt;\n&lt;li&gt;Regarding the COL instructions: totally my fault, sorry for not catching it. All of you were able to figure it out, but changed instructions from 0 - 2, so it makes a lot more sense now. &lt;/li&gt;\n&lt;li&gt;Adding a column for manager and IC: totally good suggestion, already added to new survey for 2027&lt;/li&gt;\n&lt;li&gt;Regarding adding gender or age: I will not add this into the survey just to make it more anonymous. I really do not see the value in this data, and I recommend just using government data to find the data. &lt;/li&gt;\n&lt;li&gt;Regarding the health insurance question: I have implemented the change on making it have three questions: annual premium, annual deductible, person coverage. I really did not want to make this part too complicated with max out of pocket and copay and etc. I think the premium, coverage and deductible is acceptable amount. &lt;/li&gt;\n&lt;li&gt;Edited the salary section to organize the % 401k match, salary, bonus, RSU to be in the same section making it easier, but separated the questions. &lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;p&gt;Comparison from the 2024, 2025 and 2026 Reddit Survey Results will be in another post, since this post is getting insanely long. Again, any other improvements or suggestions, please just comment below.   &lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;TDLR&lt;/strong&gt;: Just check the 1st salary graph if you want the main results. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+  "likes": null,
+  "suggested_sort": "confidence",
+  "banned_at_utc": null,
+  "view_count": null,
+  "archived": false,
+  "no_follow": false,
+  "is_crosspostable": false,
+  "pinned": false,
+  "over_18": false,
+  "all_awardings": [],
+  "awarders": [],
+  "media_only": false,
+  "can_gild": false,
+  "spoiler": false,
+  "locked": false,
+  "author_flair_text": null,
+  "treatment_tags": [],
+  "visited": false,
+  "removed_by": null,
+  "num_reports": null,
+  "distinguished": null,
+  "subreddit_id": "t5_2s8xv",
+  "author_is_blocked": false,
+  "mod_reason_by": null,
+  "removal_reason": null,
+  "link_flair_background_color": "",
+  "id": "1s1fkl9",
+  "is_robot_indexable": true,
+  "report_reasons": null,
+  "author": "yaoz889",
+  "discussion_type": null,
+  "num_comments": 61,
+  "send_replies": true,
+  "contest_mode": false,
+  "mod_reports": [],
+  "author_patreon_flair": false,
+  "author_flair_text_color": null,
+  "permalink": "/r/MechanicalEngineering/comments/1s1fkl9/2026_us_mechanical_engineer_survey_results/",
+  "stickied": false,
+  "url": "https://old.reddit.com/r/MechanicalEngineering/comments/1s1fkl9/2026_us_mechanical_engineer_survey_results/",
+  "subreddit_subscribers": 258680,
+  "created_utc": 1774269187.0,
+  "num_crossposts": 4,
+  "media": null,
+  "is_video": false
+}

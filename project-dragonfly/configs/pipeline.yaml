@@ -1,0 +1,18 @@
+pipeline:
+  ohlcv_intervals:
+    - 1m
+    - 5m
+    - 1h
+  orderbook_depth: 20
+  trade_aggregation: 100ms
+  questdb:
+    host: localhost
+    port: 9000
+    flush_interval_ms: 1000
+    batch_size: 100
+  clickhouse:
+    host: localhost
+    port: 9000
+    database: dragonfly
+  nats:
+    url: nats://localhost:4222

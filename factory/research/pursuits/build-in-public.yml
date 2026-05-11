@@ -1,0 +1,19 @@
+name: Build in Public Trends
+query: >
+  What are indie hackers, solopreneurs, and AI builders sharing publicly right now?
+  What types of build-in-public posts are getting the most engagement?
+  What milestones, failures, and behind-the-scenes content is resonating?
+  What narrative frames are working (revenue, users, lessons learned)?
+focus:
+  - High-engagement build-in-public threads on X
+  - What metrics people are sharing (MRR, DAU, installs)
+  - Formats that work (screenshot posts, milestone posts, failure posts)
+  - Underserved angles no one is posting about
+sources:
+  - twitter
+  - linkedin
+  - web
+frequency: daily
+depth: standard
+notify: true
+status: active

@@ -1,0 +1,16 @@
+risk_management:
+  initial_capital: 100000.00
+  position_limits:
+    BTC/USDT: { max_size_usd: 10000, max_leverage: 1 }
+    ETH/USDT: { max_size_usd: 5000, max_leverage: 1.5 }
+  exposure_limits:
+    total_max_usd: 20000
+    max_exposure_per_exchange_usd: 15000
+  drawdown_control:
+    max_drawdown_percent: 0.20 # 20%
+    stop_trading_on_breach: true
+  circuit_breakers:
+    market_volatility_threshold: 0.05 # 5% price change in 1m
+    exchange_disconnect_threshold_sec: 300
+    unhandled_exception_count: 5 # in 1h window
+    trade_volume_anomaly_factor: 3.0 # 3x std dev from avg

@@ -1,0 +1,2008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission Control</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a0b10;
+  --bg-card: #11131a;
+  --bg-sidebar: #0d0e14;
+  --bg-detail: #0f1118;
+  --border: #1e2130;
+  --border-green: #22c55e;
+  --border-amber: #eab308;
+  --border-gray: #374151;
+  --border-blue: #3b82f6;
+  --border-purple: #a855f7;
+  --border-red: #ef4444;
+  --border-cyan: #06b6d4;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-dim: #475569;
+  --accent: #3b82f6;
+  --green: #22c55e;
+  --amber: #eab308;
+  --red: #ef4444;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.sidebar-logo {
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.sidebar-logo svg { width: 20px; height: 20px; }
+
+.sidebar-nav { padding: 12px 0; flex: 1; }
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.sidebar-nav a:hover { color: var(--text-primary); background: rgba(255,255,255,0.03); }
+.sidebar-nav a.active { color: var(--text-primary); background: rgba(255,255,255,0.06); border-right: 2px solid var(--accent); }
+
+.sidebar-nav a .icon { width: 18px; text-align: center; font-size: 15px; }
+
+/* Main content */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+}
+
+/* Header */
+.header {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.header-title { font-size: 16px; font-weight: 600; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+
+.header-week {
+  font-size: 13px;
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.05);
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.05);
+  color: var(--text-primary);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn:hover { background: rgba(255,255,255,0.1); }
+.btn-primary { background: var(--accent); border-color: var(--accent); }
+.btn-primary:hover { background: #2563eb; }
+.btn-green { background: rgba(34,197,94,0.15); border-color: var(--green); color: var(--green); }
+.btn-amber { background: rgba(234,179,8,0.15); border-color: var(--amber); color: var(--amber); }
+.btn-red { background: rgba(239,68,68,0.15); border-color: var(--red); color: var(--red); }
+
+/* Content area */
+.content-area {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  position: relative;
+}
+
+.content-main { flex: 1; padding: 24px; overflow-y: auto; }
+
+/* Views */
+.view { display: none; }
+.view.active { display: block; }
+
+/* Agent grid */
+.section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+
+.agent-count {
+  float: right;
+  font-weight: 400;
+  color: var(--text-dim);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.agent-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  border-top: 3px solid var(--border);
+}
+
+.agent-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+.agent-card[data-status="done"] { border-top-color: var(--border-green); }
+.agent-card[data-status="running"] { border-top-color: var(--border-amber); }
+.agent-card[data-status="idle"] { border-top-color: var(--border-gray); }
+
+.card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+
+.card-avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-emoji { font-size: 24px; }
+
+.card-name-block {}
+.card-name { font-size: 15px; font-weight: 600; color: var(--green); }
+.agent-card[data-status="running"] .card-name { color: var(--amber); }
+.agent-card[data-status="idle"] .card-name { color: var(--text-secondary); }
+.card-role { font-size: 12px; color: var(--text-secondary); }
+
+.status-pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-pill.done { background: rgba(34,197,94,0.15); color: var(--green); }
+.status-pill.done .status-dot { background: var(--green); }
+.status-pill.running { background: rgba(234,179,8,0.15); color: var(--amber); }
+.status-pill.running .status-dot { background: var(--amber); animation: pulse 1.5s infinite; }
+.status-pill.idle { background: rgba(148,163,184,0.1); color: var(--text-secondary); }
+.status-pill.idle .status-dot { background: var(--text-dim); }
+
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+.card-details { margin-top: 10px; }
+
+.card-detail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+}
+
+.card-detail .label { color: var(--text-dim); font-size: 11px; }
+
+.card-tools { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+
+.tool-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+}
+.tool-badge.browser { background: rgba(0,204,102,0.12); color: #00cc66; border: 1px solid rgba(0,204,102,0.3); }
+.tool-badge.web    { background: rgba(59,130,246,0.12); color: #60a5fa; border: 1px solid rgba(59,130,246,0.25); }
+.tool-badge.none   { background: rgba(148,163,184,0.08); color: var(--text-dim); border: 1px solid var(--border); }
+
+.steel-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.steel-status .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text-dim); flex-shrink: 0; }
+.steel-status.online .dot { background: #00cc66; box-shadow: 0 0 6px rgba(0,204,102,0.5); }
+.steel-status.offline .dot { background: var(--red); }
+.steel-status .sessions { color: var(--text-dim); font-size: 11px; margin-left: 2px; }
+
+/* Steel session modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  width: 820px;
+  max-width: 95vw;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.modal-title { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.modal-title .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #00cc66; box-shadow: 0 0 6px rgba(0,204,102,0.5); animation: pulse 2s infinite; }
+.modal-body { padding: 16px 20px; overflow-y: auto; flex: 1; }
+.modal-close { background: none; border: none; color: var(--text-secondary); font-size: 18px; cursor: pointer; padding: 4px 8px; border-radius: 6px; line-height: 1; }
+.modal-close:hover { background: rgba(255,255,255,0.06); color: var(--text-primary); }
+.session-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+.session-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.session-id { font-family: monospace; font-size: 11px; color: var(--text-dim); }
+.session-badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 8px; }
+.session-badge.live { background: rgba(0,204,102,0.15); color: #00cc66; }
+.session-badge.idle { background: rgba(148,163,184,0.1); color: var(--text-dim); }
+.session-meta { display: flex; gap: 16px; font-size: 12px; color: var(--text-secondary); margin-bottom: 12px; flex-wrap: wrap; }
+.session-actions { display: flex; gap: 8px; }
+.session-preview {
+  width: 100%;
+  height: 420px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #000;
+  display: block;
+}
+.no-sessions { color: var(--text-dim); font-size: 13px; text-align: center; padding: 48px 0; }
+
+/* Project selector */
+.project-selector {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 13px;
+  padding: 4px 10px;
+  cursor: pointer;
+  outline: none;
+  max-width: 160px;
+}
+.project-selector:focus { border-color: var(--accent); }
+
+/* Task input bar */
+.task-input-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.task-input {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  padding: 10px 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.task-input:focus { border-color: var(--accent); }
+.task-input::placeholder { color: var(--text-dim); }
+
+/* Task list */
+.task-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  cursor: default;
+}
+.task-item-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+.task-goal { font-size: 14px; color: var(--text-primary); font-weight: 500; flex: 1; }
+.task-status-pill {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.task-status-pill.done    { background: rgba(34,197,94,0.15); color: var(--green); }
+.task-status-pill.running { background: rgba(234,179,8,0.15); color: var(--amber); }
+.task-status-pill.failed  { background: rgba(239,68,68,0.15); color: var(--red); }
+.task-status-pill.pending { background: rgba(148,163,184,0.1); color: var(--text-dim); }
+.task-meta { font-size: 11px; color: var(--text-dim); }
+.task-plan-steps { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); display: flex; gap: 6px; flex-wrap: wrap; }
+.task-step-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 8px;
+  background: rgba(59,130,246,0.1);
+  color: #60a5fa;
+  border: 1px solid rgba(59,130,246,0.2);
+}
+
+.directive-indicator {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+/* Detail panel */
+.detail-panel {
+  width: 0;
+  background: var(--bg-detail);
+  border-left: 1px solid var(--border);
+  overflow: hidden;
+  transition: width 0.3s ease;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-panel.open { width: 480px; }
+
+.detail-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.detail-agent-info { display: flex; align-items: center; gap: 10px; }
+.detail-agent-info .emoji { font-size: 28px; }
+.detail-agent-name { font-size: 16px; font-weight: 600; }
+.detail-agent-role { font-size: 12px; color: var(--text-secondary); }
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.close-btn:hover { color: var(--text-primary); }
+
+.detail-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.detail-tab {
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+.detail-tab:hover { color: var(--text-primary); }
+.detail-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+.detail-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.detail-actions {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+
+.output-content {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text-secondary);
+}
+
+.output-content h3, .output-content h4 { color: var(--text-primary); margin: 12px 0 6px; font-size: 13px; }
+.output-content strong { color: var(--text-primary); }
+.output-content li { margin-left: 16px; margin-bottom: 4px; }
+
+.directive-textarea {
+  width: 100%;
+  min-height: 150px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 13px;
+  padding: 12px;
+  resize: vertical;
+}
+.directive-textarea:focus { outline: none; border-color: var(--accent); }
+
+.directive-hint {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.history-entry {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-family: monospace;
+}
+
+/* Pipeline view */
+.pipeline-timeline { position: relative; padding-left: 30px; }
+
+.pipeline-stage {
+  position: relative;
+  padding: 16px 0;
+  border-left: 2px solid var(--border);
+  padding-left: 24px;
+  margin-left: 8px;
+}
+
+.pipeline-stage:last-child { border-left-color: transparent; }
+
+.pipeline-dot {
+  position: absolute;
+  left: -9px;
+  top: 18px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+}
+
+.pipeline-stage.done .pipeline-dot { border-color: var(--green); background: var(--green); color: #fff; }
+.pipeline-stage.done { border-left-color: var(--green); }
+.pipeline-stage.running .pipeline-dot { border-color: var(--amber); background: var(--amber); animation: pulse 1.5s infinite; }
+
+.pipeline-stage-name { font-size: 14px; font-weight: 500; }
+.pipeline-stage-time { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+.pipeline-stage-link { font-size: 11px; color: var(--accent); cursor: pointer; margin-top: 2px; }
+.pipeline-stage-link:hover { text-decoration: underline; }
+
+/* Analytics view */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.kpi-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+.kpi-value { font-size: 28px; font-weight: 700; margin-top: 4px; }
+.kpi-value.green { color: var(--green); }
+.kpi-value.amber { color: var(--amber); }
+.kpi-value.blue { color: var(--accent); }
+
+.bar-chart { margin-top: 16px; }
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.bar-label { width: 80px; font-size: 12px; color: var(--text-secondary); text-align: right; }
+.bar-track { flex: 1; height: 20px; background: var(--bg); border-radius: 4px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+
+/* KPI log form */
+.log-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.log-form h3 { font-size: 13px; margin-bottom: 12px; }
+
+.form-row { display: flex; gap: 8px; margin-bottom: 8px; }
+
+.form-input {
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-primary);
+  padding: 6px 10px;
+  font-size: 13px;
+}
+.form-input:focus { outline: none; border-color: var(--accent); }
+
+/* Persona view */
+.persona-content {
+  font-family: 'SF Mono', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  white-space: pre-wrap;
+  color: var(--text-secondary);
+  min-height: 300px;
+}
+
+.persona-textarea {
+  width: 100%;
+  min-height: 400px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-family: 'SF Mono', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+  padding: 16px;
+  resize: vertical;
+}
+.persona-textarea:focus { outline: none; border-color: var(--accent); }
+
+.evolution-log {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* KPI table */
+.kpi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.kpi-table th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-dim);
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.kpi-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(30,33,48,0.5);
+  color: var(--text-secondary);
+}
+
+/* Queue / Approval */
+.queue-summary-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.queue-stat {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  text-align: center;
+}
+.queue-stat-val { font-size: 28px; font-weight: 700; }
+.queue-stat-val.pending { color: var(--amber); }
+.queue-stat-val.approved { color: var(--green); }
+.queue-stat-val.skipped { color: var(--text-dim); }
+.queue-stat-val.posted { color: var(--accent); }
+.queue-stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; margin-top: 2px; }
+
+.post-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-left: 3px solid var(--border);
+}
+.post-card[data-status="pending"] { border-left-color: var(--amber); }
+.post-card[data-status="approved"] { border-left-color: var(--green); }
+.post-card[data-status="skipped"] { border-left-color: var(--text-dim); }
+.post-card[data-status="posted"] { border-left-color: var(--accent); }
+.post-card[data-status="manual_required"] { border-left-color: var(--border-purple); }
+
+.post-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.post-card-meta { font-size: 12px; color: var(--text-dim); }
+.post-card-platform {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(59,130,246,0.15);
+  color: var(--accent);
+}
+.post-card-platform.twitter { background: rgba(29,161,242,0.15); color: #1da1f2; }
+.post-card-platform.instagram { background: rgba(225,48,108,0.15); color: #e1306c; }
+.post-card-platform.linkedin { background: rgba(0,119,181,0.15); color: #0077b5; }
+.post-card-platform.youtube { background: rgba(255,0,0,0.15); color: #ff0000; }
+.post-card-platform.tiktok { background: rgba(105,201,208,0.15); color: #69c9d0; }
+
+.post-card-content {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+  max-height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.post-card-content.expanded { max-height: none; }
+
+.post-card-actions { display: flex; gap: 6px; }
+
+/* Inbox */
+.inbox-add-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.inbox-add-form h3 { font-size: 13px; margin-bottom: 12px; color: var(--text-secondary); }
+.inbox-tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.inbox-tag {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.inbox-tag.selected { background: rgba(59,130,246,0.2); border-color: var(--accent); color: var(--accent); }
+
+.inbox-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.inbox-card:hover { border-color: var(--accent); }
+.inbox-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.inbox-card-title { font-size: 14px; font-weight: 500; color: var(--text-primary); }
+.inbox-card-type { font-size: 11px; color: var(--text-dim); text-transform: uppercase; }
+.inbox-card-preview { font-size: 12px; color: var(--text-dim); margin-top: 6px; line-height: 1.5; }
+.inbox-card-footer { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.inbox-card-tag {
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: rgba(59,130,246,0.12);
+  color: var(--accent);
+}
+.inbox-card-date { font-size: 11px; color: var(--text-dim); margin-left: auto; }
+
+/* Platform analytics table */
+.platform-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+.platform-table th {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.platform-table td { padding: 10px 12px; border-bottom: 1px solid rgba(30,33,48,0.5); }
+.platform-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* SVG chart */
+.chart-wrap { overflow-x: auto; margin-top: 8px; }
+.chart-label { font-size: 11px; color: var(--text-dim); fill: var(--text-dim); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
+
+/* Wiki Ingest */
+.wiki-url-row { display: flex; gap: 8px; margin-bottom: 8px; }
+.wiki-url-row input { flex: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; color: var(--text-primary); padding: 7px 12px; font-size: 13px; outline: none; transition: border-color .15s; }
+.wiki-url-row input:focus { border-color: var(--accent); }
+.wiki-url-row input::placeholder { color: var(--text-dim); }
+.wiki-add-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 13px; padding: 4px 0; }
+.wiki-add-btn:hover { text-decoration: underline; }
+.wiki-icon-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; color: var(--text-secondary); cursor: pointer; padding: 6px 10px; font-size: 13px; transition: all .15s; }
+.wiki-icon-btn:hover { border-color: var(--red); color: var(--red); }
+.wiki-drop-zone { border: 1px dashed var(--border); border-radius: 8px; padding: 28px 20px; text-align: center; cursor: pointer; transition: all .2s; color: var(--text-dim); font-size: 13px; position: relative; }
+.wiki-drop-zone:hover, .wiki-drop-zone.drag-over { border-color: var(--accent); color: var(--accent); background: rgba(59,130,246,.04); }
+.wiki-drop-zone input[type=file] { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%; }
+.wiki-file-list { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+.wiki-file-tag { background: rgba(255,255,255,0.04); border: 1px solid var(--border); border-radius: 4px; padding: 3px 8px; font-size: 12px; display: flex; align-items: center; gap: 6px; color: var(--text-secondary); }
+.wiki-file-tag .rm { cursor: pointer; color: var(--text-dim); font-size: 10px; }
+.wiki-file-tag .rm:hover { color: var(--red); }
+.wiki-output { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; min-height: 120px; max-height: 500px; overflow-y: auto; font-family: 'SF Mono','Fira Code',monospace; font-size: 12px; line-height: 1.7; display: none; margin-top: 16px; white-space: pre-wrap; }
+.wiki-output.active { display: block; }
+.wiki-line-ok   { color: var(--green); }
+.wiki-line-err  { color: var(--red); }
+.wiki-line-info { color: var(--accent); }
+.wiki-line-warn { color: var(--amber); }
+.wiki-line-plain{ color: var(--text-secondary); }
+.wiki-item-header { color: var(--accent); font-weight: 600; margin-top: 8px; display: block; }
+.wiki-done-badge { display: inline-block; background: rgba(34,197,94,.15); color: var(--green); border: 1px solid rgba(34,197,94,.3); border-radius: 4px; padding: 2px 8px; font-size: 11px; margin-top: 10px; }
+.wiki-err-badge  { display: inline-block; background: rgba(239,68,68,.15); color: var(--red); border: 1px solid rgba(239,68,68,.3); border-radius: 4px; padding: 2px 8px; font-size: 11px; margin-top: 10px; }
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text-primary);
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s;
+}
+.toast.show { opacity: 1; transform: translateY(0); }
+.toast.success { border-color: var(--green); }
+.toast.error { border-color: var(--red); }
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <span>⚡</span> Mission Control
+  </div>
+  <div class="sidebar-nav">
+    <a class="active" data-view="agents"><span class="icon">◉</span> Agents</a>
+    <a data-view="tasks"><span class="icon">⊕</span> Tasks</a>
+    <a data-view="pipeline"><span class="icon">▸</span> Pipeline</a>
+    <a data-view="queue"><span class="icon">☑</span> Queue</a>
+    <a data-view="inbox"><span class="icon">⊞</span> Inbox</a>
+    <a data-view="analytics"><span class="icon">◈</span> Analytics</a>
+    <a data-view="persona"><span class="icon">◎</span> Persona</a>
+    <a data-view="wiki"><span class="icon">⊗</span> Wiki Ingest</a>
+  </div>
+</nav>
+
+<!-- Main -->
+<div class="main">
+  <!-- Header -->
+  <header class="header">
+    <div class="header-title">Mission Control</div>
+    <div class="header-right">
+      <div class="steel-status" id="steelStatus" onclick="openSteelModal()" title="Click to monitor browser sessions">
+        <span class="dot"></span>
+        Steel Browser
+        <span class="sessions" id="steelSessions"></span>
+      </div>
+      <select class="project-selector" id="projectSelector" onchange="switchProject(this.value)" title="Active project"></select>
+      <span class="header-week" id="weekLabel">Week --</span>
+      <button class="btn" onclick="runPipeline()">▸ Run Next</button>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="content-area">
+    <div class="content-main">
+
+      <!-- Agents View -->
+      <div class="view active" id="view-agents">
+        <div class="task-input-bar">
+          <input class="task-input" id="taskGoalInput" placeholder="What do you want to do? e.g. 'research AI trends and write 5 LinkedIn posts'" onkeydown="if(event.key==='Enter') submitTask()">
+          <button class="btn btn-primary" onclick="submitTask()">▸ Go</button>
+        </div>
+        <div class="section-label" style="margin-top:20px">OpenClaw Subagents <span class="agent-count" id="agentCount">6 agents</span></div>
+        <div class="agent-grid" id="agentGrid"></div>
+      </div>
+
+      <!-- Tasks View -->
+      <div class="view" id="view-tasks">
+        <div class="task-input-bar">
+          <input class="task-input" id="taskGoalInput2" placeholder="What do you want to do? e.g. 'research AI trends and write 5 LinkedIn posts'" onkeydown="if(event.key==='Enter') submitTask2()">
+          <button class="btn btn-primary" onclick="submitTask2()">▸ Go</button>
+        </div>
+        <div class="section-label" style="margin-top:20px">Task History <span class="agent-count" id="taskCount"></span></div>
+        <div id="taskList"><span style="color:var(--text-dim);font-size:13px">No tasks yet for this project.</span></div>
+      </div>
+
+      <!-- Pipeline View -->
+      <div class="view" id="view-pipeline">
+        <div class="section-label">Pipeline Progress</div>
+        <div class="pipeline-timeline" id="pipelineTimeline"></div>
+        <div style="margin-top: 20px; display: flex; gap: 8px;">
+          <button class="btn btn-primary" onclick="runPipeline()">▸ Run Next Stage</button>
+          <button class="btn btn-red" onclick="resetAllStages()">↺ Reset All</button>
+        </div>
+      </div>
+
+      <!-- Analytics View -->
+      <div class="view" id="view-analytics">
+        <div class="section-label">Performance Analytics</div>
+        <div class="kpi-grid" id="kpiGrid"></div>
+
+        <div class="section-label" style="margin-top: 24px;">By Platform</div>
+        <table class="platform-table" id="platformTable">
+          <thead><tr><th>Platform</th><th>Posts</th><th>Impressions</th><th>Engagements</th><th>Likes</th><th>Eng Rate</th></tr></thead>
+          <tbody></tbody>
+        </table>
+
+        <div class="section-label" style="margin-top: 24px;">Weekly Engagement Rate (last 8 weeks)</div>
+        <div class="chart-wrap"><svg id="weekChart" height="120" style="min-width:400px; width:100%;"></svg></div>
+
+        <div class="section-label" style="margin-top: 24px;">Recent KPIs</div>
+        <table class="kpi-table" id="kpiTable">
+          <thead><tr><th>ID</th><th>Platform</th><th>Impressions</th><th>Engagements</th><th>Rate</th></tr></thead>
+          <tbody></tbody>
+        </table>
+
+        <div class="log-form">
+          <h3>Log KPI Manually</h3>
+          <div class="form-row">
+            <input class="form-input" id="kpiId" placeholder="Post ID (e.g. 2026-W13-001)">
+          </div>
+          <div class="form-row">
+            <input class="form-input" id="kpiImpressions" placeholder="Impressions" type="number">
+            <input class="form-input" id="kpiEngagements" placeholder="Engagements" type="number">
+            <input class="form-input" id="kpiClicks" placeholder="Clicks" type="number">
+          </div>
+          <div class="form-row">
+            <button class="btn btn-primary" onclick="logKpi()">Log KPI</button>
+            <button class="btn" onclick="fetchAnalytics()">↻ Fetch from APIs</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Queue / Approval View -->
+      <div class="view" id="view-queue">
+        <div class="section-label">Post Queue &amp; Approval <span id="queueWeekLabel" class="agent-count"></span></div>
+        <div class="queue-summary-bar">
+          <div class="queue-stat"><div class="queue-stat-val pending" id="q-pending">0</div><div class="queue-stat-label">Pending</div></div>
+          <div class="queue-stat"><div class="queue-stat-val approved" id="q-approved">0</div><div class="queue-stat-label">Approved</div></div>
+          <div class="queue-stat"><div class="queue-stat-val posted" id="q-posted">0</div><div class="queue-stat-label">Posted</div></div>
+          <div class="queue-stat"><div class="queue-stat-val skipped" id="q-skipped">0</div><div class="queue-stat-label">Skipped</div></div>
+        </div>
+        <div id="queueCards"></div>
+      </div>
+
+      <!-- Inbox View -->
+      <div class="view" id="view-inbox">
+        <div class="section-label">Content Inbox</div>
+        <div class="inbox-add-form">
+          <h3>Add to Inbox</h3>
+          <div class="form-row">
+            <input class="form-input" id="inboxSource" placeholder="Paste a URL or text/idea...">
+            <button class="btn btn-primary" onclick="addToInbox()">+ Add</button>
+          </div>
+          <div class="inbox-tags" id="inboxTagSelector">
+            <button class="inbox-tag selected" data-tag="reference">reference</button>
+            <button class="inbox-tag" data-tag="inspiration">inspiration</button>
+            <button class="inbox-tag" data-tag="competitor">competitor</button>
+            <button class="inbox-tag" data-tag="trend">trend</button>
+            <button class="inbox-tag" data-tag="hook">hook</button>
+          </div>
+        </div>
+        <div class="form-row" style="margin-bottom:16px;">
+          <input class="form-input" id="inboxSearch" placeholder="Search inbox..." oninput="searchInbox(this.value)">
+        </div>
+        <div id="inboxCards"></div>
+      </div>
+
+      <!-- Persona View -->
+      <div class="view" id="view-persona">
+        <div class="section-label">Living Persona</div>
+        <textarea class="persona-textarea" id="personaEditor"></textarea>
+        <div style="margin-top: 12px; display: flex; gap: 8px;">
+          <button class="btn btn-primary" onclick="savePersona()">Save Persona</button>
+          <button class="btn btn-amber" onclick="triggerEvolve()">⚡ Evolve Now</button>
+        </div>
+        <div class="section-label" style="margin-top: 24px;">Evolution Log</div>
+        <div class="evolution-log" id="evolutionLog">No evolution history yet.</div>
+      </div>
+
+      <!-- Wiki Ingest View -->
+      <div class="view" id="view-wiki">
+        <div class="section-label">Wiki Ingest</div>
+
+        <div class="inbox-add-form" style="margin-bottom:16px">
+          <h3 style="margin-bottom:12px;color:var(--text-secondary)">URLs</h3>
+          <div id="wikiUrlList"></div>
+          <button type="button" class="wiki-add-btn" id="wikiAddUrl">+ Add URL</button>
+        </div>
+
+        <div class="inbox-add-form" style="margin-bottom:16px">
+          <h3 style="margin-bottom:12px;color:var(--text-secondary)">Files <span style="font-weight:400;color:var(--text-dim)">PDF or Markdown</span></h3>
+          <div class="wiki-drop-zone" id="wikiDropZone">
+            <input type="file" id="wikiFileInput" accept=".pdf,.md,.markdown" multiple>
+            <span id="wikiDropLabel">Click or drag files here (.pdf, .md)</span>
+          </div>
+          <div class="wiki-file-list" id="wikiFileList"></div>
+        </div>
+
+        <button class="btn btn-primary" id="wikiSubmitBtn" onclick="wikiSubmit()" style="width:100%;padding:10px;font-size:14px">Run Ingest</button>
+
+        <div class="wiki-output" id="wikiOutput"></div>
+      </div>
+
+    </div>
+
+    <!-- Detail Panel -->
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-header">
+        <div class="detail-agent-info">
+          <span class="emoji" id="detailEmoji"></span>
+          <div>
+            <div class="detail-agent-name" id="detailName"></div>
+            <div class="detail-agent-role" id="detailRole"></div>
+          </div>
+        </div>
+        <button class="close-btn" onclick="closeDetail()">✕</button>
+      </div>
+      <div class="detail-tabs">
+        <div class="detail-tab active" data-tab="output">Output</div>
+        <div class="detail-tab" data-tab="directive">Directive</div>
+        <div class="detail-tab" data-tab="history">History</div>
+      </div>
+      <div class="detail-content">
+        <div class="tab-pane active" id="tab-output">
+          <div class="output-content" id="detailOutput">No output yet.</div>
+        </div>
+        <div class="tab-pane" id="tab-directive">
+          <p style="font-size:12px; color:var(--text-dim); margin-bottom:10px;">Instructions injected into the agent's next run:</p>
+          <textarea class="directive-textarea" id="directiveText" placeholder="e.g. Focus more on LinkedIn content this week..."></textarea>
+          <div class="directive-hint">Auto-saves when you click outside. Persists until cleared.</div>
+        </div>
+        <div class="tab-pane" id="tab-history">
+          <div id="detailHistory">No history yet.</div>
+        </div>
+      </div>
+      <div class="detail-actions">
+        <button class="btn btn-green" id="btnRun" onclick="runAgent()">▸ Run Now</button>
+        <button class="btn btn-amber" id="btnRerun" onclick="rerunAgent()">↺ Re-run</button>
+        <button class="btn" id="btnSkip" onclick="skipAgent()">⏭ Skip</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Steel Session Monitor Modal -->
+<div class="modal-overlay" id="steelModal" onclick="if(event.target===this) closeSteelModal()">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">
+        <span class="live-dot"></span>
+        Steel Browser Sessions
+      </div>
+      <button class="modal-close" onclick="closeSteelModal()">✕</button>
+    </div>
+    <div class="modal-body" id="steelModalBody">
+      <div class="no-sessions">Loading...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+let currentAgentId = null;
+let agents = [];
+let pipelineState = {};
+let liveLogInterval = null;
+
+// --- Navigation ---
+document.querySelectorAll('.sidebar-nav a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.querySelectorAll('.sidebar-nav a').forEach(n => n.classList.remove('active'));
+    a.classList.add('active');
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.getElementById('view-' + a.dataset.view).classList.add('active');
+    if (a.dataset.view === 'analytics') loadAnalytics();
+    if (a.dataset.view === 'persona') loadPersona();
+    if (a.dataset.view === 'queue') loadQueue();
+    if (a.dataset.view === 'inbox') loadInbox();
+    if (a.dataset.view === 'wiki') initWikiIngest();
+  });
+});
+
+// --- Detail tabs ---
+document.querySelectorAll('.detail-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.detail-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// --- Directive auto-save ---
+document.getElementById('directiveText').addEventListener('blur', async () => {
+  if (!currentAgentId) return;
+  const text = document.getElementById('directiveText').value;
+  await fetch(`/api/agent/${currentAgentId}/directive`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ directive: text })
+  });
+  toast('Directive saved', 'success');
+  refresh();
+});
+
+// --- Toast ---
+function toast(msg, type = '') {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.className = 'toast show ' + type;
+  setTimeout(() => el.className = 'toast', 2500);
+}
+
+// --- Simple markdown render ---
+function renderMd(text) {
+  if (!text) return '<span style="color:var(--text-dim)">No output yet.</span>';
+  return text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^#### (.+)$/gm, '<h4>$1</h4>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^- (.+)$/gm, '<li>$1</li>')
+    .replace(/^(\d+)\. (.+)$/gm, '<li>$1. $2</li>');
+}
+
+// --- Format time ---
+function timeAgo(iso) {
+  if (!iso) return 'Never';
+  const d = new Date(iso);
+  const now = new Date();
+  const secs = Math.floor((now - d) / 1000);
+  if (secs < 60) return 'Just now';
+  if (secs < 3600) return Math.floor(secs/60) + 'm ago';
+  if (secs < 86400) return Math.floor(secs/3600) + 'h ago';
+  return Math.floor(secs/86400) + 'd ago';
+}
+
+// --- Render Agent Grid ---
+function toolBadges(tools) {
+  if (!tools || tools.length === 0) return '<span class="tool-badge none">◉ Formatting only</span>';
+  const badges = [];
+  if (tools.includes('browser')) badges.push('<span class="tool-badge browser">⬡ Steel Browser</span>');
+  if (tools.includes('web_search')) badges.push('<span class="tool-badge web">⊕ Web Search</span>');
+  if (tools.includes('web_fetch') && !tools.includes('web_search')) badges.push('<span class="tool-badge web">⊕ Web Fetch</span>');
+  return badges.join('');
+}
+
+function renderAgentGrid(data) {
+  agents = data;
+  const grid = document.getElementById('agentGrid');
+  grid.innerHTML = data.map(a => `
+    <div class="agent-card" data-status="${a.status}" onclick="openDetail('${a.id}')">
+      ${a.hasDirective ? '<div class="directive-indicator"></div>' : ''}
+      <div class="card-header">
+        <div class="card-avatar">
+          <span class="card-emoji">${a.emoji}</span>
+          <div class="card-name-block">
+            <div class="card-name">${a.name}</div>
+            <div class="card-role">${a.role}</div>
+          </div>
+        </div>
+        <span class="status-pill ${a.status}"><span class="status-dot"></span>${a.status === 'done' ? 'Done' : a.status === 'running' ? 'Working' : 'Idle'}</span>
+      </div>
+      <div class="card-details">
+        <div class="card-detail"><span class="label">⊡</span> ${a.model}</div>
+        <div class="card-detail"><span class="label">◉</span> ${a.task}</div>
+        <div class="card-detail"><span class="label">◷</span> ${a.lastActive ? timeAgo(a.lastActive) : 'Never run'}</div>
+      </div>
+      <div class="card-tools">${toolBadges(a.tools)}</div>
+    </div>
+  `).join('');
+}
+
+// --- Render Pipeline ---
+function renderPipeline(state) {
+  const stages = ['research', 'strategy', 'writing', 'visuals', 'publishing', 'analytics', 'evolution'];
+  const stageNames = { research: 'Research', strategy: 'Strategy', writing: 'Writing', visuals: 'Visuals', publishing: 'Publishing', analytics: 'Analytics', evolution: 'Evolution' };
+  const agentMap = { research: 'Scout', strategy: 'Strategos', writing: 'Quill', visuals: 'Pixel', publishing: 'Herald', analytics: 'Oracle', evolution: 'Oracle' };
+  const agentIdMap = { research: 'research', strategy: 'strategy', writing: 'writer', visuals: 'creative', publishing: 'publisher', analytics: 'analytics', evolution: 'analytics' };
+
+  const timeline = document.getElementById('pipelineTimeline');
+  timeline.innerHTML = stages.map(s => {
+    const info = (state.stages || {})[s] || {};
+    const cls = info.status === 'done' ? 'done' : '';
+    return `
+      <div class="pipeline-stage ${cls}">
+        <div class="pipeline-dot">${info.status === 'done' ? '✓' : ''}</div>
+        <div class="pipeline-stage-name">${stageNames[s]}</div>
+        <div class="pipeline-stage-time">${info.completed ? timeAgo(info.completed) : 'Pending'}</div>
+        <div class="pipeline-stage-link" onclick="openDetail('${agentIdMap[s]}')">${agentMap[s]} →</div>
+      </div>
+    `;
+  }).join('');
+}
+
+// --- Live Log Polling ---
+function stopLiveLog() {
+  if (liveLogInterval) { clearInterval(liveLogInterval); liveLogInterval = null; }
+}
+
+async function pollLiveLog(agentId) {
+  try {
+    const res = await fetch(`/api/agent/${agentId}/log`);
+    if (!res.ok) return;
+    const { log, status } = await res.json();
+    if (log && currentAgentId === agentId) {
+      const el = document.getElementById('detailOutput');
+      el.innerHTML = `<pre style="white-space:pre-wrap;word-break:break-word;margin:0;color:var(--text-secondary)">${log.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</pre>`;
+      el.scrollTop = el.scrollHeight;
+    }
+    if (status !== 'running') {
+      stopLiveLog();
+      // Reload to show final rendered output
+      if (currentAgentId === agentId) await loadAgentDetail(agentId);
+    }
+  } catch {}
+}
+
+// --- Open Detail Panel ---
+async function loadAgentDetail(agentId) {
+  const res = await fetch(`/api/agent/${agentId}`);
+  const data = await res.json();
+
+  document.getElementById('detailEmoji').textContent = data.emoji;
+  document.getElementById('detailName').textContent = data.name;
+  document.getElementById('detailRole').textContent = data.role;
+  document.getElementById('directiveText').value = data.directive || '';
+  document.getElementById('detailHistory').innerHTML = (data.history || []).length
+    ? data.history.map(h => `<div class="history-entry">${h}</div>`).join('')
+    : '<span style="color:var(--text-dim)">No history yet.</span>';
+
+  if (data.status === 'running') {
+    // Start live log polling — will show log until done, then swap to final output
+    stopLiveLog();
+    pollLiveLog(agentId);
+    liveLogInterval = setInterval(() => pollLiveLog(agentId), 2000);
+  } else {
+    stopLiveLog();
+    document.getElementById('detailOutput').innerHTML = renderMd(data.output);
+  }
+}
+
+async function openDetail(agentId) {
+  stopLiveLog();
+  currentAgentId = agentId;
+  document.getElementById('detailPanel').classList.add('open');
+
+  // Reset to output tab
+  document.querySelectorAll('.detail-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelector('[data-tab="output"]').classList.add('active');
+  document.getElementById('tab-output').classList.add('active');
+
+  await loadAgentDetail(agentId);
+}
+
+function closeDetail() {
+  stopLiveLog();
+  document.getElementById('detailPanel').classList.remove('open');
+  currentAgentId = null;
+}
+
+// --- Agent Actions ---
+async function runAgent() {
+  if (!currentAgentId) return;
+  const res = await fetch(`/api/agent/${currentAgentId}/run`, { method: 'POST' });
+  const data = await res.json();
+  toast(data.message || data.error, res.ok ? 'success' : 'error');
+  refresh();
+  if (res.ok) await loadAgentDetail(currentAgentId);
+}
+
+async function rerunAgent() {
+  if (!currentAgentId) return;
+  const agent = agents.find(a => a.id === currentAgentId);
+  if (!agent) return;
+  // Reset the stage first
+  const stageMap = { research: 'research', strategy: 'strategy', writer: 'writing', creative: 'visuals', publisher: 'publishing', analytics: 'analytics' };
+  const stage = stageMap[currentAgentId];
+  if (stage) {
+    await fetch(`/api/pipeline/reset/${stage}`, { method: 'POST' });
+  }
+  // Then run
+  const res = await fetch(`/api/agent/${currentAgentId}/run`, { method: 'POST' });
+  const data = await res.json();
+  toast('Re-running ' + (agent.name || currentAgentId), 'success');
+  refresh();
+  await loadAgentDetail(currentAgentId);
+}
+
+async function skipAgent() {
+  if (!currentAgentId) return;
+  const stageMap = { research: 'research', strategy: 'strategy', writer: 'writing', creative: 'visuals', publisher: 'publishing', analytics: 'analytics' };
+  const stage = stageMap[currentAgentId];
+  if (!stage) return;
+  // We reset then mark done by just leaving it — actually we need a skip endpoint
+  // For now, we'll just mark it done via reset trick
+  toast('Skip not yet implemented — use Re-run or Run Next', 'error');
+}
+
+async function runPipeline() {
+  const res = await fetch('/api/pipeline/run', { method: 'POST' });
+  const data = await res.json();
+  toast(data.message || data.error, res.ok ? 'success' : 'error');
+  refresh();
+}
+
+async function resetAllStages() {
+  const stages = ['research', 'strategy', 'writing', 'visuals', 'publishing', 'analytics', 'evolution'];
+  for (const s of stages) {
+    await fetch(`/api/pipeline/reset/${s}`, { method: 'POST' });
+  }
+  toast('All stages reset', 'success');
+  refresh();
+}
+
+// --- Analytics ---
+const PLATFORM_COLORS = {
+  twitter: '#1da1f2', instagram: '#e1306c', linkedin: '#0077b5',
+  youtube: '#ff0000', tiktok: '#69c9d0', unknown: '#64748b'
+};
+
+async function loadAnalytics() {
+  const [kpiRes, summaryRes] = await Promise.all([
+    fetch('/api/kpi'),
+    fetch('/api/analytics/platform-summary')
+  ]);
+  const kpiData = await kpiRes.json();
+  const summary = await summaryRes.json();
+  const entries = kpiData.entries || [];
+
+  let totalImpressions = 0, totalEngagements = 0, totalPosts = entries.length;
+  entries.forEach(e => {
+    totalImpressions += (e.impressions || 0);
+    totalEngagements += (e.engagements || 0);
+  });
+  const engRate = totalImpressions > 0 ? ((totalEngagements / totalImpressions) * 100).toFixed(2) : '0.00';
+
+  document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi-card"><div class="kpi-label">Total Posts</div><div class="kpi-value blue">${totalPosts}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Impressions</div><div class="kpi-value">${totalImpressions.toLocaleString()}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Engagements</div><div class="kpi-value green">${totalEngagements.toLocaleString()}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Engagement Rate</div><div class="kpi-value amber">${engRate}%</div></div>
+  `;
+
+  // Platform breakdown table
+  const platforms = summary.platforms || [];
+  const ptbody = document.querySelector('#platformTable tbody');
+  ptbody.innerHTML = platforms.map(p => {
+    const rate = p.impressions > 0 ? ((p.engagements / p.impressions) * 100).toFixed(2) + '%' : '-';
+    const color = PLATFORM_COLORS[p.platform] || PLATFORM_COLORS.unknown;
+    return `<tr>
+      <td><span class="platform-badge" style="background:${color}20;color:${color}">${p.platform}</span></td>
+      <td>${p.posts}</td>
+      <td>${p.impressions.toLocaleString()}</td>
+      <td>${p.engagements.toLocaleString()}</td>
+      <td>${(p.likes || 0).toLocaleString()}</td>
+      <td>${rate}</td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="6" style="color:var(--text-dim);text-align:center">No platform data yet. Run fetch_analytics.sh once API keys are configured.</td></tr>';
+
+  // SVG weekly engagement rate bar chart
+  renderWeekChart(summary.weeks || []);
+
+  // KPI table
+  const tbody = document.querySelector('#kpiTable tbody');
+  tbody.innerHTML = entries.slice(-20).reverse().map(e => {
+    const rate = e.impressions ? ((e.engagements || 0) / e.impressions * 100).toFixed(1) + '%' : '-';
+    return `<tr><td style="font-family:monospace;font-size:11px">${e.id || e.post_id || '-'}</td><td>${e.platform || '-'}</td><td>${(e.impressions || 0).toLocaleString()}</td><td>${(e.engagements || 0).toLocaleString()}</td><td>${rate}</td></tr>`;
+  }).join('');
+}
+
+function renderWeekChart(weeks) {
+  const svg = document.getElementById('weekChart');
+  if (!weeks.length) {
+    svg.innerHTML = `<text x="50%" y="60" text-anchor="middle" class="chart-label">No weekly data yet</text>`;
+    return;
+  }
+  const W = svg.clientWidth || 600;
+  const H = 120;
+  const padL = 40, padR = 10, padT = 10, padB = 30;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const barW = Math.min(40, (chartW / weeks.length) - 4);
+
+  const maxRate = Math.max(...weeks.map(w => w.impressions > 0 ? (w.engagements / w.impressions) : 0), 0.01);
+
+  const bars = weeks.map((w, i) => {
+    const rate = w.impressions > 0 ? (w.engagements / w.impressions) : 0;
+    const barH = Math.round((rate / maxRate) * chartH);
+    const x = padL + (i / weeks.length) * chartW + (chartW / weeks.length - barW) / 2;
+    const y = padT + chartH - barH;
+    const pct = (rate * 100).toFixed(1) + '%';
+    const label = w.week.replace(/^\d{4}-/, '');
+    return `
+      <rect x="${x}" y="${y}" width="${barW}" height="${barH}" fill="#3b82f6" rx="3" opacity="0.8">
+        <title>${w.week}: ${pct} engagement rate</title>
+      </rect>
+      <text x="${x + barW/2}" y="${H - 6}" text-anchor="middle" class="chart-label" font-size="9">${label}</text>
+      ${barH > 14 ? `<text x="${x + barW/2}" y="${y - 3}" text-anchor="middle" class="chart-label" font-size="9">${pct}</text>` : ''}
+    `;
+  }).join('');
+
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = `
+    <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + chartH}" stroke="var(--border)" stroke-width="1"/>
+    <line x1="${padL}" y1="${padT + chartH}" x2="${W - padR}" y2="${padT + chartH}" stroke="var(--border)" stroke-width="1"/>
+    ${bars}
+  `;
+}
+
+async function fetchAnalytics() {
+  toast('Fetching analytics from APIs...', '');
+  const res = await fetch('/api/agent/analytics/run', { method: 'POST' });
+  toast(res.ok ? 'Analytics fetch started' : 'Failed to start', res.ok ? 'success' : 'error');
+}
+
+async function logKpi() {
+  const id = document.getElementById('kpiId').value.trim();
+  if (!id) return toast('Post ID required', 'error');
+
+  const metrics = {};
+  const imp = document.getElementById('kpiImpressions').value;
+  const eng = document.getElementById('kpiEngagements').value;
+  const clk = document.getElementById('kpiClicks').value;
+  if (imp) metrics.impressions = parseInt(imp);
+  if (eng) metrics.engagements = parseInt(eng);
+  if (clk) metrics.clicks = parseInt(clk);
+
+  const res = await fetch('/api/kpi/log', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, metrics })
+  });
+  if (res.ok) {
+    toast('KPI logged', 'success');
+    document.getElementById('kpiId').value = '';
+    document.getElementById('kpiImpressions').value = '';
+    document.getElementById('kpiEngagements').value = '';
+    document.getElementById('kpiClicks').value = '';
+    loadAnalytics();
+  } else {
+    toast('Failed to log KPI', 'error');
+  }
+}
+
+// --- Queue ---
+async function loadQueue() {
+  const res = await fetch('/api/queue');
+  const data = await res.json();
+  const posts = data.posts || [];
+  const approval = data.approval || {};
+
+  const counts = { pending: 0, approved: 0, posted: 0, skipped: 0 };
+  posts.forEach(p => { if (counts[p.status] !== undefined) counts[p.status]++; });
+
+  document.getElementById('q-pending').textContent = counts.pending;
+  document.getElementById('q-approved').textContent = counts.approved;
+  document.getElementById('q-posted').textContent = counts.posted;
+  document.getElementById('q-skipped').textContent = counts.skipped;
+  document.getElementById('queueWeekLabel').textContent = data.week || '';
+
+  const container = document.getElementById('queueCards');
+  if (!posts.length) {
+    container.innerHTML = '<div style="color:var(--text-dim);font-size:13px;padding:20px 0">No posts in queue this week. Run /factory stage after publishing to populate.</div>';
+    return;
+  }
+
+  container.innerHTML = posts.map(p => {
+    const platform = (p.platform || 'unknown').toLowerCase();
+    const statusLabel = { pending: 'Pending', approved: 'Approved', posted: 'Posted', skipped: 'Skipped', manual_required: 'Manual' }[p.status] || p.status;
+    const content = (p.content || '').slice(0, 240) + ((p.content || '').length > 240 ? '…' : '');
+    const actions = p.status === 'pending' ? `
+      <button class="btn btn-green" style="font-size:12px;padding:4px 10px" onclick="queueAction('${p.id}','approve')">✓ Approve</button>
+      <button class="btn btn-red" style="font-size:12px;padding:4px 10px" onclick="queueAction('${p.id}','skip')">✕ Skip</button>
+    ` : `<span style="font-size:12px;color:var(--text-dim)">${statusLabel}</span>`;
+    const postUrl = p.post_url ? `<a href="${p.post_url}" target="_blank" style="font-size:11px;color:var(--accent)">View post →</a>` : '';
+    return `
+      <div class="post-card" data-status="${p.status}">
+        <div class="post-card-header">
+          <div>
+            <span class="post-card-platform ${platform}">${platform}</span>
+            <span class="post-card-meta" style="margin-left:8px">${p.day || ''} ${p.time_et || p.scheduled_time || ''}</span>
+          </div>
+          <div style="font-size:12px;color:var(--text-dim)">${p.format || ''}</div>
+        </div>
+        <div class="post-card-content">${content}</div>
+        <div class="post-card-actions">${actions}${postUrl}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+async function queueAction(postId, action) {
+  const endpoint = `/api/queue/${postId}/${action}`;
+  const res = await fetch(endpoint, { method: 'POST' });
+  if (res.ok) {
+    toast(action === 'approve' ? 'Post approved' : 'Post skipped', 'success');
+    loadQueue();
+  } else {
+    toast('Action failed', 'error');
+  }
+}
+
+// --- Inbox ---
+let selectedInboxTag = 'reference';
+
+document.querySelectorAll('.inbox-tag').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.inbox-tag').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    selectedInboxTag = btn.dataset.tag;
+  });
+});
+
+async function loadInbox(items) {
+  if (!items) {
+    const res = await fetch('/api/inbox');
+    items = await res.json();
+  }
+  const container = document.getElementById('inboxCards');
+  if (!items.length) {
+    container.innerHTML = '<div style="color:var(--text-dim);font-size:13px;padding:20px 0">No inbox items yet. Paste a URL or text above, or use /factory inbox in Telegram.</div>';
+    return;
+  }
+  container.innerHTML = items.filter(i => i.status !== 'archived').map(item => {
+    const tags = Array.isArray(item.tags) ? item.tags : (item.tags ? [item.tags] : []);
+    const date = (item.date || '').slice(0, 10);
+    return `
+      <div class="inbox-card" onclick="expandInbox('${item.id || item._file}')">
+        <div class="inbox-card-header">
+          <div>
+            <div class="inbox-card-title">${item.title || 'Untitled'}</div>
+            ${item.source_url ? `<div style="font-size:11px;color:var(--accent);margin-top:2px">${(item.source_url || '').slice(0, 60)}</div>` : ''}
+          </div>
+          <button class="btn" style="font-size:11px;padding:2px 8px;flex-shrink:0" onclick="event.stopPropagation();archiveInbox('${item.id || item._file}')">Archive</button>
+        </div>
+        <div class="inbox-card-preview">${item._preview || ''}</div>
+        <div class="inbox-card-footer">
+          ${tags.map(t => `<span class="inbox-card-tag">${t}</span>`).join('')}
+          <span class="inbox-card-date">${date}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+async function addToInbox() {
+  const source = document.getElementById('inboxSource').value.trim();
+  if (!source) return toast('Enter a URL or text', 'error');
+  toast('Saving to inbox...', '');
+  const res = await fetch('/api/inbox/add', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ source, tags: selectedInboxTag })
+  });
+  if (res.ok) {
+    document.getElementById('inboxSource').value = '';
+    toast('Saved to inbox', 'success');
+    loadInbox();
+  } else {
+    const data = await res.json();
+    toast(data.error || 'Failed to add', 'error');
+  }
+}
+
+async function archiveInbox(id) {
+  const cleanId = id.replace(/\.md$/, '');
+  const res = await fetch(`/api/inbox/${cleanId}/archive`, { method: 'POST' });
+  if (res.ok) { toast('Archived', 'success'); loadInbox(); }
+  else toast('Archive failed', 'error');
+}
+
+async function expandInbox(id) {
+  const cleanId = id.replace(/\.md$/, '');
+  const res = await fetch(`/api/inbox/${cleanId}`);
+  const item = await res.json();
+  // Open detail panel with inbox content
+  document.getElementById('detailEmoji').textContent = item.type === 'url' ? '🔗' : '💡';
+  document.getElementById('detailName').textContent = item.title || 'Inbox Item';
+  document.getElementById('detailRole').textContent = (item.source_url || item.type || '') + ' · ' + (item.date || '').slice(0, 10);
+  document.getElementById('detailOutput').innerHTML = renderMd(item.content || '');
+  document.getElementById('directiveText').value = '';
+  document.getElementById('detailHistory').innerHTML = '';
+  document.getElementById('detailPanel').classList.add('open');
+  document.querySelectorAll('.detail-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelector('[data-tab="output"]').classList.add('active');
+  document.getElementById('tab-output').classList.add('active');
+}
+
+async function searchInbox(q) {
+  const url = q ? `/api/inbox/search?q=${encodeURIComponent(q)}` : '/api/inbox';
+  const res = await fetch(url);
+  const items = await res.json();
+  loadInbox(items);
+}
+
+// --- Persona ---
+async function loadPersona() {
+  const res = await fetch('/api/persona');
+  const data = await res.json();
+  document.getElementById('personaEditor').value = data.persona || '';
+  document.getElementById('evolutionLog').textContent = data.evolutionLog || 'No evolution history yet.';
+}
+
+async function savePersona() {
+  const content = document.getElementById('personaEditor').value;
+  const res = await fetch('/api/persona/edit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content })
+  });
+  toast(res.ok ? 'Persona saved' : 'Save failed', res.ok ? 'success' : 'error');
+}
+
+async function triggerEvolve() {
+  const res = await fetch('/api/agent/analytics/run', { method: 'POST' });
+  toast('Evolution triggered — running analytics first', 'success');
+  refresh();
+}
+
+// --- Steel session modal ---
+let steelModalInterval = null;
+
+async function openSteelModal() {
+  document.getElementById('steelModal').classList.add('open');
+  await loadSteelSessions();
+  steelModalInterval = setInterval(loadSteelSessions, 4000);
+}
+
+function closeSteelModal() {
+  document.getElementById('steelModal').classList.remove('open');
+  if (steelModalInterval) { clearInterval(steelModalInterval); steelModalInterval = null; }
+}
+
+function fmtDuration(ms) {
+  if (!ms || ms < 1000) return '< 1s';
+  const s = Math.floor(ms / 1000);
+  if (s < 60) return s + 's';
+  const m = Math.floor(s / 60);
+  return m + 'm ' + (s % 60) + 's';
+}
+
+async function loadSteelSessions() {
+  const body = document.getElementById('steelModalBody');
+  try {
+    const res = await fetch('/api/steel/sessions');
+    const data = await res.json();
+    if (!data.ok || !data.sessions.length) {
+      body.innerHTML = '<div class="no-sessions">No active Steel sessions<br><span style="font-size:11px;color:var(--text-dim)">Sessions appear here when an agent is using the browser</span></div>';
+      return;
+    }
+    // Show the Steel UI viewer embedded below session list
+    const hasLive = data.sessions.some(s => s.status === 'live');
+    body.innerHTML = data.sessions.map(s => `
+      <div class="session-card">
+        <div class="session-card-header">
+          <span class="session-id">${s.id}</span>
+          <span class="session-badge ${s.status}">${s.status}</span>
+        </div>
+        <div class="session-meta">
+          <span>⏱ ${fmtDuration(s.duration)}</span>
+          <span>📸 ${s.eventCount} events</span>
+          <span>📐 ${(s.dimensions && s.dimensions.width) || '?'}×${(s.dimensions && s.dimensions.height) || '?'}</span>
+          ${s.userAgent ? `<span>🌐 Chrome</span>` : ''}
+        </div>
+      </div>
+    `).join('') + `
+    <div style="margin-top:4px;">
+      <div style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">
+        ${hasLive ? '▸ Live browser view — updates every few seconds' : '⏸ No active sessions — view shows last state'}
+      </div>
+      <iframe src="http://127.0.0.1:5173/" class="session-preview" title="Steel Browser"></iframe>
+    </div>`;
+  } catch {
+    body.innerHTML = '<div class="no-sessions">Could not reach Steel API</div>';
+  }
+}
+
+// --- Steel status ---
+async function refreshSteelStatus() {
+  try {
+    const res = await fetch('/api/steel/status');
+    const data = await res.json();
+    const el = document.getElementById('steelStatus');
+    const sessEl = document.getElementById('steelSessions');
+    if (data.ok) {
+      el.className = 'steel-status online';
+      sessEl.textContent = data.activeSessions > 0 ? `· ${data.activeSessions} active` : '';
+    } else {
+      el.className = 'steel-status offline';
+      sessEl.textContent = `· ${data.status}`;
+    }
+  } catch {
+    const el = document.getElementById('steelStatus');
+    el.className = 'steel-status offline';
+    document.getElementById('steelSessions').textContent = '· unreachable';
+  }
+}
+
+// --- Projects ---
+let currentProjectId = null;
+
+async function loadProjects() {
+  try {
+    const res = await fetch('/api/projects');
+    const data = await res.json();
+    const sel = document.getElementById('projectSelector');
+    sel.innerHTML = data.projects.map(p =>
+      `<option value="${p.id}"${p.id === data.default ? ' selected' : ''}>${p.name}</option>`
+    ).join('');
+    currentProjectId = sel.value || data.default;
+  } catch {}
+}
+
+async function switchProject(id) {
+  currentProjectId = id;
+  await fetch('/api/projects/default', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id })
+  });
+  await loadTasks();
+  toast(`Switched to project: ${id}`, 'success');
+}
+
+// --- Tasks ---
+async function submitTask() {
+  const input = document.getElementById('taskGoalInput');
+  const goal = input.value.trim();
+  if (!goal) return;
+  await _submitGoal(goal, input);
+}
+
+async function submitTask2() {
+  const input = document.getElementById('taskGoalInput2');
+  const goal = input.value.trim();
+  if (!goal) return;
+  await _submitGoal(goal, input);
+}
+
+async function _submitGoal(goal, inputEl) {
+  if (!currentProjectId) { toast('No project selected', 'error'); return; }
+  const res = await fetch(`/api/projects/${currentProjectId}/task`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ goal })
+  });
+  const data = await res.json();
+  if (res.ok) {
+    inputEl.value = '';
+    toast(data.message || 'Task started', 'success');
+    await loadTasks();
+    // Switch to tasks view to show progress
+    document.querySelectorAll('.sidebar-nav a').forEach(n => n.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.querySelector('[data-view="tasks"]').classList.add('active');
+    document.getElementById('view-tasks').classList.add('active');
+  } else {
+    toast(data.error || 'Failed to start task', 'error');
+  }
+}
+
+async function loadTasks() {
+  if (!currentProjectId) return;
+  try {
+    const res = await fetch(`/api/projects/${currentProjectId}/tasks`);
+    const tasks = await res.json();
+    renderTaskList(tasks);
+  } catch {}
+}
+
+function renderTaskList(tasks) {
+  const el = document.getElementById('taskList');
+  const count = document.getElementById('taskCount');
+  if (!tasks.length) {
+    el.innerHTML = '<span style="color:var(--text-dim);font-size:13px">No tasks yet for this project.</span>';
+    if (count) count.textContent = '';
+    return;
+  }
+  if (count) count.textContent = `${tasks.length} tasks`;
+  el.innerHTML = tasks.map(t => {
+    const statusCls = t.status === 'done' ? 'done' : t.status === 'running' ? 'running' : t.status === 'failed' ? 'failed' : 'pending';
+    const statusLabel = t.status === 'done' ? '✓ Done' : t.status === 'running' ? '⟳ Running' : t.status === 'failed' ? '✕ Failed' : '○ Pending';
+    const steps = (t.plan || []).map(s => `<span class="task-step-badge">${s.agent}</span>`).join('');
+    const when = t.completed ? timeAgo(t.completed) : t.created ? timeAgo(t.created) : '';
+    return `<div class="task-item">
+      <div class="task-item-header">
+        <div class="task-goal">${t.goal || ''}</div>
+        <span class="task-status-pill ${statusCls}">${statusLabel}</span>
+      </div>
+      <div class="task-meta">${t.id} · ${when}</div>
+      ${steps ? `<div class="task-plan-steps">${steps}</div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+// --- Refresh loop ---
+async function refresh() {
+  try {
+    const [statusRes, agentsRes] = await Promise.all([
+      fetch('/api/status'),
+      fetch('/api/agents')
+    ]);
+    pipelineState = await statusRes.json();
+    const agentsData = await agentsRes.json();
+
+    document.getElementById('weekLabel').textContent = pipelineState.week || 'Week --';
+    renderAgentGrid(agentsData);
+    renderPipeline(pipelineState);
+  } catch (e) {
+    console.error('Refresh failed:', e);
+  }
+}
+
+// --- Wiki Ingest ---
+let wikiSelectedFiles = [];
+
+function wikiAddUrlRow(val = '') {
+  const row = document.createElement('div');
+  row.className = 'wiki-url-row';
+  row.innerHTML = `<input type="url" name="wikiUrl" placeholder="https://…" value="${val}" autocomplete="off"><button type="button" class="wiki-icon-btn" title="Remove">×</button>`;
+  row.querySelector('button').onclick = () => row.remove();
+  document.getElementById('wikiUrlList').appendChild(row);
+  row.querySelector('input').focus();
+}
+
+document.getElementById('wikiAddUrl').onclick = () => wikiAddUrlRow();
+
+function wikiRenderFiles() {
+  const el = document.getElementById('wikiFileList');
+  const lbl = document.getElementById('wikiDropLabel');
+  lbl.textContent = wikiSelectedFiles.length ? `${wikiSelectedFiles.length} file(s) selected` : 'Click or drag files here (.pdf, .md)';
+  el.innerHTML = '';
+  wikiSelectedFiles.forEach((f, i) => {
+    const tag = document.createElement('div');
+    tag.className = 'wiki-file-tag';
+    tag.innerHTML = `<span>${f.name}</span><span class="rm" data-i="${i}">✕</span>`;
+    tag.querySelector('.rm').onclick = (e) => { wikiSelectedFiles.splice(+e.target.dataset.i, 1); wikiRenderFiles(); };
+    el.appendChild(tag);
+  });
+}
+
+document.getElementById('wikiFileInput').onchange = (e) => {
+  [...e.target.files].forEach(f => wikiSelectedFiles.push(f));
+  e.target.value = '';
+  wikiRenderFiles();
+};
+
+const wikiDrop = document.getElementById('wikiDropZone');
+wikiDrop.addEventListener('dragover', e => { e.preventDefault(); wikiDrop.classList.add('drag-over'); });
+wikiDrop.addEventListener('dragleave', () => wikiDrop.classList.remove('drag-over'));
+wikiDrop.addEventListener('drop', e => {
+  e.preventDefault(); wikiDrop.classList.remove('drag-over');
+  [...e.dataTransfer.files].filter(f => /\.(pdf|md|markdown)$/i.test(f.name)).forEach(f => wikiSelectedFiles.push(f));
+  wikiRenderFiles();
+});
+
+function wikiClassifyLine(txt) {
+  if (/✓|OK:|done|complete|indexed|wrote|ingested/i.test(txt)) return 'wiki-line-ok';
+  if (/error|fail|✗|not found/i.test(txt))                      return 'wiki-line-err';
+  if (/warning|⚠/i.test(txt))                                   return 'wiki-line-warn';
+  if (/^(fetching|auto-ingesting|llm|running|copying|staged|updated|prepend)/i.test(txt)) return 'wiki-line-info';
+  return 'wiki-line-plain';
+}
+
+function wikiAppendLine(text, cls) {
+  const out = document.getElementById('wikiOutput');
+  const span = document.createElement('span');
+  span.className = cls;
+  span.textContent = text + '\n';
+  out.appendChild(span);
+  out.scrollTop = out.scrollHeight;
+}
+
+async function wikiSubmit() {
+  const urls = [...document.querySelectorAll('input[name=wikiUrl]')].map(i => i.value.trim()).filter(Boolean);
+  if (!urls.length && !wikiSelectedFiles.length) { toast('Add at least one URL or file', 'error'); return; }
+
+  const btn = document.getElementById('wikiSubmitBtn');
+  btn.disabled = true; btn.textContent = 'Running…';
+
+  const out = document.getElementById('wikiOutput');
+  out.innerHTML = ''; out.classList.add('active');
+
+  const fd = new FormData();
+  urls.forEach(u => fd.append('url', u));
+  wikiSelectedFiles.forEach(f => fd.append('file', f, f.name));
+
+  let jobId;
+  try {
+    const res = await fetch('/api/wiki/ingest', { method: 'POST', body: fd });
+    const data = await res.json();
+    if (!data.jobId) throw new Error(data.error || 'Unknown error');
+    jobId = data.jobId;
+  } catch (err) {
+    wikiAppendLine('Error: ' + err.message, 'wiki-line-err');
+    btn.disabled = false; btn.textContent = 'Run Ingest';
+    return;
+  }
+
+  wikiAppendLine(`Job ${jobId} started`, 'wiki-line-info');
+
+  const es = new EventSource(`/api/wiki/stream/${jobId}`);
+  es.onmessage = (e) => {
+    const d = JSON.parse(e.data);
+    if (d.type === 'header') {
+      const s = document.createElement('span');
+      s.className = 'wiki-item-header';
+      s.textContent = '\n── ' + d.text + ' ──\n';
+      out.appendChild(s);
+      out.scrollTop = out.scrollHeight;
+    } else if (d.type === 'line') {
+      wikiAppendLine(d.text, wikiClassifyLine(d.text));
+    } else if (d.type === 'done') {
+      const badge = document.createElement('span');
+      badge.className = d.ok ? 'wiki-done-badge' : 'wiki-err-badge';
+      badge.textContent = d.ok ? '✓ complete' : '✗ error';
+      out.appendChild(badge);
+      out.appendChild(document.createTextNode('\n'));
+      out.scrollTop = out.scrollHeight;
+    } else if (d.type === 'all_done') {
+      es.close();
+      btn.disabled = false; btn.textContent = 'Run Ingest';
+      document.getElementById('wikiUrlList').innerHTML = '';
+      wikiAddUrlRow();
+      wikiSelectedFiles = [];
+      wikiRenderFiles();
+    }
+  };
+  es.onerror = () => {
+    wikiAppendLine('Stream disconnected.', 'wiki-line-warn');
+    es.close();
+    btn.disabled = false; btn.textContent = 'Run Ingest';
+  };
+}
+
+function initWikiIngest() {
+  if (!document.querySelector('#wikiUrlList .wiki-url-row')) wikiAddUrlRow();
+}
+
+// Initial load + poll
+refresh();
+refreshSteelStatus();
+wikiAddUrlRow();
+loadProjects().then(() => loadTasks());
+setInterval(refresh, 5000);
+setInterval(refreshSteelStatus, 30000);
+setInterval(loadTasks, 10000);
+</script>
+
+</body>
+</html>

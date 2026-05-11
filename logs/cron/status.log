@@ -1,0 +1,501 @@
+[2026-05-10T12:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T12:50:01Z] START health_monitor
+[2026-05-10T12:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T12:55:01Z] START health_monitor
+[2026-05-10T12:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:00:01Z] START health_monitor
+[2026-05-10T13:00:01Z] START post_scheduler
+[2026-05-10T13:00:01Z] OK post_scheduler
+[2026-05-10T13:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:03:01Z] START pipeline_runner
+[2026-05-10T13:04:01Z] OK pipeline_runner
+[2026-05-10T13:05:01Z] START health_monitor
+[2026-05-10T13:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:10:01Z] START health_monitor
+[2026-05-10T13:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:15:01Z] START post_scheduler
+[2026-05-10T13:15:01Z] START health_monitor
+[2026-05-10T13:15:01Z] OK post_scheduler
+[2026-05-10T13:15:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:20:01Z] START health_monitor
+[2026-05-10T13:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:25:02Z] START health_monitor
+[2026-05-10T13:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:30:01Z] START post_scheduler
+[2026-05-10T13:30:01Z] START health_monitor
+[2026-05-10T13:30:01Z] OK post_scheduler
+[2026-05-10T13:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:35:01Z] START health_monitor
+[2026-05-10T13:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:40:01Z] START health_monitor
+[2026-05-10T13:40:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:45:01Z] START health_monitor
+[2026-05-10T13:45:01Z] START post_scheduler
+[2026-05-10T13:45:01Z] OK post_scheduler
+[2026-05-10T13:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:50:01Z] START health_monitor
+[2026-05-10T13:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T13:55:01Z] START health_monitor
+[2026-05-10T13:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:00:01Z] START post_scheduler
+[2026-05-10T14:00:01Z] START health_monitor
+[2026-05-10T14:00:01Z] OK post_scheduler
+[2026-05-10T14:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:05:01Z] START health_monitor
+[2026-05-10T14:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:10:01Z] START health_monitor
+[2026-05-10T14:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:15:01Z] START health_monitor
+[2026-05-10T14:15:01Z] START post_scheduler
+[2026-05-10T14:15:01Z] OK post_scheduler
+[2026-05-10T14:15:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:20:01Z] START health_monitor
+[2026-05-10T14:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:25:01Z] START health_monitor
+[2026-05-10T14:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:30:01Z] START health_monitor
+[2026-05-10T14:30:01Z] START post_scheduler
+[2026-05-10T14:30:01Z] OK post_scheduler
+[2026-05-10T14:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:35:01Z] START health_monitor
+[2026-05-10T14:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:40:01Z] START health_monitor
+[2026-05-10T14:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:45:01Z] START post_scheduler
+[2026-05-10T14:45:01Z] START health_monitor
+[2026-05-10T14:45:01Z] OK post_scheduler
+[2026-05-10T14:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:50:01Z] START health_monitor
+[2026-05-10T14:50:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T14:55:01Z] START health_monitor
+[2026-05-10T14:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:00:01Z] START health_monitor
+[2026-05-10T15:00:01Z] START post_scheduler
+[2026-05-10T15:00:01Z] OK post_scheduler
+[2026-05-10T15:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:05:01Z] START health_monitor
+[2026-05-10T15:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:10:01Z] START health_monitor
+[2026-05-10T15:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:15:01Z] START post_scheduler
+[2026-05-10T15:15:01Z] START health_monitor
+[2026-05-10T15:15:01Z] OK post_scheduler
+[2026-05-10T15:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:20:01Z] START health_monitor
+[2026-05-10T15:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:25:01Z] START health_monitor
+[2026-05-10T15:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:30:01Z] START post_scheduler
+[2026-05-10T15:30:01Z] START health_monitor
+[2026-05-10T15:30:01Z] OK post_scheduler
+[2026-05-10T15:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:35:01Z] START health_monitor
+[2026-05-10T15:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:40:01Z] START health_monitor
+[2026-05-10T15:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:45:01Z] START health_monitor
+[2026-05-10T15:45:01Z] START post_scheduler
+[2026-05-10T15:45:02Z] OK post_scheduler
+[2026-05-10T15:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:50:01Z] START health_monitor
+[2026-05-10T15:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T15:55:01Z] START health_monitor
+[2026-05-10T15:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:00:01Z] START post_scheduler
+[2026-05-10T16:00:01Z] START health_monitor
+[2026-05-10T16:00:01Z] OK post_scheduler
+[2026-05-10T16:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:05:01Z] START health_monitor
+[2026-05-10T16:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:10:01Z] START health_monitor
+[2026-05-10T16:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:15:01Z] START post_scheduler
+[2026-05-10T16:15:01Z] START health_monitor
+[2026-05-10T16:15:01Z] OK post_scheduler
+[2026-05-10T16:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:20:01Z] START health_monitor
+[2026-05-10T16:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:25:01Z] START health_monitor
+[2026-05-10T16:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:30:01Z] START post_scheduler
+[2026-05-10T16:30:01Z] START health_monitor
+[2026-05-10T16:30:01Z] OK post_scheduler
+[2026-05-10T16:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:35:01Z] START health_monitor
+[2026-05-10T16:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:40:01Z] START health_monitor
+[2026-05-10T16:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:45:01Z] START health_monitor
+[2026-05-10T16:45:01Z] START post_scheduler
+[2026-05-10T16:45:01Z] OK post_scheduler
+[2026-05-10T16:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:50:01Z] START health_monitor
+[2026-05-10T16:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T16:55:01Z] START health_monitor
+[2026-05-10T16:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:00:01Z] START post_scheduler
+[2026-05-10T17:00:01Z] START health_monitor
+[2026-05-10T17:00:01Z] OK post_scheduler
+[2026-05-10T17:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:05:01Z] START health_monitor
+[2026-05-10T17:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:10:01Z] START health_monitor
+[2026-05-10T17:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:15:01Z] START post_scheduler
+[2026-05-10T17:15:01Z] START health_monitor
+[2026-05-10T17:15:01Z] OK post_scheduler
+[2026-05-10T17:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:20:01Z] START health_monitor
+[2026-05-10T17:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:25:01Z] START health_monitor
+[2026-05-10T17:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:30:01Z] START health_monitor
+[2026-05-10T17:30:01Z] START post_scheduler
+[2026-05-10T17:30:02Z] OK post_scheduler
+[2026-05-10T17:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:35:01Z] START health_monitor
+[2026-05-10T17:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:40:01Z] START health_monitor
+[2026-05-10T17:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:45:01Z] START health_monitor
+[2026-05-10T17:45:01Z] START post_scheduler
+[2026-05-10T17:45:01Z] OK post_scheduler
+[2026-05-10T17:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:50:01Z] START health_monitor
+[2026-05-10T17:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T17:55:01Z] START health_monitor
+[2026-05-10T17:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:00:01Z] START health_monitor
+[2026-05-10T18:00:01Z] START post_scheduler
+[2026-05-10T18:00:01Z] OK post_scheduler
+[2026-05-10T18:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:05:01Z] START health_monitor
+[2026-05-10T18:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:10:01Z] START health_monitor
+[2026-05-10T18:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:15:01Z] START health_monitor
+[2026-05-10T18:15:01Z] START post_scheduler
+[2026-05-10T18:15:01Z] OK post_scheduler
+[2026-05-10T18:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:20:01Z] START health_monitor
+[2026-05-10T18:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:25:02Z] START health_monitor
+[2026-05-10T18:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:30:01Z] START post_scheduler
+[2026-05-10T18:30:01Z] START health_monitor
+[2026-05-10T18:30:01Z] OK post_scheduler
+[2026-05-10T18:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:35:01Z] START health_monitor
+[2026-05-10T18:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:40:01Z] START health_monitor
+[2026-05-10T18:40:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:45:01Z] START post_scheduler
+[2026-05-10T18:45:01Z] START health_monitor
+[2026-05-10T18:45:01Z] OK post_scheduler
+[2026-05-10T18:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:50:01Z] START health_monitor
+[2026-05-10T18:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T18:55:01Z] START health_monitor
+[2026-05-10T18:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:00:01Z] START post_scheduler
+[2026-05-10T19:00:01Z] START health_monitor
+[2026-05-10T19:00:01Z] OK post_scheduler
+[2026-05-10T19:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:05:01Z] START health_monitor
+[2026-05-10T19:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:10:01Z] START health_monitor
+[2026-05-10T19:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:15:01Z] START post_scheduler
+[2026-05-10T19:15:01Z] START health_monitor
+[2026-05-10T19:15:01Z] OK post_scheduler
+[2026-05-10T19:15:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:20:01Z] START health_monitor
+[2026-05-10T19:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:25:01Z] START health_monitor
+[2026-05-10T19:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:30:01Z] START health_monitor
+[2026-05-10T19:30:01Z] START post_scheduler
+[2026-05-10T19:30:01Z] OK post_scheduler
+[2026-05-10T19:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:35:01Z] START health_monitor
+[2026-05-10T19:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:40:01Z] START health_monitor
+[2026-05-10T19:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:45:01Z] START post_scheduler
+[2026-05-10T19:45:01Z] START health_monitor
+[2026-05-10T19:45:01Z] OK post_scheduler
+[2026-05-10T19:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:50:01Z] START health_monitor
+[2026-05-10T19:50:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T19:55:01Z] START health_monitor
+[2026-05-10T19:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:00:01Z] START post_scheduler
+[2026-05-10T20:00:01Z] START health_monitor
+[2026-05-10T20:00:01Z] OK post_scheduler
+[2026-05-10T20:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:05:01Z] START health_monitor
+[2026-05-10T20:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:10:01Z] START health_monitor
+[2026-05-10T20:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:15:01Z] START health_monitor
+[2026-05-10T20:15:01Z] START post_scheduler
+[2026-05-10T20:15:01Z] OK post_scheduler
+[2026-05-10T20:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:20:01Z] START health_monitor
+[2026-05-10T20:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:25:01Z] START health_monitor
+[2026-05-10T20:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:30:01Z] START post_scheduler
+[2026-05-10T20:30:01Z] START health_monitor
+[2026-05-10T20:30:01Z] OK post_scheduler
+[2026-05-10T20:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:35:01Z] START health_monitor
+[2026-05-10T20:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:40:01Z] START health_monitor
+[2026-05-10T20:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:45:02Z] START post_scheduler
+[2026-05-10T20:45:02Z] START health_monitor
+[2026-05-10T20:45:02Z] OK post_scheduler
+[2026-05-10T20:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:50:01Z] START health_monitor
+[2026-05-10T20:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T20:55:01Z] START health_monitor
+[2026-05-10T20:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:00:01Z] START health_monitor
+[2026-05-10T21:00:01Z] START post_scheduler
+[2026-05-10T21:00:01Z] OK post_scheduler
+[2026-05-10T21:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:05:01Z] START health_monitor
+[2026-05-10T21:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:10:01Z] START health_monitor
+[2026-05-10T21:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:15:01Z] START post_scheduler
+[2026-05-10T21:15:01Z] START health_monitor
+[2026-05-10T21:15:01Z] OK post_scheduler
+[2026-05-10T21:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:20:02Z] START health_monitor
+[2026-05-10T21:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:25:01Z] START health_monitor
+[2026-05-10T21:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:30:01Z] START health_monitor
+[2026-05-10T21:30:01Z] START post_scheduler
+[2026-05-10T21:30:01Z] OK post_scheduler
+[2026-05-10T21:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:35:01Z] START health_monitor
+[2026-05-10T21:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:40:01Z] START health_monitor
+[2026-05-10T21:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:45:01Z] START health_monitor
+[2026-05-10T21:45:01Z] START post_scheduler
+[2026-05-10T21:45:01Z] OK post_scheduler
+[2026-05-10T21:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:50:01Z] START health_monitor
+[2026-05-10T21:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T21:55:01Z] START health_monitor
+[2026-05-10T21:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:00:01Z] START post_scheduler
+[2026-05-10T22:00:01Z] START health_monitor
+[2026-05-10T22:00:01Z] OK post_scheduler
+[2026-05-10T22:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:05:01Z] START health_monitor
+[2026-05-10T22:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:10:01Z] START health_monitor
+[2026-05-10T22:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:15:01Z] START health_monitor
+[2026-05-10T22:15:01Z] START post_scheduler
+[2026-05-10T22:15:01Z] OK post_scheduler
+[2026-05-10T22:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:20:01Z] START health_monitor
+[2026-05-10T22:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:25:01Z] START health_monitor
+[2026-05-10T22:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:30:01Z] START post_scheduler
+[2026-05-10T22:30:01Z] START health_monitor
+[2026-05-10T22:30:01Z] OK post_scheduler
+[2026-05-10T22:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:35:01Z] START health_monitor
+[2026-05-10T22:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:40:01Z] START health_monitor
+[2026-05-10T22:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:45:01Z] START post_scheduler
+[2026-05-10T22:45:01Z] START health_monitor
+[2026-05-10T22:45:01Z] OK post_scheduler
+[2026-05-10T22:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:50:01Z] START health_monitor
+[2026-05-10T22:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T22:55:01Z] START health_monitor
+[2026-05-10T22:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:00:01Z] START health_monitor
+[2026-05-10T23:00:01Z] START post_scheduler
+[2026-05-10T23:00:01Z] OK post_scheduler
+[2026-05-10T23:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:05:01Z] START health_monitor
+[2026-05-10T23:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:10:01Z] START health_monitor
+[2026-05-10T23:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:15:01Z] START health_monitor
+[2026-05-10T23:15:01Z] START post_scheduler
+[2026-05-10T23:15:01Z] OK post_scheduler
+[2026-05-10T23:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:20:01Z] START health_monitor
+[2026-05-10T23:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:25:01Z] START health_monitor
+[2026-05-10T23:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:30:01Z] START post_scheduler
+[2026-05-10T23:30:01Z] START health_monitor
+[2026-05-10T23:30:01Z] OK post_scheduler
+[2026-05-10T23:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:35:01Z] START health_monitor
+[2026-05-10T23:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:40:01Z] START health_monitor
+[2026-05-10T23:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:45:01Z] START health_monitor
+[2026-05-10T23:45:01Z] START post_scheduler
+[2026-05-10T23:45:01Z] OK post_scheduler
+[2026-05-10T23:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:50:01Z] START health_monitor
+[2026-05-10T23:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-10T23:55:01Z] START health_monitor
+[2026-05-10T23:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:00:01Z] START post_scheduler
+[2026-05-11T00:00:01Z] START health_monitor
+[2026-05-11T00:00:01Z] OK post_scheduler
+[2026-05-11T00:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:05:01Z] START health_monitor
+[2026-05-11T00:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:07:01Z] START analytics_sunday
+[2026-05-11T00:07:31Z] FAILED analytics_sunday (exit=1)
+[2026-05-11T00:10:01Z] START health_monitor
+[2026-05-11T00:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:15:01Z] START health_monitor
+[2026-05-11T00:15:01Z] START post_scheduler
+[2026-05-11T00:15:01Z] OK post_scheduler
+[2026-05-11T00:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:20:01Z] START health_monitor
+[2026-05-11T00:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:25:01Z] START health_monitor
+[2026-05-11T00:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:30:01Z] START health_monitor
+[2026-05-11T00:30:01Z] START post_scheduler
+[2026-05-11T00:30:01Z] OK post_scheduler
+[2026-05-11T00:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:35:01Z] START health_monitor
+[2026-05-11T00:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:40:01Z] START health_monitor
+[2026-05-11T00:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:45:01Z] START health_monitor
+[2026-05-11T00:45:01Z] START post_scheduler
+[2026-05-11T00:45:01Z] OK post_scheduler
+[2026-05-11T00:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:50:01Z] START health_monitor
+[2026-05-11T00:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T00:55:01Z] START health_monitor
+[2026-05-11T00:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:00:01Z] START health_monitor
+[2026-05-11T01:00:01Z] START post_scheduler
+[2026-05-11T01:00:01Z] OK post_scheduler
+[2026-05-11T01:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:05:01Z] START health_monitor
+[2026-05-11T01:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:10:01Z] START health_monitor
+[2026-05-11T01:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:15:01Z] START health_monitor
+[2026-05-11T01:15:01Z] START post_scheduler
+[2026-05-11T01:15:01Z] OK post_scheduler
+[2026-05-11T01:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:20:01Z] START health_monitor
+[2026-05-11T01:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:25:01Z] START health_monitor
+[2026-05-11T01:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:30:01Z] START post_scheduler
+[2026-05-11T01:30:01Z] START health_monitor
+[2026-05-11T01:30:02Z] OK post_scheduler
+[2026-05-11T01:30:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:35:01Z] START health_monitor
+[2026-05-11T01:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:40:01Z] START health_monitor
+[2026-05-11T01:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:45:01Z] START post_scheduler
+[2026-05-11T01:45:01Z] START health_monitor
+[2026-05-11T01:45:01Z] OK post_scheduler
+[2026-05-11T01:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:50:01Z] START health_monitor
+[2026-05-11T01:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T01:55:01Z] START health_monitor
+[2026-05-11T01:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:00:01Z] START health_monitor
+[2026-05-11T02:00:01Z] START post_scheduler
+[2026-05-11T02:00:01Z] OK post_scheduler
+[2026-05-11T02:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:05:01Z] START health_monitor
+[2026-05-11T02:05:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:10:01Z] START health_monitor
+[2026-05-11T02:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:15:01Z] START health_monitor
+[2026-05-11T02:15:01Z] START post_scheduler
+[2026-05-11T02:15:01Z] OK post_scheduler
+[2026-05-11T02:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:20:01Z] START health_monitor
+[2026-05-11T02:20:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:25:01Z] START health_monitor
+[2026-05-11T02:25:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:30:01Z] START health_monitor
+[2026-05-11T02:30:01Z] START post_scheduler
+[2026-05-11T02:30:01Z] OK post_scheduler
+[2026-05-11T02:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:35:01Z] START health_monitor
+[2026-05-11T02:35:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:40:01Z] START health_monitor
+[2026-05-11T02:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:45:02Z] START health_monitor
+[2026-05-11T02:45:02Z] START post_scheduler
+[2026-05-11T02:45:02Z] OK post_scheduler
+[2026-05-11T02:45:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:50:01Z] START health_monitor
+[2026-05-11T02:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T02:55:01Z] START health_monitor
+[2026-05-11T02:55:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:00:01Z] START health_monitor
+[2026-05-11T03:00:01Z] START post_scheduler
+[2026-05-11T03:00:01Z] OK post_scheduler
+[2026-05-11T03:00:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:05:01Z] START health_monitor
+[2026-05-11T03:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:10:01Z] START health_monitor
+[2026-05-11T03:10:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:15:01Z] START health_monitor
+[2026-05-11T03:15:01Z] START post_scheduler
+[2026-05-11T03:15:01Z] OK post_scheduler
+[2026-05-11T03:15:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:20:01Z] START health_monitor
+[2026-05-11T03:20:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:25:01Z] START health_monitor
+[2026-05-11T03:25:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:30:01Z] START post_scheduler
+[2026-05-11T03:30:01Z] START health_monitor
+[2026-05-11T03:30:01Z] OK post_scheduler
+[2026-05-11T03:30:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:35:01Z] START health_monitor
+[2026-05-11T03:35:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:40:01Z] START health_monitor
+[2026-05-11T03:40:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:45:01Z] START health_monitor
+[2026-05-11T03:45:01Z] START post_scheduler
+[2026-05-11T03:45:01Z] OK post_scheduler
+[2026-05-11T03:45:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:50:01Z] START health_monitor
+[2026-05-11T03:50:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T03:55:01Z] START health_monitor
+[2026-05-11T03:55:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:00:01Z] START health_monitor
+[2026-05-11T04:00:01Z] START post_scheduler
+[2026-05-11T04:00:01Z] OK post_scheduler
+[2026-05-11T04:00:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:05:01Z] START health_monitor
+[2026-05-11T04:05:01Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:10:01Z] START health_monitor
+[2026-05-11T04:10:02Z] FAILED health_monitor (exit=1)
+[2026-05-11T04:15:01Z] START health_monitor
+[2026-05-11T04:15:01Z] START post_scheduler
+[2026-05-11T04:15:01Z] OK post_scheduler
+[2026-05-11T04:15:01Z] FAILED health_monitor (exit=1)

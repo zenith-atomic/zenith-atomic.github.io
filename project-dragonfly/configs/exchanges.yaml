@@ -1,0 +1,20 @@
+exchanges:
+  - id: binance
+    name: Binance
+    ws_url: wss://stream.binance.com:9443/ws
+    rest_url: https://api.binance.com/api/v3
+    enabled: true
+    symbols:
+      - BTC/USDT
+      - ETH/USDT
+      - SOL/USDT
+
+  - id: hyperliquid
+    name: Hyperliquid
+    ws_url: wss://api.hyperliquid.xyz/ws
+    rest_url: https://api.hyperliquid.xyz/info
+    enabled: true
+    symbols:
+      - BTC/USDT
+      - ETH/USDT
+      - SOL/USDT

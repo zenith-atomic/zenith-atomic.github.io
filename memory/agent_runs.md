@@ -1,27 +1,51 @@
 # memory/agent_runs.md
-
-- run_0001: 2026-03-23T02:21:00Z — rebuilt canonical memory architecture after rollback; created core/, memory/, state/, backups/; status: complete
-2026-03-23T02:29:09Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-03-22 — status: complete
-2026-03-23T02:32:12Z — promote_fact: Nicolas requested lightweight operator helpers for canonical memory maintenance. — status: complete
-2026-03-23T02:32:12Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T04:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-03-23 — status: complete
-2026-03-23T21:33:20Z — promote_fact: OpenClaw upgraded to 2026.3.22 on 2026-03-23. — status: complete
-2026-03-23T21:35:00Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T21:59:05Z — promote_fact: Capture notes show local Eastern time and UTC. — status: complete
-2026-03-23T21:59:05Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:11:45Z — promote_fact: Dispatcher supports slash command routing. — status: complete
-2026-03-23T22:11:45Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:17:32Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:26:55Z — promote_fact: stable starting point with slash note taking and state — status: complete
-2026-03-23T22:27:11Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:28:38Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:29:00Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-23T22:32:20Z — next_session: regenerated state/NEXT_SESSION.md — status: complete
-2026-03-24T01:36:37Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-03-23 — status: complete
-2026-03-24T18:49:34Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T18-49-34Z — status: complete
-2026-03-24T18:49:34Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T18-49-34Z — status: complete
-2026-03-24T18:50:43Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T18-50-43Z-31646 — status: complete
-2026-03-24T18:50:43Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T18-50-43Z-31657 — status: complete
-2026-03-24T18:54:31Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T18-54-31Z-31872 — status: complete
-2026-03-24T18:56:01Z — snapshot_save: created /home/ai/.openclaw/workspace/memory/snapshots/2026-03-24 — status: complete
-2026-03-24T19:15:14Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-03-24T19-15-14Z-33099 — status: complete
+2026-04-11T04:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-11 — status: complete
+2026-04-12T04:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-12 — status: complete
+2026-04-13T04:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-13 — status: complete
+2026-04-14T04:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-14 — status: complete
+2026-04-14T05:24:03Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T052403 — status: complete
+2026-04-14T05:24:03Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-04-14T05-24-03Z-694784 — status: complete
+2026-04-14T05:24:03Z — save_point_pruned: /home/ai/.openclaw/workspace/backups/save_20260406T141746/ — status: complete
+2026-04-14T05:26:53Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T052653 — status: complete
+2026-04-14T05:27:37Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T052737 — status: complete
+2026-04-14T05:43:40Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T054340 — status: complete
+2026-04-14T05:43:40Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-04-14T05-43-40Z-696009 — status: complete
+2026-04-14T05:44:07Z — promote_fact: 2026-04-14 — test durable fact for /fact route — status: complete
+2026-04-14T05:44:07Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T054407 — status: complete
+2026-04-14T05:44:25Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T054425 — status: complete
+2026-04-14T05:44:25Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-04-14T05-44-25Z-696203 — status: complete
+2026-04-14T05:45:40Z — promote_fact: memory-system-test fact — status: complete
+2026-04-14T05:45:40Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T054540 — status: complete
+2026-04-14T05:45:40Z — quicksave: created /home/ai/.openclaw/workspace/memory/snapshots/quicksave/2026-04-14T05-45-40Z-696339 — status: complete
+2026-04-14T05:45:49Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260414T054549 — status: complete
+2026-04-15T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-15 — status: complete
+2026-04-16T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-16 — status: complete
+2026-04-17T08:00:02Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-17 — status: complete
+2026-04-19T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-19 — status: complete
+2026-04-20T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-20 — status: complete
+2026-04-21T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-21 — status: complete
+2026-04-22T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-22 — status: complete
+2026-04-23T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-23 — status: complete
+2026-04-23T08:00:01Z — sessions_pruned: trimmed 23637→5000 lines — status: complete
+2026-04-24T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-24 — status: complete
+2026-04-25T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-25 — status: complete
+2026-04-26T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-26 — status: complete
+2026-04-27T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-27 — status: complete
+2026-04-28T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-28 — status: complete
+2026-04-29T08:00:02Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-29 — status: complete
+2026-04-29T08:00:02Z — sessions_pruned: trimmed 13087→5000 lines — status: complete
+2026-04-30T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-04-30 — status: complete
+2026-05-01T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-01 — status: complete
+2026-05-01T08:00:01Z — sessions_pruned: trimmed 11495→5000 lines — status: complete
+2026-05-02T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-02 — status: complete
+2026-05-03T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-03 — status: complete
+2026-05-04T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-04 — status: complete
+2026-05-05T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-05 — status: complete
+2026-05-05T14:20:46Z — manual_save_point_created: /home/ai/.openclaw/workspace/backups/save_20260505T142046 — status: complete
+2026-05-05T14:20:46Z — save_point_pruned: /home/ai/.openclaw/workspace/backups/save_20260414T054549/ — status: complete
+2026-05-06T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-06 — status: complete
+2026-05-07T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-07 — status: complete
+2026-05-08T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-08 — status: complete
+2026-05-09T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-09 — status: complete
+2026-05-10T08:00:01Z — snapshot_daily: created /home/ai/.openclaw/workspace/memory/snapshots/2026-05-10 — status: complete
+2026-05-10T08:00:01Z — sessions_pruned: trimmed 11071→5000 lines — status: complete

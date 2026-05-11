@@ -1,0 +1,12 @@
+{
+  "platform": "X/Twitter",
+  "content": "Most \"no-website business\" research fails because it trusts the first source.  \nHere's the verification playbook that actually works:\n\n1/ Pull the Google Business Profile.\nCheck the website field first. If it's blank, that's a signal — not a conclusion.\n\n2/ If the API blocks you, pivot to directories.\nBusinessrate.com, MapQuest, Manta. Each confirms or denies independently.\n\n3/ Cross-reference for confidence.\nTwo sources agree: high confidence. One source only: partial. Walk away from ambiguous.\n\n4/ Log the exclusion reasons.\nEvery \"no\" tells you something. \"Has a site\" is a no. \"Website exists but is terrible\" is still a no.\n\n5/ Set a confidence threshold and hold it.\nMost people fail here. They lower the bar when the list looks thin. Don't.\n\n6/ The output is not a list of businesses.\nIt's a list of verified opportunities with a reason attached to each.\n\nThat's the playbook.\n\nThe reusable version:\n- Google Business Profile → website field check\n- businessrate.com → explicit website presence\n- MapQuest → secondary confirmation\n- Manta → industry classification cross-check\n- BuildZoom → license/permit verification (optional, high confidence)\n\nConfidence scale: 1 source = partial. 2+ sources = high. Excluded = logged.\n\nThat's it. No magic. No API dependency. No rate limit vulnerability.\n\nSaving this thread gives you a reusable playbook. Do it.",
+  "hashtags": [],
+  "scheduled_time": "9:00 AM",
+  "visual": "",
+  "pillar": "** Tool Reviews & Tutorials",
+  "week": "2026-W19",
+  "status": "skipped",
+  "created": "2026-05-09T23:58:19Z",
+  "skipped_at": "2026-05-10T03:12:29.746Z"
+}

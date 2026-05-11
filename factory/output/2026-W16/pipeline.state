@@ -1,0 +1,32 @@
+{
+  "week": "2026-W16",
+  "created": "2026-04-13T09:03:01Z",
+  "stages": {
+    "research": {
+      "status": "done",
+      "completed": "2026-04-15T13:04:35Z"
+    },
+    "strategy": {
+      "status": "done",
+      "completed": "2026-04-16T13:03:42Z"
+    },
+    "writing": {
+      "status": "done",
+      "completed": "2026-04-17T13:03:49Z"
+    },
+    "visuals": {
+      "status": "done",
+      "completed": "2026-04-18T13:03:38Z"
+    },
+    "publishing": {
+      "status": "done",
+      "completed": "2026-04-19T13:03:45Z"
+    },
+    "analytics": {
+      "status": "pending"
+    },
+    "evolution": {
+      "status": "pending"
+    }
+  }
+}

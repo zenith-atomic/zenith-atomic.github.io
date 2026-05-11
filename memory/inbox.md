@@ -1,7 +1,2 @@
-# memory/inbox.md
-
-Use this file for candidate durable facts that are not yet promoted.
-
-Format:
-- YYYY-MM-DD — candidate fact — status: pending
-2026-03-23 — candidate fact: Nicolas uses Eastern time (America/New_York) — status: pending
+## Inbox (needs review)
+- 2026-04-28 — Daily Stoic quote cron firing Apr 24-27 confirmed: Seneca x2, Epictetus, Musonius Rufus. Working well.

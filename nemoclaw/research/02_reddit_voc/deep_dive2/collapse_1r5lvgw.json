@@ -1,0 +1,324 @@
+{
+  "approved_at_utc": null,
+  "subreddit": "collapse",
+  "selftext": "Harvard economist Jason Furman ran the numbers on U.S. GDP for the first half of 2025 and arrived at a figure that should make every macro investor sit up. AI infrastructure investment (information-processing equipment and software) represented just 4% of GDP. But it accounted for\u00a092% of GDP growth. Strip out the data center build-out, and annualized growth for the first six months of 2025 was 0.1%. Not 1%.\u00a0Zero point one.\n\n&gt;\u201cOur economy might just be three AI data centers in a trench coat.\u201d\u2013 *Rusty Foster, Today in Tabs*\n\nHe\u2019s not wrong.\n\n# AI\u2019s 92% GDP Contribution in Context\n\nTo appreciate how unusual 92% concentration is, compare it to the dot-com era. AI-related categories contributed\u00a00.97 percentage points\u00a0to real GDP growth in the first three quarters of 2025, higher than the 0.69 points that identical IT categories contributed during the dot-com peak in 2000. AI-linked investment drove\u00a039% of GDP growth\u00a0across the first nine months of 2025. During the dot-com peak, the equivalent figure was 28% (St. Louis Fed, January 2026).\n\nBy August 2025, something happened that had no precedent: AI data center expenditure\u2019s contribution to GDP growth surpassed the total impact of all U.S. consumer spending. Consumer spending is two-thirds of GDP. A category representing 4% of the economy was outgrowing it.\n\nThe numbers stacked fast. AI-related capex contributed\u00a01.1 percentage points\u00a0to GDP growth in H1 2025 (J.P. Morgan), outpacing the consumer as an engine of expansion. Hardware investment was up 41% year-over-year. Data center construction hit a record\u00a0$40 billion annual rate\u00a0by June. Capex among the top cloud companies had quadrupled to nearly\u00a0$400 billion annually, with the top 10 spenders accounting for nearly a third of all U.S. business spending (Morgan Stanley).\n\n**Where the Growth Actually Came From**\n\n[Sources: BEA via Jason Furman analysis; St. Louis Fed, January 2026; Renaissance Macro Research](https://preview.redd.it/actgiw3r9pjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=badfb599de4f6323ab1650cf65afb7730c56fe1a)\n\nThe 92% figure has a real asterisk. MRB Partners analyst Shaireen Bhide argues it overstates AI\u2019s net contribution: much of the hardware going into data centers is imported (GPUs from Taiwan, networking equipment from Asia), and imports subtract from GDP. After adjusting for AI-related imports, Bhide estimates the net contribution drops to\u00a040\u201350 basis points, or roughly 20\u201325% of real GDP growth. Bespoke Investment Group reached a similar conclusion, noting that Q1 2025 was an outlier.\n\nBoth analyses are methodologically sound. But even the adjusted numbers tell a concerning story. A single investment category driven by a handful of companies accounting for a fifth to a quarter of all economic growth is not normal. And the unadjusted figures, the ones that showed up in the BEA data and shaped policy, created a GDP headline that masked what was happening underneath. Manufacturing was stalling. Retail was weak. Job creation was slowing. The rest of the economy was barely expanding.\n\n# The AI Infrastructure and Housing Bubble Parallel\n\nIn 2005, residential investment reached\u00a06.7% of U.S. GDP, its highest level in half a century. The Federal Reserve documented how residential investment had surged 40% above its long-run average share of GDP. Mortgage debt climbed from 61% of GDP in 1998 to 97% by 2006. Between 2001 and 2005, roughly\u00a040% of net private-sector job creation\u00a0came from housing-related sectors.\n\nThe economy looked great. GDP was growing. Employment was up. The problem was that the growth was structurally dependent on a single sector, and that sector was fueled by financial engineering that disguised the true risk. Sound familiar?\n\nThe AI infrastructure boom shares an uncomfortable structural similarity. Not in the specific mechanism (nobody is packaging subprime data center leases into CDOs yet), but in the concentration pattern. A narrow sector is generating a disproportionate share of GDP growth. The rest of the economy is under performing. And financial engineering is making the true exposure difficult to measure.\n\n**Two Booms, One Pattern**\n\n[Sources: Federal Reserve \\(Bernanke 2010\\); BEA; St. Louis Fed January 2026; Morgan Stanley](https://preview.redd.it/3rhmzolz9pjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=73681dfe4e4e071653f89e0f76f5fe469b4ac4bc)\n\nHousing Boom: Residential investment rose from 4.8% to 6.7% of GDP, with 40% of job creation. AI Boom: AI investment rose to 92% of GDP growth, with hyperscaler capex at $400B/yr. Different mechanisms, same structural dependency.\n\nThere are real differences, and they matter. Housing had a direct wealth effect on 69% of American households. AI infrastructure investment flows to a handful of companies and their shareholders. The dot-com bust wiped out roughly $6 trillion, about 60% of GDP at the time. Oliver Wyman\u2019s January 2026 analysis estimates a comparable AI equity correction would erase approximately\u00a0$33 trillion. That is more than total U.S. GDP. The WEF argues the consumption impact would be more limited precisely because AI wealth is more concentrated than housing wealth was. Cold comfort if you hold the stocks.\n\nThe housing bust triggered a financial crisis because the risk was embedded in the banking system through mortgage-backed securities. The AI boom\u2019s financial plumbing looks different. Not necessarily safer.\n\n# Where $120B in AI Data Center Debt Is Hiding\n\nOff-balance-sheet debt, SPVs, and hidden leverage\n\nTech companies have moved more than\u00a0$120 billion in data center debt\u00a0off their balance sheets using special purpose vehicles, according to the Financial Times. Oracle leads with $66 billion, followed by Meta at $30 billion, xAI at $20 billion, and CoreWeave at $2.6 billion. The structures involve private credit firms (PIMCO, BlackRock, Apollo, Blue Owl Capital, JPMorgan) providing debt and equity through entities designed to keep liabilities off the hyperscalers\u2019 books.\n\nPaul Kedrosky describes the mechanism plainly: companies create SPVs they indirectly control but don\u2019t have to consolidate on their balance sheets. Meta\u2019s $27 billion Hyperion data center deal with Blue Owl, structured through an SPV named \u201cBeignet Investor,\u201d has just $2.5 billion in equity against $27 billion in debt. That\u2019s a\u00a010% equity cushion. Kedrosky calls it \u201cwildly insufficient if projected AI workloads stall or margins compress.\u201d\n\nUBS reports that tech companies had borrowed approximately\u00a0$450 billion from private funds\u00a0as of early 2025, up $100 billion year-over-year. Morgan Stanley estimates $800 billion in private credit will be required between 2025 and 2028 to finance AI data centers alone. In 2025, the five major hyperscalers issued\u00a0$121 billion in bonds, more than four times their five-year average. Their combined free cash flow is forecast to shrink by 43% between late 2024 and early 2026.\n\n&gt;\u201cIn 2008, banks discovered they owned far more US housing risk than their internal reports suggested. They might soon discover the same about data-center and digital infrastructure risk.\u201d\u2013 *Oliver Wyman, January 2026*\n\n**Where the Debt Is Hiding**\n\n[Sources: Financial Times analysis, December 2025; UBS; Bank of America](https://preview.redd.it/zqn14euaapjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=9b9965e1c92936f66e8229b816ac5af395f10a20)\n\n# AI Companies Paying Each Other\n\nCross-investments, round-tripping, and inflated demand\n\nThe financial engineering extends beyond SPVs. Some of the AI revenue being counted as economic growth is companies paying each other. Bloomberg mapped what it called AI\u2019s \u201ccircular deals,\u201d the web of cross-investments where companies invest in each other, creating revenue that circles back to the investor. Microsoft invested $13 billion in OpenAI, which spends most of it on Microsoft Azure. OpenAI signed a $300 billion cloud deal with Oracle, which must buy Nvidia GPUs to fulfill it. Nvidia invested in OpenAI\u2019s funding rounds. Nvidia took a 7% stake in CoreWeave, then agreed to purchase\u00a0$6.3 billion in cloud services from CoreWeave, effectively guaranteeing CoreWeave\u2019s revenue. CoreWeave bought its GPUs with borrowed money collateralized by the value of the GPUs themselves.\n\nOpenAI has committed to over\u00a0$1.15 trillion in long-term computing contracts, against projected 2025 revenue of $13 billion. Goldman Sachs cited \u201cthe increasing circularity of the AI ecosystem.\u201d Morgan Stanley\u2019s Todd Castagno warned it was becoming \u201cincreasingly circular\u201d in ways that \u201cinflate demand and valuations without creating economic value.\u201d\n\n&gt;\u201cIsn\u2019t it a bit strange when the demand for compute is \u2018infinite,\u2019 the sellers keep subsidizing the buyers?\u201d\u2013 *Jim Chanos, 2025*\n\n# Data Centers Are Crowding Out the Grid\n\nIn central Ohio, a couple opened their electricity bill and found it had risen 60%. They hadn\u2019t changed anything. But 130 data centers had moved in around them. Virginia\u2019s Dominion Energy proposed its first base-rate increase since 1992. Bloomberg\u2019s analysis of 25,000 electricity pricing nodes found wholesale costs up as much as\u00a0267% over five years\u00a0in areas near data centers. The boom isn\u2019t an abstraction. It\u2019s showing up in people\u2019s utility bills.\n\nThe system-level numbers are worse. Electricity prices jumped\u00a06.9% in 2025, more than double the headline inflation rate (Goldman Sachs). Data centers make up 40% of electricity demand growth. PJM Interconnection, the largest electric grid in the U.S. serving 65 million people across 13 states, reported that consumers will pay\u00a0$16.6 billion between 2025 and 2027\u00a0just to secure power supplies for data centers that haven\u2019t been built yet. PJM\u2019s independent market monitor called it a \u201cmassive wealth transfer\u201d from consumers to the data center industry. Households will see prices rise an additional 6% through 2027, dragging down consumer spending growth by 0.2%.\n\nThe Council on Foreign Relations argues the AI bubble may not burst from circular financing or debt levels, but from the mundane reality that data centers and housing construction are competing for the same electricians, welders, and HVAC technicians. Tariffs and immigration restrictions are\u00a0shrinking the labor pool\u00a0at precisely the moment both sectors need to expand.\n\n**Who Pays for the Data Centers?**\n\n[Sources: PJM Monitoring Analytics; Goldman Sachs, February 2026; Bloomberg electricity pricing analysis; CNBC; NPR](https://preview.redd.it/5kpm8rzhapjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=ede18b6b345d4ce6b0c2bd6c45f572cb23d2b083)\n\n# AI Productivity: Where Are the Returns?\n\nIf it\u2019s transformative, show me the numbers.\n\nIf AI infrastructure investment is transformative and not just a capex sugar rush, it should show up in productivity data. U.S. nonfarm business productivity grew at roughly\u00a02% year-over-year\u00a0through Q3 2025, in line with the post-pandemic average but showing no meaningful acceleration from the hundreds of billions flowing into AI. The Fed\u2019s Kansas City branch found gains concentrated in a handful of industries, not the broad-based uplift you\u2019d expect from a general-purpose technology.\n\nMIT\u2019s Nanda Lab reported that despite $30\u201340 billion in enterprise AI investment,\u00a095% of organizations are getting zero return. The Penn Wharton Budget Model projects the AI productivity boost will peak at an additional 0.2 percentage points of annual growth . Meaningful, but a fraction of what current investment levels imply. Data centers employ few workers once built, limiting the multiplier effect through wage-driven consumption (J.P. Morgan).\n\nThis matters for the GDP dependency story. If the economy isn\u2019t getting more productive from AI investment, then the GDP growth it generates is pure spending, not productivity-driven expansion. The growth lasts exactly as long as the spending does, and not a quarter longer.\n\n&gt;\u201cEverybody thought it was going to require more computing power and more bandwidth than it actually did.\u201d\u2013 Jerry Kaplan, on the 1990s. The infrastructure always gets overbuilt.\n\n# AI Capex Bubble: Industrial Bubbles Leave Real Wreckage\n\n**Even Jeff Bezos called the AI data center buildout an \u201cindustrial bubble\u201d** at the New York Times DealBook Summit in December 2024. He insisted the long-term benefits will justify it. Maybe. But the distinction matters. An industrial bubble means real physical assets get built that eventually find uses. The fiber-optic cables from the telecom boom carried the internet for two decades. The railroad bubble of the 1800s left behind a continental transportation network.\n\nBut industrial bubbles still cause pain. The builders go bankrupt, the investors lose capital, and the construction workers lose jobs when the building stops. When the spending represents a massive share of GDP growth, the withdrawal can tip the broader economy into recession.\n\nThe WEF\u2019s Chief Economists Outlook acknowledged this:\u00a0\u201cEconomic growth during the bubble phase depends on continually building infrastructure, not using infrastructure.\u201d\u00a0As long as the hyperscalers keep spending, GDP grows. When they slow, whether from disappointing revenue, rising debt costs, or simple overbuilding, the contribution reverses.\n\nAnd the slowdown signals may already be appearing. Alphabet\u2019s free cash flow is projected to plummet roughly 90%. Bond spreads on AI-related debt have widened by as much as 40 basis points since September, per Oliver Wyman. CoreWeave\u2019s stock has swung from a $187 peak to $75, a reminder of how volatile debt-fueled growth models.\n\n**The Dependency Math**\n\n[Sources: Furman analysis; MRB Partners, January 2026; Stress Index modeling; company guidance](https://preview.redd.it/xh4hegr5apjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=be523f76974ccc9fc17bccd0da19e5e67ff288f3)\n\nH1 2025 GDP growth: 1.8%. AI contribution (Furman): 1.7pp (92%). Without AI: 0.1%. MRB import-adjusted: 0.4-0.5pp (20-25%). If capex grows 30% slower: -0.3 to -0.5pp GDP impact. If capex flattens: -0.5 to -1.0pp.\n\n**Every scenario in that table shares one feature: the economy without AI investment is barely growing. The headline says 1.8%. The foundation says 0.1%.**",
+  "author_fullname": "t2_wo1no",
+  "saved": false,
+  "mod_reason_title": null,
+  "gilded": 0,
+  "clicked": false,
+  "title": "Three Data Centers in a Trench Coat: 4% of GDP, 92% of Growth",
+  "link_flair_richtext": [],
+  "subreddit_name_prefixed": "r/collapse",
+  "hidden": false,
+  "pwls": 6,
+  "link_flair_css_class": "",
+  "downs": 0,
+  "thumbnail_height": 73,
+  "top_awarded_type": null,
+  "hide_score": false,
+  "media_metadata": {
+    "3rhmzolz9pjg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 56,
+          "x": 108,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=ff4187534c7d8280b321cb8a80bd26924b51b8e7"
+        },
+        {
+          "y": 113,
+          "x": 216,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=7451492ed29f6366632384a06ae735ef34553fbc"
+        },
+        {
+          "y": 168,
+          "x": 320,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=6bf3568a24335ce916ec51849cdfc59c69805f5c"
+        },
+        {
+          "y": 336,
+          "x": 640,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=1a2c2556018e5bfce1305733179ebb40a1b04a96"
+        },
+        {
+          "y": 504,
+          "x": 960,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=01b0354fdc7ec7eeff08356c268b1c94d78ebaf2"
+        },
+        {
+          "y": 567,
+          "x": 1080,
+          "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=ae1855d2e559346716eead82f96d1dc671924cf2"
+        }
+      ],
+      "s": {
+        "y": 1260,
+        "x": 2400,
+        "u": "https://preview.redd.it/3rhmzolz9pjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=73681dfe4e4e071653f89e0f76f5fe469b4ac4bc"
+      },
+      "id": "3rhmzolz9pjg1"
+    },
+    "xh4hegr5apjg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 56,
+          "x": 108,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=431b9f1b1841b339182999e3f2cbd7b2927fe1bd"
+        },
+        {
+          "y": 113,
+          "x": 216,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=fd6c64bf85223c64fa9aba2c55f1db0931d04cf5"
+        },
+        {
+          "y": 168,
+          "x": 320,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=40f90c7f78ffd589073b388db623dc78c77803f5"
+        },
+        {
+          "y": 336,
+          "x": 640,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=d2b80464743a00fae3b4182fca4636684c517d3e"
+        },
+        {
+          "y": 504,
+          "x": 960,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=17715e0a8d613f9532fa886d8c41bf7d9fdae1af"
+        },
+        {
+          "y": 567,
+          "x": 1080,
+          "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=403f0b8f9f87f3d3c51dc0455bbcd35806d94940"
+        }
+      ],
+      "s": {
+        "y": 1260,
+        "x": 2400,
+        "u": "https://preview.redd.it/xh4hegr5apjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=be523f76974ccc9fc17bccd0da19e5e67ff288f3"
+      },
+      "id": "xh4hegr5apjg1"
+    },
+    "zqn14euaapjg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 56,
+          "x": 108,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=51cf26d3bec79feca77d1ed70a777d3feabb5d39"
+        },
+        {
+          "y": 113,
+          "x": 216,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=04c87908b0a06413b624862016369cfd92ae8603"
+        },
+        {
+          "y": 168,
+          "x": 320,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=31fd3a7369206adc09829a394ff532927010e7cf"
+        },
+        {
+          "y": 336,
+          "x": 640,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=96b1a4b0494e9fe7ee090a05c3bf0bb5b36c04a6"
+        },
+        {
+          "y": 504,
+          "x": 960,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=27ee4e0fdd3e3ece260812ea91d90b77789d6402"
+        },
+        {
+          "y": 567,
+          "x": 1080,
+          "u": "https://preview.redd.it/zqn14euaapjg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=284d18504c3a62d2782ce5fdc51e555af71e8a13"
+        }
+      ],
+      "s": {
+        "y": 1260,
+        "x": 2400,
+        "u": "https://preview.redd.it/zqn14euaapjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=9b9965e1c92936f66e8229b816ac5af395f10a20"
+      },
+      "id": "zqn14euaapjg1"
+    },
+    "actgiw3r9pjg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 56,
+          "x": 108,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=d7eae204fa5d78c4d377f93924b1fa45a35a9cc3"
+        },
+        {
+          "y": 113,
+          "x": 216,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=69e04a25924e6baa89fc4ea4af99d5c949aa9466"
+        },
+        {
+          "y": 168,
+          "x": 320,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=efe67cbb3636f2c0612733f60448c7212bd30275"
+        },
+        {
+          "y": 336,
+          "x": 640,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=572395e1080173e70e0cece6c22b415aad3ff091"
+        },
+        {
+          "y": 504,
+          "x": 960,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=9c930cd8fdaa4bfe6cf00021bc131a93edbc68e5"
+        },
+        {
+          "y": 567,
+          "x": 1080,
+          "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=bf01c2061c7d37682d323a01f7aac9d255381db0"
+        }
+      ],
+      "s": {
+        "y": 1260,
+        "x": 2400,
+        "u": "https://preview.redd.it/actgiw3r9pjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=badfb599de4f6323ab1650cf65afb7730c56fe1a"
+      },
+      "id": "actgiw3r9pjg1"
+    },
+    "5kpm8rzhapjg1": {
+      "status": "valid",
+      "e": "Image",
+      "m": "image/png",
+      "p": [
+        {
+          "y": 56,
+          "x": 108,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=4748747bc09e8a63fd00e40c68a7d6a00cec24de"
+        },
+        {
+          "y": 113,
+          "x": 216,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=2016fba0e4dc939d67c4183b58da3e164daa7613"
+        },
+        {
+          "y": 168,
+          "x": 320,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=ede24dfc77c84c39a0c72b1ffc3838f6b348b2af"
+        },
+        {
+          "y": 336,
+          "x": 640,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=521174a0e4775b688667495365c9401599f71cdd"
+        },
+        {
+          "y": 504,
+          "x": 960,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=3fc03f72b4b9bf72134ed97bcef8c5d2e9e4f685"
+        },
+        {
+          "y": 567,
+          "x": 1080,
+          "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=f7c839b55556b1813d771953cba2d59cb4b90a5e"
+        }
+      ],
+      "s": {
+        "y": 1260,
+        "x": 2400,
+        "u": "https://preview.redd.it/5kpm8rzhapjg1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=ede18b6b345d4ce6b0c2bd6c45f572cb23d2b083"
+      },
+      "id": "5kpm8rzhapjg1"
+    }
+  },
+  "name": "t3_1r5lvgw",
+  "quarantine": false,
+  "link_flair_text_color": "dark",
+  "upvote_ratio": 0.99,
+  "author_flair_background_color": null,
+  "subreddit_type": "public",
+  "ups": 772,
+  "total_awards_received": 0,
+  "media_embed": {},
+  "thumbnail_width": 140,
+  "author_flair_template_id": null,
+  "is_original_content": false,
+  "user_reports": [],
+  "secure_media": null,
+  "is_reddit_media_domain": false,
+  "is_meta": false,
+  "category": null,
+  "secure_media_embed": {},
+  "link_flair_text": "Economic",
+  "can_mod_post": false,
+  "score": 772,
+  "approved_by": null,
+  "is_created_from_ads_ui": false,
+  "author_premium": false,
+  "thumbnail": "self",
+  "edited": false,
+  "author_flair_css_class": null,
+  "author_flair_richtext": [],
+  "gildings": {},
+  "content_categories": null,
+  "is_self": true,
+  "mod_note": null,
+  "created": 1771179811.0,
+  "link_flair_type": "text",
+  "wls": 6,
+  "removed_by_category": null,
+  "banned_by": null,
+  "author_flair_type": "text",
+  "domain": "self.collapse",
+  "allow_live_comments": false,
+  "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Harvard economist Jason Furman ran the numbers on U.S. GDP for the first half of 2025 and arrived at a figure that should make every macro investor sit up. AI infrastructure investment (information-processing equipment and software) represented just 4% of GDP. But it accounted for\u00a092% of GDP growth. Strip out the data center build-out, and annualized growth for the first six months of 2025 was 0.1%. Not 1%.\u00a0Zero point one.&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;\u201cOur economy might just be three AI data centers in a trench coat.\u201d\u2013 &lt;em&gt;Rusty Foster, Today in Tabs&lt;/em&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;He\u2019s not wrong.&lt;/p&gt;\n\n&lt;h1&gt;AI\u2019s 92% GDP Contribution in Context&lt;/h1&gt;\n\n&lt;p&gt;To appreciate how unusual 92% concentration is, compare it to the dot-com era. AI-related categories contributed\u00a00.97 percentage points\u00a0to real GDP growth in the first three quarters of 2025, higher than the 0.69 points that identical IT categories contributed during the dot-com peak in 2000. AI-linked investment drove\u00a039% of GDP growth\u00a0across the first nine months of 2025. During the dot-com peak, the equivalent figure was 28% (St. Louis Fed, January 2026).&lt;/p&gt;\n\n&lt;p&gt;By August 2025, something happened that had no precedent: AI data center expenditure\u2019s contribution to GDP growth surpassed the total impact of all U.S. consumer spending. Consumer spending is two-thirds of GDP. A category representing 4% of the economy was outgrowing it.&lt;/p&gt;\n\n&lt;p&gt;The numbers stacked fast. AI-related capex contributed\u00a01.1 percentage points\u00a0to GDP growth in H1 2025 (J.P. Morgan), outpacing the consumer as an engine of expansion. Hardware investment was up 41% year-over-year. Data center construction hit a record\u00a0$40 billion annual rate\u00a0by June. Capex among the top cloud companies had quadrupled to nearly\u00a0$400 billion annually, with the top 10 spenders accounting for nearly a third of all U.S. business spending (Morgan Stanley).&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Where the Growth Actually Came From&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/actgiw3r9pjg1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=badfb599de4f6323ab1650cf65afb7730c56fe1a\"&gt;Sources: BEA via Jason Furman analysis; St. Louis Fed, January 2026; Renaissance Macro Research&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;The 92% figure has a real asterisk. MRB Partners analyst Shaireen Bhide argues it overstates AI\u2019s net contribution: much of the hardware going into data centers is imported (GPUs from Taiwan, networking equipment from Asia), and imports subtract from GDP. After adjusting for AI-related imports, Bhide estimates the net contribution drops to\u00a040\u201350 basis points, or roughly 20\u201325% of real GDP growth. Bespoke Investment Group reached a similar conclusion, noting that Q1 2025 was an outlier.&lt;/p&gt;\n\n&lt;p&gt;Both analyses are methodologically sound. But even the adjusted numbers tell a concerning story. A single investment category driven by a handful of companies accounting for a fifth to a quarter of all economic growth is not normal. And the unadjusted figures, the ones that showed up in the BEA data and shaped policy, created a GDP headline that masked what was happening underneath. Manufacturing was stalling. Retail was weak. Job creation was slowing. The rest of the economy was barely expanding.&lt;/p&gt;\n\n&lt;h1&gt;The AI Infrastructure and Housing Bubble Parallel&lt;/h1&gt;\n\n&lt;p&gt;In 2005, residential investment reached\u00a06.7% of U.S. GDP, its highest level in half a century. The Federal Reserve documented how residential investment had surged 40% above its long-run average share of GDP. Mortgage debt climbed from 61% of GDP in 1998 to 97% by 2006. Between 2001 and 2005, roughly\u00a040% of net private-sector job creation\u00a0came from housing-related sectors.&lt;/p&gt;\n\n&lt;p&gt;The economy looked great. GDP was growing. Employment was up. The problem was that the growth was structurally dependent on a single sector, and that sector was fueled by financial engineering that disguised the true risk. Sound familiar?&lt;/p&gt;\n\n&lt;p&gt;The AI infrastructure boom shares an uncomfortable structural similarity. Not in the specific mechanism (nobody is packaging subprime data center leases into CDOs yet), but in the concentration pattern. A narrow sector is generating a disproportionate share of GDP growth. The rest of the economy is under performing. And financial engineering is making the true exposure difficult to measure.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Two Booms, One Pattern&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/3rhmzolz9pjg1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=73681dfe4e4e071653f89e0f76f5fe469b4ac4bc\"&gt;Sources: Federal Reserve (Bernanke 2010); BEA; St. Louis Fed January 2026; Morgan Stanley&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Housing Boom: Residential investment rose from 4.8% to 6.7% of GDP, with 40% of job creation. AI Boom: AI investment rose to 92% of GDP growth, with hyperscaler capex at $400B/yr. Different mechanisms, same structural dependency.&lt;/p&gt;\n\n&lt;p&gt;There are real differences, and they matter. Housing had a direct wealth effect on 69% of American households. AI infrastructure investment flows to a handful of companies and their shareholders. The dot-com bust wiped out roughly $6 trillion, about 60% of GDP at the time. Oliver Wyman\u2019s January 2026 analysis estimates a comparable AI equity correction would erase approximately\u00a0$33 trillion. That is more than total U.S. GDP. The WEF argues the consumption impact would be more limited precisely because AI wealth is more concentrated than housing wealth was. Cold comfort if you hold the stocks.&lt;/p&gt;\n\n&lt;p&gt;The housing bust triggered a financial crisis because the risk was embedded in the banking system through mortgage-backed securities. The AI boom\u2019s financial plumbing looks different. Not necessarily safer.&lt;/p&gt;\n\n&lt;h1&gt;Where $120B in AI Data Center Debt Is Hiding&lt;/h1&gt;\n\n&lt;p&gt;Off-balance-sheet debt, SPVs, and hidden leverage&lt;/p&gt;\n\n&lt;p&gt;Tech companies have moved more than\u00a0$120 billion in data center debt\u00a0off their balance sheets using special purpose vehicles, according to the Financial Times. Oracle leads with $66 billion, followed by Meta at $30 billion, xAI at $20 billion, and CoreWeave at $2.6 billion. The structures involve private credit firms (PIMCO, BlackRock, Apollo, Blue Owl Capital, JPMorgan) providing debt and equity through entities designed to keep liabilities off the hyperscalers\u2019 books.&lt;/p&gt;\n\n&lt;p&gt;Paul Kedrosky describes the mechanism plainly: companies create SPVs they indirectly control but don\u2019t have to consolidate on their balance sheets. Meta\u2019s $27 billion Hyperion data center deal with Blue Owl, structured through an SPV named \u201cBeignet Investor,\u201d has just $2.5 billion in equity against $27 billion in debt. That\u2019s a\u00a010% equity cushion. Kedrosky calls it \u201cwildly insufficient if projected AI workloads stall or margins compress.\u201d&lt;/p&gt;\n\n&lt;p&gt;UBS reports that tech companies had borrowed approximately\u00a0$450 billion from private funds\u00a0as of early 2025, up $100 billion year-over-year. Morgan Stanley estimates $800 billion in private credit will be required between 2025 and 2028 to finance AI data centers alone. In 2025, the five major hyperscalers issued\u00a0$121 billion in bonds, more than four times their five-year average. Their combined free cash flow is forecast to shrink by 43% between late 2024 and early 2026.&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;\u201cIn 2008, banks discovered they owned far more US housing risk than their internal reports suggested. They might soon discover the same about data-center and digital infrastructure risk.\u201d\u2013 &lt;em&gt;Oliver Wyman, January 2026&lt;/em&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;&lt;strong&gt;Where the Debt Is Hiding&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/zqn14euaapjg1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=9b9965e1c92936f66e8229b816ac5af395f10a20\"&gt;Sources: Financial Times analysis, December 2025; UBS; Bank of America&lt;/a&gt;&lt;/p&gt;\n\n&lt;h1&gt;AI Companies Paying Each Other&lt;/h1&gt;\n\n&lt;p&gt;Cross-investments, round-tripping, and inflated demand&lt;/p&gt;\n\n&lt;p&gt;The financial engineering extends beyond SPVs. Some of the AI revenue being counted as economic growth is companies paying each other. Bloomberg mapped what it called AI\u2019s \u201ccircular deals,\u201d the web of cross-investments where companies invest in each other, creating revenue that circles back to the investor. Microsoft invested $13 billion in OpenAI, which spends most of it on Microsoft Azure. OpenAI signed a $300 billion cloud deal with Oracle, which must buy Nvidia GPUs to fulfill it. Nvidia invested in OpenAI\u2019s funding rounds. Nvidia took a 7% stake in CoreWeave, then agreed to purchase\u00a0$6.3 billion in cloud services from CoreWeave, effectively guaranteeing CoreWeave\u2019s revenue. CoreWeave bought its GPUs with borrowed money collateralized by the value of the GPUs themselves.&lt;/p&gt;\n\n&lt;p&gt;OpenAI has committed to over\u00a0$1.15 trillion in long-term computing contracts, against projected 2025 revenue of $13 billion. Goldman Sachs cited \u201cthe increasing circularity of the AI ecosystem.\u201d Morgan Stanley\u2019s Todd Castagno warned it was becoming \u201cincreasingly circular\u201d in ways that \u201cinflate demand and valuations without creating economic value.\u201d&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;\u201cIsn\u2019t it a bit strange when the demand for compute is \u2018infinite,\u2019 the sellers keep subsidizing the buyers?\u201d\u2013 &lt;em&gt;Jim Chanos, 2025&lt;/em&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;h1&gt;Data Centers Are Crowding Out the Grid&lt;/h1&gt;\n\n&lt;p&gt;In central Ohio, a couple opened their electricity bill and found it had risen 60%. They hadn\u2019t changed anything. But 130 data centers had moved in around them. Virginia\u2019s Dominion Energy proposed its first base-rate increase since 1992. Bloomberg\u2019s analysis of 25,000 electricity pricing nodes found wholesale costs up as much as\u00a0267% over five years\u00a0in areas near data centers. The boom isn\u2019t an abstraction. It\u2019s showing up in people\u2019s utility bills.&lt;/p&gt;\n\n&lt;p&gt;The system-level numbers are worse. Electricity prices jumped\u00a06.9% in 2025, more than double the headline inflation rate (Goldman Sachs). Data centers make up 40% of electricity demand growth. PJM Interconnection, the largest electric grid in the U.S. serving 65 million people across 13 states, reported that consumers will pay\u00a0$16.6 billion between 2025 and 2027\u00a0just to secure power supplies for data centers that haven\u2019t been built yet. PJM\u2019s independent market monitor called it a \u201cmassive wealth transfer\u201d from consumers to the data center industry. Households will see prices rise an additional 6% through 2027, dragging down consumer spending growth by 0.2%.&lt;/p&gt;\n\n&lt;p&gt;The Council on Foreign Relations argues the AI bubble may not burst from circular financing or debt levels, but from the mundane reality that data centers and housing construction are competing for the same electricians, welders, and HVAC technicians. Tariffs and immigration restrictions are\u00a0shrinking the labor pool\u00a0at precisely the moment both sectors need to expand.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Who Pays for the Data Centers?&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/5kpm8rzhapjg1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ede18b6b345d4ce6b0c2bd6c45f572cb23d2b083\"&gt;Sources: PJM Monitoring Analytics; Goldman Sachs, February 2026; Bloomberg electricity pricing analysis; CNBC; NPR&lt;/a&gt;&lt;/p&gt;\n\n&lt;h1&gt;AI Productivity: Where Are the Returns?&lt;/h1&gt;\n\n&lt;p&gt;If it\u2019s transformative, show me the numbers.&lt;/p&gt;\n\n&lt;p&gt;If AI infrastructure investment is transformative and not just a capex sugar rush, it should show up in productivity data. U.S. nonfarm business productivity grew at roughly\u00a02% year-over-year\u00a0through Q3 2025, in line with the post-pandemic average but showing no meaningful acceleration from the hundreds of billions flowing into AI. The Fed\u2019s Kansas City branch found gains concentrated in a handful of industries, not the broad-based uplift you\u2019d expect from a general-purpose technology.&lt;/p&gt;\n\n&lt;p&gt;MIT\u2019s Nanda Lab reported that despite $30\u201340 billion in enterprise AI investment,\u00a095% of organizations are getting zero return. The Penn Wharton Budget Model projects the AI productivity boost will peak at an additional 0.2 percentage points of annual growth . Meaningful, but a fraction of what current investment levels imply. Data centers employ few workers once built, limiting the multiplier effect through wage-driven consumption (J.P. Morgan).&lt;/p&gt;\n\n&lt;p&gt;This matters for the GDP dependency story. If the economy isn\u2019t getting more productive from AI investment, then the GDP growth it generates is pure spending, not productivity-driven expansion. The growth lasts exactly as long as the spending does, and not a quarter longer.&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;\u201cEverybody thought it was going to require more computing power and more bandwidth than it actually did.\u201d\u2013 Jerry Kaplan, on the 1990s. The infrastructure always gets overbuilt.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;h1&gt;AI Capex Bubble: Industrial Bubbles Leave Real Wreckage&lt;/h1&gt;\n\n&lt;p&gt;&lt;strong&gt;Even Jeff Bezos called the AI data center buildout an \u201cindustrial bubble\u201d&lt;/strong&gt; at the New York Times DealBook Summit in December 2024. He insisted the long-term benefits will justify it. Maybe. But the distinction matters. An industrial bubble means real physical assets get built that eventually find uses. The fiber-optic cables from the telecom boom carried the internet for two decades. The railroad bubble of the 1800s left behind a continental transportation network.&lt;/p&gt;\n\n&lt;p&gt;But industrial bubbles still cause pain. The builders go bankrupt, the investors lose capital, and the construction workers lose jobs when the building stops. When the spending represents a massive share of GDP growth, the withdrawal can tip the broader economy into recession.&lt;/p&gt;\n\n&lt;p&gt;The WEF\u2019s Chief Economists Outlook acknowledged this:\u00a0\u201cEconomic growth during the bubble phase depends on continually building infrastructure, not using infrastructure.\u201d\u00a0As long as the hyperscalers keep spending, GDP grows. When they slow, whether from disappointing revenue, rising debt costs, or simple overbuilding, the contribution reverses.&lt;/p&gt;\n\n&lt;p&gt;And the slowdown signals may already be appearing. Alphabet\u2019s free cash flow is projected to plummet roughly 90%. Bond spreads on AI-related debt have widened by as much as 40 basis points since September, per Oliver Wyman. CoreWeave\u2019s stock has swung from a $187 peak to $75, a reminder of how volatile debt-fueled growth models.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;The Dependency Math&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/xh4hegr5apjg1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=be523f76974ccc9fc17bccd0da19e5e67ff288f3\"&gt;Sources: Furman analysis; MRB Partners, January 2026; Stress Index modeling; company guidance&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;H1 2025 GDP growth: 1.8%. AI contribution (Furman): 1.7pp (92%). Without AI: 0.1%. MRB import-adjusted: 0.4-0.5pp (20-25%). If capex grows 30% slower: -0.3 to -0.5pp GDP impact. If capex flattens: -0.5 to -1.0pp.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Every scenario in that table shares one feature: the economy without AI investment is barely growing. The headline says 1.8%. The foundation says 0.1%.&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+  "likes": null,
+  "suggested_sort": null,
+  "banned_at_utc": null,
+  "view_count": null,
+  "archived": false,
+  "no_follow": false,
+  "is_crosspostable": false,
+  "pinned": false,
+  "over_18": false,
+  "all_awardings": [],
+  "awarders": [],
+  "media_only": false,
+  "link_flair_template_id": "c9356dfa-dbde-11e6-ac8c-0e90edba349e",
+  "can_gild": false,
+  "spoiler": false,
+  "locked": false,
+  "author_flair_text": null,
+  "treatment_tags": [],
+  "visited": false,
+  "removed_by": null,
+  "num_reports": null,
+  "distinguished": null,
+  "subreddit_id": "t5_2qhw9",
+  "author_is_blocked": false,
+  "mod_reason_by": null,
+  "removal_reason": null,
+  "link_flair_background_color": "",
+  "id": "1r5lvgw",
+  "is_robot_indexable": true,
+  "report_reasons": null,
+  "author": "Rorisjack",
+  "discussion_type": null,
+  "num_comments": 103,
+  "send_replies": true,
+  "contest_mode": false,
+  "mod_reports": [],
+  "author_patreon_flair": false,
+  "author_flair_text_color": null,
+  "permalink": "/r/collapse/comments/1r5lvgw/three_data_centers_in_a_trench_coat_4_of_gdp_92/",
+  "stickied": false,
+  "url": "https://old.reddit.com/r/collapse/comments/1r5lvgw/three_data_centers_in_a_trench_coat_4_of_gdp_92/",
+  "subreddit_subscribers": 552349,
+  "created_utc": 1771179811.0,
+  "num_crossposts": 2,
+  "media": null,
+  "is_video": false
+}

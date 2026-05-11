@@ -39,4 +39,6 @@ EOF2
 
 printf '%s — next_session: regenerated state/NEXT_SESSION.md — status: complete\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$RUNS_FILE"
 
+"$WORKDIR/scripts/rotate_log.sh" "$RUNS_FILE" 50
+
 echo "next session regenerated"

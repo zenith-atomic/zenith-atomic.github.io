@@ -1,0 +1,21 @@
+[2026-04-20T00:07:01Z] START analytics_sunday
+=== analytics_agent ===
+Analytics report complete for 2026-W17. Output: /home/ai/.openclaw/workspace/factory/output/2026-W17/report.md
+=== evolve_persona ===
+ERROR: OPENAI_API_KEY not set
+[2026-04-20T00:07:50Z] FAILED analytics_sunday (exit=1)
+[2026-04-27T00:07:02Z] START analytics_sunday
+=== analytics_agent ===
+Analytics report complete for 2026-W18. Output: /home/ai/.openclaw/workspace/factory/output/2026-W18/report.md
+=== evolve_persona ===
+ERROR: OPENAI_API_KEY not set
+[2026-04-27T00:08:13Z] FAILED analytics_sunday (exit=1)
+[2026-05-04T00:07:01Z] START analytics_sunday
+=== analytics_agent ===
+[2026-05-04T00:08:58Z] FAILED analytics_sunday (exit=1)
+[2026-05-11T00:07:01Z] START analytics_sunday
+=== analytics_agent ===
+Analytics report complete for 2026-W20. Output: /home/ai/.openclaw/workspace/factory/output/2026-W20/report.md
+=== evolve_persona ===
+ERROR: OPENAI_API_KEY not set
+[2026-05-11T00:07:31Z] FAILED analytics_sunday (exit=1)

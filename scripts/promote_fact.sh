@@ -28,4 +28,6 @@ mv "$TMP_FILE" "$INBOX_FILE"
 
 printf '%s — promote_fact: %s — status: complete\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$FACT" >> "$RUNS_FILE"
 
+"$WORKDIR/scripts/rotate_log.sh" "$RUNS_FILE" 50
+
 echo "fact promoted"

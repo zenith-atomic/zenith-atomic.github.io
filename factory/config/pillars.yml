@@ -1,0 +1,15 @@
+version: 1
+pillars:
+  - name: "Build in Public"
+    description: "What I'm shipping, how I'm building, real numbers"
+    ratio: 0.3
+  - name: "Tool Reviews & Tutorials"
+    description: "AI tools, workflows, automations that actually work"
+    ratio: 0.3
+  - name: "Takes & Opinions"
+    description: "Contrarian or sharp observations about tech/AI"
+    ratio: 0.2
+  - name: "Behind the Scenes"
+    description: "Process, failures, lessons, the unsexy parts"
+    ratio: 0.2
+last_updated: null

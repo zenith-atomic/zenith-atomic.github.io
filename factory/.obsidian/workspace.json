@@ -1,0 +1,22 @@
+{
+  "main": {
+    "id": "main",
+    "type": "split",
+    "children": [],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "left",
+    "type": "leaves",
+    "children": [],
+    "collapsed": false
+  },
+  "right": {
+    "id": "right",
+    "type": "leaves",
+    "children": [],
+    "collapsed": true
+  },
+  "active": "",
+  "lastOpenFiles": []
+}

@@ -1,0 +1,1595 @@
+[2026-04-15T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/context_packs/real_estate_automation.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/context_packs/ai_agents_stack.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/home_services_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+(orphan candidates: 12)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-15T08:05:02Z] OK wiki_lint
+[2026-04-16T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/context_packs/real_estate_automation.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/context_packs/ai_agents_stack.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/home_services_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+(orphan candidates: 12)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-16T08:05:03Z] OK wiki_lint
+[2026-04-17T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/context_packs/real_estate_automation.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/context_packs/ai_agents_stack.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/home_services_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+(orphan candidates: 12)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-17T08:05:01Z] OK wiki_lint
+[2026-04-19T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+(orphan candidates: 11)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-19T08:05:02Z] OK wiki_lint
+[2026-04-20T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+(orphan candidates: 11)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-20T08:05:02Z] OK wiki_lint
+[2026-04-21T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+(orphan candidates: 11)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-21T08:05:02Z] OK wiki_lint
+[2026-04-22T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+  concepts/www_fieldroutes_com_lp_review_ppc_utm_campaign_cap_br_frp_in_market_review_web_d
+(url-slug pages: 1)
+  (manual rename required — cannot auto-fix)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/topics/ai_agent_memory.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/ai_search_optimization.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/topics/personal_ai_infrastructure.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/products/seo_ai_agent.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/seo_ai.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/www_youtube_com_watch_v_l0_qm0_y_c.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/wiki_ingest_xjo8lskk.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/x_com_k1rallik_status_2043694049769455877.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+(orphan candidates: 11)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 1 issue(s) found, fixes applied where possible ===
+[2026-04-22T08:05:01Z] OK wiki_lint
+[2026-04-23T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 52)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-23T08:05:02Z] OK wiki_lint
+[2026-04-24T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 53)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-24T08:05:02Z] OK wiki_lint
+[2026-04-25T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 53)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-25T08:05:02Z] OK wiki_lint
+[2026-04-26T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 53)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-26T08:05:02Z] OK wiki_lint
+[2026-04-27T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 53)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-27T08:05:02Z] OK wiki_lint
+[2026-04-28T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 54)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-28T08:05:02Z] OK wiki_lint
+[2026-04-29T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-29T08:05:01Z] OK wiki_lint
+[2026-04-30T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-04-30T08:05:02Z] OK wiki_lint
+[2026-05-01T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-01T08:05:02Z] OK wiki_lint
+[2026-05-02T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-02T08:05:02Z] OK wiki_lint
+[2026-05-03T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-03T08:05:01Z] OK wiki_lint
+[2026-05-04T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-04T08:05:02Z] OK wiki_lint
+[2026-05-05T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-05T08:05:01Z] OK wiki_lint
+[2026-05-06T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-06T08:05:02Z] OK wiki_lint
+[2026-05-07T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-07T08:05:02Z] OK wiki_lint
+[2026-05-08T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-08T08:05:02Z] OK wiki_lint
+[2026-05-09T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-09T08:05:02Z] OK wiki_lint
+[2026-05-10T08:05:01Z] START wiki_lint
+=== Ghost Index Entries ===
+(ghosts: 0)
+
+=== Duplicate Index Entries ===
+(duplicates: 0)
+
+=== URL-Slug Derived Pages (should have semantic slugs) ===
+(url-slug pages: 0)
+
+=== Orphan Candidates (<=1 backlink) ===
+  /home/ai/.openclaw/workspace/wiki/articles/cold-outreach-dark-psychology-dimitar.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/hormozi-0-to-2m-arr-blueprint.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/articles/faceless-content-factory-playbook.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/context_packs/home_services_receptionist.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/justin-campana.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/codie-sanchez.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/nick-huber.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/operations/leila-hormozi.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/housecall-pro.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/hubspot.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/brightlocal.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/tech-platforms/servicetitan.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/callrail-speed-to-lead.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/kestutis-pagalys-smb-efficiency.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/yasm-service-management.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/al-sefati-answer-engine-optimization.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/michael-gerber-e-myth.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/perry-marshall-80-20-power-curve.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/david-c-barnett-sellability.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/gino-wickman-eos.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/roy-dockery-tsia.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/ops-expanded/marcus-sheridan-they-ask-you-answer.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/titan-technology-business-automation-2026.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/ruddr-psa-software-2026-rankings.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/financial-automation/rocketlane-agentic-psa-platform.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/dan-kennedy.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-offers.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/russell-brunson.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/cialdini-principles.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-first-dollar.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-fulfillment.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/sales-marketing/alex-hormozi-management.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/sources/research/SCRAPE_LOG.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/profit-first.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/clickfunnels-value-ladder.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/sources/research/frameworks/mosi-6-framework.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Q8xXSMe8E4Q.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_9q5ojtkqsBs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_yb2cLMMuMdQ.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hHkdbr6_JJs.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_fr78adfAnuA.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_DavidCBarne.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_Jmkq5RLjm0U.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_8C_6qojTA78.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_jqo0lVveh98.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_HGZOxBfnF-E.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/inbox/yt_hfqYHlQFPoo.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/real_estate_automation.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/thurain_hlaing.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/2026-04-22.md (refs: 0)
+  /home/ai/.openclaw/workspace/wiki/.trash/motivated_seller_outreach.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/outbound-call-sequence.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/phone-call-handling.md (refs: 1)
+  /home/ai/.openclaw/workspace/wiki/playbooks/lead-reactivation-sequence.md (refs: 1)
+(orphan candidates: 55)
+
+=== Pages Missing ## Summary (canonical dirs only) ===
+(missing summaries: 0)
+
+=== Stale Inbox Files (already in sources/) ===
+(stale inbox: 0)
+
+=== Summary: 0 issue(s) found, fixes applied where possible ===
+[2026-05-10T08:05:02Z] OK wiki_lint

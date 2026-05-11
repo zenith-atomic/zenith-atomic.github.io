@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SkillBridge</title>
+  <style>
+    :root {
+      --bg: #0D0D0F;
+      --surface: #18181B;
+      --border: #27272A;
+      --accent: #6366F1;
+      --accent-dim: rgba(99,102,241,0.15);
+      --success: #22C55E;
+      --warning: #F59E0B;
+      --danger: #EF4444;
+      --text: #FAFAFA;
+      --text-dim: #A1A1AA;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* ── Top Bar ── */
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-icon {
+      width: 30px;
+      height: 30px;
+      background: var(--accent);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+    }
+
+    .brand-name {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    /* ── Bottom Nav ── */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-around;
+      padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+      z-index: 50;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      background: none;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 8px;
+      transition: color 0.15s;
+      font-size: 10px;
+      min-width: 60px;
+    }
+
+    .nav-item.active { color: var(--accent); }
+    .nav-item span { font-size: 22px; line-height: 1; }
+
+    /* ── Views ── */
+    .view {
+      display: none;
+      padding: 16px 20px;
+      padding-bottom: calc(80px + env(safe-area-inset-bottom));
+      animation: fadeIn 0.2s ease;
+    }
+
+    .view.active { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Section ── */
+    .section { margin-bottom: 24px; }
+
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-dim);
+      margin-bottom: 10px;
+    }
+
+    /* ── Status Bar (Home) ── */
+    .status-bar {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+
+    .status-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      min-width: 88px;
+      flex-shrink: 0;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text-dim);
+    }
+
+    .status-dot.live { background: var(--success); box-shadow: 0 0 6px var(--success); }
+    .status-dot.warn { background: var(--warning); }
+    .status-dot.down { background: var(--danger); }
+
+    .status-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+    .status-value { font-size: 13px; font-weight: 600; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 10px;
+    }
+
+    .action-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+      width: 100%;
+      text-align: left;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .action-card:active {
+      background: var(--accent-dim);
+      border-color: var(--accent);
+    }
+
+    .action-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--accent-dim);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .action-text { flex: 1; }
+    .action-title { font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+    .action-desc { font-size: 12px; color: var(--text-dim); }
+    .action-arrow { color: var(--text-dim); font-size: 18px; }
+
+    /* ── Agent Cards ── */
+    .agent-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .agent-avatar {
+      width: 36px;
+      height: 36px;
+      background: var(--accent-dim);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .agent-info { flex: 1; }
+    .agent-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .agent-status { font-size: 12px; color: var(--text-dim); }
+
+    .agent-badge {
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+
+    .badge-live { background: rgba(34,197,94,0.15); color: var(--success); }
+    .badge-idle { background: rgba(161,161,170,0.15); color: var(--text-dim); }
+
+    /* ── Profile Selector ── */
+    .profile-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      margin-bottom: 16px;
+    }
+
+    .profile-tab {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      cursor: pointer;
+      flex-shrink: 0;
+      min-width: 120px;
+      transition: border-color 0.15s;
+      border: none;
+      color: var(--text);
+      text-align: left;
+    }
+
+    .profile-tab.active {
+      border: 1.5px solid var(--accent);
+      background: var(--accent-dim);
+    }
+
+    .profile-tab-name { font-size: 13px; font-weight: 600; }
+    .profile-tab-niche { font-size: 11px; color: var(--text-dim); text-transform: capitalize; }
+
+    /* ── Form Elements ── */
+    .form-select {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: 14px;
+      margin-bottom: 12px;
+      outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23A1A1AA' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      padding-right: 36px;
+    }
+
+    .form-select:focus { border-color: var(--accent); }
+
+    .form-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: 14px;
+      margin-bottom: 12px;
+      outline: none;
+    }
+
+    .form-input:focus { border-color: var(--accent); }
+    .form-input::placeholder { color: var(--text-dim); }
+
+    .btn-primary {
+      width: 100%;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      padding: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    .btn-primary:active { opacity: 0.85; }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-secondary {
+      width: 100%;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    .btn-secondary:active { background: var(--accent-dim); }
+
+    /* ── Script Output ── */
+    .script-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+
+    .script-hook-type {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .script-hook {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .script-body {
+      font-size: 13px;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .script-cta {
+      font-size: 12px;
+      color: var(--success);
+    }
+
+    /* ── Image Grid ── */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .image-preview {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: var(--text-dim);
+      overflow: hidden;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ── Platform Cards ── */
+    .platform-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .platform-card:active { background: var(--accent-dim); }
+
+    .platform-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .platform-info { flex: 1; }
+    .platform-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .platform-status { font-size: 12px; color: var(--text-dim); }
+
+    .platform-badge {
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+
+    .badge-connected { background: rgba(34,197,94,0.15); color: var(--success); }
+    .badge-add { background: rgba(161,161,170,0.15); color: var(--text-dim); }
+
+    /* ── Appointment List ── */
+    .appt-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .appt-item:last-child { border-bottom: none; }
+
+    .appt-date {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--accent-dim);
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-width: 48px;
+    }
+
+    .appt-date-month { font-size: 10px; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+    .appt-date-day { font-size: 18px; font-weight: 700; line-height: 1; }
+
+    .appt-info { flex: 1; }
+    .appt-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .appt-time { font-size: 12px; color: var(--text-dim); }
+    .appt-status { font-size: 11px; padding: 3px 8px; border-radius: 20px; font-weight: 600; }
+
+    .status-new { background: rgba(99,102,241,0.15); color: var(--accent); }
+    .status-qualified { background: rgba(34,197,94,0.15); color: var(--success); }
+    .status-followup { background: rgba(245,158,11,0.15); color: var(--warning); }
+
+    /* ── Event List ── */
+    .event-item {
+      display: flex;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .event-item:last-child { border-bottom: none; }
+
+    .event-time-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 48px;
+    }
+
+    .event-hour { font-size: 14px; font-weight: 700; }
+    .event-min { font-size: 10px; color: var(--text-dim); }
+
+    .event-info { flex: 1; }
+    .event-title { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .event-meta { font-size: 12px; color: var(--text-dim); }
+
+    /* ── Loading spinner ── */
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      display: inline-block;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    .empty-state-icon { font-size: 40px; margin-bottom: 12px; }
+
+    .hidden { display: none !important; }
+
+    /* ── Login ── */
+    #login-screen {
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 40px 24px;
+    }
+
+    .login-logo {
+      width: 60px;
+      height: 60px;
+      background: var(--accent);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .login-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 4px; }
+    .login-sub { color: var(--text-dim); font-size: 14px; margin-bottom: 36px; }
+
+    .login-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      color: var(--text);
+      font-size: 15px;
+      margin-bottom: 12px;
+      outline: none;
+    }
+
+    .login-input:focus { border-color: var(--accent); }
+    .login-btn {
+      width: 100%;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      padding: 16px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    .login-error {
+      color: var(--danger);
+      font-size: 13px;
+      margin-top: 12px;
+      display: none;
+    }
+
+    /* ── Scrollable lists ── */
+    .scroll-list { max-height: calc(100vh - 220px); overflow-y: auto; }
+
+    /* ── Section header row ── */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .section-header .section-title { margin-bottom: 0; }
+
+    .link-btn {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Login Screen -->
+  <div id="login-screen">
+    <div class="login-logo">⚡</div>
+    <div class="login-title">SkillBridge</div>
+    <div class="login-sub">OpenClaw Command Center</div>
+    <input class="login-input" type="text" id="username" placeholder="Username" autocomplete="off">
+    <input class="login-input" type="password" id="password" placeholder="Password">
+    <button class="login-btn" onclick="doLogin()">Access Command Center</button>
+    <div class="login-error" id="login-error">Invalid credentials</div>
+  </div>
+
+  <!-- App Shell -->
+  <div id="app" class="hidden">
+    <!-- Top Bar -->
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-name">SkillBridge</div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- HOME VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-home" class="view active">
+
+      <!-- Status Bar -->
+      <div class="section">
+        <div class="status-bar" id="status-bar">
+          <div class="status-chip">
+            <div class="status-dot warn" id="dot-receptionist"></div>
+            <div class="status-label">CRM</div>
+            <div class="status-value" id="val-receptionist">...</div>
+          </div>
+          <div class="status-chip">
+            <div class="status-dot warn" id="dot-call"></div>
+            <div class="status-label">Call</div>
+            <div class="status-value" id="val-call">...</div>
+          </div>
+          <div class="status-chip">
+            <div class="status-dot warn" id="dot-opencli"></div>
+            <div class="status-label">Social</div>
+            <div class="status-value" id="val-opencli">...</div>
+          </div>
+          <div class="status-chip">
+            <div class="status-dot warn" id="dot-gmail"></div>
+            <div class="status-label">Email</div>
+            <div class="status-value" id="val-gmail">...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="section">
+        <div class="section-title">Quick Actions</div>
+        <button class="action-card" onclick="doCallNic()">
+          <div class="action-icon">📞</div>
+          <div class="action-text">
+            <div class="action-title">Call Nicolas</div>
+            <div class="action-desc">+1 (973) 306-8922</div>
+          </div>
+          <div class="action-arrow">→</div>
+        </button>
+        <button class="action-card" onclick="switchTab('crm')">
+          <div class="action-icon">📋</div>
+          <div class="action-text">
+            <div class="action-title">CRM</div>
+            <div class="action-desc">View appointments & leads</div>
+          </div>
+          <div class="action-arrow">→</div>
+        </button>
+        <button class="action-card" onclick="switchTab('calendar')">
+          <div class="action-icon">📅</div>
+          <div class="action-text">
+            <div class="action-title">Calendar</div>
+            <div class="action-desc">Next event this week</div>
+          </div>
+          <div class="action-arrow">→</div>
+        </button>
+        <button class="action-card" onclick="composeEmail()">
+          <div class="action-icon">✉️</div>
+          <div class="action-text">
+            <div class="action-title">Send Email</div>
+            <div class="action-desc">Compose a message</div>
+          </div>
+          <div class="action-arrow">→</div>
+        </button>
+      </div>
+
+      <!-- Agents -->
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title">Active Agents</div>
+          <button class="link-btn" onclick="switchTab('agents')">Manage →</button>
+        </div>
+        <div class="agent-card">
+          <div class="agent-avatar">🤖</div>
+          <div class="agent-info">
+            <div class="agent-name">Sarah — Receptionist</div>
+            <div class="agent-status" id="receptionist-agent-status">Checking...</div>
+          </div>
+          <span class="agent-badge badge-idle" id="receptionist-badge">checking</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- CRM VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-crm" class="view">
+      <div class="section">
+        <div class="section-title">Upcoming Appointments</div>
+        <div id="crm-appt-list" class="card" style="padding:0;">
+          <div class="empty-state"><span class="spinner"></span></div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title">All Leads</div>
+          <button class="link-btn" onclick="loadCRM()">↻ Refresh</button>
+        </div>
+        <div id="crm-lead-list" class="card" style="padding:0;">
+          <div class="empty-state"><span class="spinner"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- CALENDAR VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-calendar" class="view">
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title">This Week</div>
+          <button class="link-btn" onclick="loadCalendar()">↻ Refresh</button>
+        </div>
+        <div id="calendar-list" class="card" style="padding:0;">
+          <div class="empty-state"><span class="spinner"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- CONTENT VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-content" class="view">
+
+      <!-- Profile Selector -->
+      <div class="section">
+        <div class="section-title">Content Profiles</div>
+        <div class="profile-tabs" id="profile-tabs">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Generate Scripts -->
+      <div class="section">
+        <div class="section-title">Generate Scripts</div>
+        <div class="card">
+          <select class="form-select" id="niche-select">
+            <option value="personal_finance">Personal Finance</option>
+            <option value="tech_ai">Tech & AI Tools</option>
+            <option value="fitness">Fitness & Body Transformation</option>
+            <option value="productivity">Productivity & High Performance</option>
+            <option value="entrepreneurship">Entrepreneurship & Side Hustles</option>
+          </select>
+          <select class="form-select" id="script-count">
+            <option value="5">5 Scripts</option>
+            <option value="10">10 Scripts</option>
+            <option value="20">20 Scripts</option>
+            <option value="30">30 Scripts</option>
+          </select>
+          <button class="btn-primary" id="gen-scripts-btn" onclick="generateScripts()">Generate Scripts</button>
+        </div>
+        <div id="scripts-output" class="hidden" style="margin-top:16px;">
+          <div id="scripts-list" class="scroll-list"></div>
+          <button class="btn-secondary" onclick="copyAllScripts()">📋 Copy All Scripts</button>
+        </div>
+      </div>
+
+      <!-- Generate Images -->
+      <div class="section">
+        <div class="section-title">Generate Images</div>
+        <div class="card">
+          <input class="form-input" type="text" id="image-prompt" placeholder="Describe the image you want to generate...">
+          <select class="form-select" id="image-style">
+            <option value="photorealistic">Photorealistic</option>
+            <option value="illustration">Illustration</option>
+            <option value="3d-render">3D Render</option>
+            <option value="abstract">Abstract</option>
+          </select>
+          <button class="btn-primary" id="gen-image-btn" onclick="generateImage()">Generate Image</button>
+        </div>
+        <div id="image-output" class="image-grid hidden" style="margin-top:12px;">
+          <!-- Generated images appear here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- SOCIAL VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-social" class="view">
+      <div class="section">
+        <div class="section-title">Connected Accounts</div>
+        <div id="platform-list">
+          <div class="platform-card" onclick="connectPlatform('twitter')">
+            <div class="platform-icon" style="background:#1DA1F2;">🐦</div>
+            <div class="platform-info">
+              <div class="platform-name">Twitter / X</div>
+              <div class="platform-status" id="twitter-status">Not connected</div>
+            </div>
+            <span class="platform-badge badge-add" id="twitter-badge">+ Connect</span>
+          </div>
+          <div class="platform-card" onclick="connectPlatform('instagram')">
+            <div class="platform-icon" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);">📷</div>
+            <div class="platform-info">
+              <div class="platform-name">Instagram</div>
+              <div class="platform-status" id="instagram-status">Not connected</div>
+            </div>
+            <span class="platform-badge badge-add" id="instagram-badge">+ Connect</span>
+          </div>
+          <div class="platform-card" onclick="connectPlatform('tiktok')">
+            <div class="platform-icon" style="background:#010101;">🎵</div>
+            <div class="platform-info">
+              <div class="platform-name">TikTok</div>
+              <div class="platform-status" id="tiktok-status">Not connected</div>
+            </div>
+            <span class="platform-badge badge-add" id="tiktok-badge">+ Connect</span>
+          </div>
+          <div class="platform-card" onclick="connectPlatform('youtube')">
+            <div class="platform-icon" style="background:#FF0000;">▶️</div>
+            <div class="platform-info">
+              <div class="platform-name">YouTube</div>
+              <div class="platform-status" id="youtube-status">Not connected</div>
+            </div>
+            <span class="platform-badge badge-add" id="youtube-badge">+ Connect</span>
+          </div>
+          <div class="platform-card" onclick="connectPlatform('reddit')">
+            <div class="platform-icon" style="background:#FF4500;">🤖</div>
+            <div class="platform-info">
+              <div class="platform-name">Reddit</div>
+              <div class="platform-status" id="reddit-status">Not connected</div>
+            </div>
+            <span class="platform-badge badge-add" id="reddit-badge">+ Connect</span>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-title">Post Now</div>
+        <div class="card">
+          <select class="form-select" id="post-platform">
+            <option value="twitter">Twitter / X</option>
+            <option value="instagram">Instagram</option>
+            <option value="tiktok">TikTok</option>
+            <option value="reddit">Reddit</option>
+          </select>
+          <textarea class="form-input" id="post-text" rows="4" placeholder="What's on your mind?" style="resize:none;"></textarea>
+          <button class="btn-primary" onclick="postNow()">Post Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- AGENTS VIEW -->
+    <!-- ══════════════════════════════════════════════════ -->
+    <div id="view-agents" class="view">
+      <div class="section">
+        <div class="section-title">Spawn New Agent</div>
+        <div class="card">
+          <select class="form-select" id="agent-runtime">
+            <option value="subagent">Subagent (background task)</option>
+            <option value="acp">ACP Session (persistent)</option>
+          </select>
+          <input class="form-input" type="text" id="agent-task" placeholder="Describe the task...">
+          <button class="btn-primary" onclick="spawnAgent()">🚀 Spawn Agent</button>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title">Active Agents</div>
+          <button class="link-btn" onclick="loadAgents()">↻ Refresh</button>
+        </div>
+        <div id="agents-list">
+          <div class="empty-state"><span class="spinner"></span></div>
+        </div>
+      </div>
+    </div>
+
+    // ── Email Compose Modal ──
+  <div id="modal-email" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;align-items:center;justify-content:center;padding:20px;">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+        <div style="font-size:17px;font-weight:700;">✉️ Compose Email</div>
+        <button onclick="closeEmailModal()" style="background:none;border:none;color:var(--text-dim);font-size:20px;cursor:pointer;">✕</button>
+      </div>
+      <div style="margin-bottom:12px;">
+        <label style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.5px;display:block;margin-bottom:6px;">To</label>
+        <input class="form-input" type="email" id="email-modal-to" placeholder="recipient@example.com">
+      </div>
+      <div style="margin-bottom:12px;">
+        <label style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.5px;display:block;margin-bottom:6px;">Subject</label>
+        <input class="form-input" type="text" id="email-modal-subject" placeholder="Email subject">
+      </div>
+      <div style="margin-bottom:12px;">
+        <label style="font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.5px;display:block;margin-bottom:6px;">Body</label>
+        <textarea id="email-modal-body" rows="6" placeholder="Write your message here..." style="width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;color:var(--text);font-size:14px;resize:vertical;outline:none;"></textarea>
+      </div>
+      <button class="btn-primary" id="email-ai-btn" onclick="completeEmailWithAI()" style="background:var(--accent-dim);color:var(--accent);margin-top:4px;">✨ Complete with AI</button>
+      <div id="email-ai-status" style="font-size:12px;color:var(--text-dim);margin-top:6px;display:none;"></div>
+      <button class="btn-primary" id="email-send-btn" onclick="sendEmailFromModal()" style="margin-top:8px;">Send Email</button>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" onclick="switchTab('home')">
+        <span>⚡</span>
+        Home
+      </button>
+      <button class="nav-item" onclick="switchTab('crm')">
+        <span>📋</span>
+        CRM
+      </button>
+      <button class="nav-item" onclick="switchTab('calendar')">
+        <span>📅</span>
+        Calendar
+      </button>
+      <button class="nav-item" onclick="switchTab('content')">
+        <span>✍️</span>
+        Content
+      </button>
+      <button class="nav-item" onclick="switchTab('social')">
+        <span>🌐</span>
+        Social
+      </button>
+      <button class="nav-item" onclick="switchTab('agents')">
+        <span>🤖</span>
+        Agents
+      </button>
+    </nav>
+  </div>
+
+<script>
+  const BASE = '';
+  let authHeader = '';
+  let activeTab = 'home';
+  let _lastScripts = [];
+
+  // ── Content Profiles (hardcoded for now) ───────────
+  const CONTENT_PROFILES = [
+    { id: 'pf1', name: 'Money Matters',   niche: 'personal_finance',  color: '#22C55E' },
+    { id: 'pf2', name: 'TechByte',         niche: 'tech_ai',           color: '#6366F1' },
+    { id: 'pf3', name: 'FitFuel',          niche: 'fitness',           color: '#EF4444' },
+    { id: 'pf4', name: 'Hustle Lab',       niche: 'entrepreneurship',  color: '#F59E0B' },
+    { id: 'pf5', name: 'FocusFlow',        niche: 'productivity',     color: '#14B8A6' },
+  ];
+
+  // ── Login ──────────────────────────────────────────
+  function doLogin() {
+    const u = document.getElementById('username').value;
+    const p = document.getElementById('password').value;
+    authHeader = btoa(u + ':' + p);
+
+    fetch(BASE + '/api/status', { headers: { 'X-Auth': authHeader } })
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(d => {
+        document.getElementById('login-screen').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
+        initApp();
+      })
+      .catch(() => { document.getElementById('login-error').style.display = 'block'; });
+  }
+
+  document.getElementById('password').addEventListener('keydown', e => {
+    if (e.key === 'Enter') doLogin();
+  });
+
+  // ── Init ───────────────────────────────────────────
+  function initApp() {
+    renderProfiles();
+    loadStatus();
+    loadCRM();
+    loadCalendar();
+    loadAgents();
+    setInterval(loadStatus, 30000);
+  }
+
+  // ── Tab Navigation ─────────────────────────────────
+  function switchTab(tab) {
+    activeTab = tab;
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    document.getElementById('view-' + tab).classList.add('active');
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    if (tab === 'crm') loadCRM();
+    if (tab === 'calendar') loadCalendar();
+    if (tab === 'agents') loadAgents();
+  }
+
+  // ── Content Profiles ────────────────────────────────
+  function renderProfiles() {
+    const container = document.getElementById('profile-tabs');
+    let html = '';
+    CONTENT_PROFILES.forEach((p, i) => {
+      html += `<button class="profile-tab ${i === 0 ? 'active' : ''}" onclick="selectProfile('${p.id}', this)">
+        <div class="profile-tab-name">${p.name}</div>
+        <div class="profile-tab-niche">${p.niche.replace('_', ' ')}</div>
+      </button>`;
+    });
+    container.innerHTML = html;
+  }
+
+  function selectProfile(id, el) {
+    document.querySelectorAll('.profile-tab').forEach(t => t.classList.remove('active'));
+    el.classList.add('active');
+    const profile = CONTENT_PROFILES.find(p => p.id === id);
+    // Auto-set niche dropdown to match profile
+    const nicheSelect = document.getElementById('niche-select');
+    if (nicheSelect && profile) {
+      nicheSelect.value = profile.niche;
+    }
+  }
+
+  // ── Status ─────────────────────────────────────────
+  function loadStatus() {
+    fetch(BASE + '/api/status', { headers: { 'X-Auth': authHeader } })
+      .then(r => r.json())
+      .then(d => {
+        setStatusDot('receptionist', d.tools?.receptionist);
+        setStatusDot('call', d.tools?.receptionist === 'live' ? 'live' : 'down');
+        setStatusDot('opencli', d.tools?.opencli);
+        setStatusDot('gmail', d.tools?.gmail);
+        updateReceptionistBadge(d.tools?.receptionist);
+      })
+      .catch(() => {
+        ['receptionist','call','opencli','gmail'].forEach(k => setStatusDot(k, 'warn'));
+      });
+  }
+
+  function setStatusDot(key, value) {
+    const dot = document.getElementById('dot-' + key);
+    const val = document.getElementById('val-' + key);
+    if (!dot || !val) return;
+    dot.className = 'status-dot ' + (value === 'live' ? 'live' : value === 'down' || value === 'disconnected' ? 'down' : 'warn');
+    val.textContent = value === 'live' ? 'Live' : value === 'down' || value === 'disconnected' ? 'Down' : '...';
+  }
+
+  function updateReceptionistBadge(status) {
+    const badge = document.getElementById('receptionist-badge');
+    const statusEl = document.getElementById('receptionist-agent-status');
+    if (!badge) return;
+    badge.textContent = status === 'live' ? 'Live' : 'Down';
+    badge.className = 'agent-badge ' + (status === 'live' ? 'badge-live' : 'badge-idle');
+    if (statusEl) statusEl.textContent = status === 'live' ? 'Ready to receive calls' : 'Offline';
+  }
+
+  // ── CRM ────────────────────────────────────────────
+  function loadCRM() {
+    const list = document.getElementById('crm-appt-list');
+    const leadList = document.getElementById('crm-lead-list');
+    if (!list) return;
+    list.innerHTML = '<div class="empty-state"><span class="spinner"></span></div>';
+    if (leadList) leadList.innerHTML = '<div class="empty-state"><span class="spinner"></span></div>';
+
+    Promise.all([
+      fetch(BASE + '/api/crm/appointments', { headers: { 'X-Auth': authHeader } }).then(r => r.json()),
+      fetch(BASE + '/api/crm/leads', { headers: { 'X-Auth': authHeader } }).then(r => r.json()).catch(() => ({ leads: [] })),
+    ]).then(([apptData, leadData]) => {
+      // Appointments
+      if (!apptData.appointments || apptData.appointments.length === 0) {
+        list.innerHTML = '<div class="empty-state">No upcoming appointments</div>';
+      } else {
+        let html = '';
+        apptData.appointments.forEach(a => {
+          const dateParts = a.date.split(' ');
+          const month = dateParts[0] || '';
+          const day = dateParts[1] || '';
+          const statusClass = a.status === 'New' ? 'status-new' : a.status === 'Qualified' ? 'status-qualified' : 'status-followup';
+          html += `<div class="appt-item">
+            <div class="appt-date">
+              <div class="appt-date-month">${month}</div>
+              <div class="appt-date-day">${day}</div>
+            </div>
+            <div class="appt-info">
+              <div class="appt-name">${a.name}</div>
+              <div class="appt-time">${a.time}</div>
+            </div>
+            <span class="appt-status ${statusClass}">${a.status}</span>
+          </div>`;
+        });
+        list.innerHTML = html;
+      }
+
+      // Leads
+      if (!leadData.leads || leadData.leads.length === 0) {
+        if (leadList) leadList.innerHTML = '<div class="empty-state">No leads found</div>';
+      } else {
+        let html = '';
+        leadData.leads.slice(0, 10).forEach(l => {
+          const statusClass = l.status === 'New' ? 'status-new' : l.status === 'Qualified' ? 'status-qualified' : 'status-followup';
+          html += `<div class="appt-item">
+            <div class="appt-info">
+              <div class="appt-name">${l.name}</div>
+              <div class="appt-time">${l.phone || l.email || '—'}</div>
+            </div>
+            <span class="appt-status ${statusClass}">${l.status}</span>
+          </div>`;
+        });
+        if (leadList) leadList.innerHTML = html;
+      }
+    }).catch(e => {
+      list.innerHTML = `<div class="empty-state" style="color:var(--danger)">Failed to load: ${e.message}</div>`;
+    });
+  }
+
+  // ── Calendar ───────────────────────────────────────
+  function loadCalendar() {
+    const list = document.getElementById('calendar-list');
+    if (!list) return;
+    list.innerHTML = '<div class="empty-state"><span class="spinner"></span></div>';
+
+    fetch(BASE + '/api/calendar/next', { headers: { 'X-Auth': authHeader } })
+      .then(r => r.json())
+      .then(d => {
+        if (!d.events || d.events.length === 0) {
+          list.innerHTML = '<div class="empty-state">No upcoming events this week</div>';
+          return;
+        }
+        let html = '';
+        d.events.forEach(e => {
+          const start = new Date(e.start);
+          const hour = start.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+          const [h, m] = hour.split(':');
+          const ampm = hour.split(' ')[1] || '';
+          html += `<div class="event-item">
+            <div class="event-time-block">
+              <div class="event-hour">${h}</div>
+              <div class="event-min">${m} ${ampm}</div>
+            </div>
+            <div class="event-info">
+              <div class="event-title">${e.summary}</div>
+              <div class="event-meta">${start.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</div>
+            </div>
+          </div>`;
+        });
+        list.innerHTML = html;
+      })
+      .catch(e => {
+        list.innerHTML = `<div class="empty-state" style="color:var(--danger)">Failed to load</div>`;
+      });
+  }
+
+  // ── Call Nic ────────────────────────────────────────
+  function doCallNic() {
+    if (!confirm('Call Nicolas at +1 (973) 306-8922?')) return;
+    fetch(BASE + '/api/call/nic', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+    }).then(r => r.json())
+      .then(d => { alert(d.success ? '📞 Call placed!' : '❌ Failed: ' + (d.error || 'unknown')); })
+      .catch(e => alert('Error: ' + e.message));
+  }
+
+  // ── Email ──────────────────────────────────────────
+  function composeEmail() {
+    document.getElementById('modal-email').style.display = 'flex';
+  }
+
+  function closeEmailModal() {
+    document.getElementById('modal-email').style.display = 'none';
+  }
+
+  function sendEmailFromModal() {
+    const to = document.getElementById('email-modal-to').value;
+    const subject = document.getElementById('email-modal-subject').value;
+    const body = document.getElementById('email-modal-body').value;
+    if (!to || !subject) { alert('Please fill in To and Subject'); return; }
+    const btn = document.getElementById('email-send-btn');
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    fetch(BASE + '/api/email/send', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ to, subject, body }),
+    })
+      .then(r => r.json())
+      .then(d => {
+        btn.disabled = false;
+        btn.textContent = 'Send Email';
+        if (d.success) {
+          alert('✅ Email sent!');
+          closeEmailModal();
+          document.getElementById('email-modal-to').value = '';
+          document.getElementById('email-modal-subject').value = '';
+          document.getElementById('email-modal-body').value = '';
+        } else {
+          alert('❌ Failed: ' + (d.error || ''));
+        }
+      })
+      .catch(e => { btn.disabled = false; btn.textContent = 'Send Email'; alert('❌ Error: ' + e.message); });
+  }
+
+  function completeEmailWithAI() {
+    const to = document.getElementById('email-modal-to').value;
+    const subject = document.getElementById('email-modal-subject').value;
+    const bodyEl = document.getElementById('email-modal-body');
+    const currentBody = bodyEl.value;
+    const btn = document.getElementById('email-ai-btn');
+    const status = document.getElementById('email-ai-status');
+
+    if (!currentBody.trim()) { alert('Write a short note first, then click "Complete with AI"'); return; }
+
+    btn.disabled = true;
+    btn.textContent = '✨ Thinking...';
+    status.style.display = 'block';
+    status.textContent = 'Generating email body...';
+
+    fetch(BASE + '/api/agent/generate', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        type: 'email',
+        to, subject,
+        note: currentBody,
+      }),
+    })
+      .then(r => r.json())
+      .then(d => {
+        btn.disabled = false;
+        btn.textContent = '✨ Complete with AI';
+        if (d.generated) {
+          bodyEl.value = d.generated;
+          status.textContent = '✅ Email body generated!';
+          status.style.color = 'var(--success)';
+        } else {
+          status.textContent = d.error || 'Generation failed';
+          status.style.color = 'var(--danger)';
+        }
+      })
+      .catch(e => {
+        btn.disabled = false;
+        btn.textContent = '✨ Complete with AI';
+        status.textContent = 'Error: ' + e.message;
+        status.style.color = 'var(--danger)';
+      });
+  }
+
+  // ── Content: Scripts ───────────────────────────────
+  function generateScripts() {
+    const niche = document.getElementById('niche-select').value;
+    const count = parseInt(document.getElementById('script-count').value);
+    const btn = document.getElementById('gen-scripts-btn');
+    const output = document.getElementById('scripts-output');
+    const list = document.getElementById('scripts-list');
+
+    btn.disabled = true;
+    btn.textContent = 'Generating...';
+    output.classList.remove('hidden');
+    list.innerHTML = '<div class="empty-state"><span class="spinner"></span></div>';
+
+    fetch(BASE + '/api/content/generate', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ niche, count }),
+    })
+      .then(r => r.json())
+      .then(d => {
+        btn.disabled = false;
+        btn.textContent = 'Generate Scripts';
+        if (d.error) { list.innerHTML = `<div class="empty-state" style="color:var(--danger)">${d.error}</div>`; return; }
+        _lastScripts = d.scripts || [];
+        list.innerHTML = '';
+        _lastScripts.forEach((s, i) => {
+          list.innerHTML += `<div class="script-item">
+            <div class="script-hook-type">${s.hookType}</div>
+            <div class="script-hook">${s.hook}</div>
+            <div class="script-body">${s.body}</div>
+            <div class="script-cta">${s.cta}</div>
+          </div>`;
+        });
+      })
+      .catch(e => {
+        btn.disabled = false;
+        btn.textContent = 'Generate Scripts';
+        list.innerHTML = `<div class="empty-state" style="color:var(--danger)">${e.message}</div>`;
+      });
+  }
+
+  function copyAllScripts() {
+    if (!_lastScripts.length) return;
+    const text = _lastScripts.map((s, i) =>
+      `Script ${i + 1} [${s.hookType}]\nHook: ${s.hook}\nBody: ${s.body}\nCTA: ${s.cta}`
+    ).join('\n\n');
+    navigator.clipboard.writeText(text).then(() => alert('📋 Scripts copied!'));
+  }
+
+  // ── Content: Image Generation ────────────────────────
+  function generateImage() {
+    const prompt = document.getElementById('image-prompt').value;
+    if (!prompt.trim()) { alert('Please enter an image prompt'); return; }
+    const style = document.getElementById('image-style').value;
+    const btn = document.getElementById('gen-image-btn');
+    const output = document.getElementById('image-output');
+
+    btn.disabled = true;
+    btn.textContent = 'Generating...';
+    output.classList.remove('hidden');
+    output.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><span class="spinner"></span></div>';
+
+    fetch(BASE + '/api/image/generate', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt, style }),
+    })
+      .then(r => r.json())
+      .then(d => {
+        btn.disabled = false;
+        btn.textContent = 'Generate Image';
+        if (d.error) { output.innerHTML = `<div class="empty-state" style="grid-column:1/-1;color:var(--danger)">${d.error}</div>`; return; }
+        output.innerHTML = `<div class="image-preview"><img src="${d.imageUrl}" alt="Generated image"></div>`;
+      })
+      .catch(e => {
+        btn.disabled = false;
+        btn.textContent = 'Generate Image';
+        output.innerHTML = `<div class="empty-state" style="grid-column:1/-1;color:var(--danger)">${e.message}</div>`;
+      });
+  }
+
+  // ── Social ─────────────────────────────────────────
+  function connectPlatform(platform) {
+    alert(`Cookie-based auth for ${platform} — this will use OpenCLI headless browser.\n\nComing soon: log in once, save session, post anytime.`);
+  }
+
+  function postNow() {
+    const platform = document.getElementById('post-platform').value;
+    const text = document.getElementById('post-text').value;
+    if (!text.trim()) { alert('Please enter post text'); return; }
+    fetch(BASE + '/api/social/post', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ platform, text }),
+    })
+      .then(r => r.json())
+      .then(d => { alert(d.success ? '✅ Posted to ' + platform + '!' : '❌ Failed: ' + (d.error || '')); })
+      .catch(e => alert('❌ Error: ' + e.message));
+  }
+
+  // ── Agents ─────────────────────────────────────────
+  function loadAgents() {
+    const list = document.getElementById('agents-list');
+    if (!list) return;
+    list.innerHTML = '<div class="empty-state"><span class="spinner"></span></div>';
+    fetch(BASE + '/api/agents/list', { headers: { 'X-Auth': authHeader } })
+      .then(r => r.json())
+      .then(d => {
+        if (!d.agents || d.agents.length === 0) {
+          list.innerHTML = '<div class="empty-state">No active agents</div>';
+          return;
+        }
+        list.innerHTML = d.agents.map(a => `
+          <div class="agent-card">
+            <div class="agent-avatar">${a.avatar || '🤖'}</div>
+            <div class="agent-info">
+              <div class="agent-name">${a.name}</div>
+              <div class="agent-status">${a.status} · ${a.runtime || ''}</div>
+            </div>
+            <span class="agent-badge ${a.status === 'running' ? 'badge-live' : 'badge-idle'}">${a.status}</span>
+          </div>`).join('');
+      })
+      .catch(() => { list.innerHTML = '<div class="empty-state">Failed to load agents</div>'; });
+  }
+
+  function spawnAgent() {
+    const runtime = document.getElementById('agent-runtime').value;
+    const task = document.getElementById('agent-task').value;
+    if (!task.trim()) { alert('Please describe the task'); return; }
+    fetch(BASE + '/api/agents/spawn', {
+      method: 'POST',
+      headers: { 'X-Auth': authHeader, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ runtime, task }),
+    })
+      .then(r => r.json())
+      .then(d => {
+        if (d.sessionKey) {
+          alert('✅ Agent spawned!');
+          document.getElementById('agent-task').value = '';
+          loadAgents();
+        } else {
+          alert('❌ Failed: ' + (d.error || ''));
+        }
+      })
+      .catch(e => alert('❌ Error: ' + e.message));
+  }
+</script>
+</body>
+</html>

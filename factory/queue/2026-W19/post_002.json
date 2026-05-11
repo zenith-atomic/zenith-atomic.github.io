@@ -1,0 +1,11 @@
+{
+  "platform": "LinkedIn",
+  "content": "Got rate-limited 6 times running Google Business Profile lookups this week.\n\nHere's what I did instead \u2014 and why it actually worked better.\n\nWhen Gemini API started throwing 429s and 503s, I pivoted to business directories. Specifically: businessrate.com, MapQuest, Manta, and BuildZoom.\n\nWhy directories actually work for this use case:\n\n1. Directory listings explicitly state whether a business has a website. No inference needed.\n\n2. They update slower, which means they catch businesses that never invested in a web presence \u2014 exactly the target.\n\n3. They don't rate-limit you the same way an API does.\n\nThe result: Duct Path Cleaners, Tampa FL. Verified no-website. Phone and address confirmed through two sources.\n\nThat's the lead that survived the wall.\n\nThe workaround found what the direct approach couldn't.\n\nPractical takeaway: when your primary data source blocks you, directories aren't a backup. For this specific vertical, they're the primary source.\n\nComment directory if you want the full source list with what each confirms.",
+  "hashtags": [],
+  "scheduled_time": "11:00 AM",
+  "visual": "",
+  "pillar": "** Tool Reviews & Tutorials",
+  "week": "2026-W19",
+  "status": "pending_approval",
+  "created": "2026-05-09T23:58:19Z"
+}

@@ -1,0 +1,21 @@
+name: Creator Competitor Analysis
+query: >
+  Who are the top 10 creators in the AI tools + dev productivity space on YouTube, TikTok,
+  and X right now? What content formats are they using? What's their hook formula?
+  What's getting the most views/engagement in the last 2 weeks?
+  Where are their gaps — what are they NOT covering that audiences want?
+focus:
+  - Specific viral posts and what made them work
+  - Hook patterns used (question / stat / bold claim / story)
+  - Format breakdown (shorts vs long, threads vs singles)
+  - Comment section pain points and questions
+  - Topics with high demand but low quality content
+sources:
+  - youtube
+  - twitter
+  - tiktok
+  - web
+frequency: weekly
+depth: deep
+notify: true
+status: active

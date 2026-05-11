@@ -1,0 +1,32 @@
+{
+  "pursuits": [
+    {
+      "id": "ai-tools",
+      "name": "AI Tools Landscape",
+      "frequency": "daily",
+      "status": "active",
+      "notify": true,
+      "lastRun": null,
+      "latestFinding": null
+    },
+    {
+      "id": "build-in-public",
+      "name": "Build in Public Trends",
+      "frequency": "daily",
+      "status": "active",
+      "notify": true,
+      "lastRun": null,
+      "latestFinding": null
+    },
+    {
+      "id": "competitor-analysis",
+      "name": "Creator Competitor Analysis",
+      "frequency": "weekly",
+      "status": "active",
+      "notify": true,
+      "lastRun": null,
+      "latestFinding": null
+    }
+  ],
+  "updated": "2026-05-09T18:25:38.887Z"
+}

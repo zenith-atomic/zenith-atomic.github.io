@@ -1,0 +1,15 @@
+{
+  "default": "default",
+  "projects": [
+    {
+      "id": "default",
+      "name": "Default",
+      "config": "/home/ai/.openclaw/workspace/factory/config",
+      "output": "/home/ai/.openclaw/workspace/factory/output",
+      "directives": "/home/ai/.openclaw/workspace/factory/directives",
+      "analytics": "/home/ai/.openclaw/workspace/factory/analytics",
+      "inbox": "/home/ai/.openclaw/workspace/factory/inbox",
+      "created": "2026-03-31"
+    }
+  ]
+}

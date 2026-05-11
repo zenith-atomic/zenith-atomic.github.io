@@ -11,6 +11,8 @@ CMD="$(echo "$RAW" | xargs)"
 
 # If the full factory text was passed, extract subcommand
 case "$CMD" in
+  "brief"*)     SUBCMD="brief";     ARGS="${CMD#brief}" ;;
+  "pursuit"*)   SUBCMD="pursuit";   ARGS="${CMD#pursuit}" ;;
   "research"*)  SUBCMD="research";  ARGS="${CMD#research}" ;;
   "strategy"*)  SUBCMD="strategy";  ARGS="" ;;
   "write"*)     SUBCMD="write";     ARGS="" ;;
@@ -42,6 +44,49 @@ esac
 ARGS="$(echo "$ARGS" | xargs)"
 
 case "$SUBCMD" in
+  brief)
+    # Run a creative brief through all studio agents in parallel
+    BRIEF="$(echo "$ARGS" | xargs | sed "s/^['\"]//;s/['\"]$//")"
+    [ -n "$BRIEF" ] || { echo "Usage: /factory brief \"<your creative brief>\"" >&2; exit 1; }
+    ORCH="$FACTORY/orchestrator"
+    [ -d "$ORCH/node_modules" ] || { echo "ERROR: Run 'npm install' in $ORCH first" >&2; exit 1; }
+    exec node "$ORCH/index.js" brief "$BRIEF"
+    ;;
+  pursuit)
+    # Research pursuits management
+    PARGS="$(echo "$ARGS" | xargs)"
+    PSUBCMD="$(echo "$PARGS" | awk '{print $1}')"
+    PREST="$(echo "$PARGS" | cut -d' ' -f2-)"
+    RESEARCH="$FACTORY/research"
+    [ -d "$FACTORY/orchestrator/node_modules" ] || { echo "ERROR: Run 'npm install' in $FACTORY/orchestrator first" >&2; exit 1; }
+    case "$PSUBCMD" in
+      list)
+        exec node "$RESEARCH/index.js" list ;;
+      run)
+        PID="$(echo "$PREST" | awk '{print $1}')"
+        [ -n "$PID" ] || { echo "Usage: /factory pursuit run <id>" >&2; exit 1; }
+        exec node "$RESEARCH/index.js" run "$PID" ;;
+      run-due|due)
+        exec node "$RESEARCH/index.js" run-due ;;
+      create)
+        PID="$(echo "$PREST" | awk '{print $1}')"
+        PNAME="$(echo "$PREST" | awk '{print $2}')"
+        PQUERY="$(echo "$PREST" | cut -d' ' -f3-)"
+        [ -n "$PID" ] && [ -n "$PNAME" ] && [ -n "$PQUERY" ] || {
+          echo "Usage: /factory pursuit create <id> \"<name>\" \"<query>\"" >&2; exit 1; }
+        exec node "$RESEARCH/index.js" create "$PID" "$PNAME" "$PQUERY" ;;
+      findings)
+        PID="$(echo "$PREST" | awk '{print $1}')"
+        N="$(echo "$PREST" | awk '{print $2}')"
+        [ -n "$PID" ] || { echo "Usage: /factory pursuit findings <id> [n]" >&2; exit 1; }
+        exec node "$RESEARCH/index.js" findings "$PID" ${N:+"$N"} ;;
+      context)
+        exec node "$RESEARCH/index.js" context ;;
+      *)
+        echo "Usage: /factory pursuit list | run <id> | run-due | create <id> \"<name>\" \"<query>\" | findings <id> [n] | context" >&2
+        exit 1 ;;
+    esac
+    ;;
   research)
     exec "$SCRIPTS/research_agent.sh" "$ARGS"
     ;;
@@ -221,14 +266,20 @@ case "$SUBCMD" in
   help)
     cat <<'HELP'
 Content Factory commands:
-  /factory task "<goal>" [proj]  - give a goal to the orchestrator (new)
-  /factory projects              - list all projects
-  /factory project new <id> <n>  - create a new project
-  /factory project use <id>      - set default project
-  /factory save                  - create a full save point backup
-  /factory snap                  - create a quick snapshot
-  /factory nexmem-context        - print current NexMem context bundle
 
+── STUDIO ORCHESTRATOR ──────────────────────────────────────────
+  /factory brief "<text>"        - run brief through all studios in parallel
+                                   e.g. /factory brief "I shipped a tool in 3 days"
+
+── RESEARCH PURSUITS ────────────────────────────────────────────
+  /factory pursuit list                       - list all configured pursuits
+  /factory pursuit run <id>                   - run a pursuit now
+  /factory pursuit run-due                    - run all pursuits that are due
+  /factory pursuit create <id> "<n>" "<q>"    - create a new pursuit
+  /factory pursuit findings <id> [n]          - show latest N findings
+  /factory pursuit context                    - print compiled research context
+
+── LEGACY PIPELINE ──────────────────────────────────────────────
   /factory research [topic]      - research trends & competitors
   /factory strategy              - generate weekly content plan
   /factory write                 - draft all posts from strategy
@@ -238,14 +289,25 @@ Content Factory commands:
   /factory evolve                - update persona from analytics
   /factory run                   - run next pending pipeline stage
   /factory status                - show pipeline state
-  /factory ingest <url|pdf>      - ingest URL or PDF into the wiki
-  /factory compress [--dry-run]  - run wiki compression loop (prune, merge, promote)
-  /factory route "<task>"        - get relevant context pack paths for a task
-  /factory feedback [--playbook] - log an action outcome to playbook + feedback log
+
+── CONTENT & QUEUE ──────────────────────────────────────────────
   /factory inbox <url|text>      - save reference/inspiration to inbox
   /factory stage                 - parse checklist into approval queue
   /factory approve <a> <id>      - approve or skip a queued post
   /factory log <id> <k=v>        - log post metrics
+
+── WIKI & PROJECTS ──────────────────────────────────────────────
+  /factory ingest <url|pdf>      - ingest URL or PDF into the wiki
+  /factory compress [--dry-run]  - run wiki compression loop
+  /factory route "<task>"        - get relevant context pack paths
+  /factory task "<goal>" [proj]  - multi-step task runner
+  /factory projects              - list all projects
+  /factory project new <id> <n>  - create a new project
+  /factory project use <id>      - set default project
+
+── SYSTEM ────────────────────────────────────────────────────────
+  /factory save                  - create a full save point backup
+  /factory snap                  - quick snapshot
   /factory dashboard             - get dashboard URL
   /factory help                  - show this help
 HELP

@@ -1,0 +1,1 @@
+I would like you to describe what the first few days of existing have been like as Zenith

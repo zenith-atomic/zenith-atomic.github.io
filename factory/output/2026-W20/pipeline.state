@@ -1,0 +1,28 @@
+{
+  "week": "2026-W20",
+  "created": "2026-05-11T00:07:01Z",
+  "stages": {
+    "research": {
+      "status": "pending"
+    },
+    "strategy": {
+      "status": "pending"
+    },
+    "writing": {
+      "status": "pending"
+    },
+    "visuals": {
+      "status": "pending"
+    },
+    "publishing": {
+      "status": "pending"
+    },
+    "analytics": {
+      "status": "done",
+      "completed": "2026-05-11T00:07:31Z"
+    },
+    "evolution": {
+      "status": "pending"
+    }
+  }
+}

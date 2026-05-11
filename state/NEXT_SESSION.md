@@ -1,6 +1,6 @@
 # state/NEXT_SESSION.md
 
-- active_focus: Rebuild canonical memory architecture after rollback
+- active_focus: Memory system revamp: log rotation, snapshot pruning, intelligent extraction
 - open_work:
   - no pending durable facts in inbox
 - first_checks:

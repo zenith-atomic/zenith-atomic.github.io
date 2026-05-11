@@ -1,0 +1,38 @@
+# Project Dragonfly - Consolidated Requirements
+# Data layer
+ccxt>=4.0.0
+nats-python>=0.0.0
+questdb>=1.0.0
+clickhouse-driver>=0.2.0
+pydantic>=2.0
+aiohttp>=3.9
+asyncio-throttle>=1.0
+redis>=5.0
+python-dotenv>=1.0
+pyyaml>=6.0
+
+# Execution layer
+aiofiles>=23.0
+
+# Strategies layer
+typing_extensions>=4.0
+pandas>=2.0
+
+# Risk layer (already covered above)
+
+# Knowledge layer
+qdrant-client>=1.7.0
+llama-index>=0.10.0
+llama-index-embeddings-openai>=0.1.0
+llama-index-llms-openai>=0.1.0
+llama-index-vector-stores-qdrant>=0.1.0
+neo4j>=5.0
+langchain>=0.1.0
+
+# Dashboard
+flask>=3.0
+flask-socketio>=5.3
+eventlet>=0.33
+
+# Core utilities
+numpy>=1.24.0

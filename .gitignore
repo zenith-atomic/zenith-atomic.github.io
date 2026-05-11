@@ -1,0 +1,9 @@
+.env
+*.key
+*.secret
+memory/snapshots/
+backups/
+factory/dashboard/node_modules/
+factory/dashboard/.env
+factory/dashboard/node_modules/
+factory/dashboard/.env

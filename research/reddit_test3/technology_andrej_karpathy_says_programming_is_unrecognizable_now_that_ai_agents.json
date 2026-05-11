@@ -1,0 +1,403 @@
+{
+  "source_url": "https://www.reddit.com/r/technology/s/NHD3begmRH",
+  "resolved_url": "https://www.reddit.com/r/technology/comments/1rfztw0/andrej_karpathy_says_programming_is/?share_id=fJeQ6N-R-cGLbQzHQLdTe&utm_content=2&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1",
+  "title": "Andrej Karpathy says programming is \"unrecognizable\" now that AI agents actually work",
+  "subreddit": "technology",
+  "author": "Logical_Welder3467",
+  "score": 0,
+  "created_utc": 1772176081.0,
+  "flair": "Artificial Intelligence",
+  "body": "",
+  "thumbnail": "https://external-preview.redd.it/-FhFzucifgus4OKEEOSmqgKiPDhMcOApXfnCOJwafRY.png?width=140&amp;height=83&amp;auto=webp&amp;s=db91ac30204811eb7105ad11d7ecbabe52927893",
+  "outbound_url": "https://the-decoder.com/andrej-karpathy-says-programming-is-unrecognizable-now-that-ai-agents-actually-work/",
+  "comments": [
+    {
+      "author": "homerotl",
+      "score": 36,
+      "body": "“According to Karpathy, AI agents barely worked before December 2026” I think we are going to be fine. This AI slop article does not know that December 2026 has not happened yet.",
+      "depth": 0
+    },
+    {
+      "author": "HolliDollialltheday",
+      "score": 5,
+      "body": "This can not get enough upvotes.",
+      "depth": 1
+    },
+    {
+      "author": "ReallyOrdinaryMan",
+      "score": 20,
+      "body": "AI company owner is saying \"AI is so good!\". Suprised pikachu face",
+      "depth": 0
+    },
+    {
+      "author": "Logical_Welder3467",
+      "score": -10,
+      "body": "Which AI company does Andrej Karpathy own?",
+      "depth": 1
+    },
+    {
+      "author": "ReallyOrdinaryMan",
+      "score": 10,
+      "body": "Wiki says he created an AI education company, Eureka labs. Also vibe coding term is attributed to him",
+      "depth": 2
+    },
+    {
+      "author": "Docccc",
+      "score": 5,
+      "body": "As a software engineer myself, i have to agree. Never cared much for it because of the quality but it changed dramatically. We are fucked",
+      "depth": 0
+    },
+    {
+      "author": "Northern_Grouse",
+      "score": 1,
+      "body": "I’d say we’re only fucked if we don’t regulate AI, and learn how to positively use it. It really does free us up to be more creative, but like any new technology, we should be focusing really really hard on learning how to coexist with a new way of life. I’d say for starters, we’d need to find a way to use it to eliminate misinformation online. I can’t see a more important objective to start. I envision something like the scientific method for AI, to confirm its data. I’m not equipped with the background knowledge to have a flawless way to do that, and that’s where we all have to come together to come up with a solution. It’s only going to be scary if we don’t steer this in a direction where we can all benefit.",
+      "depth": 1
+    },
+    {
+      "author": "WinterElfeas",
+      "score": 1,
+      "body": "Even though it’s impressive and can spew a lot of code, it’s often not at all optimised, duplicates, struggle with really reaching production ready without us going into debug mode.",
+      "depth": 1
+    },
+    {
+      "author": "Docccc",
+      "score": 6,
+      "body": "im not saying it’s perfect, far from it. but the latest claude opus makes decent code. And more importantly working code. And thats probably something thats most important to most employers And those agents only get better from here",
+      "depth": 2
+    },
+    {
+      "author": "Fantastic_Piece5869",
+      "score": 2,
+      "body": "Optimized code? Is this the 70s? Just add 14 duplicate libraries and call it a day",
+      "depth": 2
+    },
+    {
+      "author": "[deleted]",
+      "score": -5,
+      "body": "It's over. AIs are also math savants now and out perform PhD students, and are making discoveries in physics. I wonder what all these people that derive their sense of self-worth from being smarter everyone else going to do now that intelligence has been democratized.",
+      "depth": 0
+    },
+    {
+      "author": "blogwash",
+      "score": 3,
+      "body": "If intelligence has been democratized, explain you?",
+      "depth": 1
+    },
+    {
+      "author": "[deleted]",
+      "score": 0,
+      "body": "So clever that one",
+      "depth": 2
+    },
+    {
+      "author": "ucalledthewolf",
+      "score": 1,
+      "body": "fwiw, my calculator also outperforms phd students. 🙂 these are tools. with new tools arrive new workflows. the printing press was invented in the 14 or 1500s..? 80% of people won't touch a book. it's all relative, yo.",
+      "depth": 1
+    },
+    {
+      "author": "[deleted]",
+      "score": 0,
+      "body": "A calculator has a limited and narrow use. And guess what? No one does large digit arithmetic in their heads anymore. AI is different. It can write whole proofs on its own. Apples and oranges.",
+      "depth": 2
+    }
+  ],
+  "concepts": [
+    {
+      "concept": "lot code",
+      "count": 1,
+      "evidence": [
+        "lot code"
+      ]
+    },
+    {
+      "concept": "code 70s",
+      "count": 1,
+      "evidence": [
+        "code 70s"
+      ]
+    },
+    {
+      "concept": "ais math",
+      "count": 1,
+      "evidence": [
+        "ais math"
+      ]
+    },
+    {
+      "concept": "code more",
+      "count": 1,
+      "evidence": [
+        "code more"
+      ]
+    },
+    {
+      "concept": "code often",
+      "count": 1,
+      "evidence": [
+        "code often"
+      ]
+    },
+    {
+      "concept": "code thats",
+      "count": 1,
+      "evidence": [
+        "code thats"
+      ]
+    },
+    {
+      "concept": "decent code",
+      "count": 1,
+      "evidence": [
+        "decent code"
+      ]
+    },
+    {
+      "concept": "agents only",
+      "count": 1,
+      "evidence": [
+        "agents only"
+      ]
+    },
+    {
+      "concept": "working code",
+      "count": 1,
+      "evidence": [
+        "working code"
+      ]
+    },
+    {
+      "concept": "code 70s add",
+      "count": 1,
+      "evidence": [
+        "code 70s add"
+      ]
+    },
+    {
+      "concept": "agents barely",
+      "count": 1,
+      "evidence": [
+        "agents barely"
+      ]
+    },
+    {
+      "concept": "spew lot code",
+      "count": 1,
+      "evidence": [
+        "spew lot code"
+      ]
+    },
+    {
+      "concept": "lot code often",
+      "count": 1,
+      "evidence": [
+        "lot code often"
+      ]
+    },
+    {
+      "concept": "code often all",
+      "count": 1,
+      "evidence": [
+        "code often all"
+      ]
+    },
+    {
+      "concept": "optimized code",
+      "count": 1,
+      "evidence": [
+        "optimized code"
+      ]
+    },
+    {
+      "concept": "agents actually",
+      "count": 1,
+      "evidence": [
+        "agents actually"
+      ]
+    },
+    {
+      "concept": "karpathy agents",
+      "count": 1,
+      "evidence": [
+        "karpathy agents"
+      ]
+    },
+    {
+      "concept": "says programming",
+      "count": 1,
+      "evidence": [
+        "says programming"
+      ]
+    },
+    {
+      "concept": "employers agents",
+      "count": 1,
+      "evidence": [
+        "employers agents"
+      ]
+    },
+    {
+      "concept": "decent code more",
+      "count": 1,
+      "evidence": [
+        "decent code more"
+      ]
+    },
+    {
+      "concept": "ais math savants",
+      "count": 1,
+      "evidence": [
+        "ais math savants"
+      ]
+    },
+    {
+      "concept": "makes decent code",
+      "count": 1,
+      "evidence": [
+        "makes decent code"
+      ]
+    },
+    {
+      "concept": "working code thats",
+      "count": 1,
+      "evidence": [
+        "working code thats"
+      ]
+    },
+    {
+      "concept": "agents only better",
+      "count": 1,
+      "evidence": [
+        "agents only better"
+      ]
+    },
+    {
+      "concept": "optimized code 70s",
+      "count": 1,
+      "evidence": [
+        "optimized code 70s"
+      ]
+    },
+    {
+      "concept": "code thats probably",
+      "count": 1,
+      "evidence": [
+        "code thats probably"
+      ]
+    },
+    {
+      "concept": "agents actually work",
+      "count": 1,
+      "evidence": [
+        "agents actually work"
+      ]
+    },
+    {
+      "concept": "agents barely worked",
+      "count": 1,
+      "evidence": [
+        "agents barely worked"
+      ]
+    },
+    {
+      "concept": "democratized explain",
+      "count": 1,
+      "evidence": [
+        "democratized explain"
+      ]
+    },
+    {
+      "concept": "unrecognizable agents",
+      "count": 1,
+      "evidence": [
+        "unrecognizable agents"
+      ]
+    },
+    {
+      "concept": "code more importantly",
+      "count": 1,
+      "evidence": [
+        "code more importantly"
+      ]
+    },
+    {
+      "concept": "most employers agents",
+      "count": 1,
+      "evidence": [
+        "most employers agents"
+      ]
+    },
+    {
+      "concept": "employers agents only",
+      "count": 1,
+      "evidence": [
+        "employers agents only"
+      ]
+    },
+    {
+      "concept": "karpathy agents barely",
+      "count": 1,
+      "evidence": [
+        "karpathy agents barely"
+      ]
+    },
+    {
+      "concept": "importantly working code",
+      "count": 1,
+      "evidence": [
+        "importantly working code"
+      ]
+    },
+    {
+      "concept": "karpathy says programming",
+      "count": 1,
+      "evidence": [
+        "karpathy says programming"
+      ]
+    },
+    {
+      "concept": "according karpathy agents",
+      "count": 1,
+      "evidence": [
+        "according karpathy agents"
+      ]
+    },
+    {
+      "concept": "been democratized explain",
+      "count": 1,
+      "evidence": [
+        "been democratized explain"
+      ]
+    },
+    {
+      "concept": "programming unrecognizable",
+      "count": 1,
+      "evidence": [
+        "programming unrecognizable"
+      ]
+    },
+    {
+      "concept": "unrecognizable agents actually",
+      "count": 1,
+      "evidence": [
+        "unrecognizable agents actually"
+      ]
+    },
+    {
+      "concept": "says programming unrecognizable",
+      "count": 1,
+      "evidence": [
+        "says programming unrecognizable"
+      ]
+    },
+    {
+      "concept": "programming unrecognizable agents",
+      "count": 1,
+      "evidence": [
+        "programming unrecognizable agents"
+      ]
+    }
+  ],
+  "repeated_concepts": [],
+  "fetched_at_utc": "2026-04-19T15:54:48.783050+00:00"
+}

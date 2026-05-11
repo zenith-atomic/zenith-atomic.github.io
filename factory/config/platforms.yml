@@ -1,0 +1,24 @@
+twitter:
+  max_chars: 280
+  thread_max: 10
+  formats: [tweet, thread, quote tweet]
+  style: punchy, conversational, hook-first
+  posting: manual
+instagram:
+  caption_max: 2200
+  formats: [carousel, reel script, single post]
+  style: visual-first, caption supports the image
+  posting: manual
+linkedin:
+  max_chars: 3000
+  formats: [post, article, carousel doc]
+  style: professional but not boring, storytelling
+  posting: manual
+youtube:
+  formats: [short script, long script, community post]
+  style: hook in first 3 seconds, clear value prop
+  posting: manual
+tiktok:
+  formats: [short script, text overlay script]
+  style: fast cuts, trend-aware, casual
+  posting: manual

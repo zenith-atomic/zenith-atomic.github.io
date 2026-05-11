@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragonfly Trading Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+        .card {
+            background-color: #161b22;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #f0f6fc;
+            margin: 0 0 20px 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        h2 {
+            color: #f0f6fc;
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        .trade-log-item {
+            border-bottom: 1px solid #30363d;
+            padding: 12px 0;
+            transition: background 0.15s ease;
+        }
+        .trade-log-item:last-child {
+            border-bottom: none;
+        }
+        .trade-log-item:hover { background: rgba(255,255,255,0.03); }
+        .trade-header { display: flex; justify-content: space-between; margin-bottom: 6px; }
+        .trade-id { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #6b7280; }
+        .trade-time { font-size: 0.75rem; color: #6b7280; }
+        .trade-details { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+        .strategy-badge { font-size: 0.65rem; padding: 2px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .momentum { background: rgba(99,102,241,0.2); color: #818cf8; }
+        .arbitrage { background: rgba(16,185,129,0.2); color: #34d399; }
+        .meanreversion { background: rgba(245,158,11,0.2); color: #fbbf24; }
+        .marketmaking { background: rgba(236,72,153,0.2); color: #f472b6; }
+        .mlsignal { background: rgba(14,165,233,0.2); color: #38bdf8; }
+        .trade-execution { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+        .side-badge { font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; }
+        .side-badge.buy { background: rgba(16,185,129,0.15); color: #10b981; }
+        .side-badge.sell { background: rgba(248,81,73,0.15); color: #f85149; }
+        .trade-amount { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #f0f6fc; }
+        .trade-price { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #8b949e; }
+        .trade-pnl { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 600; text-align: right; }
+        .trade-pnl.positive { color: #10b981; }
+        .trade-pnl.negative { color: #f85149; }
+        .trade-pnl.neutral { color: #6b7280; }
+        .green { color: #2ea043; }
+        .red { color: #f85149; }
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .metric-item {
+            text-align: center;
+            padding: 10px 20px;
+            background: #0d1117;
+            border-radius: 6px;
+            min-width: 120px;
+        }
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #f0f6fc;
+        }
+        .metric-label {
+            font-size: 0.8em;
+            color: #8b949e;
+            margin-top: 4px;
+        }
+        .chart-container {
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .trade-id {
+            font-size: 0.75em;
+            color: #8b949e;
+        }
+        .positions-grid {
+            display: grid;
+            gap: 10px;
+        }
+        .position-item {
+            background: #0d1117;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 3px solid #6366f1;
+        }
+        .position-symbol {
+            font-weight: 600;
+            color: #f0f6fc;
+            margin-bottom: 5px;
+        }
+        .position-details {
+            font-size: 0.85em;
+            color: #8b949e;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #2ea043;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .connection-status {
+            font-size: 0.8em;
+            color: #8b949e;
+        }
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🐉 Dragonfly Trading Dashboard</h1>
+        <div class="connection-status">
+            <span class="status-indicator"></span>
+            <span id="connection-status">Connecting...</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="card metrics">
+                <div class="metric-item">
+                    <div id="total-pnl" class="metric-value green">$0.00</div>
+                    <div class="metric-label">Total P&L</div>
+                </div>
+                <div class="metric-item">
+                    <div id="num-trades" class="metric-value">0</div>
+                    <div class="metric-label">Trades Today</div>
+                </div>
+                <div class="metric-item">
+                    <div id="active-positions" class="metric-value">0</div>
+                    <div class="metric-label">Active Positions</div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <h2>P&L Over Time</h2>
+                <div class="chart-container">
+                    <canvas id="pnlChart"></canvas>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <h2>Position Size Trend</h2>
+                <div class="chart-container">
+                    <canvas id="positionsChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card">
+                <h2>Active Positions</h2>
+                <div id="positions-list" class="positions-grid">
+                    <div class="position-item" style="text-align: center; color: #8b949e;">
+                        No active positions
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <h2>Trade Log</h2>
+                <div id="trade-log"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Socket.IO connection
+        const socket = io();
+        let pnlChart = null;
+        let positionsChart = null;
+
+        // Connection status handling
+        socket.on('connect', () => {
+            document.getElementById('connection-status').textContent = 'Connected';
+            document.querySelector('.status-indicator').style.backgroundColor = '#2ea043';
+        });
+
+        socket.on('disconnect', () => {
+            document.getElementById('connection-status').textContent = 'Disconnected';
+            document.querySelector('.status-indicator').style.backgroundColor = '#f85149';
+        });
+
+        // Chart.js configuration for dark theme
+        Chart.defaults.color = '#8b949e';
+        Chart.defaults.border.color = '#30363d';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize P&L Chart
+            const pnlCtx = document.getElementById('pnlChart').getContext('2d');
+            pnlChart = new Chart(pnlCtx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Total P&L ($)',
+                        data: [],
+                        borderColor: '#2ea043',
+                        backgroundColor: 'rgba(46, 160, 67, 0.1)',
+                        tension: 0.3,
+                        fill: true,
+                        pointRadius: 3,
+                        pointHoverRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'minute',
+                                displayFormats: {
+                                    minute: 'HH:mm'
+                                }
+                            },
+                            grid: {
+                                color: '#30363d'
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#30363d'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value.toFixed(2);
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'P&L: $' + context.parsed.y.toFixed(2);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Initialize Positions Chart
+            const positionsCtx = document.getElementById('positionsChart').getContext('2d');
+            positionsChart = new Chart(positionsCtx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Position Size',
+                        data: [],
+                        borderColor: '#6366f1',
+                        backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                        tension: 0.3,
+                        fill: true,
+                        pointRadius: 3,
+                        pointHoverRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'minute',
+                                displayFormats: {
+                                    minute: 'HH:mm'
+                                }
+                            },
+                            grid: {
+                                color: '#30363d'
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#30363d'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value.toFixed(4);
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'Size: ' + context.parsed.y.toFixed(4);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Fetch initial data
+            fetch('/api/trade_log')
+                .then(res => res.json())
+                .then(data => updateTradeLog(data));
+
+            fetch('/api/pnl_history')
+                .then(res => res.json())
+                .then(data => updatePnlChart(data));
+
+            fetch('/api/positions')
+                .then(res => res.json())
+                .then(data => updatePositionsChart(data));
+        });
+
+        // Socket event listeners
+        socket.on('trade_log_update', (data) => updateTradeLog(data));
+        socket.on('pnl_update', (data) => updatePnlChart(data));
+        socket.on('positions_update', (data) => updatePositionsChart(data));
+
+        function updateTradeLog(trades) {
+            const tradeLogDiv = document.getElementById('trade-log');
+
+            if (!trades || trades.length === 0) {
+                tradeLogDiv.innerHTML = '<div style="color: #8b949e; text-align: center; padding: 20px;">No trades yet</div>';
+                document.getElementById('num-trades').textContent = '0';
+                document.getElementById('total-pnl').textContent = '$0.00';
+                return;
+            }
+
+            // Show only 5 most recent trades in the log (keep all for chart)
+            const recentTrades = trades.slice(-5).reverse();
+
+            tradeLogDiv.innerHTML = recentTrades.map(trade => `
+                <div class="trade-log-item">
+                    <div class="trade-header">
+                        <span class="trade-id">${trade.id}</span>
+                        <span class="trade-time">${new Date(trade.timestamp).toLocaleTimeString()}</span>
+                    </div>
+                    <div class="trade-details">
+                        <span class="strategy-badge ${trade.strategy.toLowerCase().replace(/\s/g, '-')}">${trade.strategy}</span>
+                        <strong>${trade.symbol}</strong>
+                    </div>
+                    <div class="trade-execution">
+                        <span class="${trade.side === 'buy' ? 'green' : 'red'} side-badge">${trade.side.toUpperCase()}</span>
+                        <span class="trade-amount">${trade.amount}</span>
+                        <span class="trade-price">@ $${trade.price.toLocaleString()}</span>
+                    </div>
+                    <div class="trade-pnl ${trade.pnl >= 0 ? 'positive' : 'negative'}">
+                        ${trade.pnl !== 0 ? (trade.pnl >= 0 ? '+' : '') + '$' + trade.pnl.toFixed(2) : '—'}
+                    </div>
+                </div>
+            `).join('');
+
+            // Metrics from ALL trades (not just recent 5)
+            document.getElementById('num-trades').textContent = trades.length;
+            const totalPnl = trades.reduce((sum, trade) => sum + (trade.pnl || 0), 0);
+            document.getElementById('total-pnl').textContent = `$${totalPnl.toFixed(2)}`;
+            document.getElementById('total-pnl').className = `metric-value ${totalPnl >= 0 ? 'green' : 'red'}`;
+        }
+
+        function updatePnlChart(pnlHistory) {
+            if (!pnlHistory || pnlHistory.length === 0) return;
+
+            pnlChart.data.labels = pnlHistory.map(entry => new Date(entry.timestamp));
+            pnlChart.data.datasets[0].data = pnlHistory.map(entry => entry.total_pnl);
+            pnlChart.update();
+        }
+
+        function updatePositionsChart(positions) {
+            const positionsListDiv = document.getElementById('positions-list');
+            const positionEntries = Object.values(positions);
+
+            if (positionEntries.length === 0) {
+                positionsListDiv.innerHTML = '<div class="position-item" style="text-align: center; color: #8b949e;">No active positions</div>';
+                document.getElementById('active-positions').textContent = '0';
+                return;
+            }
+
+            // Update positions list
+            positionsListDiv.innerHTML = positionEntries.map(pos => `
+                <div class="position-item">
+                    <div class="position-symbol">${pos.symbol}</div>
+                    <div class="position-details">
+                        Size: ${pos.size} | Entry: $${pos.entry_price.toLocaleString()}<br>
+                        Current: $${pos.current_price.toLocaleString()} |
+                        <span class="${pos.unrealized_pnl >= 0 ? 'green' : 'red'}">P&L: $${pos.unrealized_pnl.toFixed(2)}</span>
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('active-positions').textContent = positionEntries.length;
+
+            // Update chart with first BTC/USDT position for demo
+            const btcPositions = positionEntries.filter(p => p.symbol === 'BTC/USDT');
+            if (btcPositions.length > 0) {
+                const latestPos = btcPositions[btcPositions.length - 1];
+                if (positionsChart.data.labels.length === 0 ||
+                    new Date(latestPos.timestamp) > positionsChart.data.labels[positionsChart.data.labels.length - 1]) {
+                    positionsChart.data.labels.push(new Date(latestPos.timestamp));
+                    positionsChart.data.datasets[0].data.push(latestPos.size);
+                    positionsChart.update();
+                }
+            }
+        }
+    </script>
+</body>
+</html>

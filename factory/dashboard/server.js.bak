@@ -1,0 +1,944 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const { execFile, spawn } = require('child_process');
+const os = require('os');
+const multer = require('multer');
+
+const app = express();
+app.use(express.json());
+
+const PORT = 3700;
+const FACTORY = path.resolve(__dirname, '..');
+const CONFIG = path.join(FACTORY, 'config');
+const SCRIPTS = path.join(FACTORY, 'scripts');
+const ANALYTICS = path.join(FACTORY, 'analytics');
+const DIRECTIVES = path.join(FACTORY, 'directives');
+const OUTPUT = path.join(FACTORY, 'output');
+const QUEUE = path.join(FACTORY, 'queue');
+const INBOX = path.join(FACTORY, 'inbox');
+const ENV_FILE = path.resolve(process.env.HOME, '.openclaw/.env');
+const PROJECTS_FILE = path.join(FACTORY, 'projects.json');
+const TASKS_DIR = path.join(FACTORY, 'tasks');
+const WORKSPACE = path.resolve(__dirname, '../..');
+const WIKI_SCRIPTS = path.join(WORKSPACE, 'wiki', 'scripts');
+const WIKI_INBOX = path.join(WORKSPACE, 'wiki', 'inbox');
+
+// Wiki ingest job registry
+const wikiJobs = {};
+const wikiUpload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } });
+
+// ── Security layer ──────────────────────────────────────────────────────────
+
+function readEnvToken() {
+  try {
+    const raw = fs.readFileSync(ENV_FILE, 'utf8');
+    for (const line of raw.split('\n')) {
+      const t = line.trim();
+      if (t.startsWith('DASHBOARD_TOKEN=')) return t.slice('DASHBOARD_TOKEN='.length).trim();
+    }
+  } catch {}
+  return null;
+}
+const DASHBOARD_TOKEN = readEnvToken();
+
+const PRIVATE_RANGES = [
+  /^127\./, /^10\./, /^172\.(1[6-9]|2[0-9]|3[01])\./, /^192\.168\./, /^169\.254\./,
+  /^::1$/, /^fc00:/, /^fd/, /^0\.0\.0\.0$/,
+];
+
+function validateUrl(url) {
+  try {
+    const u = new URL(url);
+    if (u.protocol !== 'http:' && u.protocol !== 'https:') return false;
+    const host = u.hostname.toLowerCase();
+    if (host === 'localhost') return false;
+    if (PRIVATE_RANGES.some(r => r.test(host))) return false;
+    return true;
+  } catch { return false; }
+}
+
+function validateId(id) {
+  return typeof id === 'string' && /^[a-zA-Z0-9][a-zA-Z0-9-_]*$/.test(id) && id.length <= 64;
+}
+
+function sanitizeFilename(name) {
+  return name.replace(/[^a-zA-Z0-9._-]/g, '_').replace(/\.{2,}/g, '_').slice(0, 128);
+}
+
+// Token bucket rate limiter (in-memory, no deps)
+const rateBuckets = {};
+setInterval(() => {
+  const now = Date.now();
+  for (const k of Object.keys(rateBuckets)) {
+    if (rateBuckets[k].reset < now) delete rateBuckets[k];
+  }
+}, 300000);
+
+function checkRate(ip, key, maxPerMin) {
+  const k = `${ip}:${key}`;
+  const now = Date.now();
+  if (!rateBuckets[k] || now > rateBuckets[k].reset) {
+    rateBuckets[k] = { count: 1, reset: now + 60000 };
+    return true;
+  }
+  rateBuckets[k].count++;
+  return rateBuckets[k].count <= maxPerMin;
+}
+
+// Auth middleware on all /api/* routes
+app.use('/api', (req, res, next) => {
+  if (!DASHBOARD_TOKEN) return next(); // no token in .env → open (dev mode)
+  const auth = req.headers['authorization'] || '';
+  if (auth === `Bearer ${DASHBOARD_TOKEN}`) return next();
+  res.status(401).json({ error: 'Unauthorized' });
+});
+
+function wikiEmit(jobId, event) {
+  const job = wikiJobs[jobId];
+  if (!job) return;
+  job.events.push(event);
+  job.listeners.slice().forEach(fn => fn(event));
+}
+
+function runWikiJob(jobId, items) {
+  const env = loadEnv();
+
+  async function processItems() {
+    for (const item of items) {
+      wikiEmit(jobId, { type: 'header', text: `${item.kind.toUpperCase()}  ${item.label}` });
+
+      let scriptArgs;
+      if (item.kind === 'url') {
+        const isYt = /youtube\.com|youtu\.be/.test(item.label);
+        scriptArgs = ['bash', [path.join(WIKI_SCRIPTS, isYt ? 'wiki_youtube.sh' : 'wiki_fetch.sh'), item.label]];
+      } else if (item.kind === 'pdf') {
+        scriptArgs = ['bash', [path.join(WIKI_SCRIPTS, 'wiki_pdf.sh'), item.tmpPath]];
+      } else {
+        scriptArgs = ['bash', [path.join(WIKI_SCRIPTS, 'wiki_ingest.sh'), item.filename]];
+      }
+
+      await new Promise((resolve) => {
+        const child = spawn(scriptArgs[0], scriptArgs[1], { env });
+        let buf = '';
+        function flushLine(chunk) {
+          buf += chunk;
+          let nl;
+          while ((nl = buf.indexOf('\n')) >= 0) {
+            const line = buf.slice(0, nl);
+            buf = buf.slice(nl + 1);
+            if (line) wikiEmit(jobId, { type: 'line', text: line });
+          }
+        }
+        child.stdout.on('data', c => flushLine(c.toString()));
+        child.stderr.on('data', c => flushLine(c.toString()));
+        child.on('close', code => {
+          if (buf) wikiEmit(jobId, { type: 'line', text: buf });
+          wikiEmit(jobId, { type: 'done', ok: code === 0 });
+          if (item.kind === 'pdf' && item.tmpPath) {
+            try { fs.unlinkSync(item.tmpPath); } catch {}
+          }
+          resolve();
+        });
+      });
+    }
+
+    wikiEmit(jobId, { type: 'all_done' });
+    wikiJobs[jobId].done = true;
+    wikiJobs[jobId].listeners = [];
+    setTimeout(() => { delete wikiJobs[jobId]; }, 600000);
+  }
+
+  processItems();
+}
+
+// Agent definitions — all factory agents are OpenClaw subagents
+const AGENTS = [
+  { id: 'research',  name: 'Scout',     emoji: '🔍', role: 'Research Analyst',   stage: 'research',   script: 'research_agent.sh',  outputFile: 'research.md',             model: 'GPT-5.4',      tools: ['browser', 'web_search', 'web_fetch'], timeout: 900000 },
+  { id: 'strategy',  name: 'Strategos', emoji: '🎯', role: 'Content Strategist', stage: 'strategy',   script: 'strategy_agent.sh',  outputFile: 'strategy.md',             model: 'GPT-5.4 Mini', tools: ['web_search', 'web_fetch'],             timeout: 600000 },
+  { id: 'writer',    name: 'Quill',     emoji: '✍️', role: 'Content Writer',      stage: 'writing',    script: 'writer_agent.sh',    outputFile: 'drafts/all_drafts.md',    model: 'GPT-5.4 Mini', tools: ['web_search', 'web_fetch'],             timeout: 900000 },
+  { id: 'creative',  name: 'Pixel',     emoji: '🎨', role: 'Creative Director',  stage: 'visuals',    script: 'creative_agent.sh',  outputFile: 'visuals/all_visuals.md',  model: 'GPT-5.4 Mini', tools: ['web_search', 'web_fetch'],             timeout: 600000 },
+  { id: 'publisher', name: 'Herald',    emoji: '📢', role: 'Publisher',          stage: 'publishing', script: 'publisher_agent.sh', outputFile: 'publishing_checklist.md', model: 'GPT-5.4 Mini', tools: [],                                     timeout: 600000 },
+  { id: 'analytics', name: 'Oracle',    emoji: '📊', role: 'Analytics Engine',   stage: 'analytics',  script: 'analytics_agent.sh', outputFile: 'report.md',               model: 'GPT-5.4 Mini', tools: ['web_search', 'web_fetch'],             timeout: 600000 },
+  { id: 'zenith',    name: 'Zenith',    emoji: '⚡', role: 'Orchestrator',       stage: null,         script: 'pipeline_runner.sh', outputFile: null,                      model: 'Pipeline',     tools: [],                                     timeout: 3600000 },
+];
+
+// Track running agents
+const runningAgents = {};
+
+// Load env vars from .env file
+function loadEnv() {
+  const env = { ...process.env };
+  // Systemd service PATH omits user npm-global/bin — ensure openclaw is findable
+  const npmBin = path.join(env.HOME || '/home/ai', '.npm-global/bin');
+  if (env.PATH && !env.PATH.includes(npmBin)) {
+    env.PATH = npmBin + ':' + env.PATH;
+  }
+  try {
+    const envContent = fs.readFileSync(ENV_FILE, 'utf8');
+    for (const line of envContent.split('\n')) {
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith('#')) {
+        const eqIdx = trimmed.indexOf('=');
+        if (eqIdx > 0) {
+          env[trimmed.slice(0, eqIdx)] = trimmed.slice(eqIdx + 1);
+        }
+      }
+    }
+  } catch (e) { /* env file missing, continue with process.env */ }
+  return env;
+}
+
+// Get current week string
+function currentWeek() {
+  const now = new Date();
+  const jan1 = new Date(now.getFullYear(), 0, 1);
+  const days = Math.floor((now - jan1) / 86400000);
+  const weekNum = Math.ceil((days + jan1.getDay() + 1) / 7);
+  return `${now.getFullYear()}-W${String(weekNum).padStart(2, '0')}`;
+}
+
+// Get week directory
+function weekDir() {
+  return path.join(OUTPUT, currentWeek());
+}
+
+// Safe read file
+function readFileSafe(filePath, fallback = '') {
+  try { return fs.readFileSync(filePath, 'utf8'); } catch { return fallback; }
+}
+
+// Safe read JSON
+function readJsonSafe(filePath, fallback = null) {
+  try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch { return fallback; }
+}
+
+// Parse YAML frontmatter from markdown string
+function parseFrontmatter(content) {
+  const meta = {};
+  if (!content.startsWith('---')) return { meta, body: content };
+  const end = content.indexOf('\n---', 3);
+  if (end === -1) return { meta, body: content };
+  const frontmatter = content.slice(4, end);
+  let body = content.slice(end + 4).trim();
+  for (const line of frontmatter.split('\n')) {
+    const colon = line.indexOf(':');
+    if (colon > 0) {
+      const key = line.slice(0, colon).trim();
+      let val = line.slice(colon + 1).trim();
+      // Strip inline array brackets or quotes
+      if (val.startsWith('[') && val.endsWith(']')) {
+        val = val.slice(1, -1).split(',').map(v => v.trim().replace(/^["']|["']$/g, ''));
+      } else {
+        val = val.replace(/^["']|["']$/g, '');
+      }
+      meta[key] = val;
+    }
+  }
+  return { meta, body };
+}
+
+// Read projects registry
+function readProjects() {
+  const data = readJsonSafe(PROJECTS_FILE, { default: 'default', projects: [] });
+  return data;
+}
+
+// Read tasks for a project
+function readProjectTasks(projectId) {
+  const logFile = path.join(TASKS_DIR, projectId, 'tasks.jsonl');
+  const tasks = [];
+  try {
+    const lines = fs.readFileSync(logFile, 'utf8').split('\n').filter(Boolean);
+    for (const line of lines) {
+      try { tasks.push(JSON.parse(line)); } catch {}
+    }
+  } catch {}
+  return tasks.reverse(); // newest first
+}
+
+// Read all inbox items
+function readInboxItems() {
+  const items = [];
+  try {
+    const files = fs.readdirSync(INBOX).filter(f => f.endsWith('.md')).sort().reverse();
+    for (const file of files) {
+      try {
+        const content = fs.readFileSync(path.join(INBOX, file), 'utf8');
+        const { meta, body } = parseFrontmatter(content);
+        items.push({ ...meta, _file: file, _preview: body.slice(0, 200) });
+      } catch {}
+    }
+  } catch {}
+  return items;
+}
+
+// Read all queue posts for a given week
+function readQueuePosts(week) {
+  const posts = [];
+  const weekDir = path.join(QUEUE, week);
+  try {
+    const files = fs.readdirSync(weekDir).filter(f => f.endsWith('.json') && f !== 'approval.json').sort();
+    for (const file of files) {
+      const post = readJsonSafe(path.join(weekDir, file));
+      if (post) posts.push({ ...post, _file: file });
+    }
+  } catch {}
+  return posts;
+}
+
+// Get pipeline state
+function getPipelineState() {
+  const stateFile = path.join(weekDir(), 'pipeline.state');
+  return readJsonSafe(stateFile, {
+    week: currentWeek(),
+    created: null,
+    stages: {
+      research: { status: 'pending' },
+      strategy: { status: 'pending' },
+      writing: { status: 'pending' },
+      visuals: { status: 'pending' },
+      publishing: { status: 'pending' },
+      analytics: { status: 'pending' },
+      evolution: { status: 'pending' },
+    }
+  });
+}
+
+// --- STATIC FILES ---
+const CLIENT_DIST = path.join(__dirname, 'client', 'dist');
+if (fs.existsSync(CLIENT_DIST)) {
+  app.use(express.static(CLIENT_DIST));
+}
+
+app.get('/', (req, res) => {
+  const clientIndex = path.join(CLIENT_DIST, 'index.html');
+  if (fs.existsSync(clientIndex)) return res.sendFile(clientIndex);
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// --- READ ENDPOINTS ---
+
+app.get('/api/status', (req, res) => {
+  const state = getPipelineState();
+  const draftsDir = path.join(weekDir(), 'drafts');
+  let draftCount = 0;
+  try {
+    draftCount = fs.readdirSync(draftsDir).filter(f => f.endsWith('.md') && f !== 'all_drafts.md').length;
+  } catch {}
+
+  let kpiCount = 0;
+  const kpiFile = path.join(ANALYTICS, 'kpi.jsonl');
+  try {
+    const lines = fs.readFileSync(kpiFile, 'utf8').split('\n').filter(l => l.includes(currentWeek()));
+    kpiCount = lines.length;
+  } catch {}
+
+  res.json({ ...state, draftCount, kpiCount });
+});
+
+app.get('/api/agents', (req, res) => {
+  const state = getPipelineState();
+  const agents = AGENTS.map(agent => {
+    const stageStatus = agent.stage ? (state.stages[agent.stage] || {}) : {};
+    const status = runningAgents[agent.id] ? 'running' :
+                   stageStatus.status === 'done' ? 'done' : 'idle';
+
+    let task = 'Standing by';
+    if (runningAgents[agent.id]) {
+      task = 'Processing...';
+    } else if (status === 'done') {
+      task = `Completed`;
+    } else if (agent.id === 'zenith') {
+      task = `Managing ${currentWeek()}`;
+    }
+
+    // Get last active time
+    let lastActive = stageStatus.completed || null;
+    if (runningAgents[agent.id]) {
+      lastActive = runningAgents[agent.id].startedAt;
+    }
+
+    // Check directive
+    const directiveFile = path.join(DIRECTIVES, `${agent.id}.md`);
+    const hasDirective = (() => {
+      try { return fs.readFileSync(directiveFile, 'utf8').trim().length > 0; } catch { return false; }
+    })();
+
+    return {
+      ...agent,
+      status,
+      task,
+      lastActive,
+      hasDirective,
+      model: agent.model,
+    };
+  });
+  res.json(agents);
+});
+
+app.get('/api/agent/:id', (req, res) => {
+  const agent = AGENTS.find(a => a.id === req.params.id);
+  if (!agent) return res.status(404).json({ error: 'Agent not found' });
+
+  const state = getPipelineState();
+  const stageStatus = agent.stage ? (state.stages[agent.stage] || {}) : {};
+
+  // Read output
+  let output = '';
+  if (agent.outputFile) {
+    output = readFileSafe(path.join(weekDir(), agent.outputFile));
+  }
+
+  // Read directive
+  const directive = readFileSafe(path.join(DIRECTIVES, `${agent.id}.md`));
+
+  // Read history from analytics/pipeline.log
+  let history = [];
+  const logFile = path.join(ANALYTICS, 'pipeline.log');
+  try {
+    const logContent = fs.readFileSync(logFile, 'utf8');
+    const lines = logContent.split('\n').filter(l => l.toLowerCase().includes(agent.id) || l.toLowerCase().includes(agent.stage || ''));
+    history = lines.slice(-20);
+  } catch {}
+
+  res.json({
+    ...agent,
+    status: runningAgents[agent.id] ? 'running' : (stageStatus.status || 'pending'),
+    completed: stageStatus.completed || null,
+    output,
+    directive,
+    history,
+  });
+});
+
+app.get('/api/kpi', (req, res) => {
+  const kpiFile = path.join(ANALYTICS, 'kpi.jsonl');
+  const entries = [];
+  try {
+    const lines = fs.readFileSync(kpiFile, 'utf8').split('\n').filter(Boolean);
+    for (const line of lines) {
+      try { entries.push(JSON.parse(line)); } catch {}
+    }
+  } catch {}
+
+  const summaryFile = path.join(ANALYTICS, 'weekly_summary.jsonl');
+  const summaries = [];
+  try {
+    const lines = fs.readFileSync(summaryFile, 'utf8').split('\n').filter(Boolean);
+    for (const line of lines) {
+      try { summaries.push(JSON.parse(line)); } catch {}
+    }
+  } catch {}
+
+  res.json({ entries, summaries });
+});
+
+app.get('/api/persona', (req, res) => {
+  const persona = readFileSafe(path.join(CONFIG, 'persona.yml'));
+  const evolutionLog = readFileSafe(path.join(ANALYTICS, 'evolution.log'));
+  res.json({ persona, evolutionLog });
+});
+
+app.get('/api/output/:file', (req, res) => {
+  const safeName = path.basename(req.params.file);
+  const content = readFileSafe(path.join(weekDir(), safeName));
+  res.json({ content });
+});
+
+// --- WRITE ENDPOINTS ---
+
+app.post('/api/agent/:id/run', (req, res) => {
+  if (!validateId(req.params.id)) return res.status(400).json({ error: 'Invalid agent id' });
+  const agent = AGENTS.find(a => a.id === req.params.id);
+  if (!agent) return res.status(404).json({ error: 'Agent not found' });
+  if (runningAgents[agent.id]) return res.status(409).json({ error: 'Agent already running' });
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  if (!checkRate(ip, 'agent-run', 5)) return res.status(429).json({ error: 'Rate limit exceeded' });
+
+  const scriptPath = path.join(SCRIPTS, agent.script);
+  const env = loadEnv();
+
+  runningAgents[agent.id] = { startedAt: new Date().toISOString(), pid: null };
+
+  const child = execFile('bash', [scriptPath], { env, timeout: agent.timeout || 600000 }, (error, stdout, stderr) => {
+    delete runningAgents[agent.id];
+    // Log result
+    const logLine = `${new Date().toISOString()} | ${agent.id} | ${error ? 'FAILED' : 'OK'} | ${(stdout || '').trim().slice(0, 200)}\n`;
+    try {
+      fs.mkdirSync(ANALYTICS, { recursive: true });
+      fs.appendFileSync(path.join(ANALYTICS, 'pipeline.log'), logLine);
+    } catch {}
+  });
+
+  if (child.pid) runningAgents[agent.id].pid = child.pid;
+  res.json({ ok: true, message: `${agent.name} started` });
+});
+
+app.post('/api/agent/:id/directive', (req, res) => {
+  const agent = AGENTS.find(a => a.id === req.params.id);
+  if (!agent) return res.status(404).json({ error: 'Agent not found' });
+
+  const { directive } = req.body;
+  if (typeof directive !== 'string') return res.status(400).json({ error: 'directive must be a string' });
+
+  const filePath = path.join(DIRECTIVES, `${agent.id}.md`);
+  fs.writeFileSync(filePath, directive);
+  res.json({ ok: true });
+});
+
+app.post('/api/pipeline/run', (req, res) => {
+  if (runningAgents['pipeline']) return res.status(409).json({ error: 'Pipeline already running' });
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  if (!checkRate(ip, 'pipeline-run', 5)) return res.status(429).json({ error: 'Rate limit exceeded' });
+
+  const scriptPath = path.join(SCRIPTS, 'pipeline_runner.sh');
+  const env = loadEnv();
+
+  runningAgents['pipeline'] = { startedAt: new Date().toISOString() };
+
+  execFile('bash', [scriptPath], { env, timeout: 3600000 }, (error, stdout) => {
+    delete runningAgents['pipeline'];
+    const logLine = `${new Date().toISOString()} | pipeline | ${error ? 'FAILED' : 'OK'} | ${(stdout || '').trim().slice(0, 200)}\n`;
+    try { fs.appendFileSync(path.join(ANALYTICS, 'pipeline.log'), logLine); } catch {}
+  });
+
+  res.json({ ok: true, message: 'Pipeline runner started' });
+});
+
+app.post('/api/pipeline/reset/:stage', (req, res) => {
+  const stage = req.params.stage;
+  const stateFile = path.join(weekDir(), 'pipeline.state');
+  const state = readJsonSafe(stateFile);
+  if (!state) return res.status(404).json({ error: 'No pipeline state for this week' });
+  if (!state.stages[stage]) return res.status(400).json({ error: `Unknown stage: ${stage}` });
+
+  state.stages[stage] = { status: 'pending' };
+  fs.writeFileSync(stateFile, JSON.stringify(state, null, 2));
+  res.json({ ok: true, message: `${stage} reset to pending` });
+});
+
+app.post('/api/persona/edit', (req, res) => {
+  const { content } = req.body;
+  if (typeof content !== 'string') return res.status(400).json({ error: 'content must be a string' });
+
+  fs.writeFileSync(path.join(CONFIG, 'persona.yml'), content);
+  res.json({ ok: true });
+});
+
+app.post('/api/kpi/log', (req, res) => {
+  const { id, metrics } = req.body;
+  if (!id || !metrics) return res.status(400).json({ error: 'id and metrics required' });
+
+  const kpiFile = path.join(ANALYTICS, 'kpi.jsonl');
+  fs.mkdirSync(ANALYTICS, { recursive: true });
+
+  // Check if entry exists
+  let lines = [];
+  try { lines = fs.readFileSync(kpiFile, 'utf8').split('\n').filter(Boolean); } catch {}
+
+  const existingIdx = lines.findIndex(l => { try { return JSON.parse(l).id === id; } catch { return false; } });
+
+  const entry = existingIdx >= 0 ? { ...JSON.parse(lines[existingIdx]), ...metrics } :
+    { id, week: currentWeek(), logged: new Date().toISOString(), ...metrics };
+
+  if (existingIdx >= 0) {
+    lines[existingIdx] = JSON.stringify(entry);
+  } else {
+    lines.push(JSON.stringify(entry));
+  }
+
+  fs.writeFileSync(kpiFile, lines.join('\n') + '\n');
+  res.json({ ok: true, entry });
+});
+
+// --- INBOX ENDPOINTS ---
+
+app.get('/api/inbox', (req, res) => {
+  res.json(readInboxItems());
+});
+
+app.get('/api/inbox/search', (req, res) => {
+  const q = (req.query.q || '').toLowerCase().trim();
+  if (!q) return res.json(readInboxItems());
+  const items = readInboxItems().filter(item =>
+    (item.title || '').toLowerCase().includes(q) ||
+    (item._preview || '').toLowerCase().includes(q) ||
+    (Array.isArray(item.tags) ? item.tags.join(' ') : (item.tags || '')).toLowerCase().includes(q)
+  );
+  res.json(items);
+});
+
+app.get('/api/inbox/:id', (req, res) => {
+  const items = readInboxItems();
+  const item = items.find(i => i.id === req.params.id || i._file === req.params.id + '.md');
+  if (!item) return res.status(404).json({ error: 'Not found' });
+  try {
+    const content = fs.readFileSync(path.join(INBOX, item._file), 'utf8');
+    res.json({ ...item, content });
+  } catch {
+    res.status(404).json({ error: 'File not found' });
+  }
+});
+
+app.post('/api/inbox/add', (req, res) => {
+  const { source, tags } = req.body;
+  if (!source) return res.status(400).json({ error: 'source required (URL or text)' });
+
+  const scriptPath = path.join(SCRIPTS, 'inbox_add.sh');
+  const args = tags ? [source, tags] : [source];
+  const env = loadEnv();
+
+  execFile('bash', [scriptPath, ...args], { env, timeout: 60000 }, (error, stdout, stderr) => {
+    if (error) return res.status(500).json({ error: stderr || error.message });
+    res.json({ ok: true, message: stdout.trim() });
+  });
+});
+
+app.post('/api/inbox/:id/archive', (req, res) => {
+  const items = readInboxItems();
+  const item = items.find(i => i.id === req.params.id || i._file === req.params.id + '.md');
+  if (!item) return res.status(404).json({ error: 'Not found' });
+
+  const filePath = path.join(INBOX, item._file);
+  try {
+    let content = fs.readFileSync(filePath, 'utf8');
+    content = content.replace(/^status: .+$/m, 'status: archived');
+    fs.writeFileSync(filePath, content);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// --- QUEUE ENDPOINTS ---
+
+app.get('/api/queue', (req, res) => {
+  const week = req.query.week || currentWeek();
+  const posts = readQueuePosts(week);
+  const approvalFile = path.join(QUEUE, week, 'approval.json');
+  const approval = readJsonSafe(approvalFile, {});
+  res.json({ week, posts, approval });
+});
+
+app.post('/api/queue/:postId/approve', (req, res) => {
+  const week = req.query.week || currentWeek();
+  const weekQueueDir = path.join(QUEUE, week);
+  const posts = readQueuePosts(week);
+  const post = posts.find(p => p.id === req.params.postId);
+  if (!post) return res.status(404).json({ error: 'Post not found' });
+
+  const filePath = path.join(weekQueueDir, post._file);
+  try {
+    const updated = { ...post, status: 'approved', approved_at: new Date().toISOString() };
+    delete updated._file;
+    fs.writeFileSync(filePath, JSON.stringify(updated, null, 2));
+
+    // Update approval.json
+    const approvalFile = path.join(weekQueueDir, 'approval.json');
+    const approval = readJsonSafe(approvalFile, {});
+    approval.approved = (approval.approved || 0) + 1;
+    approval.pending = Math.max(0, (approval.pending || 0) - 1);
+    fs.writeFileSync(approvalFile, JSON.stringify(approval, null, 2));
+
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/queue/:postId/skip', (req, res) => {
+  const week = req.query.week || currentWeek();
+  const weekQueueDir = path.join(QUEUE, week);
+  const posts = readQueuePosts(week);
+  const post = posts.find(p => p.id === req.params.postId);
+  if (!post) return res.status(404).json({ error: 'Post not found' });
+
+  const filePath = path.join(weekQueueDir, post._file);
+  try {
+    const updated = { ...post, status: 'skipped', skipped_at: new Date().toISOString() };
+    delete updated._file;
+    fs.writeFileSync(filePath, JSON.stringify(updated, null, 2));
+
+    const approvalFile = path.join(weekQueueDir, 'approval.json');
+    const approval = readJsonSafe(approvalFile, {});
+    approval.skipped = (approval.skipped || 0) + 1;
+    approval.pending = Math.max(0, (approval.pending || 0) - 1);
+    fs.writeFileSync(approvalFile, JSON.stringify(approval, null, 2));
+
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// --- ANALYTICS PLATFORM SUMMARY ---
+
+app.get('/api/analytics/platform-summary', (req, res) => {
+  const kpiFile = path.join(ANALYTICS, 'kpi.jsonl');
+  const byPlatform = {};
+  const byWeek = {};
+
+  try {
+    const lines = fs.readFileSync(kpiFile, 'utf8').split('\n').filter(Boolean);
+    for (const line of lines) {
+      try {
+        const e = JSON.parse(line);
+        const p = e.platform || 'unknown';
+        const w = e.week || 'unknown';
+
+        if (!byPlatform[p]) byPlatform[p] = { platform: p, posts: 0, impressions: 0, engagements: 0, likes: 0 };
+        byPlatform[p].posts++;
+        byPlatform[p].impressions += (e.impressions || 0);
+        byPlatform[p].engagements += (e.engagements || 0);
+        byPlatform[p].likes += (e.likes || 0);
+
+        if (!byWeek[w]) byWeek[w] = { week: w, posts: 0, impressions: 0, engagements: 0 };
+        byWeek[w].posts++;
+        byWeek[w].impressions += (e.impressions || 0);
+        byWeek[w].engagements += (e.engagements || 0);
+      } catch {}
+    }
+  } catch {}
+
+  const platforms = Object.values(byPlatform).sort((a, b) => b.impressions - a.impressions);
+  const weeks = Object.values(byWeek).sort((a, b) => a.week.localeCompare(b.week)).slice(-8);
+  res.json({ platforms, weeks });
+});
+
+// --- PUBLISHED LOG ---
+
+app.get('/api/published', (req, res) => {
+  const entries = [];
+  try {
+    const dirs = fs.readdirSync(QUEUE).filter(d => d.match(/^\d{4}-W\d{2}$/));
+    for (const week of dirs.sort().reverse().slice(0, 4)) {
+      const posts = readQueuePosts(week);
+      entries.push(...posts.filter(p => p.status === 'posted' || p.post_url));
+    }
+  } catch {}
+  res.json(entries);
+});
+
+// --- PROJECTS ---
+
+app.get('/api/projects', (req, res) => {
+  res.json(readProjects());
+});
+
+app.post('/api/projects', (req, res) => {
+  const { id, name } = req.body;
+  if (!id || !name) return res.status(400).json({ error: 'id and name required' });
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(id)) return res.status(400).json({ error: 'id must be lowercase alphanumeric with hyphens' });
+
+  const projects = readProjects();
+  if (projects.projects.find(p => p.id === id)) return res.status(409).json({ error: 'Project already exists' });
+
+  const env = loadEnv();
+  execFile('bash', [path.join(SCRIPTS, 'project_init.sh'), id, name], { env, timeout: 10000 }, (error, stdout, stderr) => {
+    if (error) return res.status(500).json({ error: stderr || error.message });
+    res.json({ ok: true, message: stdout.trim() });
+  });
+});
+
+app.post('/api/projects/default', (req, res) => {
+  const { id } = req.body;
+  if (!id) return res.status(400).json({ error: 'id required' });
+  const projects = readProjects();
+  if (!projects.projects.find(p => p.id === id)) return res.status(404).json({ error: 'Project not found' });
+  projects.default = id;
+  fs.writeFileSync(PROJECTS_FILE, JSON.stringify(projects, null, 2));
+  res.json({ ok: true });
+});
+
+// --- TASKS ---
+
+app.get('/api/projects/:id/tasks', (req, res) => {
+  const projects = readProjects();
+  if (!projects.projects.find(p => p.id === req.params.id)) return res.status(404).json({ error: 'Project not found' });
+  res.json(readProjectTasks(req.params.id));
+});
+
+app.post('/api/projects/:id/task', (req, res) => {
+  const projects = readProjects();
+  const project = projects.projects.find(p => p.id === req.params.id);
+  if (!project) return res.status(404).json({ error: 'Project not found' });
+
+  const { goal } = req.body;
+  if (!goal || !goal.trim()) return res.status(400).json({ error: 'goal required' });
+
+  const taskId = `task-${new Date().toISOString().replace(/[-:T.Z]/g, '').slice(0, 15)}`;
+  const env = loadEnv();
+
+  // Start async — returns immediately
+  execFile('bash', [path.join(SCRIPTS, 'task_runner.sh'), goal.trim(), req.params.id], { env, timeout: 3600000 }, (error, stdout, stderr) => {
+    const logLine = `${new Date().toISOString()} | task | ${req.params.id} | ${error ? 'FAILED' : 'OK'} | ${(stdout || '').trim().slice(0, 200)}\n`;
+    try { fs.appendFileSync(path.join(FACTORY, 'analytics', 'pipeline.log'), logLine); } catch {}
+  });
+
+  res.json({ ok: true, taskId, message: `Task started for project "${project.name}"` });
+});
+
+// --- LIVE LOG (for dashboard preview while agent is running) ---
+
+app.get('/api/agent/:id/log', (req, res) => {
+  const agent = AGENTS.find(a => a.id === req.params.id);
+  if (!agent) return res.status(404).json({ error: 'Agent not found' });
+  const log = readFileSafe(path.join(weekDir(), `${req.params.id}.log`));
+  const stageStatus = agent.stage ? (getPipelineState().stages[agent.stage] || {}) : {};
+  const status = runningAgents[agent.id] ? 'running' : (stageStatus.status || 'pending');
+  res.json({ log, status });
+});
+
+// --- STEEL STATUS ---
+
+app.get('/api/steel/sessions', (req, res) => {
+  const http = require('http');
+  const probe = http.get('http://127.0.0.1:3000/v1/sessions', { timeout: 3000 }, (r) => {
+    let data = '';
+    r.on('data', chunk => data += chunk);
+    r.on('end', () => {
+      try {
+        const json = JSON.parse(data);
+        const sessions = (json.sessions || []).map(s => ({
+          id: s.id,
+          status: s.status,
+          createdAt: s.createdAt,
+          duration: s.duration,
+          userAgent: s.userAgent || '',
+          dimensions: s.dimensions || {},
+          eventCount: s.eventCount || 0,
+        }));
+        res.json({ ok: true, sessions });
+      } catch {
+        res.json({ ok: false, sessions: [] });
+      }
+    });
+  });
+  probe.on('error', () => res.json({ ok: false, sessions: [] }));
+  probe.on('timeout', () => { probe.destroy(); res.json({ ok: false, sessions: [] }); });
+});
+
+app.get('/api/steel/status', (req, res) => {
+  const http = require('http');
+  const probe = http.get('http://127.0.0.1:3000/v1/health', { timeout: 2000 }, (r) => {
+    let data = '';
+    r.on('data', chunk => data += chunk);
+    r.on('end', () => {
+      try {
+        const json = JSON.parse(data);
+        const sessions = [];
+        // also fetch session count
+        const probe2 = http.get('http://127.0.0.1:3000/v1/sessions', { timeout: 2000 }, (r2) => {
+          let d2 = '';
+          r2.on('data', c => d2 += c);
+          r2.on('end', () => {
+            try {
+              const s = JSON.parse(d2);
+              res.json({ ok: json.status === 'ok', status: json.status, activeSessions: (s.sessions || []).filter(x => x.status === 'live').length });
+            } catch {
+              res.json({ ok: json.status === 'ok', status: json.status, activeSessions: 0 });
+            }
+          });
+        });
+        probe2.on('error', () => res.json({ ok: json.status === 'ok', status: json.status, activeSessions: 0 }));
+      } catch {
+        res.json({ ok: false, status: 'error', activeSessions: 0 });
+      }
+    });
+  });
+  probe.on('error', () => res.json({ ok: false, status: 'unreachable', activeSessions: 0 }));
+  probe.on('timeout', () => { probe.destroy(); res.json({ ok: false, status: 'timeout', activeSessions: 0 }); });
+});
+
+// --- WIKI INGEST ---
+
+app.post('/api/wiki/ingest', wikiUpload.array('file', 20), (req, res) => {
+  const ip = req.ip || req.socket.remoteAddress || 'unknown';
+  if (!checkRate(ip, 'wiki-ingest', 10)) return res.status(429).json({ error: 'Rate limit exceeded' });
+
+  let urls = req.body.url || [];
+  if (typeof urls === 'string') urls = [urls];
+  urls = urls.map(u => u.trim()).filter(Boolean);
+
+  for (const u of urls) {
+    if (!validateUrl(u)) return res.status(400).json({ error: `Disallowed URL: ${u}` });
+  }
+
+  const items = [];
+  urls.forEach(u => items.push({ kind: 'url', label: u }));
+
+  (req.files || []).forEach(f => {
+    const ext = path.extname(f.originalname).toLowerCase();
+    const safeName = sanitizeFilename(path.basename(f.originalname, ext)) + ext;
+    if (ext === '.pdf') {
+      const tmp = path.join(os.tmpdir(), `wiki_ingest_${Date.now()}_${Math.random().toString(36).slice(2)}.pdf`);
+      fs.writeFileSync(tmp, f.buffer);
+      items.push({ kind: 'pdf', label: safeName, tmpPath: tmp });
+    } else if (ext === '.md' || ext === '.markdown') {
+      const slug = safeName.replace(/\s+/g, '_');
+      try { fs.mkdirSync(WIKI_INBOX, { recursive: true }); } catch {}
+      fs.writeFileSync(path.join(WIKI_INBOX, slug), f.buffer);
+      items.push({ kind: 'md', label: safeName, filename: slug });
+    }
+  });
+
+  if (!items.length) return res.status(400).json({ error: 'no valid URLs or files provided' });
+
+  const jobId = Math.random().toString(36).slice(2, 10);
+  wikiJobs[jobId] = { events: [], done: false, listeners: [] };
+  runWikiJob(jobId, items);
+  res.json({ jobId });
+});
+
+app.get('/api/wiki/stream/:id', (req, res) => {
+  const job = wikiJobs[req.params.id];
+  if (!job) return res.status(404).json({ error: 'unknown job' });
+
+  res.writeHead(200, {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache',
+    'X-Accel-Buffering': 'no',
+    'Connection': 'keep-alive',
+  });
+
+  job.events.forEach(e => res.write(`data: ${JSON.stringify(e)}\n\n`));
+
+  if (job.done) { res.end(); return; }
+
+  const listener = (e) => {
+    res.write(`data: ${JSON.stringify(e)}\n\n`);
+    if (e.type === 'all_done') res.end();
+  };
+  job.listeners.push(listener);
+  req.on('close', () => {
+    job.listeners = job.listeners.filter(l => l !== listener);
+  });
+
+  const keepalive = setInterval(() => {
+    if (job.done) { clearInterval(keepalive); return; }
+    try { res.write(': keepalive\n\n'); } catch { clearInterval(keepalive); }
+  }, 15000);
+  req.on('close', () => clearInterval(keepalive));
+});
+
+// SPA fallback — must come after all API routes
+if (fs.existsSync(CLIENT_DIST)) {
+  app.get('*', (req, res) => res.sendFile(path.join(CLIENT_DIST, 'index.html')));
+}
+
+// Temp file cleanup on shutdown
+function cleanupTmpFiles() {
+  try {
+    fs.readdirSync(os.tmpdir())
+      .filter(f => f.startsWith('wiki_ingest_'))
+      .forEach(f => { try { fs.unlinkSync(path.join(os.tmpdir(), f)); } catch {} });
+  } catch {}
+}
+process.on('SIGTERM', () => { cleanupTmpFiles(); process.exit(0); });
+process.on('SIGINT', () => { cleanupTmpFiles(); process.exit(0); });
+
+app.listen(PORT, '127.0.0.1', () => {
+  const authMode = DASHBOARD_TOKEN ? 'token auth' : 'open (no DASHBOARD_TOKEN set)';
+  console.log(`Factory Dashboard running at http://127.0.0.1:${PORT} [${authMode}]`);
+});

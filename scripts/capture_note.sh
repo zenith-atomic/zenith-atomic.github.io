@@ -14,4 +14,6 @@ LOCAL_TS="$(TZ='America/New_York' date '+%Y-%m-%d %H:%M:%S %Z')"
 UTC_TS="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 printf '%s | %s | %s\n' "$LOCAL_TS" "$UTC_TS" "$NOTE" >> "$LOG_FILE"
 
+"$WORKDIR/scripts/rotate_log.sh" "$LOG_FILE" 100
+
 echo "note captured"

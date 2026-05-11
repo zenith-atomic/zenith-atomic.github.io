@@ -1,0 +1,21 @@
+strategies:
+  - name: momentum_btc_eth
+    class: MomentumStrategy
+    enabled: true
+    mode: paper
+    symbol: BTC/USDT
+    exchange_id: binance
+    params:
+      short_period: 10
+      long_period: 30
+      size_percentage: 0.1
+
+  - name: arb_btc_binance_hyperliquid
+    class: ArbitrageStrategy
+    enabled: false
+    mode: paper
+    symbol: ETH/USDT
+    exchange_ids: [binance, hyperliquid]
+    params:
+      min_spread_bps: 15
+      max_order_size: 0.05

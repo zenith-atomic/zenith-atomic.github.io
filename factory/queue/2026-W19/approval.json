@@ -1,0 +1,173 @@
+{
+  "posts": [
+    {
+      "platform": "X/Twitter",
+      "content": "Rate limit hit. 429 errors. 503 blocks.\n\nStill found one verified lead.\n\nDuct Path Cleaners. Tampa, FL. No website field.\n\nThe wall hit. The lead held.\n\nReply workaround if you want the directory verification workflow.",
+      "hashtags": [],
+      "scheduled_time": "9:00 AM",
+      "visual": "",
+      "pillar": "** Build in Public",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "LinkedIn",
+      "content": "Got rate-limited 6 times running Google Business Profile lookups this week.\n\nHere's what I did instead — and why it actually worked better.\n\nWhen Gemini API started throwing 429s and 503s, I pivoted to business directories. Specifically: businessrate.com, MapQuest, Manta, and BuildZoom.\n\nWhy directories actually work for this use case:\n\n1. Directory listings explicitly state whether a business has a website. No inference needed.\n\n2. They update slower, which means they catch businesses that never invested in a web presence — exactly the target.\n\n3. They don't rate-limit you the same way an API does.\n\nThe result: Duct Path Cleaners, Tampa FL. Verified no-website. Phone and address confirmed through two sources.\n\nThat's the lead that survived the wall.\n\nThe workaround found what the direct approach couldn't.\n\nPractical takeaway: when your primary data source blocks you, directories aren't a backup. For this specific vertical, they're the primary source.\n\nComment directory if you want the full source list with what each confirms.",
+      "hashtags": [],
+      "scheduled_time": "11:00 AM",
+      "visual": "",
+      "pillar": "** Tool Reviews & Tutorials",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "95% of top-ranking Google Business Profiles link to a website.\n\nThe 5% that don't are the only ones worth calling.\n\nMost \"local prospecting\" content goes after the crowded 95%. Zero competition in the 5%.\n\nReply with your vertical. I'll tell you what the no-website rate probably looks like.",
+      "hashtags": [],
+      "scheduled_time": "3:30 PM",
+      "visual": "",
+      "pillar": "** Takes & Opinions",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "Most \"no-website business\" research fails because it trusts the first source.  \nHere's the verification playbook that actually works:\n\n1/ Pull the Google Business Profile.\nCheck the website field first. If it's blank, that's a signal — not a conclusion.\n\n2/ If the API blocks you, pivot to directories.\nBusinessrate.com, MapQuest, Manta. Each confirms or denies independently.\n\n3/ Cross-reference for confidence.\nTwo sources agree: high confidence. One source only: partial. Walk away from ambiguous.\n\n4/ Log the exclusion reasons.\nEvery \"no\" tells you something. \"Has a site\" is a no. \"Website exists but is terrible\" is still a no.\n\n5/ Set a confidence threshold and hold it.\nMost people fail here. They lower the bar when the list looks thin. Don't.\n\n6/ The output is not a list of businesses.\nIt's a list of verified opportunities with a reason attached to each.\n\nThat's the playbook.\n\nThe reusable version:\n- Google Business Profile → website field check\n- businessrate.com → explicit website presence\n- MapQuest → secondary confirmation\n- Manta → industry classification cross-check\n- BuildZoom → license/permit verification (optional, high confidence)\n\nConfidence scale: 1 source = partial. 2+ sources = high. Excluded = logged.\n\nThat's it. No magic. No API dependency. No rate limit vulnerability.\n\nSaving this thread gives you a reusable playbook. Do it.",
+      "hashtags": [],
+      "scheduled_time": "9:00 AM",
+      "visual": "",
+      "pillar": "** Tool Reviews & Tutorials",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "Instagram",
+      "content": "Slide 1: The lead: Duct Path Cleaners, Tampa FL\nSlide 2: The problem: 429 errors, 503 blocks, API walls\nSlide 3: The workaround: businessrate.com, MapQuest, Manta\nSlide 4: The verification: two-source confirmation\nSlide 5: The output: one verified lead, confidence high\nSlide 6: The lesson: rate limits are a feature, not a bug\n\nWeek 3 of Zenith: the rate limit hit. The lead held.\n\nHit API walls 6 times running Google Business Profile lookups. Pivoted to directories. Found Duct Path Cleaners — verified no-website, Tampa FL.\n\nThe path wasn't direct. That's the point.\n\nThe workaround was the system. The directory cross-check was the feature. The one surviving lead was the output.\n\nMost content shows you the success. Nobody shows you the wall.\n\nHere's the full arc: wall → pivot → verification → lead.",
+      "hashtags": [],
+      "scheduled_time": "12:30 PM",
+      "visual": "",
+      "pillar": "** Build in Public",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "429. 503. 429. 503.\n\nThat's what the API returned most of this week.\n\nSo I went around it.\n\nBusinessrate.com. MapQuest. Manta. Cross-referenced. Found one confirmed signal. Duct Path Cleaners, Tampa FL.\n\nRate limits are a feature. They tell you when to change the approach.\n\nIf you've been rate-limited and didn't pivot, that's the mistake.",
+      "hashtags": [],
+      "scheduled_time": "6:00 PM",
+      "visual": "",
+      "pillar": "** Behind the Scenes",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "Why does the directory approach actually work better than direct scraping for finding no-website businesses?\n\n1. Directory listings explicitly state website presence. No inference.\n\n2. Slower to update = catches businesses that never went digital.\n\n3. No rate limits. No 429s. No API dependency.\n\n4. Cross-referencing two sources gives you confidence without a paid API key.\n\nThat's why.\n\nReply tools if you need the full directory stack.",
+      "hashtags": [],
+      "scheduled_time": "9:00 AM",
+      "visual": "",
+      "pillar": "** Tool Reviews & Tutorials",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "YouTube",
+      "content": "\"I got rate-limited 6 times and still found one verified lead.\"\n\nWatch this.\n\nI run a directory search on businessrate.com. Cross-check MapQuest. Confirm the website field is blank.\n\nThat's it. No API. No 429s. No scraping.\n\nDuct Path Cleaners, Tampa FL. Verified.\n\nNext week: full Tampa Bay HVAC sweep.\n\nSubscribe and I'll post the results.",
+      "hashtags": [],
+      "scheduled_time": "6:00 PM",
+      "visual": "",
+      "pillar": "** Tool Reviews & Tutorials",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "Shipping update.\n\nNew verified lead:\nDuct Path Cleaners\nTampa, FL\nPhone: on file\nWebsite: none confirmed\nConfidence: high\nSource: businessrate.com + MapQuest\n\nOne lead. Zero ambiguity.\n\nReply lead if you want the full lead card with all verification details.",
+      "hashtags": [],
+      "scheduled_time": "9:00 AM",
+      "visual": "",
+      "pillar": "** Build in Public",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "LinkedIn",
+      "content": "Why HVAC is actually a hard vertical for no-website prospecting.\n\nMost local lead-gen content picks HVAC as a target because it looks good on paper. High volume. Regular service need. Easy to find.\n\nHere's the problem: 95% of HVAC businesses that show up on Google Business Profiles have a website listed.\n\nThe 5% that don't aren't the average shop. They're outliers by necessity.\n\nThe reframing:\n\nSole proprietors running service-area-only operations.\nWord-of-mouth businesses that never needed a web presence.\nOperators who got started before \"you need a website\" was conventional advice.\n\nThese aren't bad businesses. They're businesses with a specific operational profile. They might actually be better prospects — not because they lack a website, but because they lack digital infrastructure entirely. That means no online booking, no Google reviews loop, no digital customer acquisition.\n\nWhat this means for prospecting:\n\nThe vertical matters as much as the method.\nIf you're scraping for \"no-website businesses\" in a vertical where 95% have websites, you're filtering against the majority.\nInstead: look for verticals where no-website is the norm, not the exception.\nThen apply the same verification discipline.\n\nThat's the actual edge.\n\nSave this doc. It's a reference for qualifying verticals before you qualify leads.",
+      "hashtags": [],
+      "scheduled_time": "11:00 AM",
+      "visual": "",
+      "pillar": "** Takes & Opinions",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "Week 3 close:\n\n- API walls hit: 6 times\n- Verified leads found: 1\n- Businesses excluded (had website): 4\n- Workaround documented: yes\n- Methodology refined: yes\n\nOne verified lead. That's the output.\n\nNext week: deeper Tampa Bay pass or new vertical. Reply deepen or pivot.",
+      "hashtags": [],
+      "scheduled_time": "3:00 PM",
+      "visual": "",
+      "pillar": "** Build in Public",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "TikTok",
+      "content": "I got rate-limited 6 times this week.\n\nStill found one lead.\n\nMost people would've quit.\n\nI pivoted to directories and confirmed it.\n\nRate limits are a feature, not a bug.\n\nFollow for the full verification workflow.",
+      "hashtags": [],
+      "scheduled_time": "6:30 PM",
+      "visual": "",
+      "pillar": "** Behind the Scenes",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "What's the directory stack for verifying no-website businesses?\n\nbusinessrate.com — explicit website presence\nMapQuest — secondary confirmation\nManta — industry cross-check\nBuildZoom — license/permit check (optional)\n\nUse two sources minimum. One is partial. Anything ambiguous = exclude.\n\nReply template and I'll share the spreadsheet format with all columns.",
+      "hashtags": [],
+      "scheduled_time": "9:00 AM",
+      "visual": "",
+      "pillar": "** Tool Reviews & Tutorials",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "Instagram",
+      "content": "Rate limit hit. This is what I did instead.\n\nScreen record: businessrate.com search.\nDuct Path Cleaners, Tampa FL.\nNo website field confirmed.\n\nCross-check: MapQuest.\nSame result.\n\nThat's the workaround. That's the lead.\n\nRate limits are a feature, not a bug.\n\nFollow for the workflow.",
+      "hashtags": [],
+      "scheduled_time": "12:30 PM",
+      "visual": "",
+      "pillar": "** Behind the Scenes",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    },
+    {
+      "platform": "X/Twitter",
+      "content": "Most \"AI prospecting\" content shows you the data.\n\nNobody shows you the rate limit.\n\nThat's the gap. People hide the failure modes.\n\nThe rate limit is the real content.\n\nIf you've hit a rate limit and pivoted, drop the story. I want to know what worked.",
+      "hashtags": [],
+      "scheduled_time": "10:00 AM",
+      "visual": "",
+      "pillar": "** Takes & Opinions",
+      "week": "2026-W19",
+      "status": "pending_approval",
+      "created": "2026-05-09T23:58:19Z"
+    }
+  ],
+  "week": "2026-W19",
+  "total": 15,
+  "skipped": 6,
+  "pending": 0
+}

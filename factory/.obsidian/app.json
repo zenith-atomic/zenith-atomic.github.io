@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "trashOption": "system",
+  "useMarkdownLinks": true,
+  "spellcheck": false,
+  "defaultViewMode": "source",
+  "newFileLocation": "root",
+  "attachmentFolderPath": "assets"
+}

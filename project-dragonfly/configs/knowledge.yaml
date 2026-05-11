@@ -1,0 +1,18 @@
+knowledge_system:
+  vector_db:
+    type: qdrant
+    host: localhost
+    port: 6333
+    collection_name: trading_knowledge
+    embedding_model: openai:text-embedding-ada-002
+
+  knowledge_graph:
+    uri: neo4j://localhost:7687
+    user: neo4j
+    password: password
+
+  rag:
+    llm_model: openai:gpt-4o-mini
+    reranker_model: BAAI/bge-reranker-base
+    similarity_top_k: 10
+    num_queries: 3
